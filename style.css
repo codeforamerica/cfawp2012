@@ -450,6 +450,7 @@ opacity: 1;
   width: 35px;
   position: absolute;
   cursor: pointer;
+margin-top: 15px;
 }
 
 .infiniteCarousel .forward {

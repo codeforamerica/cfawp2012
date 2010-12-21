@@ -39,7 +39,7 @@ $.fn.infiniteCarousel = function () {
             $wrapper.filter(':not(:animated)').animate({
                 scrollLeft : '+=' + left
             }, 500, function () {
-                if (page == 0) {
+                if (page == -1) {
                     $wrapper.scrollLeft(singleWidth * visible * pages);
                     page = pages;
                 } else if (page > pages) {
