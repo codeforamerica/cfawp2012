@@ -19,15 +19,15 @@ get_header(); ?>
 	  <!--Video Gallery -->
 	  	<div class="wrap clearfix" id="video-gallery">
 			<ul class="thumbs">
-				<li><a href="#"><img src="images/video-thumb.jpg" alt="" /> <strong><span>New York</span></strong></a></li>
-				<li><a href="#"><img src="images/video-thumb.jpg" alt="" /> <strong><span>Washington, DC</span></strong></a></li>
-				<li><a href="#"><img src="images/video-thumb.jpg" alt="" /> <strong><span>San Francisco</span></strong></a></li>
+				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>New York</span></strong></a></li>
+				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>Washington, DC</span></strong></a></li>
+				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>San Francisco</span></strong></a></li>
 			</ul>
 			<div id="player"><object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></embed></object></div>
 			<ul class="thumbs">
-				<li><a href="#" class="active"><img src="images/video-thumb-active.jpg" alt="" /> <strong><span>New York</span></strong></a></li>
-				<li><a href="#"><img src="images/video-thumb.jpg" alt="" /> <strong><span>Washington, DC</span></strong></a></li>
-				<li><a href="#"><img src="images/video-thumb.jpg" alt="" /> <strong><span>San Francisco</span></strong></a></li>
+				<li><a href="#" class="active"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb-active.jpg" alt="" /> <strong><span>New York</span></strong></a></li>
+				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>Washington, DC</span></strong></a></li>
+				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>San Francisco</span></strong></a></li>
 			</ul>
 		</div>
 	  </div>
@@ -41,7 +41,7 @@ get_header(); ?>
 			<!--Become a Fellow -->
 				<div class="box">
 					<h2><strong>1</strong> Become a Fellow</h2>
-					<img src="images/become-fellow.jpg" alt="Become a Fellow" />
+					<img src="<?php bloginfo('template_directory'); ?>/images/become-fellow.jpg" alt="Become a Fellow" />
 					<ul>
 						<li><a href="#">Learn About CfA</a></li>
 						<li><a href="#">Meet CfA Fellows</a></li>
@@ -51,7 +51,7 @@ get_header(); ?>
 				<!--Get Involved -->
 				<div class="box">
 					<h2><strong>2</strong> Get Involved</h2>
-					<img src="images/get-involved.jpg" alt="Get Involved" />
+					<img src="<?php bloginfo('template_directory'); ?>/images/get-involved.jpg" alt="Get Involved" />
 					<ul>
 						<li><a href="#">Contribute</a></li>
 						<li><a href="#">Contact Your City</a></li>
@@ -61,7 +61,7 @@ get_header(); ?>
 				<!--Become a City -->
 				<div class="box">
 					<h2><strong>3</strong> Become a City</h2>
-					<img src="images/become-city.jpg" alt="Become a City" />
+					<img src="<?php bloginfo('template_directory'); ?>/images/become-city.jpg" alt="Become a City" />
 					<ul>
 						<li><a href="#">Learn More</a></li>
 						<li><a href="#">Recommend a City</a></li>
@@ -71,7 +71,7 @@ get_header(); ?>
 				<!--Support CfA -->
 				<div class="box">
 					<h2><strong>4</strong> Support CfA</h2>
-					<img src="images/support-cfa.jpg" alt="Support CfA" />
+					<img src="<?php bloginfo('template_directory'); ?>/images/support-cfa.jpg" alt="Support CfA" />
 					<ul>
 						<li><a href="#">Sponsor</a></li>
 						<li><a href="#">Spread the Word</a></li>
@@ -85,11 +85,11 @@ get_header(); ?>
 			<h3>Who’s Got Our Back?</h3>
 			<div id="slider-wrap">
 				<ul id="slider">
-					<li><a href="#"><img src="images/sunlight-logo.png" alt="Sunlight Foundation" /></a></li>
-					<li><a href="#"><img src="images/rockefeller-logo.png" alt="Rockefeller Foundation" /></a></li>
-					<li><a href="#"><img src="images/case-logo.png" alt="The Case Foundation" /></a></li>
-					<li><a href="#"><img src="images/esri-logo.png" alt="ESRI" /></a></li>
-					<li><a href="#"><img src="images/on-logo.png" alt="Omidyar Network" /></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/sunlight-logo.png" alt="Sunlight Foundation" /></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/rockefeller-logo.png" alt="Rockefeller Foundation" /></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/case-logo.png" alt="The Case Foundation" /></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/esri-logo.png" alt="ESRI" /></a></li>
+					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/on-logo.png" alt="Omidyar Network" /></a></li>
 				</ul>
 				<a href="#" class="like-btn" id="prev">Previous</a>
 				<a href="#" class="like-btn" id="next">Next</a>		</div>
@@ -100,7 +100,7 @@ get_header(); ?>
 				<div id="cities-issues">
 					<h2>Helping Cities Solve <br />
 					Common Issues</h2>
-					<img src="images/helping-cities.jpg" alt="Vivamus fermentum sollicitudin laoreet" class="left" />
+					<img src="<?php bloginfo('template_directory'); ?>/images/helping-cities.jpg" alt="Vivamus fermentum sollicitudin laoreet" class="left" />
 					<h3>Vivamus fermentum sollicitudin laoreet</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac ante in elit fringilla ullamcorpert integer amet, elit ante in fringilla ac Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat diam id lorem iaculis at rhoncus turpis fermentum. Class aptent taciti sociosqu ad.</p>
 					<a href="#" class="btn">Read More</a>
