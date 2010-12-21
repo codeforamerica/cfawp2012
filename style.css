@@ -175,7 +175,7 @@ input, select, textarea, button {
 #nav li {
   float: left;
   padding-left: 3px;
-  background: url(images/nav-li-bg.gif) 0 3px no-repeat;
+  background: url(images/nav-li-bg.gif) top right no-repeat;
 }
 #nav li.current_page_item {
   padding-left: 0;
@@ -186,7 +186,7 @@ input, select, textarea, button {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
-  font-size: 1.33em;
+  font-size: 1.3em;
   font-weight: bold;
   letter-spacing: 1px;
 }
