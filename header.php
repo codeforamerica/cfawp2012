@@ -52,39 +52,32 @@
 ?>
 </head>
 
+
+
 <body <?php body_class(); ?>>
-<div id="wrapper" class="hfeed">
-	<div id="header">
-		<div id="masthead">
-			<div id="branding" role="banner">
-				<?php $heading_tag = ( is_home() || is_front_page() ) ? 'h1' : 'div'; ?>
-				<<?php echo $heading_tag; ?> id="site-title">
-					<span>
-						<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-					</span>
-				</<?php echo $heading_tag; ?>>
-				<div id="site-description"><?php bloginfo( 'description' ); ?></div>
 
-				<?php
-					// Check if this is a post or page, if it has a thumbnail, and if it's a big one
-					if ( is_singular() &&
-							has_post_thumbnail( $post->ID ) &&
-							( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-thumbnail' ) ) &&
-							$image[1] >= HEADER_IMAGE_WIDTH ) :
-						// Houston, we have a new header image!
-						echo get_the_post_thumbnail( $post->ID, 'post-thumbnail' );
-					else : ?>
-						<img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
-					<?php endif; ?>
-			</div><!-- #branding -->
-
-			<div id="access" role="navigation">
-			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
-				<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentyten' ); ?>"><?php _e( 'Skip to content', 'twentyten' ); ?></a></div>
-				<?php /* Our navigation menu.  If one isn't filled out, wp_nav_menu falls back to wp_page_menu.  The menu assiged to the primary position is the one used.  If none is assigned, the menu with the lowest ID is used.  */ ?>
-				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-			</div><!-- #access -->
-		</div><!-- #masthead -->
-	</div><!-- #header -->
-
+<!--   ==============   HEADER   ==============   -->
+<div id="header" class="wrap">
+<!--Logo -->
+	<a href="http://codeforamerica.org" class="like-btn" id="logo">Code for America</a>
+	<!--Tag line -->
+	<div id="tag-line">
+		<h1>Transforming City Governments</h1>
+		<h2>We connect tech leaders and city governments to build civic apps that make lives better</h2>
+	</div>
+	<!--Social Links -->
+	<ul id="social">
+		<li><a href="#" id="rss">RSS</a></li>
+		<li><a href="#" id="fb">Facebook</a></li>
+		<li><a href="#" id="yt">YouTube</a></li>
+		<li><a href="#" id="tw">Twitter</a></li>
+		<li><a href="#" id="mail">E-mail</a></li>
+	</ul>
+	<!--Navigation -->
+	<div id="nav-wrap">
+		<?php wp_nav_menu( array('menu_id' => 'nav', 'container' => 'ul',  ) ); ?>
+		<a href="#" id="donate" class="like-btn">Donate</a>
+	</div>
+</div>
+	
 	<div id="main">
