@@ -98,15 +98,13 @@ get_header(); ?>
 				<!--CfA Blog -->
 				<div id="cfa-blog">
 					<h2>CfA Blog <a href="#" class="like-btn">RSS</a></h2>
-					<ul>
-						<li>
-							<h3><a href="#">An Atypical Internship: Come Build CfA with a title of two lines <strong>&raquo;</strong></a></h3>
-							<p>Here is a short description of the blog artcile to tease the viewer. It can span multiple lines..</p>
-						</li>
-						<li>
-							<h3><a href="#">single line title <strong>&raquo;</strong></a></h3>
-							<p>Here is a short description of the blog artcile to tease the viewer.</p>
-						</li>
+					<?php query_posts('showposts=2'); ?>		  
+								     <ul>   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+								           <li> <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?> <strong>»</strong></a></h3>
+								<?php the_excerpt() ?></li>
+								 
+								        <?php endwhile; endif; ?>
+				
 					</ul>
 					<a href="#" class="btn">Go to Blog</a>
 				</div>
@@ -119,11 +117,11 @@ get_header(); ?>
                   version: 2,
                   type: 'search',
                   search: 'codeforamerica',
-                  interval: 6000,
+                  interval: 3000,
                   title: '',
                   subject: '',
                   width: 280,
-                  height: 100,
+                  height: 170,
                   theme: {
                     shell: {
                       background: '#ebebeb',
@@ -147,7 +145,9 @@ get_header(); ?>
                   }
                 }).render().start();
                 </script>
-					
+					<style>.twtr-hd { padding: 0px; }
+					.twtr-ft {display: none;}
+					</style>
 				</div>
 			</div>
 		</div>
