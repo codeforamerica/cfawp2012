@@ -13,8 +13,8 @@ html, body{
 }
 
 body {
-  color: #333333;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   text-shadow: 0 0 0 #000;
 }
@@ -206,8 +206,9 @@ input, select, textarea, button {
 #nav ul li {
   float: left;
   padding: 0;
-  background: transparent;
+  background: url(http://localhost/wp/wp-content/themes/cfawp2012/images/arrow.png) no-repeat 100% 0%;
   margin-right: 15px;
+padding-right: 15px;
 }
 #nav ul li a {
   text-transform: none;
