@@ -6,7 +6,7 @@
  
 <meta name="generator" content="WordPress 3.0.1" /> <!-- leave this for stats --> 
  
-<link rel="stylesheet" href="http://demos.legendthemes.com/slider-demo/wp-content/themes/slider-demo/style.css" type="text/css" media="screen" /> 
+
 <link rel="stylesheet" type="text/css" media="all" href="style.css" /> 
 
  
@@ -18,7 +18,7 @@
 <meta name="generator" content="WordPress 3.0.1" /> 
 <script type="text/javascript"> 
 jQuery(document).ready(function($){
-    $("#photo-rotator").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
+    $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 2000);
 });
  
 </script> 
@@ -27,7 +27,7 @@ jQuery(document).ready(function($){
  
 </head> 
 <body> 
-<div id="photo-rotator"> 
+<div id="video-gallery"> 
     
   <ul id="slide-nav" class="thumbs"> 
                             <li> 
@@ -36,7 +36,7 @@ jQuery(document).ready(function($){
             </li> 
                     <li> 
                 <a href="#slide-2"> 
-                                       <img src="http://localhost/wp/wp-content/themes/cfawp2012/images/video-thumb.jpg" alt="" /> <strong><span>New York</span></strong></a>
+         <img src="http://localhost/wp/wp-content/themes/cfawp2012/images/video-thumb.jpg" alt="" /> <strong><span>New York</span></strong></a>
             </li> 
                     <li> 
                 <a href="#slide-3"> 
@@ -49,16 +49,19 @@ jQuery(document).ready(function($){
                                          <img src="http://localhost/wp/wp-content/themes/cfawp2012/images/video-thumb.jpg" alt="" /> <strong><span>New York</span></strong></a>
             </li> 
         <!--/close loop--> 
+
+
     </ul>
-    <div id="slide-1 player"> 
+
+    <div id="slide-1" class="player"> 
      <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
-         HELLLWLEROWERWER      <span class="title">Hello world!</span> 
+            <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/bridge-2-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
      </a> 
      </div> 
  
     
  
-    <div id="slide-2"> 
+    <div id="slide-2" class="player"> 
      <a href="http://demos.legendthemes.com/slider-demo/2010/06/13/another-post/" class="post-image"> 
          <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/1266466_64349702-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="1266466_64349702" title="1266466_64349702" />         <span class="title">Another Post</span> 
      </a> 
@@ -66,7 +69,7 @@ jQuery(document).ready(function($){
  
     
  
-    <div id="slide-3"> 
+    <div id="slide-3"  class="player"> 
      <a href="http://demos.legendthemes.com/slider-demo/2010/06/12/post-three/" class="post-image"> 
          <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/bridge-2-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />         <span class="title">Post Three</span> 
      </a> 
@@ -74,7 +77,7 @@ jQuery(document).ready(function($){
  
     
  
-    <div id="slide-4"> 
+    <div id="slide-4" class="player"> 
      <a href="http://demos.legendthemes.com/slider-demo/2010/06/10/post-four/" class="post-image"> 
          <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/1266469_40549616-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="1266469_40549616" title="1266469_40549616" />         <span class="title">Post Four</span> 
      </a> 
@@ -86,23 +89,10 @@ jQuery(document).ready(function($){
  
  
 </div> 
- 		<div class="wrap clearfix" id="video-gallery">
-			<ul class="thumbs">
-				<li><a href="#"><img src="http://localhost/wp/wp-content/themes/cfawp2012/images/video-thumb.jpg" alt="" /> <strong><span>New York</span></strong></a></li>
-				<li><a href="#"><img src="http://localhost/wp/wp-content/themes/cfawp2012/images/video-thumb.jpg" alt="" /> <strong><span>Washington, DC</span></strong></a></li>
-				<li><a href="#"><img src="http://localhost/wp/wp-content/themes/cfawp2012/images/video-thumb.jpg" alt="" /> <strong><span>San Francisco</span></strong></a></li>
-					<li><a href="#" class="active"><img src="http://localhost/wp/wp-content/themes/cfawp2012/images/video-thumb-active.jpg" alt="" /> <strong><span>New York</span></strong></a></li>
-					<li><a href="#"><img src="http://localhost/wp/wp-content/themes/cfawp2012/images/video-thumb.jpg" alt="" /> <strong><span>Washington, DC</span></strong></a></li>
-					<li><a href="#"><img src="http://localhost/wp/wp-content/themes/cfawp2012/images/video-thumb.jpg" alt="" /> <strong><span>San Francisco</span></strong></a></li>
-			</ul>
-			<div id="player"><object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></embed></object></div>
-			
-		</div>
+ 		
 	  </div>
  
-<p class="disclaimer">Please note: this is a very incomplete WordPress theme.
-    The goal is to get posts from the database and then use the jQuery technique and WordPress queries to display them.
-    For more information visit <a href="http://legendthemes.com">Legend Themes</a></p> 
+
  
 <script type='text/javascript' src='http://demos.legendthemes.com/slider-demo/wp-includes/js/jquery/ui.core.js?ver=1.7.3'></script> 
 <script type='text/javascript' src='http://demos.legendthemes.com/slider-demo/wp-includes/js/jquery/ui.tabs.js?ver=1.7.3'></script> 
