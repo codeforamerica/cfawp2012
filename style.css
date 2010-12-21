@@ -402,47 +402,65 @@ opacity: 1;
   font-size: 2em;
   margin-top: 5px;
 }
-#slider-wrap {
+
+.infiniteCarousel {
   float: right;
-  width: 655px;
-  padding: 0 60px;
-  position: relative;
-  overflow: hidden;
-}
-#slider-wrap #slider {
   width: 665px;
-  height: 66px;
-  display: block;
-}
-#slider-wrap #slider li {
-  float: left;
-  margin: 0 8px;
+  height: 75px;    
+  position: relative;
 }
 
-#slider-wrap #slider li a {
-   display: table-cell;
-    height: 66px;
-    vertical-align: middle;
-}
-#slider-wrap #slider li a img {
-  border: none;
-  vertical-align: middle;
-}
-
-#slider-wrap a.like-btn {
+.infiniteCarousel .wrapper {
+  width: 500px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  overflow: auto;
+  min-height: 10em;
   position: absolute;
-  top: 15px;
-  width: 35px;
+  top: 0;
+}
+
+.infiniteCarousel ul a img {
+    border: none;
+}
+
+.infiniteCarousel .wrapper ul {
+  width: 9999px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+
+.infiniteCarousel ul li {
+  display:block;
+  float:left;
+  padding: 10px;
+}
+
+.infiniteCarousel ul li a img {
+  display:block;
+}
+
+.infiniteCarousel .arrow {
   height: 35px;
+  width: 35px;
+  position: absolute;
+  cursor: pointer;
 }
-#slider-wrap a#prev {
-  left: 5px;
-  background: url(images/prev-arrow.gif) 0 0 no-repeat;
-}
-#slider-wrap a#next {
+
+.infiniteCarousel .forward {
+  background: url(images/next-arrow.gif) 0 0 no-repeat;    
+  background-position: 0 0;
   right: 0;
-  background: url(images/next-arrow.gif) 0 0 no-repeat;
 }
+
+.infiniteCarousel .back {
+  background: url(images/prev-arrow.gif) 0 0 no-repeat;
+  left: 0;
+}
+
 
 #cities-issues, #cfa-blog, #tweets {
   float: left;
@@ -1266,4 +1284,7 @@ h3#reply-title {
 	font-size: 14px;
 	width: auto;
 }
+
+
+
 

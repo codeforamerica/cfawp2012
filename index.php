@@ -67,16 +67,18 @@ get_header(); ?>
 		<div class="wrap-b">&nbsp;</div>
 		<div class="wrap clearfix" id="whos">
 			<h3>Who’s Got Our Back?</h3>
-			<div id="slider-wrap">
-				<ul id="slider">
-					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/sunlight-logo.png" alt="Sunlight Foundation" /></a></li>
-					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/rockefeller-logo.png" alt="Rockefeller Foundation" /></a></li>
-					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/case-logo.png" alt="The Case Foundation" /></a></li>
-					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/esri-logo.png" alt="ESRI" /></a></li>
-					<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/on-logo.png" alt="Omidyar Network" /></a></li>
-				</ul>
-				<a href="#" class="like-btn" id="prev">Previous</a>
-				<a href="#" class="like-btn" id="next">Next</a>		</div>
+			<div class="infiniteCarousel">
+              <div class="wrapper">
+                <ul>
+                  <li><a href="http://www.sunlightfoundation.org" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.png"></a></li>
+                  <li><a href="http://www.esri.com" title="ESRI"><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"></a></li>                
+                  <li><a href="http://www.omidyar.com/" title="Omidyar Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/on-logo.png"></a></li>
+                  <li><a href="http://www.rockefellerfoundation.org/" title="Rockefeller Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/rockefeller-logo.png"></a></li>
+                  <li><a href="http://www.casefoundation.org" title="Case Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/case-logo.png"></a></li>                                    
+                  <li><a href="http://www.omidyar.com/" title="Omidyar Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/on-logo.png"></a></li>
+                  <li><a href="http://www.esri.com" title="ESRI"><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"></a></li>                
+              </div>
+		</div>
 		</div>
 		<div class="wrap-t">
 			<div class="wrap clearfix">
