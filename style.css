@@ -13,8 +13,8 @@ html, body{
 }
 
 body {
-  color: #666666;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   text-shadow: 0 0 0 #000;
 }
@@ -160,7 +160,7 @@ input, select, textarea, button {
 }
 #nav-wrap {
   clear: both;
-  padding-top: 28px;
+  padding-top: 18px;
   height: 64px;
   background: url(images/nav-bg.gif) 0 100% repeat-x;
 }
@@ -206,8 +206,9 @@ input, select, textarea, button {
 #nav ul li {
   float: left;
   padding: 0;
-  background: transparent;
+  background: url(http://localhost/wp/wp-content/themes/cfawp2012/images/arrow.png) no-repeat 100% 0%;
   margin-right: 15px;
+padding-right: 15px;
 }
 #nav ul li a {
   text-transform: none;
@@ -227,7 +228,9 @@ input, select, textarea, button {
   background: url(images/donate-btn.png) 0 0 no-repeat;
 }
 
-
+li#menu-item-4 a {
+	padding-left: 0px;
+}
 /*   ============   Home Page   ============   */
 
 #video-gallery {
