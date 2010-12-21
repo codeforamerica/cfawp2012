@@ -13,7 +13,7 @@ html, body{
 }
 
 body {
-  color: #666666;
+  color: #333333;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   text-shadow: 0 0 0 #000;
@@ -160,7 +160,7 @@ input, select, textarea, button {
 }
 #nav-wrap {
   clear: both;
-  padding-top: 28px;
+  padding-top: 18px;
   height: 64px;
   background: url(images/nav-bg.gif) 0 100% repeat-x;
 }
@@ -227,7 +227,9 @@ input, select, textarea, button {
   background: url(images/donate-btn.png) 0 0 no-repeat;
 }
 
-
+li#menu-item-4 a {
+	padding-left: 0px;
+}
 /*   ============   Home Page   ============   */
 
 #video-gallery {
