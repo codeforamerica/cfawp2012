@@ -177,7 +177,7 @@ input, select, textarea, button {
   padding-left: 3px;
   background: url(images/nav-li-bg.gif) 0 3px no-repeat;
 }
-#nav li.first {
+#nav li.current_page_item {
   padding-left: 0;
   background: transparent;
 }
