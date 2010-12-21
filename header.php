@@ -68,15 +68,15 @@
 	<!--Social Links -->
 	<ul id="social">
 		<li><a href="#" id="rss">RSS</a></li>
-		<li><a href="#" id="fb">Facebook</a></li>
-		<li><a href="#" id="yt">YouTube</a></li>
-		<li><a href="#" id="tw">Twitter</a></li>
-		<li><a href="#" id="mail">E-mail</a></li>
+		<li><a href="http://www.facebook.com/codeforamerica" id="fb">Facebook</a></li>
+		<li><a href="http://www.youtube.com/user/CodeforAmerica" id="yt">YouTube</a></li>
+		<li><a href="http://www.twitter.com/codeforamerica" id="tw">Twitter</a></li>
+		<li><a href="mailto:info@codeforamerica.org" id="mail">E-mail</a></li>
 	</ul>
 	<!--Navigation -->
 	<div id="nav-wrap">
 		<?php wp_nav_menu( array('menu_id' => 'nav', 'container' => 'ul',  ) ); ?>
-		<a href="#" id="donate" class="like-btn">Donate</a>
+		<a href="/donate" id="donate" class="like-btn">Donate</a>
 	</div>
 </div>
 	
