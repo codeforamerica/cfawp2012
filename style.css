@@ -621,7 +621,7 @@ a.red-btn {
 a.red-btn span {
   line-height: 19px;
   padding-right: 5px;
-  display: inline-block;
+  display: block;
   background: url(images/red-btn-bg.gif) 100% 0 no-repeat;
   color: #fff;
 
