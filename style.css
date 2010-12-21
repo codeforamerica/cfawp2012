@@ -559,42 +559,15 @@ margin-top: 15px;
 }
 
 
-#tweets h3 {
+#tweets h2 {
    text-indent: -999em;
    height: 55px;
    background: url(images/tweets-ttl.png) 0 0 no-repeat;
    margin: -9px 0 0 -9px;
 }
-#tweets .tweet {
-   margin: 5px 20px 10px;
-   padding: 0 0 10px 56px;
- position: relative;
- min-height: 50px;
- background: url(images/horizontal-dots.gif) 0 100% repeat-x;
-}
-#tweets img.author {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 1px solid #707070;
-}
-#tweets p {
-  padding: 0;
-  margin: 0;
-  font-weight: bold;
-  font-size: .92em;
-  color: #707070;
-}
-#tweets p a {
-  text-decoration: none;
-}
-#tweets p.posted {
- font-weight: normal;
- padding-top: 5px;
- font-size: .83em;
-}
-#tweets .last {
-  background: transparent;
+
+.twtr-widget {
+margin-left:15px;
 }
 
 
