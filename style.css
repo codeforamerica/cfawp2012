@@ -411,9 +411,11 @@ opacity: 1;
 }
 
 .infiniteCarousel .wrapper {
-  width: 720px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  width: 660px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
   overflow: auto;
   min-height: 10em;
+  margin-left: 60px;
+  margin-right: 60px;
   position: absolute;
   top: 0;
 }
