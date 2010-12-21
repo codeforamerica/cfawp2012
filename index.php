@@ -42,41 +42,25 @@ get_header(); ?>
 				<div class="box">
 					<h2><strong>1</strong> Become a Fellow</h2>
 					<img src="<?php bloginfo('template_directory'); ?>/images/become-fellow.jpg" alt="Become a Fellow" />
-					<ul>
-						<li><a href="#">Learn About CfA</a></li>
-						<li><a href="#">Meet CfA Fellows</a></li>
-						<li><a href="#">Apply</a></li>
-					</ul>
+					<?php wp_nav_menu( array('menu'=> 'cfa_fellows', 'menu_id' => '','container' => 'ul',  ) ); ?>
 				</div>
 				<!--Get Involved -->
 				<div class="box">
 					<h2><strong>2</strong> Get Involved</h2>
 					<img src="<?php bloginfo('template_directory'); ?>/images/get-involved.jpg" alt="Get Involved" />
-					<ul>
-						<li><a href="#">Contribute</a></li>
-						<li><a href="#">Contact Your City</a></li>
-						<li><a href="#">Blog for CfA</a></li>
-					</ul>
+					<?php wp_nav_menu( array('menu'=> 'cfa_get_involved', 'menu_id' => '','container' => 'ul',  ) ); ?>
 				</div>
 				<!--Become a City -->
 				<div class="box">
 					<h2><strong>3</strong> Become a City</h2>
 					<img src="<?php bloginfo('template_directory'); ?>/images/become-city.jpg" alt="Become a City" />
-					<ul>
-						<li><a href="#">Learn More</a></li>
-						<li><a href="#">Recommend a City</a></li>
-						<li><a href="#">Apply</a></li>
-					</ul>
+					<?php wp_nav_menu( array('menu'=> 'cfa_city', 'menu_id' => '','container' => 'ul',  ) ); ?>
 				</div>
 				<!--Support CfA -->
 				<div class="box">
 					<h2><strong>4</strong> Support CfA</h2>
 					<img src="<?php bloginfo('template_directory'); ?>/images/support-cfa.jpg" alt="Support CfA" />
-					<ul>
-						<li><a href="#">Sponsor</a></li>
-						<li><a href="#">Spread the Word</a></li>
-						<li><a href="#">Volunteer</a></li>
-					</ul>
+					<?php wp_nav_menu( array('menu'=> 'cfa_support', 'menu_id' => '','container' => 'ul',  ) ); ?>
 				</div>
 			</div>
 		</div>
