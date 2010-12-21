@@ -107,18 +107,43 @@ get_header(); ?>
 					<a href="#" class="btn">Go to Blog</a>
 				</div>
 				<!--Tweets -->
-				<div id="tweets">
-					<h3>What’s Being Said About CfA ?</h3>
-					<div class="tweet">
-						<p><a href="#">jalbertbowdenii</a> anybody in 757 hrva doing Code for America?</p>
-						<p class="posted">13 hours ago reply</p>
-						<img src="images/author-thumb.jpg" alt="" class="author" />
-					</div>
-					<div class="tweet last">
-						<p><a href="#">democracy</a> Code for America webinar - this tuesday <a href="#">http://bit.ly/bxbIqK #edem</a></p>
-						<p class="posted">13 hours ago reply</p>
-						<img src="images/author-thumb1.jpg" alt="" class="author" />
-					</div>
+			<div id="tweets">				
+				<h2>What’s Being Said About CfA ?</h2>				
+				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+                <script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'search',
+                  search: 'codeforamerica',
+                  interval: 6000,
+                  title: '',
+                  subject: '',
+                  width: 280,
+                  height: 100,
+                  theme: {
+                    shell: {
+                      background: '#ebebeb',
+                      color: '#ffffff'
+                    },
+                    tweets: {
+                      background: '#ebebeb',
+                      color: '#444444',
+                      links: '#1985b5'
+                    }
+                  },
+                  features: {
+                    scrollbar: false,
+                    loop: true,
+                    live: true,
+                    hashtags: true,
+                    timestamp: true,
+                    avatars: true,
+                    toptweets: true,
+                    behavior: 'default'
+                  }
+                }).render().start();
+                </script>
+					
 				</div>
 			</div>
 		</div>
