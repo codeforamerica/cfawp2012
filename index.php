@@ -19,12 +19,12 @@ get_header(); ?>
 	  <!--Video Gallery -->	  
 	  	<div class="wrap clearfix" id="video-gallery">
           <ul id="slide-nav" class="thumbs"> 
-              <li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
-              <li><a href="#slide-2"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li>       
-              <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
-              <li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
-              <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
-              <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li>       
+              <li class="left_vid"><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
+              <li class="left_div"><a href="#slide-2"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li>       
+              <li class="left_div"><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
+              <li class="right_div"><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
+              <li class="right_div"><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
+              <li class="right_div"><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li>       
           </ul>	  	
        <div id="slide-1" class="player"> 
          <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
