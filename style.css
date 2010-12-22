@@ -16,7 +16,7 @@ body {
   color: #666;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2em;
-  text-shadow: 0 0 0 #000;
+  text-shadow: none;
 }
 
 a {
@@ -190,6 +190,7 @@ text-shadow: #999 1px 1px 1px;
   font-size: 1.3em;
   font-weight: bold;
   letter-spacing: 1px;
+text-shadow: #ccc 1px 1px 1px;
 }
 #nav li.first a {
   padding-left: 0;
@@ -1202,7 +1203,7 @@ h3#reply-title {
 
 #video-gallery {
   width: 954px;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 #video-gallery .thumbs {
   width: auto;
@@ -1233,6 +1234,8 @@ h3#reply-title {
 
 #video-gallery .thumbs li a img {
   border: none;
+	width: 157px;
+height: 93px;
 }
 #video-gallery .thumbs li a strong {
   position: absolute;
@@ -1288,7 +1291,19 @@ h3#reply-title {
   padding: 18px 0 0 22px;
 }
 
+.player .title {
 
+background: rgba(0, 0, 0, 0.496094);
+color: #CCC;
+display: block;
+font-size: 18px;
+padding: 10px;
+position: absolute;
+bottom: 22px;
+width: 530px;
+text-align: right;
+font-weight: normal;
+}
 
      .ui-tabs-hide {display: none !important;}
 

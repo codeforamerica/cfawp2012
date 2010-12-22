@@ -43,7 +43,7 @@
 <script type="text/javascript">
 $(document).ready(function () {
   $('.infiniteCarousel').infiniteCarousel();
-  $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 2000);
+  $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
 });
 
 </script>
@@ -74,8 +74,8 @@ $(document).ready(function () {
 	<a href="http://codeforamerica.org" class="like-btn" id="logo">Code for America</a>
 	<!--Tag line -->
 	<div id="tag-line">
-		<h1>A New Kind of Public Service</h1>
-		<h2>We connect tech leaders and city governments to build civic apps that make lives better</h2>
+	<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png"><!--	<h1>A New Kind of Public Service</h1>
+		<h2>We connect tech leaders and city governments to build civic apps that make lives better</h2>-->
 	</div>
 	<!--Social Links -->
 	<ul id="social">
