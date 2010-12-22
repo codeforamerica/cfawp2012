@@ -230,7 +230,7 @@ padding-right: 15px;
   background: url(images/donate-btn.png) 0 0 no-repeat;
 }
 
-li#menu-item-4 a {
+li#menu-item-4 a, li#menu-item-2468 a {
 	padding-left: 0px;
 }
 /*   ============   Home Page   ============   */
@@ -239,7 +239,7 @@ li#menu-item-4 a {
 
 #signup {
   margin: 0 auto;
-  width: 685px;
+  width: 700px;
   text-align: left;
 }
 #signup strong {
@@ -1203,7 +1203,7 @@ h3#reply-title {
 
 #video-gallery {
   width: 954px;
-  padding-top: 5px;
+  padding-top: 0px;
 }
 #video-gallery .thumbs {
   width: 100%;
