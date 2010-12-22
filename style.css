@@ -1284,7 +1284,6 @@ h3#reply-title {
 .player {
   position: relative;
   top: 10px;
-  left: 200px;
   width: 570px;
   height: 348px;
   background: url(images/player-bg.png) 50% 50% no-repeat;

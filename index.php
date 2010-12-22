@@ -19,15 +19,6 @@ get_header(); ?>
 	  <!--Video Gallery -->	  
 	  	<div class="wrap clearfix" id="video-gallery">
           <ul id="slide-nav" class="thumbs"> 
-<<<<<<< HEAD
-              <li class="left_vid"><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
-              <li class="left_div"><a href="#slide-2"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li>       
-              <li class="left_div"><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
-              <li class="right_div"><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
-              <li class="right_div"><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
-              <li class="right_div"><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li>       
-          </ul>	  	
-=======
          <div style="width: 181px; float: left;">     
 	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
               <li><a href="#slide-2"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li>       
@@ -35,7 +26,6 @@ get_header(); ?>
 		</div>
        
  		<div style="float: left;">
->>>>>>> 2467eb4cdb7122996fe44e40393ff287d9fa3749
        <div id="slide-1" class="player"> 
          <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
          <img width="550" height="330" src="http://demos.legendthemes.com/slider-demo/files/2010/06/bridge-2-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
