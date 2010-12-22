@@ -206,7 +206,7 @@ input, select, textarea, button {
 #nav ul li {
   float: left;
   padding: 0;
-  background: url(http://localhost/wp/wp-content/themes/cfawp2012/images/arrow.png) no-repeat 100% 0%;
+  background: url(images/arrow.png) no-repeat 100% 0%;
   margin-right: 15px;
 padding-right: 15px;
 }
@@ -1284,10 +1284,12 @@ h3#reply-title {
      }
 
  #slide-nav li {
-     float: left;
      list-style: none;
      }
 
+ #slide-nav li.right {
+     float: right;
+ }
 
  #slide-nav li:last-child a {
      background: none;

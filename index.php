@@ -16,19 +16,46 @@
 get_header(); ?>
 
 	<div class="wrap-b">
-	  <!--Video Gallery -->
+	  <!--Video Gallery -->	  
 	  	<div class="wrap clearfix" id="video-gallery">
-			<ul class="thumbs">
-				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>New York</span></strong></a></li>
-				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>Washington, DC</span></strong></a></li>
-				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>San Francisco</span></strong></a></li>
-			</ul>
-			<div id="player"><object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></embed></object></div>
-			<ul class="thumbs">
-				<li><a href="#" class="active"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb-active.jpg" alt="" /> <strong><span>New York</span></strong></a></li>
-				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>Washington, DC</span></strong></a></li>
-				<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/video-thumb.jpg" alt="" /> <strong><span>San Francisco</span></strong></a></li>
-			</ul>
+          <ul id="slide-nav" class="thumbs"> 
+              <li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
+              <li><a href="#slide-2"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li>       
+              <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
+              <li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
+              <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li> 
+              <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/video-thumb.jpg" alt="" /><strong><span>New York</span></strong></a></li>       
+          </ul>	  	
+       <div id="slide-1" class="player"> 
+         <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+         <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/bridge-2-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+         </a> 
+        </div>
+        <div id="slide-2" class="player"> 
+          <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+          <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/bridge-2-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+          </a> 
+        </div>
+        <div id="slide-3" class="player"> 
+           <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+           <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/bridge-2-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+           </a> 
+         </div>
+         <div id="slide-4" class="player"> 
+            <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+            <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/bridge-2-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+            </a> 
+          </div>
+          <div id="slide-5" class="player"> 
+             <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+             <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/bridge-2-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+             </a> 
+           </div>
+           <div id="slide-6" class="player"> 
+              <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+              <img width="615" height="280" src="http://demos.legendthemes.com/slider-demo/files/2010/06/bridge-2-615x280.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+              </a> 
+            </div>                                                                 
 		</div>
 	  </div>
 	  <!--Newsletter Subscribtion -->
