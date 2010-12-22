@@ -13,7 +13,7 @@ html, body{
 }
 
 body {
-  color: #333;
+  color: #666;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   text-shadow: 0 0 0 #000;
@@ -236,12 +236,12 @@ li#menu-item-4 a {
 
 
 
-#newsletter {
+#signup {
   margin: 0 auto;
-  width: 635px;
+  width: 685px;
   text-align: left;
 }
-#newsletter strong {
+#signup strong {
   float: left;
   padding-left: 27px;
 
@@ -250,25 +250,24 @@ li#menu-item-4 a {
   background: url(images/newsl-icon.gif) 0 2px no-repeat;
   margin: 5px 20px 0 0;
 }
-#newsletter input {
+#signup input {
   height: 27px;
   line-height: 27px;
   background: #ececec;
   padding-left:12px;
-  color: #330000;
-  font-size: 1.17em;
-  width: 164px;
+  color: #666666;
+  font-size: 1.00em;
   float: left;
 
 }
-#newsletter button {
+#signup button {
   height: 27px;
   background: url(images/newsl-submit-btn-bg.gif) 50% 50% no-repeat;
   width: 42px;
   float: left;
   cursor: pointer;
 }
-#newsletter span {
+#signup span {
   float: left;
   margin: 0 0 0 20px;
   font-size: .92em;
@@ -1206,7 +1205,7 @@ h3#reply-title {
   padding-top: 15px;
 }
 #video-gallery .thumbs {
-  width: 181px;
+  width: auto;
 }
 #video-gallery .thumbs li {
   display: block;
@@ -1288,6 +1287,7 @@ h3#reply-title {
   background: url(images/player-bg.png) 50% 50% no-repeat;
   padding: 18px 0 0 22px;
 }
+
 
 
      .ui-tabs-hide {display: none !important;}
