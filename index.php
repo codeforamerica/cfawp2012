@@ -146,7 +146,8 @@ our (infrequent) newsletter</span>
 					<?php query_posts('showposts=2'); ?>		  
 								     <ul>   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 								           <li> <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?> <strong>»</strong></a></h3>
-								<?php the_excerpt() ?></li>
+										<p>	 <?php the_content_rss('', TRUE, '', 25); ?></p>
+								</li>
 								 
 								        <?php endwhile; endif; ?>
 				
