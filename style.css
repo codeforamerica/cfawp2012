@@ -1206,16 +1206,18 @@ h3#reply-title {
   padding-top: 5px;
 }
 #video-gallery .thumbs {
+  width: 100%;
   width: auto;
 }
 #video-gallery .thumbs li {
   display: block;
   height: 93px;
-  background: url(images/v-gallery-thumb-bg.png) 50% 50% no-repeat;
+  background: url(images/v-gallery-thumb-bg.png) 0% 0% no-repeat;
   margin-bottom: 7px;
   padding: 12px;
-
+  height: 95px;
 }
+
 #video-gallery .thumbs li a {
   position: relative;
   display: block;
@@ -1224,25 +1226,27 @@ h3#reply-title {
 	filter: alpha(opacity=50);
    -moz-opacity: .5;
    opacity: .5;
-
+   width: 140px; 
 }
 
 #video-gallery .thumbs li a:hover {
     filter: alpha(opacity=100);
-
 }
 
 #video-gallery .thumbs li a img {
+  position: absolute;
+  left: 6px;
+  top: 7px;
   border: none;
 	width: 157px;
 height: 93px;
 }
 #video-gallery .thumbs li a strong {
   position: absolute;
-  left: 0;
+  left: 6px;
   bottom: 0;
   padding: 5px 5px 5px 7px;
-  background: url(images/video-caption-bg.png);
+  background: url(images/video-caption-bg.png) 10% 10%;
   width: 145px;
 
 }
@@ -1255,38 +1259,36 @@ height: 93px;
 
 }
 
-
-
 #slide-nav .ui-tabs-selected, #video-gallery .thumbs li a.active {
   cursor: default;
 }
+
 #video-gallery .thumbs li.ui-tabs-selected strong {
-  background: url(images/video-caption-bg-active.png);
+    background: url(images/video-caption-bg-active.png) 10px 10px;
+              filter: alpha(opacity=100);
+              -moz-opacity: 1;
+              opacity: 1;
+  			  opacity: 1;
+  			  filter:alpha(opacity=100);
+  			  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* IE8 */
 }
 
 #video-gallery .thumbs li.ui-tabs-selected a {
-  background: url(images/video-caption-bg-active.png);
-            filter: alpha(opacity=100);
-            -moz-opacity: 1;
-            opacity: 1;
-			opacity: 1;
-			  filter:alpha(opacity=100);
-			  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* IE8 */
-            }
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+    
+}
 
-
-#player {
-  width: 570px;
-  height: 348px;
-  float: left;
-  background: url(images/player-bg.png) 50% 50% no-repeat;
-  padding: 18px 0 0 22px;
+.right_div {
+    position: absolute;
 }
 
 .player {
+  position: relative;
+  top: 10px;
   width: 570px;
   height: 348px;
-  float: left;
   background: url(images/player-bg.png) 50% 50% no-repeat;
   padding: 18px 0 0 22px;
 }
@@ -1329,13 +1331,6 @@ font-weight: normal;
  #slide-nav a:hover {
      color: #000;
      }
-
-     #video-gallery .thumbs a .thumbnail {
-            filter: alpha(opacity=50);
-            -moz-opacity: .5;
-            opacity: .5;
-	
-            }
 
   ui-tabs-selected a { color: #222 }
       
