@@ -39,13 +39,13 @@ $.fn.infiniteCarousel = function () {
             $wrapper.filter(':not(:animated)').animate({
                 scrollLeft : '+=' + left
             }, 500, function () {
-                if (page == -1) {
+                if (page == 0) {
                     $wrapper.scrollLeft(singleWidth * visible * pages);
                     page = pages;
                 } else if (page > pages) {
                     $wrapper.scrollLeft(singleWidth * visible);
                     // reset back to start position
-                    page = 0;
+                    page = 1;
                 } 
 
                 currentPage = page;
@@ -54,7 +54,7 @@ $.fn.infiniteCarousel = function () {
             return false;
         }
         
-        $wrapper.after('<a class="arrow back"></a><a class="arrow forward"></a>');
+        $wrapper.after('<a class="arrow back">&lt;</a><a class="arrow forward">&gt;</a>');
         
         // 5. Bind to the forward and back buttons
         $('a.back', this).click(function () {
@@ -71,4 +71,3 @@ $.fn.infiniteCarousel = function () {
         });
     });  
 };
-
