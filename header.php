@@ -36,43 +36,28 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/javascripts/jquery.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/javascripts/carousel.js"></script>
-<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/javascripts/ui.core.js"></script> 
-<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/javascripts/ui.tabs.js"></script>
-<script type="text/javascript">
-$(document).ready(function () {
-  $('.infiniteCarousel').infiniteCarousel();
-  $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
-});
 
+<script src="<?php bloginfo( 'template_url' ); ?>/javascripts/jquery.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/carousel.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.core.js"></script> 
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.tabs.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/superfish.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $(".infiniteCarousel").infiniteCarousel();
+  $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
+	$("ul.menu").superfish({pathClass: "current-menu-item" }); 
+});
 </script>
 
 <?php
-	/* We add some JavaScript to pages with the comment form
-	 * to support sites with threaded comments (when in use).
-	 */
 	if ( is_singular() && get_option( 'thread_comments' ) )
-		wp_enqueue_script( 'comment-reply' );
-
-	/* Always have wp_head() just before the closing </head>
-	 * tag of your theme, or you will break many plugins, which
-	 * generally use this hook to add elements to <head> such
-	 * as styles, scripts, and meta tags.
-	 */
+	wp_enqueue_script( 'comment-reply' );
 	wp_head();
 ?>
-<script src="<?php bloginfo("template_url"); ?>/javascripts/superfish.js"></script> 
- 
-<script type="text/javascript">
- 
-    $(document).ready(function(){ 
-        $("ul.menu").superfish({ 
-            pathClass:  'current-menu-item' 
-        }); 
-    }); 
- 
-</script>
+
 </head>
 
 
