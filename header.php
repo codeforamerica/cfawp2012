@@ -44,7 +44,6 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
-  $(".infiniteCarousel").infiniteCarousel();
   $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
 });
 </script>
