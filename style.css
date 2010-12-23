@@ -494,6 +494,17 @@ margin-left:15px;
 	
 }
 
+#maincontent a {
+	text-decoration: none;
+	
+}
+
+#maincontent a:hover {
+	color: #409DD6;
+	text-decoration: none;
+	
+}
+
 
 #maincontent .ttl {
   font-size: 1.71em;
