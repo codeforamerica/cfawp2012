@@ -62,17 +62,7 @@ $(document).ready(function () {
 	 */
 	wp_head();
 ?>
-<script src="<?php bloginfo("template_url"); ?>/javascripts/superfish.js"></script> 
- 
-<script type="text/javascript">
- 
-    $(document).ready(function(){ 
-        $("ul.menu").superfish({ 
-            pathClass:  'current-menu-item' 
-        }); 
-    }); 
- 
-</script>
+
 </head>
 
 
