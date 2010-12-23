@@ -41,14 +41,12 @@
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/carousel.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.core.js"></script> 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.tabs.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/superfish.js"></script>
 
 
 <script type="text/javascript">
 $(document).ready(function() {
   $(".infiniteCarousel").infiniteCarousel();
   $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
-	$("ul.menu").superfish({pathClass: "current-menu-item" }); 
 });
 </script>
 
