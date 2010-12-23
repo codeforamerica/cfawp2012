@@ -114,8 +114,7 @@ our (infrequent) newsletter</span>
 		<div class="wrap-b">&nbsp;</div>
 		<div class="wrap clearfix" id="whos">
 			<h3>Who’s Got Our Back?</h3>
-			<div class="infiniteCarousel">
-              <div class="wrapper">
+		<div class="prev"><img src="<?php bloginfo('template_directory'); ?>/images/prev-arrow.gif"></div>	<div id="mycarousel">
                 <ul>
                   <li><a href="http://www.sunlightfoundation.org" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.png"></a></li>
                   <li><a href="http://www.esri.com" title="ESRI"><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"></a></li>                
@@ -127,9 +126,9 @@ our (infrequent) newsletter</span>
 	                  <li><a href="http://www.omidyar.com/" title="Omidyar Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/on-logo.png"></a></li>
 	                  <li><a href="http://www.rockefellerfoundation.org/" title="Rockefeller Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/rockefeller-logo.png"></a></li>
 	                  <li><a href="http://www.casefoundation.org" title="Case Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/case-logo.png"></a></li>                                    
-    </ul>             
-              </div>
-		</div>
+    </ul>             				
+             </div><div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow.gif"></div>
+			
 		</div>
 		<div class="wrap-t">
 			<div class="wrap clearfix">

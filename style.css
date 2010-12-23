@@ -343,67 +343,20 @@ text-shadow: #CCC 1px 1px 1px;
   margin-top: 5px;
 }
 
-.infiniteCarousel {
-  margin-left: 160px;
-  width: 780px;
-  height: 75px;    
-  position: relative;
+.next, .prev {
+	padding: 18px 0px 0px 15px;
+	float: left
 }
 
-.infiniteCarousel .wrapper {
-  width: 660px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
-  overflow: auto;
-  min-height: 10em;
-  margin-left: 60px;
-  margin-right: 60px;
-  position: absolute;
-  top: 0;
+#mycarousel {
+	float: left;
 }
 
-.infiniteCarousel ul a img {
-    border: none;
+#mycarousel ul li {
+	float: left;
 }
-
-.infiniteCarousel .wrapper ul {
-  width: 9999px;
-  list-style-image:none;
-  list-style-position:outside;
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  position: absolute;
-  top: 0;
-}
-
-.infiniteCarousel ul li {
-  display:block;
-  float:left;
-  padding: 0px;
-}
-
-.infiniteCarousel ul li a img {
-  display:block;
-height: 70px;
-}
-
-.infiniteCarousel .arrow {
-  height: 35px;
-  width: 35px;
-  position: absolute;
-  cursor: pointer;
-margin-top: 15px;
-}
-
-.infiniteCarousel .forward {
-  background: url(images/next-arrow.gif) 0 0 no-repeat;    
-  background-position: 0 0;
-  right: 0;
-}
-
-.infiniteCarousel .back {
-  background: url(images/prev-arrow.gif) 0 0 no-repeat;
-  left: 0;
-}
+#mycarousel ul li img {
+height: 75px;}
 
 
 #cities-issues, #cfa-blog, #tweets {
@@ -1345,5 +1298,3 @@ border: none;}
 
  ui-tabs-selected a { color: #222 }
       
-
-
