@@ -37,7 +37,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<script src="<?php bloginfo( 'template_url' ); ?>/javascripts/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/carousel.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.core.js"></script> 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.tabs.js"></script>
