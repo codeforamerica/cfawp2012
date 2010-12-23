@@ -27,7 +27,7 @@ get_header(); ?>
        
  		<div style="float: left;">
        <div id="slide-1" class="player"> 
-         <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></embed></object>
+        <img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" width="550" height="330"  /> 
         </div>
         <div id="slide-2" class="player"> 
           <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
@@ -77,33 +77,35 @@ get_header(); ?>
 	
 	
 	
-	  <form name="signup" action="/page/signup/cfa-email" method="post" id="signup" class="clearfix">
-	  	<strong>CONNECT WITH CfA</strong> <input type="text" value="Email"  type="email" style="width: 140px;" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><input type="text" value="Zip Code"  type="email" id="zip" name="zip" style="width: 90px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> <span>You should sign up to receive <br />
+	  <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="signup" class="clearfix">
+	  	<strong>CONNECT WITH CfA</strong> <input type="text" value="Email"  type="email" style="width: 160px;" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><input type="text" value="Zip Code"  type="email" id="zip" name="zip" style="width: 70px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> <span>You should sign up to receive <br />
 our (infrequent) newsletter</span>
 	  </form>
 	    <div class="wrap-t">
 			<div class="wrap clearfix" id="become-wrap">
 			<!--Become a Fellow -->
 				<div class="box">
-					<h2><strong>1</strong> Become a Fellow</h2>
+					<h2><strong>1</strong> Fellowship</h2>
 					<img src="<?php bloginfo('template_directory'); ?>/images/become-fellow.jpg" alt="Become a Fellow" />
 					<?php wp_nav_menu( array('menu'=> 'cfa_fellows', 'menu_id' => '','container' => 'ul',  ) ); ?>
 				</div>
-				<!--Get Involved -->
-				<div class="box">
-					<h2><strong>2</strong> Get Involved</h2>
-					<img src="<?php bloginfo('template_directory'); ?>/images/get-involved.jpg" alt="Get Involved" />
-					<?php wp_nav_menu( array('menu'=> 'cfa_get_involved', 'menu_id' => '','container' => 'ul',  ) ); ?>
-				</div>
+		
 				<!--Become a City -->
 				<div class="box">
-					<h2><strong>3</strong> Become a City</h2>
+					<h2><strong>2</strong> City Program</h2>
 					<img src="<?php bloginfo('template_directory'); ?>/images/become-city.jpg" alt="Become a City" />
 					<?php wp_nav_menu( array('menu'=> 'cfa_city', 'menu_id' => '','container' => 'ul',  ) ); ?>
 				</div>
+				
+					<!--Get Involved -->
+					<div class="box">
+						<h2><strong>3</strong> Volunteers</h2>
+						<img src="<?php bloginfo('template_directory'); ?>/images/get-involved.jpg" alt="Get Involved" />
+						<?php wp_nav_menu( array('menu'=> 'cfa_get_involved', 'menu_id' => '','container' => 'ul',  ) ); ?>
+					</div>
 				<!--Support CfA -->
 				<div class="box">
-					<h2><strong>4</strong> Support CfA</h2>
+					<h2><strong>4</strong> Supporters</h2>
 					<img src="<?php bloginfo('template_directory'); ?>/images/support-cfa.jpg" alt="Support CfA" />
 					<?php wp_nav_menu( array('menu'=> 'cfa_support', 'menu_id' => '','container' => 'ul',  ) ); ?>
 				</div>

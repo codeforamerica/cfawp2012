@@ -45,7 +45,7 @@ $.fn.infiniteCarousel = function () {
                 } else if (page > pages) {
                     $wrapper.scrollLeft(singleWidth * visible);
                     // reset back to start position
-                    page = 1;
+                    page = 0;
                 } 
 
                 currentPage = page;
