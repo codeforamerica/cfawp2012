@@ -489,6 +489,11 @@ margin-left:15px;
   color: #4ca3d9;
 }
 
+.entry-content p {
+	line-height: 1.6em;
+	
+}
+
 
 #maincontent .ttl {
   font-size: 1.71em;
@@ -922,6 +927,8 @@ code {
 		font-size: 14pt;
 		line-height: 1.6em;
 	}
+	
+	
 	.entry-title {
 		font-size: 21pt;
 	}
