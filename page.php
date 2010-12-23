@@ -25,7 +25,6 @@ get_header(); ?>
 						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 					</div><!-- .entry-content -->
 
-				<?php comments_template( '', true ); ?>
 
 <?php endwhile; ?>
 
