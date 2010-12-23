@@ -40,19 +40,25 @@ get_header(); ?>
 						</div><!-- #nav-below -->
 						<?php comments_template( '', true ); ?>
 </div>
+
+
+<div class="right-col">
+
+
+
 <?php if ( get_the_author_meta( 'description' ) ) : // If a user has filled out their description, show a bio on their entries  ?>
 					<div id="entry-author-info">
-						<div id="author-avatar">
-							<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 60 ) ); ?>
-						</div><!-- #author-avatar -->
+						<!-- #author-avatar -->
 						<div id="author-description">
-							<h2><?php printf( esc_attr__( 'About %s', 'twentyten' ), get_the_author() ); ?></h2>
-							<?php the_author_meta( 'description' ); ?>
-							<div id="author-link">
-								<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
-									<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
-								</a>
-							</div><!-- #author-link	-->
+							<h3 class="widget-title"><?php printf( esc_attr__( 'About %s', 'twentyten' ), get_the_author() ); ?></h3><br />
+						<div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
+								<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 105 ) ); ?>
+							</div><span style="font-size: .85em;"><?php the_author_meta( 'description' ); ?>	<div id="author-link">
+									<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
+										<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
+									</a>
+								</div></span>
+							<!-- #author-link	-->
 						</div><!-- #author-description -->
 					</div><!-- #entry-author-info -->
 <?php endif; ?>
@@ -60,7 +66,7 @@ get_header(); ?>
 				
 
 <?php endwhile; // end of the loop. ?>
-
+<br />
 		
 
 <?php get_sidebar(); ?>

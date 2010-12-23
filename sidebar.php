@@ -7,7 +7,6 @@
  * @since CfA
  */
 ?>
-<div class="right-col">
   	
 
 <?php

@@ -30,5 +30,7 @@ get_header(); ?>
 <?php endwhile; ?>
 
   </div>
+<div class="right-col">
+
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
