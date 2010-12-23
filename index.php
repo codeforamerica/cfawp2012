@@ -32,35 +32,35 @@ get_header(); ?>
         <div id="slide-2" class="player"> 
           <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
           <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
-		<span class="title">Hello world!</span> 
+		<span class="title"><strong>The Boston Project:</strong><br />Improving High School Education by Connecting the Community</span> 
   
           </a> 
         </div>
         <div id="slide-3" class="player"> 
            <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/philly.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />  
-		<span class="title">Hello world!</span> 
+		<span class="title"><strong>The Philadelphia Project:</strong><br />Helping Citizens Get Involved to Support Public Services</span> 
  
            </a> 
          </div>
          <div id="slide-4" class="player"> 
             <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
             <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-			<span class="title">Hello world!</span> 
+			<span class="title"><strong>Bring CfA to Your City:</strong><br />Now Seeking Applications for the 2012 City Program</span> 
 
             </a> 
           </div>
           <div id="slide-5" class="player"> 
              <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
              <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/seattle.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-			<span class="title">Hello world!</span> 
+			<span class="title"><strong>The Seattle Project:</strong><br />Empowering Civic Leaders to Mobilize their Communities</span> 
 
              </a> 
            </div>
            <div id="slide-6" class="player"> 
               <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
               <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/dc.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-			<span class="title">Hello world!</span> 
+			<span class="title"><strong>The DC Project:</strong><br />Working with Government to Share Technology for the Public Good</span> 
 
               </a> 
             </div> </div>

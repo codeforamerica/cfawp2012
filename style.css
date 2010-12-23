@@ -21,7 +21,7 @@ body {
 
 a {
   color: #cb2a3c;
-  text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover {
@@ -1284,13 +1284,18 @@ display: block;
 font-size: 18px;
 padding: 10px;
 position: absolute;
-top: 18px;
-width: 530px;
+bottom: 100px;
+max-width: 300px;
 text-align: right;
 font-weight: normal;
 text-decoration: none;
+right: 20px;
+border: none;
 }
 
+.player a {
+	text-decoration: none;
+}
 .player a img {
 text-decoration: none;
 border: none;}
