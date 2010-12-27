@@ -35,20 +35,31 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/slider.css" type="text/css" />
+
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.core.js"></script> 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.tabs.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/superfish.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/carousel.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/jquery.anythingslider.min.js"></script>
+
+
+
 
 
 <script type="text/javascript">
 $(document).ready(function() {
   $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
-	$("ul.menu").superfish({pathClass: "current-menu-item" }); 
-    
+  $("ul.menu").superfish({pathClass: "current-menu-item" }); 
+  $("#slider").anythingSlider({	
+		  buildArrows         : true,      
+		  buildNavigation     : false,      
+		  autoPlay            : false,     
+		  easing              : "swing"    
+		});
 
 });
 </script>

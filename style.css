@@ -1321,3 +1321,238 @@ border: none;}
 
  ui-tabs-selected a { color: #222 }
       
+
+/*   Cities Page   */
+
+#cities {
+  padding-top: 20px;
+}
+#cities #participating-wrap {
+  padding-bottom: 30px;
+  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
+}
+
+
+#cities #participating {
+  float: right;
+  width: 320px;
+}
+#cities #participating h2 {
+  font-size: 2em;
+  color: #000;
+  padding-bottom: 8px;
+  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
+  margin-bottom: 5px;
+}
+#cities #participating .links {
+  padding-bottom: 8px;
+  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
+   font-weight: bold;
+   font-size: 1.08em;
+   margin-bottom: 8px;
+}
+#cities #participating .links a {
+  text-decoration: none;
+  color: #409dd6;
+  margin-right: 7px;
+  white-space: nowrap;
+}
+#cities #participating .links a:hover, #cities #participating .links a span {
+  color: #cb283a;
+}
+#cities #participating p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.17em;
+}
+#cities #twocols-container {
+  float: none;
+  width: auto;
+  margin-top: 30px;
+  background: url(images/vertical-dot.gif) 620px 0 repeat-y;
+}
+#cities #maincontent {
+  width: 600px;
+  font-size: 1.17em;
+}
+#cities #maincontent h3 {
+  position: relative;
+  padding: 25px 110px 15px 0;
+  background: url(images/horizontal-dots.gif) 0 0 repeat-x;
+ margin-top: 15px;
+ text-transform: uppercase;
+ color: #000;
+ font-size: 1.21em;
+}
+#cities #maincontent h3:first-child {
+  background: transparent;
+  padding-top: 0;
+  margin: 0;
+}
+#cities #maincontent h3 a.more {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  padding-left: 21px;
+  background: url(images/bullet-red-arrow.gif) 0 3px no-repeat;
+  text-decoration: none;
+  color: #707070;
+  font-size: 0.82em;
+}
+#cities #maincontent h3:first-child a.more {
+  top: 0;
+}
+#cities #maincontent h3 a.more:hover {
+  color: #cb2a3c;
+}
+
+
+#cities #maincontent p {
+  margin: 0;
+  padding: 0 0 10px;
+}
+#cities .right-col {
+  font-size: 1.17em;
+
+}
+#cities .right-col h3 {
+ font-size: 1.29em;
+ color: #000;
+ padding:2px 0 2px 33px;
+ margin-top: -5px;
+ text-transform: uppercase;
+ background: url(images/dates-to-keep-icon.gif) 0 0 no-repeat;
+}
+*+html #cities .right-col h3{
+ min-height: 20px;
+}
+
+
+#cities .right-col h4 {
+  margin: 9px 0;
+  font-size: 1em;
+}
+#cities .right-col p{
+  margin: 0;
+  padding: 0 0 7px;
+}
+#cities .right-col table {
+  width: 300px;
+}
+#cities .right-col th, #cities .right-col td {
+  vertical-align: top;
+  font-size: 0.93em;
+  padding: 9px;
+}
+#cities .right-col th {
+  width: 186px;
+  text-align: left;
+}
+#cities .right-col th span {
+  color: #cb283a;
+}
+
+#cities .right-col td {
+ width: 78px;
+ text-align: right;
+ font-weight: bold;
+ color: #cb283a;
+}
+#cities .right-col tr.odd {
+  background: url(images/odd-bg.gif);
+}
+
+.right-col ul, #cities #participating ul {
+  margin-top: 10px;
+  padding-top: 10px;
+  background: url(images/horizontal-dots.gif) 0 0 repeat-x;
+}
+
+
+.right-col li, #cities #participating li {
+  padding: 0 0 7px 22px;
+  display: block;
+  background: url(images/bullet-red-arrow.gif) 2px 3px no-repeat;
+}
+.right-col li a, #cities #participating li a {
+  color: #707070;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+.right-col li a.active, #cities #participating li a.active {
+  color: #cb2a3c;
+}
+.right-col li a:hover, #cities #participating li a:hover {
+  color: #cb2a3c;
+}
+.right-col li a.active:hover, #cities #participating li a.active:hover {
+  color: #000;
+}
+
+#slider-wrap {
+  float: right;
+  width: 655px;
+  padding: 0 60px;
+  position: relative;
+  overflow: hidden;
+}
+#slider-wrap #slider {
+  width: 665px;
+  height: 66px;
+  display: block;
+}
+#slider-wrap #slider li {
+  float: left;
+  margin: 0 8px;
+}
+
+#slider-wrap #slider li a {
+   display: table-cell;
+    height: 66px;
+    vertical-align: middle;
+}
+#slider-wrap #slider li a img {
+  border: none;
+  vertical-align: middle;
+}
+
+#slider-wrap a.like-btn {
+  position: absolute;
+  top: 15px;
+  width: 35px;
+  height: 35px;
+}
+#slider-wrap a#prev {
+  left: 5px;
+  background: url(images/prev-arrow.gif) 0 0 no-repeat;
+}
+#slider-wrap a#next {
+  right: 0;
+  background: url(images/next-arrow.gif) 0 0 no-repeat;
+}
+
+
+/*   ---------   Float containers fix   ---------   */
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+
+

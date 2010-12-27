@@ -1,0 +1,98 @@
+/*
+    AnythingSlider v1.4.1+ Default (base) theme
+
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+/******* SET DEFAULT DIMENSIONS HERE ********/
+div.anythingSlider {
+	width: 598px;
+  height: 326px;
+    float: left;
+}
+
+
+
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+/* wrapper: 45px right & left padding for the arrows, 28px @ bottom for navigation */
+div.anythingSlider {
+	position: relative;
+
+}
+/* anythingSlider base UL */
+ul.anythingBase {
+	background: transparent;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+ul.anythingBase li.panel {
+	background: transparent;
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+    position: relative;
+}
+ul.anythingBase li.panel .clearfix {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 570px;
+  padding: 20px 14px;
+  background:transparent url(images/video-caption-bg.png);
+  color: #fff;
+}
+ul.anythingBase li.panel .clearfix table {
+  width: 570px;
+}
+
+
+ul.anythingBase li.panel .clearfix th {
+ text-transform: uppercase;
+  font-size: 2.50em;
+  padding-right: 9px;
+ font-weight: bold;
+  border-right: 1px dotted #fff;
+   white-space: nowrap;
+  line-height: .9em;
+}
+
+
+ul.anythingBase li.panel .clearfix td {
+  padding-left:9px;
+  font-weight: bold;
+}
+
+
+
+/* Navigation Arrows */
+div.anythingSlider .arrow {
+	top: 85px;
+	position: absolute;
+	display: block;
+    z-index: 1000;
+}
+div.anythingSlider .arrow a {
+	display: block;
+	height: 106px;
+	width: 52px;
+	outline: 0;
+	text-indent: -9999px;
+}
+div.anythingSlider .forward { right: 12px; }
+div.anythingSlider .back { left: 12px; }
+div.anythingSlider .forward a { background: url(images/next-arrow.png) 0 0 no-repeat; }
+div.anythingSlider .back a { background: url(images/back-arrow.png) 0 0 no-repeat; }
+
