@@ -100,4 +100,3 @@ $(document).ready(function() {
 	</div>
 </div>
 	
-	<div id="main">

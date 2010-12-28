@@ -82,7 +82,7 @@ get_header(); ?>
         </tr>
         <tr class="odd">
           <td>03/01/11</td>
-          <th>Deadline for City
+          <th>Deadline for 
             Applications <span>&raquo;</span></th>
         </tr>
         <tr>
