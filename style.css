@@ -357,8 +357,24 @@ text-shadow: #CCC 1px 1px 1px;
 #mycarousel ul li {
 	float: left;
 }
+
 #mycarousel ul li img {
 height: 75px;}
+
+/* Fellows Carousel */
+
+#fellows .prev {
+    padding: 0px 0px 0px 0px;
+    margin-left: 5px;
+	float: left;
+}
+
+
+#fellows .next {
+    padding: 0px 0px 0px 0px;
+    margin-right: 5px;
+	float: right;
+}
 
 
 #cities-issues, #cfa-blog, #tweets {
