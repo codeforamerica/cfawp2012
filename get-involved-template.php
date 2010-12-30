@@ -55,11 +55,11 @@ get_header(); ?>
   <div class="right-col" id="featured-partners">
 	<ul>
 		<li><h3>Featured Partners &amp; Supporters <span></span></h3></li>
-		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/case-logo.png" alt="The Case Foundation" /></a></li>
-		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/esri-logo.png" alt="ESRI" /></a></li>
-		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/on-logo.png" alt="Omidyar Network" /></a></li>
-		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/sunlight-logo.png" alt="Sunlight Foundation" /></a></li>
-		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/rockefeller-logo.png" alt="Rockefeller Foundation" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/logos/case-logo.png" alt="The Case Foundation" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/logos/esri-logo.png" alt="ESRI" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/logos/on-logo.png" alt="Omidyar Network" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/logos/sunlight-logo.png" alt="Sunlight Foundation" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/logos/rockefeller-logo.png" alt="Rockefeller Foundation" /></a></li>
 		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/gf-logo.png" alt="GF" /></a></li>
 		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/next-logo.png" alt="Next American City" /></a></li>
 	</ul>
