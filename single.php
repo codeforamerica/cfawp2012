@@ -19,7 +19,7 @@ get_header(); ?>
 					<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
 				</div>--><!-- #nav-above -->
 
-					 <div class="ttl"><?php the_title(); ?><a href="#" class="red-btn"><span>Share This +</span></a></div>
+					 <div class="ttl"><?php the_title(); ?><a href="#" class="red-btn"><span class="st_sharethis_custom">Share This</a></div>
 
 					<div class="entry-meta" style="margin-top: 10px;">
 					<small>	<?php twentyten_posted_on(); ?></small>
