@@ -354,8 +354,8 @@ function twentyten_widgets_init() {
 		'name' => __( 'Primary Widget Area', 'twentyten' ),
 		'id' => 'primary-widget-area',
 		'description' => __( 'The primary widget area', 'twentyten' ),
-		'before_widget' => '',
-		'after_widget' => '',
+		'before_widget' => '<div id="wp-widget">',
+		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
