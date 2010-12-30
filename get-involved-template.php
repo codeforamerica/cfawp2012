@@ -15,135 +15,55 @@ Template Name: Get Involved
 
 get_header(); ?>
 
-<div class="wrap-b">
-	<div class="wrap clearfix">
-		<div id="mission">
-			<h2>OUR MISSION</h2>
-			<p>Code for America is a new non-profit, and a new kind of organization. We are building a network of city leaders who believe there is a better way of doing things, and the program involves both formal and informal channels to share ideas and lessons learned.</p>
-		</div>
-		<div id="fellows">
-			<h3 class="ttl">Meet a Fellow <a href="#" class="more">Apply for the fellowship</a></h3>
-			<ul>
-				<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>Jane Doe</strong></span></li>
-				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>John Doe</strong></span></li>
-				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>Jimmy Doe</strong></span></li>
-				<li class="last"><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>Allison McAllister Kessinger</strong></span></li>
-			</ul>
-		</div>
-	</div>
-</div>
-<div class="wrap clearfix" id="whh">
-	<div class="box">
-		<h3>Who we are</h3>
-		<p>Our team is made up of web geeks, city experts, and technology industry leaders. Phasellus urna lacus, adipiscing vitae porttitor sed, dapibus et enim. Nam vitae nisi ornare mauris viverra congue in placerat nunc.</p>
-		<p align="right"><a href="#" class="more">meet our team</a></p>
-	</div>
-	<div class="box">
-		<h3>how we make a difference</h3>
-		<p>Code for America helps city governments become more transparent, connected, and efficient by connecting the talents of cutting-edge web developers with people who deliver city services and want to embrace the transformative power of the web to achieve more impact with less money.</p>
-	</div>
-	<div class="box">
-		<h3>How we’re funded</h3>
-		<p>Code for America is generously supported by leaders in philanthropy and technology. Their support helps make our work connecting city government and web talent possible.</p>
-		<p align="right"><a href="#" class="more">our generous donors</a></p>
-	</div>
-</div>
-<div class="wrap-t">
-<div class="wrap clearfix" id="team-donors">
+<div class="wrap clearfix" id="involved">
   <div id="maincontent">
-	<h2 class="ttl">meet our team</h2>    
-    <div class="team">
-		<h3>STAFF</h3>
-		<ul class="clearfix">
-			<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li class="last"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
+    <h2 class="ttl">5 Ways You Can Make a Difference: <a href="#" class="red-btn"><span>Share This +</span></a></h2>
+    <ul id="the-ways" class="clearfix">
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/donate.jpg" alt="Donate" /><strong>1</strong> Donate <span>&raquo;</span></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/spread-the-world.jpg" alt="Spread the Word" /><strong>2</strong> Spread the Word <span>&raquo;</span></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/contribute-code.jpg" alt="Contribute Some Code" /><strong>3</strong> Contribute Some Code <span>&raquo;</span></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/contact-your-city.jpg" alt="Contact Your City" /><strong>4</strong> Contact Your City <span>&raquo;</span></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/become-a-partner.jpg" alt="Become a Partner" /><strong>5</strong> Become a Partner <span>&raquo;</span></a></li>
+	</ul>
+	<div class="wrap">
+		<h3>Our Impact</h3>
+		<ul>
+			<li><a href="#">Read our latest story of Impact <span>&raquo;</span></a></li>
+			<li><a href="#">Find out what we’ve accomplished in 2010 <span>&raquo;</span></a></li>
+			<li><a href="#">Our future plans <span>&raquo;</span></a></li>
 		</ul>
 	</div>
-	<div class="team">
-		<h3>board of directors</h3>
-		<ul class="clearfix">
-			<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li class="last"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
+	<div class="wrap">
+		<h3>What we need now</h3>
+		<ul>
+			<li><a href="#">Donate Office Supplies <span>&raquo;</span></a></li>
+			<li><a href="#">Code a Wordpress Plugin <span>&raquo;</span></a></li>
 		</ul>
 	</div>
-	<div class="team">
-		<h3>board of advisors</h3>
-		<ul class="clearfix">
-			<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li class="last"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-		</ul>
+	<div class="wrap" id="cfa-blog">
+		<div class="ttl"><a href="#" class="like-btn" id="ttl-rss">RSS</a> CfA BLOG <a href="#" class="more">Go to Blog</a></div>
+		<h2>An Atypical Internship: Come Build CfA</h2>
+		<p class="date">Sept 23, 2010, <a href="#">Abhi Nemani</a></p>
+		<div class="post"><p><img src="<?php bloginfo( 'template_url' ); ?>/images/abhi.jpg" alt="" />Not sure why they’re making me do this. It’s kind of awkward, actually. See I was just an intern, like a week ago, and now they’re asking me to recruit more interns. It’s as if they are either saying, “you need help” or “render yourself irrelevant”. Either way, not sure…</p>
+		<ul>
+			<li>Share: <a href="#" class="like-btn" id="mail-b">E-mail</a> <a href="#" class="like-btn" id="rss-b">RSS</a> <a href="#" class="like-btn" id="fb-b">Facebook</a> <a href="#" class="like-btn" id="tw-b">Twitter</a></li>
+			<li><a href="#" id="comments">Comments (2)</a></li>
+			<li class="right"><a href="#" class="more">Read More</a></li>
+		</ul></div>
 	</div>
-	
   </div>
-  <div class="right-col">
-	<h3>Donors</h3>
-	<table border="0" cellspacing="0" cellpadding="0">
-  <tr class="odd">
-    <th>Knight Foundation</th>
-    <td>$250,000</td>
-  </tr>
-  <tr>
-    <th>Omidyar Network</th>
-    <td>$250,000</td>
-  </tr>
-  <tr class="odd">
-    <th>Rockefeller Foundation</th>
-    <td>$200,000</td>
-  </tr>
-  <tr>
-    <th>ESRI</th>
-    <td>$50,000</td>
-  </tr>
-  <tr class="odd">
-    <th>O’Reilly Foundation</th>
-    <td>$50,000</td>
-  </tr>
-  <tr>
-    <th>Paul Marltz</th>
-    <td>$25,000</td>
-  </tr>
-  <tr class="odd">
-    <th>Mike &amp; Monica Harrington</th>
-    <td>$10,000</td>
-  </tr>
-  <tr>
-    <th>Sunlight Foundation</th>
-    <td>$10,000</td>
-  </tr>
-  <tr class="odd">
-    <th>Case Foundation</th>
-    <td>$10,000</td>
-  </tr>
-  <tr>
-    <th>Anne &amp; Louis Abrons Foundation</th>
-    <td>$10,000</td>
-  </tr>
-</table>
-
+  <div class="right-col" id="featured-partners">
+	<ul>
+		<li><h3>Featured Partners &amp; Supporters <span></span></h3></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/case-logo.png" alt="The Case Foundation" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/esri-logo.png" alt="ESRI" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/on-logo.png" alt="Omidyar Network" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/sunlight-logo.png" alt="Sunlight Foundation" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/rockefeller-logo.png" alt="Rockefeller Foundation" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/gf-logo.png" alt="GF" /></a></li>
+		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/next-logo.png" alt="Next American City" /></a></li>
+	</ul>
+	<div id="bg-end"></div>
   </div>
-  
 </div>
-<!--In the press -->
-		<div class="wrap" id="press">
-			<div class="ttl">In the press <a href="#" class="more">view more articles</a></div>
-			<h2 class="first">Program matches geeks with government</h2>
-			<p class="date-cat">Aug 13, 2010, <a href="#">Santa Cruz Sentinel</a></p>
-			<p>Code for America is matching up geeks with government. The San Francisco-based nonprofit is accepting applications until Sunday for fellowships for software developers, designers, and eu nisi. Suspendisse gravida, est et facilisis posuere, turpis metus vestibulum justo, nec porttitor augue quam sit amet velit. Quisque interdum ante id diam rutrum a lobortis lorem tempus.</p>
-			<h2>code for america offers young web developers a chance to bring cities to the web 2.0</h2>
-			<p class="date-cat">Aug 8, 2010, <a href="#">Campus Progress</a></p>
-			<p>Take a minute and look at your city government’s webpage. Is there anywhere for you to share input? Is there an app you can download to your phone to provide feedback or submit an id leo commodo imperdiet et in diam. Donec pharetra varius neque eu facilisis. In ullamcorper pellentesque diam. Fusce molestie, elit et scelerisque elementum, velit quam convallis lacus, sit amet molestie nisl nisi in nibh.</p>
-		</div>
-</div>
-		
-
-
 <?php get_footer(); ?>
