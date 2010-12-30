@@ -1367,6 +1367,29 @@ border: none;}
   color: #cb283a;
 }
 
+#cities #participating ul {
+background: url(images/horizontal-dots.gif) repeat-x 0px 0px;
+margin-top: 10px;
+padding-top: 10px;
+}
+
+#cities #participating li a {
+color: #707070;
+font-weight: bold;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+#cities #participating li {
+background: url(images/bullet-red-arrow.gif) no-repeat 2px 3px;
+display: block;
+padding: 0px 0px 7px 22px;
+}
+
+#cities #participating li a.active {
+color: #CB2A3C;
+}
+
 #cities #participating p {
   padding: 0;
   margin: 0;
