@@ -409,10 +409,10 @@ function twentyten_widgets_init() {
 		'name' => __( 'Fourth Footer Widget Area', 'twentyten' ),
 		'id' => 'fourth-footer-widget-area',
 		'description' => __( 'The fourth footer widget area', 'twentyten' ),
-		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
-		'after_widget' => '</li>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => '',
 	) );
 }
 /** Register sidebars by running twentyten_widgets_init() on the widgets_init hook. */
