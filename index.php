@@ -136,10 +136,10 @@ our (infrequent) newsletter</span>
 				<div id="cities-issues">
 					<h2>Helping Cities Solve <br />
 					Common Issues</h2>
-					<img src="<?php bloginfo('template_directory'); ?>/images/helping-cities.jpg" alt="Vivamus fermentum sollicitudin laoreet" class="left" />
-					<h3>Vivamus fermentum sollicitudin laoreet</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac ante in elit fringilla ullamcorpert integer amet, elit ante in fringilla ac Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat diam id lorem iaculis at rhoncus turpis fermentum. Class aptent taciti sociosqu ad.</p>
-					<a href="#" class="btn">Read More</a>
+					<?php if ( is_active_sidebar( 'fourth-footer-widget-area' ) ) : ?>
+									
+											<?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>
+					<?php endif; ?>
 				</div>
 				<!--CfA Blog -->
 				<div id="cfa-blog">
