@@ -13,9 +13,8 @@
  */
 
 get_header(); ?>
-
-		<div id="container">
-			<div id="content" role="main">
+    <div class="wrap clearfix" id="inner">
+      <div id="maincontent">
 
 <?php
 	/* Queue the first post, that way we know
@@ -54,8 +53,8 @@ get_header(); ?>
 	 get_template_part( 'loop', 'archive' );
 ?>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
+      </div>
+    <div class="right-col">
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
