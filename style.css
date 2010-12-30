@@ -1780,13 +1780,15 @@ a.more:hover {
   clear: both;
 }
 
-#involved #maincontent .wrap {
+#involved #maincontent .wrap, #maincontent #posts .wrap {
   width: auto;
   margin-top: 20px;
-  padding-top: 25px;
   font-size: 1.17em;
-  background: url(images/horizontal-dots.gif) 0 0 repeat-x;
 }
+#involved #maincontent .wrap {
+  padding-top: 25px;
+  background: url(images/horizontal-dots.gif) 0 0 repeat-x;
+ }
 
 #involved #maincontent .wrap h3 {
   text-transform: uppercase;
@@ -1811,20 +1813,20 @@ a.more:hover {
   color: #cb283a;
 }
 
-#involved #maincontent #cfa-blog {
+#cfa-blog {
   float: none;
   margin-left: 0;
   font-size: 1em;
 }
 
-#involved #maincontent #cfa-blog .ttl {
+#cfa-blog .ttl {
   padding: 0 105px 0 35px;
   font-size: 1.42em;
   text-transform: none;
   background: transparent;
 }
 
-#involved #maincontent #cfa-blog .ttl #ttl-rss {
+#cfa-blog .ttl #ttl-rss {
   position: absolute;
   top: -3px;
   left: 0;
@@ -1833,7 +1835,7 @@ a.more:hover {
   background: url(images/rss-icon.gif) 0 0 no-repeat;
 }
 
-#involved #maincontent #cfa-blog .ttl a.more {
+#cfa-blog .ttl a.more {
   position: absolute;
   top: 3px;
   right: 0;
@@ -1841,8 +1843,8 @@ a.more:hover {
   font-size: 0.76em;
 }
 
-#involved #maincontent #cfa-blog h2 {
-  font-size: 1.17em;
+#cfa-blog h2, #cfa-blog h2 a {
+  font-size: 1em;
   clear: both;
   text-transform: uppercase;
   color: #000;
@@ -1851,37 +1853,42 @@ a.more:hover {
   margin-top: 7px;
 }
 
-#involved #maincontent #cfa-blog p {
-  font-size: 1.17em;
+#cfa-blog p {
+  font-size: 1 em;
 }
 
-#involved #maincontent #cfa-blog p.date {
+#cfa-blog p.date {
   font-style: italic;
   padding: 0;
   margin: 0;
   font-size: 1em;
 }
 
-#involved #maincontent #cfa-blog .post {
+#cfa-blog .post {
   padding-left: 162px;
   position: relative;
   min-height: 115px;
 }
 
-#involved #maincontent #cfa-blog p img {
+#cfa-blog #post {
+    clear: both;
+    margin-bottom: 65px;
+}
+
+#cfa-blog p img, #maincontent #cfa-blog div.post img {
   position: absolute;
   top: 0;
   left: 0;
   border: 8px solid #e1e1e1;
 }
 
-#involved #maincontent #cfa-blog ul {
+#cfa-blog ul {
   background: url(images/horizontal-dots.gif) 0 0 repeat-x;
   display: block;
   padding: 12px 0 0;
 }
 
-#involved #maincontent #cfa-blog li {
+#cfa-blog li {
   float: left;
   padding: 0;
   background: transparent;
@@ -1889,52 +1896,56 @@ a.more:hover {
   font-weight: bold;
   color: #cb283a;
   margin-right: 28px;
-  font-size: 1.08em;
+  font-size: .8em;
 }
 
-#involved #maincontent #cfa-blog li.right {
+#cfa-blog li.right {
   float: right;
   margin-right: 0;
 }
 
-#involved #maincontent #cfa-blog li a.like-btn {
+#cfa-blog li a.like-btn {
   display: inline-block;
   width: 29px;
   height: 29px;
   background-position: 0 0;
 }
 
-#involved #maincontent #cfa-blog li a#mail-b {
+#cfa-blog li a#mail-b {
   background-image: url(images/e-mail-orb.png);
 }
 
-#involved #maincontent #cfa-blog li a#rss-b {
+#cfa-blog li a#rss-b {
   background-image: url(images/rss-orb.png);
 }
 
-#involved #maincontent #cfa-blog li a#fb-b {
+#cfa-blog li a#fb-b {
   background-image: url(images/fb-orb.png);
 }
 
-#involved #maincontent #cfa-blog li a#tw-b {
+#cfa-blog li a#tw-b {
   background-image: url(images/tw-orb.png);
 }
 
-#involved #maincontent #cfa-blog li a {
+#cfa-blog li a#share-b {
+  background-image: url(images/sharethis.gif);
+}
+
+#cfa-blog li a {
   color: #cb283a;
 }
 
-#involved #maincontent #cfa-blog li a#comments {
+#cfa-blog li a.comments {
   padding-left: 24px;
   background: url(images/comments-icon.gif) 0 0 no-repeat;
 }
 
-#involved #maincontent #cfa-blog li a.more {
+#cfa-blog li a.more {
   text-transform: uppercase;
   color: #707070;
 }
 
-#involved #maincontent #cfa-blog li a.more:hover {
+#cfa-blog li a.more:hover {
   color: #cb283a;
 }
 

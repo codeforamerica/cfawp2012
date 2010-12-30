@@ -8,9 +8,8 @@
  */
 
 get_header(); ?>
-
-		<div id="container">
-			<div id="content" role="main">
+    <div class="wrap clearfix" id="inner">
+      <div id="maincontent">
 
 <?php
 	/* Queue the first post, that way we know who
@@ -23,22 +22,6 @@ get_header(); ?>
 	if ( have_posts() )
 		the_post();
 ?>
-
-				<h1 class="page-title author"><?php printf( __( 'Author Archives: %s', 'twentyten' ), "<span class='vcard'><a class='url fn n' href='" . get_author_posts_url( get_the_author_meta( 'ID' ) ) . "' title='" . esc_attr( get_the_author() ) . "' rel='me'>" . get_the_author() . "</a></span>" ); ?></h1>
-
-<?php
-// If a user has filled out their description, show a bio on their entries.
-if ( get_the_author_meta( 'description' ) ) : ?>
-					<div id="entry-author-info">
-						<div id="author-avatar">
-							<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 60 ) ); ?>
-						</div><!-- #author-avatar -->
-						<div id="author-description">
-							<h2><?php printf( __( 'About %s', 'twentyten' ), get_the_author() ); ?></h2>
-							<?php the_author_meta( 'description' ); ?>
-						</div><!-- #author-description	-->
-					</div><!-- #entry-author-info -->
-<?php endif; ?>
 
 <?php
 	/* Since we called the_post() above, we need to
@@ -53,8 +36,26 @@ if ( get_the_author_meta( 'description' ) ) : ?>
 	 */
 	 get_template_part( 'loop', 'author' );
 ?>
-			</div><!-- #content -->
-		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+      </div>
+    <div class="right-col">
+
+    <?php if ( get_the_author_meta( 'description' ) ) : // If a user has filled out their description, show a bio on their entries  ?>
+    					<div id="entry-author-info">
+    						<!-- #author-avatar -->
+    						<div id="author-description">
+    							<h3 class="widget-title"><?php printf( esc_attr__( 'About %s', 'twentyten' ), get_the_author() ); ?></h3><br />
+    						<div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
+    								<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 105 ) ); ?>
+    							</div><span style="font-size: .85em;"><?php the_author_meta( 'description' ); ?>	<div id="author-link">
+    									<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
+    										<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
+    									</a>
+    								</div></span>
+    							<!-- #author-link	-->
+    						</div><!-- #author-description -->
+    					</div><!-- #entry-author-info -->
+    <?php endif; ?>
+
+    <?php get_sidebar(); ?>
+    <?php get_footer(); ?>
