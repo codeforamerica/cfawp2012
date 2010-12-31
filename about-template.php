@@ -21,15 +21,7 @@ get_header(); ?>
 			<h2>OUR MISSION</h2>
 			<p>Code for America is a new non-profit, and a new kind of organization. We are building a network of city leaders who believe there is a better way of doing things, and the program involves both formal and informal channels to share ideas and lessons learned.</p>
 		</div>
-		<div id="fellows">
-			<h3 class="ttl">Meet a Fellow <a href="#" class="more">Apply for the fellowship</a></h3>
-			<ul>
-				<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>Jane Doe</strong></span></li>
-				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>John Doe</strong></span></li>
-				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>Jimmy Doe</strong></span></li>
-				<li class="last"><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>Allison McAllister Kessinger</strong></span></li>
-			</ul>
-		</div>
+        <?php include 'fellow_carousel.php'; ?>		
 	</div>
 </div>
 <div class="wrap clearfix" id="whh">

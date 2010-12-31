@@ -20,15 +20,8 @@ get_header(); ?>
     <h2>OUR FELLOWSHIP</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in nunc est. Quisque eget nisl eros, congue fermentum ipsum. Donec sollicitudin orci quis justo rutrum ut dapibus neque facilisis. Aliquam gravida, massa ut suscipit euismod, tellus leo faucibus sem, ac malesuada elit arcu sit amet ante</p>
   </div>
-  <div id="fellows">
-    <h3 class="ttl">Meet a Fellow <a href="#" class="more">Apply for the fellowship</a></h3>
-    <ul>
-      <li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>Jane Doe</strong></span></li>
-      <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>John Doe</strong></span></li>
-      <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>Jimmy Doe</strong></span></li>
-      <li class="last"><img src="<?php bloginfo( 'template_url' ); ?>/images/fellow.jpg" alt="" /> <span><strong>Allison McAllister Kessinger</strong></span></li>
-    </ul>
-  </div>
+  <?php include 'fellow_carousel.php'; ?>
+
 </div>
 <div class="wrap" id="dots"></div>
 <div class="wrap clearfix" id="fellows-wrap">
