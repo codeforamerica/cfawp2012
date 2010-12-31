@@ -11,6 +11,8 @@ get_header(); ?>
     <div class="wrap clearfix" id="inner">
       <div id="maincontent">
 
+
+
 <?php
 	/* Queue the first post, that way we know who
 	 * the author is when we try to get their name,
@@ -23,6 +25,13 @@ get_header(); ?>
 		the_post();
 ?>
 
+<div class="ttl"><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?></div>
+
+  		<div style="min-height: 150px;">	<span style="font-size: 1em; line-height: 1.6em;"><p><div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
+  								<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 120 ) ); ?>
+  							</div><?php the_author_meta( 'description' ); ?>	</p>
+  								</span>
+  					</div>	
 <?php
 	/* Since we called the_post() above, we need to
 	 * rewind the loop back to the beginning that way
@@ -40,22 +49,7 @@ get_header(); ?>
       </div>
     <div class="right-col">
 
-    <?php if ( get_the_author_meta( 'description' ) ) : // If a user has filled out their description, show a bio on their entries  ?>
-    					<div id="entry-author-info">
-    						<!-- #author-avatar -->
-    						<div id="author-description">
-    							<h3 class="widget-title"><?php printf( esc_attr__( 'About %s', 'twentyten' ), get_the_author() ); ?></h3><br />
-    						<div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
-    								<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 105 ) ); ?>
-    							</div><span style="font-size: .85em;"><?php the_author_meta( 'description' ); ?>	<div id="author-link">
-    									<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
-    										<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
-    									</a>
-    								</div></span>
-    							<!-- #author-link	-->
-    						</div><!-- #author-description -->
-    					</div><!-- #entry-author-info -->
-    <?php endif; ?>
+ 
 
     <?php get_sidebar(); ?>
     <?php get_footer(); ?>

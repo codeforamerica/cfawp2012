@@ -13,9 +13,8 @@
  */
 
 get_header(); ?>
-
-		<div id="container">
-			<div id="content" role="main">
+<div class="wrap clearfix" id="inner">
+   <div id="maincontent">
 
 <?php
 	/* Queue the first post, that way we know
@@ -28,7 +27,7 @@ get_header(); ?>
 		the_post();
 ?>
 
-			<h1 class="page-title">
+		<div class="ttl">
 <?php if ( is_day() ) : ?>
 				<?php printf( __( 'Daily Archives: <span>%s</span>', 'twentyten' ), get_the_date() ); ?>
 <?php elseif ( is_month() ) : ?>
@@ -38,7 +37,7 @@ get_header(); ?>
 <?php else : ?>
 				<?php _e( 'Blog Archives', 'twentyten' ); ?>
 <?php endif; ?>
-			</h1>
+			</div>
 
 <?php
 	/* Since we called the_post() above, we need to

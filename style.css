@@ -28,7 +28,7 @@ a:hover {
   text-decoration: none;
 }
 
-p {line-height: 1.3em;}
+p {line-height: 1.3em; font-size: 14px;}
 
 ul, ol, dl, dt, dd {
   list-style: none;
@@ -181,7 +181,7 @@ text-shadow: #999 1px 1px 1px;
 
 #nav li {
   float: left;
-  padding-left: 3px;
+  padding-right: 3px;
   background: url(images/nav-li-bg.gif) top right no-repeat;
 }
 #nav li.current_page_item {
@@ -477,6 +477,11 @@ margin-left:15px;
   float: left;
   width: 620px;
 }
+
+.fullcolumn {
+  width: 940px;
+}
+
 #maincontent h1{
   font-size: 1.71em;
   color: #4ca3d9;
@@ -827,7 +832,7 @@ padding-left: 10px;
 
 #wp-widget {
     clear:both;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 #author-avatar img {
@@ -1667,7 +1672,7 @@ a.more:hover {
   margin: 20px 0 0;
 }
 
-#press p.date-cat, #cities-detail .wrap .right-col p.date {
+#press p.date-cat, #cities-detail .wrap .right-col p.date, p.date  {
   font-size: 0.86em;
   font-style: italic;
   margin: 5px 0 10px;
@@ -1854,37 +1859,30 @@ a.more:hover {
 }
 
 #maincontent #cfa-blog p {
-  font-size: 1 em;
-}
-
-#maincontent #cfa-blog p.date {
-  font-style: italic;
-  padding: 0;
-  margin: 0;
-  font-size: 1em;
+  font-size: .8em;
+line-height: 1.6em;
 }
 
 #maincontent #cfa-blog .post {
-  padding-left: 162px;
-  position: relative;
-  min-height: 115px;
+display: block;
+
 }
 
 #maincontent #cfa-blog #post {
     clear: both;
     margin-bottom: 65px;
+	display: block;
+
 }
 
-#maincontent #cfa-blog p img, #maincontent #cfa-blog div.post img {
-  position: absolute;
-  top: 0;
-  left: 0;
+#maincontent #cfa-blog img.attachment-thumbnail {
+margin-right: 10px;
+display: block;
   border: 8px solid #e1e1e1;
 }
 
 #maincontent #cfa-blog ul {
   background: url(images/horizontal-dots.gif) 0 0 repeat-x;
-  display: block;
   padding: 12px 0 0;
 }
 

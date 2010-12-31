@@ -39,7 +39,7 @@
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/javascripts/jquery.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.core.js"></script> 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.tabs.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/superfish.js"></script>
@@ -79,7 +79,7 @@ $(document).ready(function() {
 <!--   ==============   HEADER   ==============   -->
 <div id="header" class="wrap">
 <!--Logo -->
-	<a href="http://codeforamerica.org" class="like-btn" id="logo">Code for America</a>
+	<a href="/wp" class="like-btn" id="logo">Code for America</a>
 	<!--Tag line -->
 	<div id="tag-line">
 	<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png"><!--	<h1>A New Kind of Public Service</h1>
