@@ -21,7 +21,7 @@ get_header(); ?>
 	</div><?php $blogtitle = get_post_meta($post->ID, 'blogtitle', true);
 	$blogdesc = get_post_meta($post->ID, 'blogdesc', true); ?>
 				<?php
-				get_template_part( 'loop', 'category' );
+				get_template_part( 'loop' );
 				?>
 		</div><!-- #container -->
 	    <div class="right-col">

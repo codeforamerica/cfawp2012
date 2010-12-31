@@ -562,7 +562,7 @@ a.red-btn span {
   font-size: .5em;
 }
 #maincontent img {
-  border: 1px solid #e1e1e1;
+  border: 3px solid #e1e1e1;
 }
 #maincontent img.left {
   margin: 0 12px 7px 0;
@@ -852,8 +852,8 @@ padding-left: 10px;
 }
 
 #author-avatar img {
-    width:75px;
-    height: 75px;
+    width:auto;
+    height: auto;
 }
 
 /* Main sidebars */

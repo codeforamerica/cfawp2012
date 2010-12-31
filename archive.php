@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Author Archive pages.
+ * The template for displaying Archive pages.
  *
  * @package WordPress
  * @subpackage Twenty_Ten
@@ -25,13 +25,19 @@ get_header(); ?>
 		the_post();
 ?>
 
-<div class="ttl"><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?></div>
+<div class="ttl"><?php if ( is_day() ) : ?>
+				<?php printf( __( 'Daily Archives: <span>%s</span>', 'twentyten' ), get_the_date() ); ?>
+<?php elseif ( is_month() ) : ?>
+				<?php printf( __( 'Monthly Archives: <span>%s</span>', 'twentyten' ), get_the_date('F Y') ); ?>
+<?php elseif ( is_year() ) : ?>
+				<?php printf( __( 'Yearly Archives: <span>%s</span>', 'twentyten' ), get_the_date('Y') ); ?>
+<?php elseif ( is_category() ) : ?>
+				<?php printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?>
+<?php else : ?>
+				<?php _e( 'Blog Archives', 'twentyten' ); ?>
+<?php endif; ?></div>
 
-  		<div style="min-height: 150px;">	<span style="font-size: 1em; line-height: 1.6em;"><p><div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
-  								 <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 120 ) ); ?>
-  							</div><?php the_author_meta( 'description' ); ?>	</p>
-  								</span>
-  					</div>	
+  	
 <?php
 	/* Since we called the_post() above, we need to
 	 * rewind the loop back to the beginning that way
@@ -43,7 +49,7 @@ get_header(); ?>
 	 * If you want to overload this in a child theme then include a file
 	 * called loop-author.php and that will be used instead.
 	 */
-	 get_template_part( 'loop', 'author' );
+	 get_template_part( 'loop' );
 ?>
 
       </div>
@@ -53,3 +59,4 @@ get_header(); ?>
 
     <?php get_sidebar(); ?>
     <?php get_footer(); ?>
+
