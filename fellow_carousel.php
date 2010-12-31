@@ -23,7 +23,8 @@
           <li><a href="" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/silverman.png"></a><span><strong>Scott Silverman</strong></span></li>          
           <li><a href="" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/stalder.png"></a><span><strong>Tyler Stalder</strong></span></li>          
 </ul>             				
+<div class="prev"><img src="<?php bloginfo('template_directory'); ?>/images/back-arrow2.png"></div>
+ <div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow2.png"></div>
      </div>
-     <div class="prev"><img src="<?php bloginfo('template_directory'); ?>/images/prev-arrow.gif"></div>
-     <div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow.gif"></div>
+     
 </div>

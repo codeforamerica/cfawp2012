@@ -365,16 +365,20 @@ height: 75px;}
 
 #fellows .prev {
     padding: 0px 0px 0px 0px;
-    margin-left: 5px;
+    margin-left: 2px;
 	float: left;
-}
+	position: relative;
+	z-index: 1000;	
+top: 60px;}
 
 
 #fellows .next {
     padding: 0px 0px 0px 0px;
-    margin-right: 5px;
+    margin-right: 2px;
 	float: right;
-}
+	position: relative;
+	z-index: 1000;
+top: 60px;}
 
 
 #cities-issues, #cfa-blog, #tweets {
