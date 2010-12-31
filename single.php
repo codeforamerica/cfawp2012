@@ -53,7 +53,10 @@ get_header(); ?>
 					<div class="testimonial-wrap">
 				      <div class="testimonial-content"> <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 90 ) ); ?>
 				        <p><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?></a> <span class="position"><?php the_author_meta( 'nickname' ); ?></span></p>
-				<p style="font-size: .8em; color: #666;"><?php the_author_meta( 'description' ); ?><br>		<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
+				<p style="font-size: .8em; color: #666;">	
+						
+								<?php the_author_meta( 'oneline' ); ?>
+									<br>		<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
 																<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
 															</a></p>
 				         </div>
