@@ -565,7 +565,7 @@ a.red-btn span {
 #maincontent .ttl a.red-btn span {
   font-size: .5em;
 }
-#maincontent img {
+#maincontent img.avatar {
   border: 3px solid #e1e1e1;
 }
 #maincontent img.left {
@@ -1869,7 +1869,7 @@ a.more:hover {
 }
 
 #maincontent #cfa-blog h2, #cfa-blog h2 a {
-  font-size: 1em;
+font-size: 20px;
   clear: both;
   text-transform: uppercase;
   color: #000;
