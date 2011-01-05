@@ -2402,7 +2402,7 @@ margin-bottom: 10px;
 }
 #accordion {margin-top: 10px;}
 #accordion div {padding: 10px 15px;}
-#accordion h3 { height:32px; padding:40px 0 0 15px; margin: 5px 5px 5px 0px; font-size: 26px; text-align: right;}
+#accordion h3 { height:32px; padding:50px 0 0 15px; margin: 5px 5px 5px 0px; font-size: 26px; text-align: right;}
 #accordion h3 a { background-color:#FFF; padding:3px 5px; text-transform:uppercase;}
 #accordion h3 a:link {color:#000; text-decoration:none;}
 #accordion h3 a:visited {color:#000; text-decoration:none;}

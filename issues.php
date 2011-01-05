@@ -18,7 +18,7 @@ get_header(); ?>
 	
   <div id="maincontent">
 
-<div class="ttl">Issues</div>  
+<div class="ttl">Issues We're Working On</div>  
 <div id="accordion">
 	<h3 style="background:url(<?php bloginfo( 'template_url' ); ?>/images/openness.gif) center center no-repeat"><a href="#">Openness</a></h3>
 	<div>
