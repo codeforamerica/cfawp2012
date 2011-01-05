@@ -47,32 +47,42 @@ get_header(); ?>
     <div class="team">
 		<h3>STAFF</h3>
 		<ul class="clearfix">
-			<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li class="last"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
+			<li class="first"><a href="author/jen"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jen.jpg" alt="Jennifer Pahlka" title="Jennifer Pahlka" /></a></li>
+			<li><a href="author/meghan"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/meghan.png" alt="Staff name" /></a></li>
+			<li class="last"><a href="author/alissa"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/alissa.png" alt="Staff name" /></a></li>
+			<li><a href="author/dan"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dan.png" alt="Staff name" /></a></li>
+			<li><a href="/author/abhi"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/abhi.png" alt="Staff name" /></a></li>
+			
 		</ul>
 	</div>
 	<div class="team">
 		<h3>board of directors</h3>
 		<ul class="clearfix">
-			<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li class="last"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
+			<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/toreilly.jpg" alt="Staff name" /></li>
+			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenhill.jpg" alt="Staff name" /></li>
+			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mharrington.jpg" alt="Staff name" /></li>
+			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/llin.jpg" alt="Staff name" /></li>
+			
 		</ul>
 	</div>
 	<div class="team">
 		<h3>board of advisors</h3>
 		<ul class="clearfix">
-			<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
-			<li class="last"><img src="<?php bloginfo( 'template_url' ); ?>/images/team-pic.jpg" alt="Staff name" /></li>
+				<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dbryant.jpg" alt="Staff name" /></li>
+				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Staff name" /></li>
+				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cjohnson.jpg" alt="Staff name" /></li>
+				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jhodge.jpg" alt="Staff name" /></li>
+				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenfield.jpg" alt="Staff name" /></li>
+				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/pcorbett.jpg" alt="Staff name" /></li>
+				<li class="first"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/clawson.jpg" alt="Staff name" /></li>
+				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mmigurski.jpg" alt="Staff name" /></li>
+				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bcerveny.jpg" alt="Staff name" /></li>
+				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/arasiej.jpg" alt="Staff name" /></li>
+
+				<li><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cshirky.jpg" alt="Staff name" /></li>
 		</ul>
+		<p align="right" style="margin-top: -3px;"><a href="#" class="more"><strong>CITY STEERING COMMITTEE</strong></a>&nbsp;&nbsp;&nbsp;<a href="#" class="more"><strong>FRIENDS OF CFA</strong></a></p>
+		
 	</div>
 	
   </div>
@@ -91,6 +101,14 @@ get_header(); ?>
     <th>Rockefeller Foundation</th>
     <td>$200,000</td>
   </tr>
+<tr>
+    <th>O'Reilly Media</th>
+    <td>$100,000</td>
+  </tr>
+<tr class="odd">
+    <th>Microsoft</th>
+    <td>$50,000</td>
+  </tr>
   <tr>
     <th>ESRI</th>
     <td>$50,000</td>
@@ -99,8 +117,17 @@ get_header(); ?>
     <th>O’Reilly Foundation</th>
     <td>$50,000</td>
   </tr>
+<tr>
+	<tr>
+	    <th>Scott Yara</th>
+	    <td>$50,000</td>
+	  </tr>
+	<tr class="odd">
+    <th>Google</th>
+    <td>$40,000</td>
+  </tr>
   <tr>
-    <th>Paul Marltz</th>
+    <th>Paul Maritz</th>
     <td>$25,000</td>
   </tr>
   <tr class="odd">
@@ -119,7 +146,12 @@ get_header(); ?>
     <th>Anne &amp; Louis Abrons Foundation</th>
     <td>$10,000</td>
   </tr>
+ <tr class="odd">
+    <th>Clay Johnson</th>
+    <td>$10,000</td>
+  </tr>
 </table>
+<p align="right"><a href="#" class="more"><strong>MORE</strong></a></p>
 
   </div>
   
@@ -133,6 +165,17 @@ get_header(); ?>
 			<h2>code for america offers young web developers a chance to bring cities to the web 2.0</h2>
 			<p class="date-cat">Aug 8, 2010, <a href="#">Campus Progress</a></p>
 			<p>Take a minute and look at your city government’s webpage. Is there anywhere for you to share input? Is there an app you can download to your phone to provide feedback or submit an id leo commodo imperdiet et in diam. Donec pharetra varius neque eu facilisis. In ullamcorper pellentesque diam. Fusce molestie, elit et scelerisque elementum, velit quam convallis lacus, sit amet molestie nisl nisi in nibh.</p>
+			
+		<?php 			global $more;
+					$more = 1; ?>
+				<?php 
+			
+				query_posts('page_id=1078'); ?>		  
+							      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+							         <?php the_content('Continue Reading'); ?>
+							 
+							        <?php endwhile; endif; ?>
+			
 		</div>
 </div>
 		

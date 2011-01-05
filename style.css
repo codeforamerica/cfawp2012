@@ -498,7 +498,7 @@ margin-left:15px;
   width: 620px;
 }
 
-.fullcolumn {
+#maincontent.fullcolumn {
   width: 940px;
 }
 
@@ -2188,6 +2188,7 @@ margin-bottom: 10px;
 
 #team-donors .team li img {
   margin-top: 19px;
+  
 }
 
 #team-donors .right-col h3 {
@@ -2399,3 +2400,12 @@ margin-bottom: 10px;
   font-size: 1.29em;
   padding-left: 105px;
 }
+#accordion {margin-top: 10px;}
+#accordion div {padding: 10px 15px;}
+#accordion h3 { height:32px; padding:40px 0 0 15px; margin: 5px 5px 5px 0px; font-size: 26px; text-align: right;}
+#accordion h3 a { background-color:#FFF; padding:3px 5px; text-transform:uppercase;}
+#accordion h3 a:link {color:#000; text-decoration:none;}
+#accordion h3 a:visited {color:#000; text-decoration:none;}
+#accordion h3 a:hover {color:#666; text-decoration:none;}
+#accordion h3 a:active {color:#666; text-decoration:none;}
+
