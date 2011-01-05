@@ -12,6 +12,7 @@ Template Name: Issues
 */
 
 get_header(); ?>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 
 <div class="wrap clearfix" id="inner">
 	
