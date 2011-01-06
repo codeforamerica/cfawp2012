@@ -23,9 +23,9 @@ get_header(); ?>
       <div class="links"><a href="#">All <span>&raquo;</span></a> <a href="#">Boston <span>&raquo;</span></a> <a href="#">Washington, D.C. <span>&raquo;</span></a> <a href="#">Philadelphia <span>&raquo;</span></a> <a href="#">Seattle <span>&raquo;</span></a></div>
       <p>Cities are at the core of the CfA program. Each participating city identifies the need for a project, and is assigned a team of five fellows who will develop that application for the city over the course of the 11 month cycle. Beyond simply procuring a piece of software, the cities engage in a deep multi-directional exchange between the city government and the fellows, but also among the host cities.</p>
       <ul>
-        <li><a href="#">Learn about becoming a city</a></li>
-        <li><a href="#">Recommend a city</a></li>
-        <li><a href="#" class="active">apply to become a city</a></li>
+        <li><a href="#">Learn about becoming a cfa city</a></li>
+        <li><a href="#">Recommend your city for cfa</a></li>
+        <li><a href="#" class="active">apply to become a cfa city</a></li>
       </ul>
     </div>
     <ul id="slider">

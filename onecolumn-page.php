@@ -15,7 +15,7 @@
 get_header(); ?>
 
 	<div class="wrap clearfix" id="inner">
-	  <div id="maincontent" class="fullcolumn">
+	  <div id="maincontent" class="fullcolumn" style="width: 950px;" >
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 				<div class="entry-content" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
