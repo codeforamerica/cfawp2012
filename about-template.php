@@ -19,7 +19,7 @@ get_header(); ?>
 	<div class="wrap clearfix">
 		<div id="mission">
 			<h2>OUR MISSION</h2>
-			<p>Code for America is a new non-profit, and a new kind of organization. We are building a network of city leaders who believe there is a better way of doing things, and the program involves both formal and informal channels to share ideas and lessons learned.</p>
+			<p>Code for America enlists the brightest minds of the web industry into public service to use their skills to solve core problems facing our communities. We help talented technologists leverage the power of the internet to make governments more open and efficient, and become civic leaders able to realize transformational change with technology.</p>
 		</div>
         <?php include 'fellow_carousel.php'; ?>		
 	</div>
@@ -27,17 +27,23 @@ get_header(); ?>
 <div class="wrap clearfix" id="whh">
 	<div class="box">
 		<h3>Who we are</h3>
-		<p>Our team is made up of web geeks, city experts, and technology industry leaders. Phasellus urna lacus, adipiscing vitae porttitor sed, dapibus et enim. Nam vitae nisi ornare mauris viverra congue in placerat nunc.</p>
-		<p align="right"><a href="#" class="more">meet our team</a></p>
+		<p>Code for America is a new non-profit, and a new kind of organization. Our team is made up of web geeks, city experts, and technology industry leaders. We are building a network of civic leaders who believe there is a better way of doing things and want to make a difference.</p>
+		<p align="right"><a href="#" class="more">Get to know us</a></p> 
 	</div>
 	<div class="box">
-		<h3>how we make a difference</h3>
-		<p>Code for America helps city governments become more transparent, connected, and efficient by connecting the talents of cutting-edge web developers with people who deliver city services and want to embrace the transformative power of the web to achieve more impact with less money.</p>
+		<h3>what we do</h3>
+		<p>We make it easy and attractive for the web generation to give back. Working with civic leaders, we identify core problems, and then we recruit passionate web developers to create new kinds of solutions: light-weight, efficient, and scalable.</p>
+		<p align="right"><a href="#" class="more">Our Current Projects</a></p> 
+		
 	</div>
 	<div class="box">
-		<h3>How we’re funded</h3>
+			<h3>how we make a difference</h3>
+			<p>Code for America helps governments become more transparent, connected, and efficient by connecting web developers with people who deliver city services, and through that process, we are growing the corp of tech-savvy citizens working to better our communities.</p>
+			<p align="right"><a href="#" class="more">Our Broader Impact</a></p> 
+			
+	<!--	<h3>How we’re funded</h3>
 		<p>Code for America is generously supported by leaders in philanthropy and technology. Their support helps make our work connecting city government and web talent possible.</p>
-		<p align="right"><a href="#" class="more">our generous donors</a></p>
+		<p align="right"><a href="#" class="more">our generous donors</a></p>-->
 	</div>
 </div>
 <div class="wrap-t">
@@ -167,7 +173,7 @@ get_header(); ?>
 			<p>Take a minute and look at your city government’s webpage. Is there anywhere for you to share input? Is there an app you can download to your phone to provide feedback or submit an id leo commodo imperdiet et in diam. Donec pharetra varius neque eu facilisis. In ullamcorper pellentesque diam. Fusce molestie, elit et scelerisque elementum, velit quam convallis lacus, sit amet molestie nisl nisi in nibh.</p>
 			
 		<?php 			global $more;
-					$more = 1; ?>
+					$more = 0; ?>
 				<?php 
 			
 				query_posts('page_id=1078'); ?>		  
