@@ -1366,7 +1366,7 @@ border: none;}
   padding-top: 20px;
 }
 
-#cities #participating-wrap {
+#cities #participating-wrap, .issues #participating-wrap  {
   padding-bottom: 30px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
 }
@@ -1432,14 +1432,14 @@ color: #CB2A3C;
   font-size: 1.17em;
 }
 
-#cities #twocols-container {
+#cities #twocols-container, .issues #twocols-container  {
   float: none;
   width: auto;
   margin-top: 30px;
   background: url(images/vertical-dot.gif) 620px 0 repeat-y;
 }
 
-#cities #maincontent {
+#cities #maincontent, .issues  #maincontent  {
   width: 600px;
   font-size: 1.17em;
 }
@@ -2411,7 +2411,6 @@ margin-bottom: 10px;
 #issues h3 a:active {color:#666; text-decoration:none;}
 .issues h4 {
   padding-bottom: 5px;
-  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
  margin-bottom: 8px;
 display: block;
 color: black;
