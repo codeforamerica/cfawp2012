@@ -2401,12 +2401,25 @@ margin-bottom: 10px;
   font-size: 1.29em;
   padding-left: 105px;
 }
-#accordion {margin-top: 10px;}
-#accordion div {padding: 10px 15px;}
-#accordion h3 { height:32px; padding:50px 0 0 15px; margin: 5px 5px 5px 0px; font-size: 26px; text-align: right;}
-#accordion h3 a { background-color:#FFF; padding:3px 5px; text-transform:uppercase;}
-#accordion h3 a:link {color:#000; text-decoration:none;}
-#accordion h3 a:visited {color:#000; text-decoration:none;}
-#accordion h3 a:hover {color:#666; text-decoration:none;}
-#accordion h3 a:active {color:#666; text-decoration:none;}
+#issues {margin-top: 10px;}
+#issues div {padding: 10px 15px;}
+#issues h3 { height:32px; padding:50px 0 0 15px; margin: 5px 5px 5px 0px; font-size: 26px; text-align: right;}
+#issues h3 a { background-color:#FFF; padding:3px 5px; text-transform:uppercase;}
+#issues h3 a:link {color:#000; text-decoration:none;}
+#issues h3 a:visited {color:#000; text-decoration:none;}
+#issues h3 a:hover {color:#666; text-decoration:none;}
+#issues h3 a:active {color:#666; text-decoration:none;}
+.issues h4 {
+  padding-bottom: 5px;
+  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
+ margin-bottom: 8px;
+display: block;
+color: black;
+font-size: 1.2em;
+font-weight: bold;
+padding: 0px 95px 5px 0px;
+position: relative;
+text-transform: uppercase;
 
+}
+.issues strong {color: #409dd6;}

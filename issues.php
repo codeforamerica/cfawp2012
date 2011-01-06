@@ -19,7 +19,7 @@ get_header(); ?>
   <div id="maincontent">
 
 <div class="ttl">Issues We're Working On</div>  
-<div id="accordion">
+<div id="issues">
 	<h3 style="background:url(<?php bloginfo( 'template_url' ); ?>/images/openness.gif) center center no-repeat"><a href="#">Openness</a></h3>
 	<div>
 		<p>Openness in government can come about in many different ways: public information is freely available and useful; the workings of government are made transparent; or those working in the public interest develop the "new commons", freely available civic tools and knowledge. At their core, however, is an important and common underlying principle; that by reducing barriers and sharing what we create, we can work together to make our governments and communities more efficient and effective.</p>

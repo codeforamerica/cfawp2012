@@ -61,7 +61,7 @@ $(document).ready(function() {
 		  autoPlay            : false,     
 		  easing              : "swing"    
 		});
-	$("#accordion").accordion({ active: "none", autoHeight: false });
+	$("#issues").accordion({ active: "none", autoHeight: false });
 	
 });
 </script>
