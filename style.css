@@ -2422,3 +2422,6 @@ text-transform: uppercase;
 
 }
 .issues strong {color: #409dd6;}
+
+.page-template-issues-single-template-php #issues  h3 { height:32px; padding:80px 0 0 15px; margin: 0px 5px 5px 0px; font-size: 26px; text-align: right;}
+

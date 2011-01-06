@@ -18,10 +18,10 @@ get_header(); ?>
 <div class="wrap clearfix" id="cities-detail">
   <div id="top-wrap" class="clearfix">
   <!--District of columbia -->
-  	<div id="intro">
-    <h2>District of columbia, your new startup</h2>
+  	<div id="intro"><?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+	
+    <h2><?php the_title(); ?></h2>
 
-		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 
 							<?php the_content(); ?>
@@ -29,7 +29,6 @@ get_header(); ?>
 							<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 
 
-	<?php endwhile; ?>
 	
   </div>
   <div class="right-col">
@@ -54,38 +53,49 @@ get_header(); ?>
   	<div id="maincontent">
 	<!--The challenges -->
 		<div class="ttl">The challenges</div>
-		<ul>
-			<li>Overcome the technical challenges to replicating an existing city infrastructure</li>
-			<li>Research and consolidate existing policies and practice sinto a “how-to” manual for other municipalities</li>
-			<li>Work with DC developers and staff to open source apps</li>
-			<li>Discover and implement the best option for code hosting and sharing</li>
-			<li>Design a system that enables cities to replicate existing code projects in a sustainable and cost-effective manner</li>
-		</ul>
+	<?php $leftcolumn="leftcolumn"; echo get_post_meta($post->ID, $leftcolumn, true); ?>
+	<?php endwhile; ?>
 		<!--In the press -->
 		<div id="press">
-			<div class="ttl">In the press <a href="#" class="more">view more articles</a></div>
+		<!--	<div class="ttl">In the press <a href="#" class="more">view more articles</a></div>
 			<h2 class="first">Program matches geeks with government</h2>
 			<p class="date-cat">Aug 13, 2010, <a href="#">Santa Cruz Sentinel</a></p>
 			<p>Code for America is matching up geeks with government. The San Francisco-based nonprofit is accepting applications until Sunday for fellowships for software developers, designers, and eu nisi. Suspendisse gravida, est et facilisis posuere, turpis metus vestibulum justo, nec porttitor augue quam sit amet velit. Quisque interdum ante id diam rutrum a lobortis lorem tempus.</p>
 			<h2>code for america offers young web developers a chance to bring cities to the web 2.0</h2>
 			<p class="date-cat">Aug 8, 2010, <a href="#">Campus Progress</a></p>
 			<p>Take a minute and look at your city government’s webpage. Is there anywhere for you to share input? Is there an app you can download to your phone to provide feedback or submit an id leo commodo imperdiet et in diam. Donec pharetra varius neque eu facilisis. In ullamcorper pellentesque diam. Fusce molestie, elit et scelerisque elementum, velit quam convallis lacus, sit amet molestie nisl nisi in nibh.</p>
-		</div>
+		</div>-->
+		
+		<script type="text/javascript">// <![CDATA[
+		  var is_ssl = ("https:" == document.location.protocol);
+		  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+		  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+		// ]]></script>
+		<script type="text/javascript">// <![CDATA[
+		  var feedback_widget_options = {};
+		  feedback_widget_options.display = "inline";  
+		  feedback_widget_options.company = "code_for_america";
+		  feedback_widget_options.style = "question";
+		  feedback_widget_options.product = "<?php $satisfactionid="satisfactionid"; echo get_post_meta($post->ID, $satisfactionid, true); ?>";
+		  feedback_widget_options.limit = "10";
+		  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+		// ]]></script></div>
 	</div>
 	<div class="right-col">
-		<div class="ttl">Blog Updates <a href="#" class="more">archives</a></div>
-		<h2><a href="#">we are now officially recruiting!</a></h2>
-	  <p class="date">June 1st, 2010<br />
-		  <a href="#">by Jennifer Pahlka</a></p>
-		<p>Yesterday we honored those who paid the highest price in service to their country. Suspendisse gravida, est et facilisis posuere, turpis metus vestibulum justo, nec porttitor augue quam sit amet velit...</p>
+		<?php $queryargs = get_post_meta($post->ID, 'queryargs', true); ?>
+		<?php query_posts(); ?>
+			<?php query_posts($queryargs.'&showposts=2'); ?>
+		<div class="ttl">Blog Updates <!--<a href="#" class="more">archives</a>--></div>
+		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+		
+		<h2><a href="#"><?php the_title(); ?></a></h2>
+	  <p class="date"><?php the_date(); ?><br />
+		  <a href="#">by <?php the_author(); ?></a></p>
+		<p><?php the_excerpt(); ?></p>
 		<a href="#" class="red-btn left"><span>SHARE THIS +</span></a>
 		<a href="#" class="red-btn right"><span>COMMENTS (7)</span></a>
-		<h2><a href="#">ANOTHER BLOG ENTRY TITLE THAT SPANS TWO LINES</a></h2>
-	  <p class="date">June 1st, 2010<br />
-		  <a href="#">by Jennifer Pahlka</a></p>
-		<p>Morbi dapibus, tellus consequat dictum auctor, nisi turpis volutpat felis, ac eleifend lorem nunc sed justo. Sed varius consectetur aliquet. Donec hendrerit lobortis vehicula. Maecenas quam lacus, congue quis rutrum vitae, facilisis in odio. Phasellus pharetra vehicula sapien vel mollis. Vivamus faucibus viverra semper. Aliquam convallis nibh sed nulla egestas ultricies.</p>
-		<a href="#" class="red-btn left"><span>SHARE THIS +</span></a>
-		<a href="#" class="red-btn right"><span>COMMENTS (15)</span></a>
+		<?php endwhile; ?>
+		
 	</div>
   </div>
 </div>
