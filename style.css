@@ -484,9 +484,10 @@ top: 60px;}
 
 .twtr-widget {
 margin-left:15px;
+font-size: ;
 }
 
-
+.twtr-tweets {font-size: 12px;}
 /*   Inner Page   */
 
 #inner {
@@ -608,7 +609,7 @@ h2.lh {
 #maincontent li {
    padding:0 0 10px 20px;
    background: url(images/bullet-red-arrow.gif) 0 3px no-repeat;
-line-height: 1.3em;
+line-height: 1.4em;
 }
 
 
