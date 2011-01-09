@@ -68,8 +68,8 @@
 				</ul>
 			</li>
 			<li><h4><a href="#">Search</a></h4><form role="search" method="get" id="searchform" action="/cfa_wordpress/">
-				<input type="text" value="" name="s" id="s" style="border: 1px solid #999;">
-				</form></li>
+		<input type="text" value="..." name="s" id="s" style="border: 1px dotted #ccc; font-weight: bold; padding-left: 2px; width: 140px;" value="First name" onfocus="if (this.value == '...') {this.value = '';}" onblur="if (this.value == '') {this.value = '...';}">
+						</form></li>
 		</ul>
 		<p id="copyr">Code for America Labs, Inc is a non-partisan, non-political 501(c)3 organization. Content is licensed through <a href="#">Creative Commons</a>.</p>
 	</div>
