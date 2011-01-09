@@ -85,8 +85,7 @@ get_header(); ?>
 	
 		<div class="ttl">Blog Updates <a href="/cfa_wordpress/tag/<?php echo get_post_meta($post->ID, $satisfactionid, true); ?>" class="more">archives</a></div>
 			<?php $queryargs = get_post_meta($post->ID, 'queryargs', true); ?>
-			<?php query_posts(); ?>
-				<?php query_posts($queryargs.'&showposts=2'); ?>
+				<?php query_posts( $queryargs . '&showposts=2' ); ?>
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 		
 		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -94,7 +93,7 @@ get_header(); ?>
 		  <a href="#">by <?php the_author(); ?></a></p>
 		<p><?php the_excerpt(); ?></p>
 		<a href="#" class="red-btn left"><span class="st_sharethis_custom">SHARE THIS +</span></a>
-		<a href="<?php the_permalink(); ?>/#comments" class="red-btn right"><span>COMMENTS <?php comments_number('(0)','(1)','(%)'); ?></span></a>
+		<a href="<?php the_permalink(); ?>/#comments" class="red-btn right"><span>COMMENTS</span></a>
 		<?php endwhile; ?>
 		
 	</div>
