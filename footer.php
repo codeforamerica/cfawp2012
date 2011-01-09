@@ -53,12 +53,10 @@
 					<li><a href="#">In Lacus</a></li>
 				</ul>
 			</li>
-			<li><h4><a href="#">Get Involved</a></h4>
-			</li>
 			<li><h4><a href="#">Donate</a></h4>
 				<ul>
 					<li><a href="#">Financial Contributions</a></li>
-					<li><a href="#">Supplies &amp; In-Kind Donations</a></li>
+					<li><a href="#">In-Kind Donations</a></li>
 				</ul>
 			</li>
 			<li><h4><a href="#">Social</a></h4>
@@ -69,6 +67,9 @@
 					<li><a href="#">RSS</a></li>
 				</ul>
 			</li>
+			<li><h4><a href="#">Search</a></h4><form role="search" method="get" id="searchform" action="/cfa_wordpress/">
+				<input type="text" value="" name="s" id="s" style="border: 1px solid #999;">
+				</form></li>
 		</ul>
 		<p id="copyr">Code for America Labs, Inc is a non-partisan, non-political 501(c)3 organization. Content is licensed through <a href="#">Creative Commons</a>.</p>
 	</div>

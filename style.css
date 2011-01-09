@@ -2426,3 +2426,5 @@ text-transform: uppercase;
 
 .page-template-issues-single-template-php #issues  h3 { height:32px; padding:80px 0 0 15px; margin: 0px 5px 5px 0px; font-size: 26px; text-align: right;}
 
+.nav-next {float: right;}
+.nav-previous {float: left;}
