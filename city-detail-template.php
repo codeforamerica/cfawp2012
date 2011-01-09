@@ -76,7 +76,7 @@ get_header(); ?>
 		  feedback_widget_options.display = "inline";  
 		  feedback_widget_options.company = "code_for_america";
 		  feedback_widget_options.style = "question";
-		  feedback_widget_options.product = "<?php $satisfactionid="satisfactionid"; echo get_post_meta($post->ID, $satisfactionid, true); ?>";
+		  feedback_widget_options.product = "code_for_america_<?php $satisfactionid="satisfactionid"; echo get_post_meta($post->ID, $satisfactionid, true); ?>";
 		  feedback_widget_options.limit = "10";
 		  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
 		// ]]></script></div>
@@ -85,7 +85,7 @@ get_header(); ?>
 		<?php $queryargs = get_post_meta($post->ID, 'queryargs', true); ?>
 		<?php query_posts(); ?>
 			<?php query_posts($queryargs.'&showposts=2'); ?>
-		<div class="ttl">Blog Updates <!--<a href="#" class="more">archives</a>--></div>
+		<div class="ttl">Blog Updates <a href="/cfa_wordpress/tag/<?php echo get_post_meta($post->ID, $satisfactionid, true); ?>" class="more">archives</a></div>
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 		
 		<h2><a href="#"><?php the_title(); ?></a></h2>

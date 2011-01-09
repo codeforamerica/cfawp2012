@@ -31,6 +31,10 @@ get_header(); ?>
 				<?php printf( __( 'Monthly Archives: <span>%s</span>', 'twentyten' ), get_the_date('F Y') ); ?>
 <?php elseif ( is_year() ) : ?>
 				<?php printf( __( 'Yearly Archives: <span>%s</span>', 'twentyten' ), get_the_date('Y') ); ?>
+			<?php elseif ( is_tag() ) : ?>
+				
+					<?php	printf( __( '%s Archives', 'twentyten' ), '<span>' . single_tag_title( '', false ) . '</span>' ); ?>
+				
 <?php elseif ( is_category() ) : ?>
 				<?php printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?>
 <?php else : ?>
