@@ -61,8 +61,34 @@ $(document).ready(function() {
 		  autoPlay            : false,     
 		  easing              : "swing"    
 		});
+
+    $('a[rel=tooltip1]').mouseover(function(e) {
+        var tip1 = $(this).attr('title');    
+        $(this).attr('title','');
+		$("#tip1").html(tip1);
+    }).mouseout(function() {
+        $(this).attr('title',$('#tip1').html());
+		$("#tip1").html(' ');
+
+    });
+	$('a[rel=tooltip2]').mouseover(function(e) {
+        var tip2 = $(this).attr('title');    
+        $(this).attr('title','');
+		$("#tip2").html(tip2);
+    }).mouseout(function() {
+        $(this).attr('title',$('#tip2').html());
+		$("#tip2").html(' ');
+    });
+	$('a[rel=tooltip3]').mouseover(function(e) {
+        var tip3 = $(this).attr('title');    
+        $(this).attr('title','');
+		$("#tip3").html(tip3);
+    }).mouseout(function() {
+        $(this).attr('title',$('#tip3').html());
+		$("#tip3").html(' ');
+    });
 	$("#issues").accordion({ active: "none", autoHeight: false });
-	
+
 });
 </script>
 

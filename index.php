@@ -196,6 +196,8 @@ our (infrequent) newsletter</span>
                 </script>
 					<style>.twtr-hd { padding: 0px; }
 					.twtr-ft {display: none;}
+					.twtr-tweet {font-size: 10px;}
+					
 					</style>
 				</div>
 			</div>
