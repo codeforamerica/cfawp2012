@@ -40,7 +40,7 @@ get_header(); ?>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows1.jpg" alt="" /></li>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows2.jpg" alt="" /></li>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows3.jpg" alt="" /></li>
-        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows4.jpg" alt="" /></li>
+        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows5.jpg" alt="" /></li>
       </ul>
       <p>Anyone with the skills and passion to make cities work better using technology. Many of you will be starting your careers, but others of you will have been working on the web for years and just want a chance to do something important and altruistic. All of you will want to see your work make a difference to cities and change how government works.</p>
     </div>
