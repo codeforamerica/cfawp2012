@@ -25,7 +25,7 @@ get_header(); ?>
 		the_post();
 ?>
 
-<div class="ttl"><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?></div>
+<div class="ttl"><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?><span style="color: #999; font-size: 14px; margin-left: 15px;"><?php the_author_meta( 'nickname' ); ?></span></div>
 
   		<div style="min-height: 150px;">	<span style="font-size: 1em; line-height: 1.6em;"><p><div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
   								 <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 120 ) ); ?>

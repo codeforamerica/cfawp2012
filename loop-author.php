@@ -19,7 +19,8 @@
  */
 ?>
 
-<div class="ttl"><?php printf( esc_attr__( 'Posts by %s', 'twentyten' ), get_the_author() ); ?></div>
+<div class="ttl" style="font-size: 16px;">Posts by 
+<?php the_author_meta( 'first_name' ); ?></div>
 <div id="posts">
 <div id="cfa-blog" class="wrap">
 
@@ -52,7 +53,7 @@
 	<div id="post" class="loop-post">
 	 	<h2 class=""><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 			<p class="date"><?php twentyten_posted_on(); ?></p>
-	<div style="float: left;"><?php the_post_thumbnail('thumbnail'); ?></div>	<div class="post" style="
+	<div style="float: left; margin-bottom: 30px;"><?php the_post_thumbnail('thumbnail'); ?></div>	<div class="post" style="
 	<?php 
 			if (has_post_thumbnail()) {
 			echo 'margin-left: 180px';

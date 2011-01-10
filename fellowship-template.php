@@ -86,7 +86,10 @@ get_header(); ?>
           <td>10/01/11</td>
           <th>Final decisions on fellows announced <span>&raquo;</span></th>
         </tr>
-       
+       	<tr class="odd">
+          <td>01/04/12</td>
+          <th>2012 Fellows begin CfA Institute<span>&raquo;</span></th>
+        </tr>
       </table>
       <h4>2011 Fellows</h4>
       <table border="0" cellspacing="0" cellpadding="0">
@@ -100,7 +103,7 @@ get_header(); ?>
         </tr>
         <tr class="odd">
           <td>03/11 - 08/11</td>
-          <th>Development <span>&raquo;</span></th>
+          <th>Development with ongoing training and mentoring <span>&raquo;</span></th>
         </tr>
 		  <tr>
 	          <td>09/11</td>
