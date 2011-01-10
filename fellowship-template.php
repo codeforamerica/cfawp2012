@@ -18,7 +18,7 @@ get_header(); ?>
 <div class="wrap clearfix">
   <div id="mission">
     <h2>OUR FELLOWSHIP</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in nunc est. Quisque eget nisl eros, congue fermentum ipsum. Donec sollicitudin orci quis justo rutrum ut dapibus neque facilisis. Aliquam gravida, massa ut suscipit euismod, tellus leo faucibus sem, ac malesuada elit arcu sit amet ante</p>
+    <p>Through Code for America's fellowship program, talented web developers, designers, and entrepreneurs leverage the power of the internet to make governments more open and efficient, and in doing so, they become civic leaders able to realize transformational change in government with technology.</p>
   </div>
   <?php include 'fellow_carousel.php'; ?>
 
@@ -27,11 +27,12 @@ get_header(); ?>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
     <h2 class="ttl">Why Become a Fellow? <a href="#" class="red-btn"><span>SHARE THIS +</span></a></h2>
+<p>	During the 11-month program, fellows not only work together to solve local problems, but also receive the training and support to be positioned as a leader in business, public service, or both:</p>
     <ul id="why">
-      <li><strong class="number">1</strong> Gov 2.0 Training. You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
-      <li><strong class="number">2</strong> Professional Development. The biggest names in the web industry and the Gov 2.0 movement will provide you unparalleled networking, mentoring, and support.</li>
-      <li><strong class="number">3</strong> Alumni Connections. Working closely with other talented individuals, you will develop lasting professional relationships in a face-paced, startup atmosphere.</li>
-      <li><strong class="number">4</strong> Employer Partnerships. Multiple leading internet companies have already pledged to guarantee interviews for a full-time position after your CfA experience.</li>
+      <li><strong class="number">1</strong> <strong>Gov 2.0 Training.</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
+      <li><strong class="number">2</strong> <strong>Professional Development.</strong> The biggest names in the web industry and the Gov 2.0 movement will provide you unparalleled networking, mentoring, and support.</li>
+      <li><strong class="number">3</strong> <strong>Alumni Connections.</strong> Working closely with other talented individuals, you will develop lasting professional relationships in a face-paced, startup atmosphere.</li>
+      <li><strong class="number">4</strong> <strong>Employer Partnerships.</strong> Multiple leading internet companies have already pledged to guarantee interviews for a full-time position after your CfA experience.</li>
     </ul>
     <div class="box">
       <h3 class="ttl">What Are We looking For? <a href="#" class="more">Read More</a></h3>
@@ -55,8 +56,8 @@ get_header(); ?>
   <div class="right-col">
     <div class="testimonial-wrap">
       <div class="testimonial-content">
-        <h4>"Testimonial by a current Code for America Fellow."</h4>
-        <p>Aneesh Chopra <span class="position">OSTP Associate Director</span></p>
+        <h4>"Join our movement... and <em>make a difference</em>"</h4>
+        <p>Aneesh Chopra <span class="position">United States CTO</span></p>
         <img src="<?php bloginfo( 'template_url' ); ?>/images/Aneesh.jpg" alt="Aneesh Chopra" /> </div>
     </div>
     <ul>
