@@ -21,7 +21,9 @@ get_header(); ?>
     <div id="participating">
       <h2>PARTICIPATING CITIES</h2>
       <div class="links"><a href="#">All <span>&raquo;</span></a> <a href="#">Boston <span>&raquo;</span></a> <a href="#">Washington, D.C. <span>&raquo;</span></a> <a href="#">Philadelphia <span>&raquo;</span></a> <a href="#">Seattle <span>&raquo;</span></a></div>
-      <p>Cities are at the core of the CfA program. Each participating city identifies the need for a project, and is assigned a team of five fellows who will develop that application for the city over the course of the 11 month cycle. Beyond simply procuring a piece of software, the cities engage in a deep multi-directional exchange between the city government and the fellows, but also among the host cities.</p>
+      <p>Cities matter. Big or small, they are where we work, how we survive, and what we call home. CfA connects forward-thinking cities with the talent from the web industry to develop reusable civic technology. Partnering cities will not only solve a critical problem using technology, but also help cultivate the next generation of tech-savvy, civic leaders.
+	
+	</p>
       <ul>
         <li><a href="#">Learn about becoming a cfa city</a></li>
         <li><a href="#">Recommend your city for cfa</a></li>
