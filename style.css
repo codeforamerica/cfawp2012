@@ -2404,7 +2404,7 @@ margin-bottom: 10px;
 }
 #issues {margin-top: 10px;}
 #issues div {padding: 10px 15px;}
-#issues h3 { height:32px; padding:50px 0 0 15px; margin: 5px 5px 5px 0px; font-size: 26px; text-align: right;}
+#issues h3 { height:32px; padding:50px 0 0 15px; margin: 5px 5px 5px 0px; font-size: 26px; text-align: right; outline: none;}
 #issues h3 a { background-color:#FFF; padding:3px 5px; text-transform:uppercase;}
 #issues h3 a:link {color:#000; text-decoration:none;}
 #issues h3 a:visited {color:#000; text-decoration:none;}

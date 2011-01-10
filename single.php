@@ -22,7 +22,7 @@ get_header(); ?>
 					 <div class="ttl"><?php the_title(); ?><a href="#" class="red-btn"><span class="st_sharethis_custom">Share This</a></span></div>
 
 					<div class="entry-meta" style="margin-top: 10px;">
-					<small>	<?php twentyten_posted_on(); ?></small>
+					<small>	<?php twentyten_posted_on(); ?> <?php twentyten_posted_in(); ?></small>
 					</div><!-- .entry-meta -->
 
 					<div class="entry-content">
@@ -31,14 +31,14 @@ get_header(); ?>
 						
 					</div>
 						<div class="entry-utility">
-							<?php twentyten_posted_in(); ?>
+							<!--<?php twentyten_posted_in(); ?>-->
 							<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 						</div><!-- .entry-utility --><!-- .entry-content -->
-						
-						<div id="nav-below" class="navigation">
+					<hr />	
+						<!--<div id="nav-below" class="navigation">
 							<div class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
 							<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
-						</div><!-- #nav-below -->
+						</div> -->
 						<?php comments_template( '', true ); ?>
 </div>
 
