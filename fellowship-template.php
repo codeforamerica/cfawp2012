@@ -46,7 +46,7 @@ get_header(); ?>
     </div>
     <div class="box">
       <h3 class="ttl">The application Process <a href="#" class="more">Read More</a></h3>
-      <p>Applications are due August 15th at MIDNIGHT PST, but don’t wait until then to apply. We may ask you for additional information once we see your application, and the more time you give us, the better your chances of being selected. Folks selected for interviews will be contacted by September 1.</p>
+      <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The application deadline for the 2011 fellowship has passed. The application process for the 2012 Fellowship will open on March 1, 2011.</p>
     </div>
     <div class="box">
       <h3 class="ttl">The Training <a href="#" class="more">Read More</a></h3>
@@ -67,14 +67,14 @@ get_header(); ?>
     </ul>
     <div id="dates">
       <h3>Dates To Keep In Mind</h3>
-      <h4>Contributors</h4>
+      <h4>2012 Applicants</h4>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
-          <td>06/01/10</td>
+          <td>03/01/11</td>
           <th>Application form for all fellows available <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>08/15/10</td>
+          <td>08/15/11</td>
           <th>Fellow applications due <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
@@ -83,28 +83,33 @@ get_header(); ?>
             begin <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>10/01/10</td>
+          <td>10/01/11</td>
           <th>Final decisions on fellows announced <span>&raquo;</span></th>
         </tr>
-        <tr class="odd">
-          <td>10/15/10</td>
-          <th>Deadline for fellows to commit to the program <span>&raquo;</span></th>
-        </tr>
+       
       </table>
-      <h4>Fellows</h4>
+      <h4>2011 Fellows</h4>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
-          <td>01/10</td>
+          <td>01/11</td>
           <th>Orientation/CFA Institute <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>02/10</td>
+          <td>02/11</td>
           <th>City Tour <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>03/10 - 08/10</td>
+          <td>03/11 - 08/11</td>
           <th>Development <span>&raquo;</span></th>
         </tr>
+		  <tr>
+	          <td>09/11</td>
+	          <th>Launch Conference <span>&raquo;</span></th>
+	        </tr>
+			<tr class="odd">
+	          <td>09/11 - 11/11</td>
+	          <th>Maintenance/Hand-off <span>&raquo;</span></th>
+	        </tr>
       </table>
     </div>
   </div>
