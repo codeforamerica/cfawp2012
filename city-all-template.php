@@ -14,45 +14,68 @@ Template Name: All Cities
 */
 
 get_header(); ?>
-
+<style>
+.anythingControls {display:none;}
+</style>
 <div class="wrap clearfix" id="cities">
   <!--PARTICIPATING CITIES -->
   <div id="participating-wrap" class="clearfix">
     <div id="participating">
       <h2>PARTICIPATING CITIES</h2>
-      <div class="links"><a href="#">All <span>&raquo;</span></a> <a href="#">Boston <span>&raquo;</span></a> <a href="#">Washington, D.C. <span>&raquo;</span></a> <a href="#">Philadelphia <span>&raquo;</span></a> <a href="#">Seattle <span>&raquo;</span></a></div>
+      <div class="links"> <a href="/boston">Boston <span>&raquo;</span></a> <a href="/dc">Washington, D.C. <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a>  <a href="/cities/apply">Apply <span>&raquo;</span></a></div>
       <p>Cities matter. Big or small, they are where we work, how we survive, and what we call home. CfA connects forward-thinking cities with the talent from the web industry to develop reusable civic technology. Partnering cities will not only solve a critical problem using technology, but also help cultivate the next generation of tech-savvy, civic leaders.
 	
 	</p>
       <ul>
-        <li><a href="#">Learn about becoming a cfa city</a></li>
-        <li><a href="#">Recommend your city for cfa</a></li>
-        <li><a href="#" class="active">apply to become a cfa city</a></li>
+        <li><a href="/cities/model-city-projects">Read about our model city projects</a></li>
+        <li><a href="/citizen-action-center">Spread the word in your city</a></li>
+        <li><a href="/cities/apply" class="active">apply to become a cfa city</a></li>
       </ul>
     </div>
     <ul id="slider">
-      <li> <img src="<?php bloginfo( 'template_url' ); ?>/images/Boston.jpg" alt="Boston" />
+      <li> <a href="/boston"><img src="<?php bloginfo( 'template_url' ); ?>/images/Boston.jpg" alt="Boston" /></a>
         <div class="clearfix">
           <table border="0" cellspacing="0" cellpadding="0">
             <tr>
-              <th>Boston</th>
+           <th>Boston</th>
               <td>Home to the first public school in the nation. The perfect place for Code for America Fellows to build a platform for educational services. &raquo;</td>
             </tr>
           </table>
         </div>
       </li>
-      <li> <img src="<?php bloginfo( 'template_url' ); ?>/images/Boston.jpg" alt="Boston" />
+      <li> <a href="/dc"><img src="<?php bloginfo( 'template_url' ); ?>/images/headers/dc.jpg" alt="DC" /></a>
         <div class="clearfix">
           <table border="0" cellspacing="0" cellpadding="0">
             <tr>
               <th>Washington, D.C.</th>
-              <td>Home to the first public school in the nation. The perfect place for Code for America Fellows to build a platform for educational services. &raquo;</td>
+              <td>A leader in the local Gov 2.0, DC hopes create an simple, easy way for governments to share technology and save money. &raquo;</td>
+            </tr>
+          </table>
+        </div>
+      </li>
+	 <li> <a href="/philadelphia"><img src="<?php bloginfo( 'template_url' ); ?>/images/headers/philly2.jpg" alt="Philadelphia" /></a>
+        <div class="clearfix">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th>Philadelphia</th>
+              <td>Philadelphia is looking to re-imagine the way citizens communicate within their city.  &raquo;</td>
+            </tr>
+          </table>
+        </div>
+      </li>
+	 <li> <a href="/seattle"><img src="<?php bloginfo( 'template_url' ); ?>/images/headers/seattle.jpg" alt="Boston" /></a>
+        <div class="clearfix">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th>Seattle</th>
+              <td>Seattle wants to find ways to empower their growing contingent of civic leaders with tools to strengthen their communities. &raquo;</td>
             </tr>
           </table>
         </div>
       </li>
     </ul>
   </div>
+
   <div id="twocols-container" class="clearfix">
     <div id="maincontent" class="entry-content">
       

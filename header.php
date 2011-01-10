@@ -59,8 +59,8 @@ $(document).ready(function() {
   $("#slider").anythingSlider({	
 		  buildArrows         : true,      
 		  buildNavigation     : false,      
-		  autoPlay            : false,     
-		  easing              : "swing"    
+		  autoPlay            : true,  
+		  easing              : "swing"
 		});
 
     $('a[rel=tooltip1]').mouseover(function(e) {
