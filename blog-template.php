@@ -37,10 +37,9 @@ query_posts( $queryargs . '&paged=' . $page); ?>
 				    </div><br>
 				
 				<h3 class="widget-title">CfA Blogs</h3>
-				<img src="<?php bloginfo('template_directory'); ?>/images/headerblog.jpg" width="300px;" hspace="15">
-				<img src="<?php bloginfo('template_directory'); ?>/images/headerfellow.jpg" width="300px;"  hspace="15">
-			
-				<img src="<?php bloginfo('template_directory'); ?>/images/headerproj.jpg" width="300px;"  hspace="15">
+			<a href="http://c4a.me/staff-blog/">	<img src="<?php bloginfo('template_directory'); ?>/images/headerblog.jpg" width="300px;" hspace="15"></a>
+				<a href="http://c4a.me/fellows-blog/"><img src="<?php bloginfo('template_directory'); ?>/images/headerfellow.jpg" width="300px;"  hspace="15"></a>
+		<a href="http://c4a.me/projects-blog/">	<img src="<?php bloginfo('template_directory'); ?>/images/headerproj.jpg" width="300px;"  hspace="15"></a>
 			<br><br>
 				
 <?php get_sidebar(); ?>

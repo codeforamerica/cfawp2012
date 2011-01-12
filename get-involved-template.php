@@ -39,7 +39,7 @@ get_header(); ?>
 	<div class="wrap" id="cfa-blog" style="">
 		<div class="ttl"><a href="#" class="like-btn" id="ttl-rss">RSS</a> CfA BLOG <a href="#" class="more">Go to Blog</a></div>
 	
-		<?php query_posts('showposts=2$category_name=get-involved'); ?>		  
+		<?php query_posts('showposts=2&category_name=get-involved'); ?>		  
 
 				<div>
 			      <div id="maincontent">
