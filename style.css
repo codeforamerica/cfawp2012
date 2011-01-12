@@ -98,6 +98,7 @@ input, select, textarea, button {
   outline: none;
 }
 
+a img, img a {text-decoration: none;}
 
 
 /*   ============   HEADER   ============   */
