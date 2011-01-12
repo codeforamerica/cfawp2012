@@ -30,18 +30,18 @@ get_header(); ?>
 	<div class="box">
 		<h3>Who we are</h3>
 		<p>Code for America is a new non-profit, and a new kind of organization. Our team is made up of web geeks, city experts, and technology industry leaders. We are building a network of civic leaders who believe there is a better way of doing things and want to make a difference.</p>
-		<p align="right"><a href="#" class="more">Get to know us</a></p> 
+		<p align="right"><a href="/who-we-are" class="more">Get to know us</a></p> 
 	</div>
 	<div class="box">
 		<h3>what we do</h3>
 		<p>We make it easy and attractive for the web generation to give back. Working with civic leaders, we identify core problems, and then we recruit passionate web developers to create new kinds of solutions: light-weight, efficient, and scalable.</p>
-		<p align="right"><a href="#" class="more">Our Current Projects</a></p> 
+		<p align="right"><a href="/cities" class="more">Our Current Projects</a></p> 
 		
 	</div>
 	<div class="box">
 			<h3>how we make a difference</h3>
 			<p>Code for America helps governments become more transparent, connected, and efficient by connecting web developers with people who deliver city services, and through that process, we are growing the corp of tech-savvy citizens working to better our communities.</p>
-			<p align="right"><a href="#" class="more">Our Broader Impact</a></p> 
+			<p align="right"><a href="/broader-impact" class="more">Our Broader Impact</a></p> 
 			
 	<!--	<h3>How we’re funded</h3>
 		<p>Code for America is generously supported by leaders in philanthropy and technology. Their support helps make our work connecting city government and web talent possible.</p>
@@ -87,7 +87,7 @@ get_header(); ?>
 
 				<li><a href="who-we-are/#cshirky" rel="tooltip3" title="Clay Shirky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cshirky.jpg" alt="Staff name" /></a></li>
 		</ul>
-		<p align="right" style="margin-top: -3px;"><a href="#" class="more"><strong>CITY STEERING COMMITTEE</strong></a>&nbsp;&nbsp;&nbsp;<a href="#" class="more"><strong>FRIENDS OF CFA</strong></a></p>
+		<p align="right" style="margin-top: -3px;"><a href="/who-we-are/#city-steering" class="more"><strong>CITY STEERING COMMITTEE</strong></a><!--&nbsp;&nbsp;&nbsp;<a href="#" class="more"><strong>FRIENDS OF CFA</strong></a>--></p>
 		
 	</div>
 	
@@ -167,19 +167,19 @@ get_header(); ?>
 			<div class="ttl">In the press <a href="/press" class="more">view more articles</a></div>
 			<a href="http://www.fastcompany.com/magazine/151/icitizen-bonus.html"><h2 class="first">How an Army of Techies is Taking on City Hall</h2></a>
 			<p class="date-cat">Nov 29, 2010, <a href="http://www.fastcompany.com">Fast Company</a></p>
-			<p><img src="/cfa_wordpress/wp-content/themes/cfawp2012/images/Fast-Company-Logo.jpg" width="200px" align="right">This January, a new organization called Code for America, with support from Yahoo, Microsoft, and others, will launch, aiming to leverage the idealism of a generation of young programmers, this time from within city hall… “This transcends political ideology,” says Jennifer Pahlka, Code for America’s founder. “One thing that people of different backgrounds can agree on is that government needs to get better.”</p>
+			<p><img src="/wp-content/themes/cfawp2012/images/Fast-Company-Logo.jpg" width="200px" align="right">This January, a new organization called Code for America, with support from Yahoo, Microsoft, and others, will launch, aiming to leverage the idealism of a generation of young programmers, this time from within city hall… “This transcends political ideology,” says Jennifer Pahlka, Code for America’s founder. “One thing that people of different backgrounds can agree on is that government needs to get better.”</p>
 			
 		
 			
 			<a href="http://www.govtech.com/education/Code-for-America-Programmers-City-Governments.html"><h2>‘Code for America’ Programmers to Work in City Governments</h2></a>
 			<p class="date-cat">Nov 3, 2010, <a href="http://www.govtech.com">Government Technology</a></p>
-			<p><img src="/cfa_wordpress/wp-content/themes/cfawp2012/images/govtech-logo.gif" width="200px" align="right">Four cities will each receive a team of five open source Web programmers for 11 months, as selected by Code for America, a new nonprofit that’s pairing Web geeks with city governments. The selected cities were Boston, Seattle, Philadelphia and Washington, D.C. Each city paid $250,000 to participate, which included submitting applications and proposals for what they wanted from a team of fellows.</p>
+			<p><img src="/wp-content/themes/cfawp2012/images/govtech-logo.gif" width="200px" align="right">Four cities will each receive a team of five open source Web programmers for 11 months, as selected by Code for America, a new nonprofit that’s pairing Web geeks with city governments. The selected cities were Boston, Seattle, Philadelphia and Washington, D.C. Each city paid $250,000 to participate, which included submitting applications and proposals for what they wanted from a team of fellows.</p>
 			
 	
 
 			<a href="http://bits.blogs.nytimes.com/2010/07/06/changing-government-and-tech-with-geeks/">	<h2>Changing Government and Tech With Geeks</h2></a>
 				<p class="date-cat">July 6, 2010, <a href="http://www.nytimes.com">New York Times</a></p>
-				<p><img src="/cfa_wordpress/wp-content/themes/cfawp2012/images/nyt-logo.jpg" width="200px" align="right">Talking about government and computer programming most likely doesn’t evoke the feeling of “fun” for most Americans. But a group of Web geeks and technology leaders is trying to change that with a new nonprofit project, Code for America, which aims to import the efficiency of the Web into government infrastructures.</p>
+				<p><img src="/wp-content/themes/cfawp2012/images/nyt-logo.jpg" width="200px" align="right">Talking about government and computer programming most likely doesn’t evoke the feeling of “fun” for most Americans. But a group of Web geeks and technology leaders is trying to change that with a new nonprofit project, Code for America, which aims to import the efficiency of the Web into government infrastructures.</p>
 			
 		</div>
 </div>

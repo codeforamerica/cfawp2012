@@ -35,7 +35,7 @@ get_header(); ?>
       <li><strong class="number">4</strong> <strong>Employer Partnerships.</strong> Multiple leading internet companies have already pledged to guarantee interviews for a full-time position after your CfA experience.</li>
     </ul>
     <div class="box">
-      <h3 class="ttl">What Are We looking For? <a href="#" class="more">Read More</a></h3>
+      <h3 class="ttl">What Are We looking For? <a href="/fellows/2012-program-and-timeline/" class="more">The Program</a></h3>
       <ul id="what" class="clearfix">
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows1.jpg" alt="" /></li>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows2.jpg" alt="" /></li>
@@ -45,11 +45,11 @@ get_header(); ?>
       <p>Anyone with the skills and passion to make cities work better using technology. Many of you will be starting your careers, but others of you will have been working on the web for years and just want a chance to do something important and altruistic. All of you will want to see your work make a difference to cities and change how government works.</p>
     </div>
     <div class="box">
-      <h3 class="ttl">The application Process <a href="#" class="more">Read More</a></h3>
+      <h3 class="ttl">The application Process <a href="/fellows/fellow-selection/" class="more">Read More</a></h3>
       <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The application deadline for the 2011 fellowship has passed. The application process for the 2012 Fellowship will open on March 1, 2011.</p>
     </div>
     <div class="box">
-      <h3 class="ttl">The Training <a href="#" class="more">Read More</a></h3>
+      <h3 class="ttl">The Training <a href="/fellows/institute/" class="more">Read More</a></h3>
       <p>The selected fellows come together at the Bay Area headquarters for a month of training, team building, working on internal tools, and project research.  A key element of this portion of the program is the guest speaker series; leaders in both government and the web industry provide inspiration and build the corps’ networks.</p>
     </div>
   </div>
@@ -61,34 +61,45 @@ get_header(); ?>
         <img src="<?php bloginfo( 'template_url' ); ?>/images/Aneesh.jpg" alt="Aneesh Chopra" /> </div>
     </div>
     <ul>
-      <li><a href="#">Meet Our Fellows</a></li>
-      <li><a href="#">Learn More About the Fellowship</a></li>
-      <li><a href="#" class="active">Apply To Be A Fellow</a></li>
+      <li><a href="/2011-code-for-america-fellows/">Meet Our Fellows</a></li>
+      <li><a href="/fellows/2012-program-and-timeline/">Learn More About the Fellowship</a></li>
+      <li><a href="https://codeforamerica.wufoo.com/forms/2012-code-for-america-fellows-application/" class="active">Apply To Be A Fellow</a></li>
     </ul>
     <div id="dates">
       <h3>Dates To Keep In Mind</h3>
       <h4>2012 Applicants</h4>
       <table border="0" cellspacing="0" cellpadding="0">
+		<tr  class="odd">
+          <td>03/15/11</td>
+          <th>Early Decision (ED) Application Deadline <span>&raquo;</span></th>
+        </tr>
+		<tr>
+          <td>03/11 - 04/11</td>
+          <th>Interviews for ED Applicants <span>&raquo;</span></th>
+        </tr>
         <tr class="odd">
-          <td>03/01/11</td>
-          <th>Application form for all fellows available <span>&raquo;</span></th>
+          <td>05/1/11</td>
+          <th>ED Applicants Notified of Selection <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>08/15/11</td>
-          <th>Fellow applications due <span>&raquo;</span></th>
+          <td>08/01/10</td>
+          <th>Regular Application Deadline <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>09/01/10</td>
-          <th>First round of applicants notified, interviews <br />
-            begin <span>&raquo;</span></th>
+          <td>08/11 - 09/11</td>
+          <th>Interviews <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>10/01/11</td>
-          <th>Final decisions on fellows announced <span>&raquo;</span></th>
+          <td>09/15/11</td>
+          <th>Applicants Notified of Selection <span>&raquo;</span></th>
         </tr>
-       	<tr class="odd">
+		 <tr class="odd">
+	          <td>10/1/11</td>
+	          <th>2012 CfA Fellows<br>Announced <span>&raquo;</span></th>
+	        </tr>
+       	<tr>
           <td>01/04/12</td>
-          <th>2012 Fellows begin CfA Institute<span>&raquo;</span></th>
+          <th>2012 Fellowship Starts <span>&raquo;</span></th>
         </tr>
       </table>
       <h4>2011 Fellows</h4>

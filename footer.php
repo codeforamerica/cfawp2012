@@ -17,54 +17,52 @@
   	<div class="wrap">
 	<h4 id="logo-f"><a href="http://codeforamerica.org" class="like-btn">Code for America</a></h4>
 		<ul>
-			<li><h4><a href="#">Home</a></h4>
+			<li><h4><a href="/">Home</a></h4>
 			</li>
-			<li><h4><a href="#">About</a></h4>
+			<li><h4><a href="/about">About</a></h4>
 				<ul>
-					<li><a href="#">Who We Are</a></li>
-					<li><a href="#">What We Do</a></li>
-					<li><a href="#">Donors</a></li>
-					<li><a href="#">Press</a></li>
+					<li><a href="/who-we-are">Who We Are</a></li>
+					<li><a href="/what-we-do">What We Do</a></li>
+					<li><a href="/donors">Donors</a></li>
+					<li><a href="/press">Press</a></li>
 				</ul>
 			</li>
-			<li><h4><a href="#">Fellows</a></h4>
+			<li><h4><a href="/fellows">Fellows</a></h4>
 				<ul>
-					<li><a href="#">Timeline</a></li>
-					<li><a href="#">Institute</a></li>
-					<li><a href="#">Broader Impact</a></li>
-					<li><a href="#">Process</a></li>
-					<li><a href="#">Apply</a></li>
+					<li><a href="/fellows/institute">Timeline</a></li>
+					<li><a href="/the-fellowship/2012-program-and-timeline/">Institute</a></li>
+					<li><a href="/fellows-selection">Process</a></li>
+					<li><a href="/apply">Apply</a></li>
 				</ul>
 			</li>
-			<li><h4><a href="#">Citites</a></h4>
+			<li><h4><a href="/cities">Cities</a></h4>
 				<ul>
-					<li><a href="#">Boston</a></li>
-					<li><a href="#">Washington DC</a></li>
-					<li><a href="#">Philadelphia</a></li>
-					<li><a href="#">Seattle</a></li>		
+					<li><a href="/boston">Boston</a></li>
+					<li><a href="/dc">Washington DC</a></li>
+					<li><a href="/philadelphia">Philadelphia</a></li>
+					<li><a href="/seattle">Seattle</a></li>		
 				</ul>
 			</li>
-			<li><h4><a href="#">Issues</a></h4>
+			<li><h4><a href="/issues">Issues</a></h4>
 				<ul>
-					<li><a href="#">Lorem Ipsum</a></li>
-					<li><a href="#">Dolor</a></li>
-					<li><a href="#">Sit Amet</a></li>
-					<li><a href="#">Viverra</a></li>
-					<li><a href="#">In Lacus</a></li>
+					<li><a href="/issues/openness">Openness</a></li>
+					<li><a href="/issues/participation">Participation</a></li>
+					<li><a href="/issues/education">Education</a></li>
+					<li><a href="/issues/efficiency">Efficiency</a></li>
 				</ul>
 			</li>
-			<li><h4><a href="#">Donate</a></h4>
+			<li><h4><a href="/donate">Donate</a></h4>
 				<ul>
-					<li><a href="#">Financial Contributions</a></li>
-					<li><a href="#">In-Kind Donations</a></li>
+					<li><a href="/donate">Financial Contributions</a></li>
+					<li><a href="/supplies">In-Kind Donations</a></li>
 				</ul>
 			</li>
 			<li><h4><a href="#">Social</a></h4>
 				<ul>
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">YouTube</a></li>
-					<li><a href="#">RSS</a></li>
+					<li><a href="http://facebook.com/codeforamerica">Facebook</a></li>
+					<li><a href="http://twitter.com/codeforamerica">Twitter</a></li>
+					<li><a href="http://www.youtube.com/user/CodeforAmerica">YouTube</a></li>
+					<li><a href="/feed">RSS</a></li>
 				</ul>
 			</li>
 			<li><h4><a href="#">Search</a></h4><form role="search" method="get" id="searchform" action="/cfa_wordpress/">
