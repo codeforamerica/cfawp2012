@@ -119,6 +119,10 @@ get_header(); ?>
     <th>Anne &amp; Louis Abrons Foundation</th>
     <td>$10,000</td>
   </tr>
+  <tr class="odd">
+    <th>Clay Johnson</th>
+    <td>$10,000</td>
+  </tr>
 </table>
 
   </div>
