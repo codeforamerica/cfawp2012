@@ -18,9 +18,12 @@
  * @since Twenty Ten 1.0
  */
 ?>
-<div class="ttl"><?php printf( esc_attr__( 'Posts by %s', 'twentyten' ), get_the_author() ); ?></div>
+
+<div class="ttl" style="font-size: 16px;">Posts by 
+<?php the_author_meta( 'first_name' ); ?></div>
 <div id="posts">
 <div id="cfa-blog" class="wrap">
+
 <?php /* If there are no posts to display, such as an empty archive page */ ?>
 <?php if ( ! have_posts() ) : ?>
 	<div id="post-0" class="post error404 not-found">
@@ -48,14 +51,17 @@
 	 */ ?>
 <?php while ( have_posts() ) : the_post(); ?>
 	<div id="post" class="loop-post">
-	    <h2 class=""><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-			<p class="date"><?php twentyten_posted_on(); ?>
-			<div class="post"><?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 105 ) ); ?>
+	 	<h2 class=""><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+			<p class="date"><?php twentyten_posted_on(); ?></p>
+	<div style="float: left; margin-bottom: 30px;"><?php the_post_thumbnail('thumbnail'); ?></div>	<div class="post" style="
+	<?php 
+			if (has_post_thumbnail()) {
+			echo 'margin-left: 180px';
+			 };
+				?> " >
 			<?php the_excerpt(); ?>
             <ul>
-            	<li>Share: <span class="st_sharethis"></span>
-                </a>
-                </li>
+<li>Share: <a href="#" class="like-btn" id="mail-b">E-mail</a> <a href="#" class="like-btn" id="rss-b">RSS</a> <a href="#" class="like-btn" id="fb-b">Facebook</a> <a href="#" class="like-btn" id="tw-b">Twitter</a></li>
             	<li><?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( 'Comment (1)', 'twentyten' ), __( 'Comments (%)', 'twentyten' ), 'comments' ); ?></li>
             	<li class="right"><a class="more" href="<?php the_permalink(); ?>">Read More</a></li>
             </ul>

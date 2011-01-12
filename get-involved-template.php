@@ -25,33 +25,32 @@ get_header(); ?>
 		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/contact-your-city.jpg" alt="Contact Your City" /><strong>4</strong> Contact Your City <span>&raquo;</span></a></li>
 		<li><a href="#"><img src="<?php bloginfo( 'template_url' ); ?>/images/become-a-partner.jpg" alt="Become a Partner" /><strong>5</strong> Become a Partner <span>&raquo;</span></a></li>
 	</ul>
-	<div class="wrap">
-		<h3>Our Impact</h3>
-		<ul>
-			<li><a href="#">Read our latest story of Impact <span>&raquo;</span></a></li>
-			<li><a href="#">Find out what we’ve accomplished in 2010 <span>&raquo;</span></a></li>
-			<li><a href="#">Our future plans <span>&raquo;</span></a></li>
-		</ul>
-	</div>
-	<div class="wrap">
-		<h3>What we need now</h3>
-		<ul>
-			<li><a href="#">Donate Office Supplies <span>&raquo;</span></a></li>
-			<li><a href="#">Code a Wordpress Plugin <span>&raquo;</span></a></li>
-		</ul>
-	</div>
-	<div class="wrap" id="cfa-blog">
+	
+		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+
+							<?php the_content(); ?>
+						
+							<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
+
+
+	<?php endwhile; ?>
+	
+	<div class="wrap" id="cfa-blog" style="">
 		<div class="ttl"><a href="#" class="like-btn" id="ttl-rss">RSS</a> CfA BLOG <a href="#" class="more">Go to Blog</a></div>
-		<h2>An Atypical Internship: Come Build CfA</h2>
-		<p class="date">Sept 23, 2010, <a href="#">Abhi Nemani</a></p>
-		<div class="post"><p><img src="<?php bloginfo( 'template_url' ); ?>/images/abhi.jpg" alt="" />Not sure why they’re making me do this. It’s kind of awkward, actually. See I was just an intern, like a week ago, and now they’re asking me to recruit more interns. It’s as if they are either saying, “you need help” or “render yourself irrelevant”. Either way, not sure…</p>
-		<ul>
-			<li>Share: <a href="#" class="like-btn" id="mail-b">E-mail</a> <a href="#" class="like-btn" id="rss-b">RSS</a> <a href="#" class="like-btn" id="fb-b">Facebook</a> <a href="#" class="like-btn" id="tw-b">Twitter</a></li>
-			<li><a href="#" id="comments">Comments (2)</a></li>
-			<li class="right"><a href="#" class="more">Read More</a></li>
-		</ul></div>
-	</div>
-  </div>
+	
+		<?php query_posts('showposts=2'); ?>		  
+
+				<div>
+			      <div id="maincontent">
+				<div class="ttl">	<?php $headerimg="headerimg"; echo get_post_meta($post->ID, $headerimg, true); ?>
+			</div><?php $blogtitle = get_post_meta($post->ID, 'blogtitle', true);
+			$blogdesc = get_post_meta($post->ID, 'blogdesc', true); ?>
+						<?php
+						get_template_part( 'loop' );
+						?>
+	
+</div></div>  </div></div>
   <div class="right-col" id="featured-partners">
 	<ul>
 		<li><h3>Featured Partners &amp; Supporters <span></span></h3></li>

@@ -28,7 +28,7 @@ a:hover {
   text-decoration: none;
 }
 
-p {line-height: 1.3em;}
+p {line-height: 1.4em; font-size: 14px;}
 
 ul, ol, dl, dt, dd {
   list-style: none;
@@ -98,6 +98,7 @@ input, select, textarea, button {
   outline: none;
 }
 
+a img, img a {text-decoration: none;}
 
 
 /*   ============   HEADER   ============   */
@@ -181,7 +182,7 @@ text-shadow: #999 1px 1px 1px;
 
 #nav li {
   float: left;
-  padding-left: 3px;
+  padding-right: 3px;
   background: url(images/nav-li-bg.gif) top right no-repeat;
 }
 #nav li.current_page_item {
@@ -365,16 +366,20 @@ height: 75px;}
 
 #fellows .prev {
     padding: 0px 0px 0px 0px;
-    margin-left: 5px;
+    margin-left: 2px;
 	float: left;
-}
+	position: relative;
+	z-index: 1000;	
+top: 60px;}
 
 
 #fellows .next {
     padding: 0px 0px 0px 0px;
-    margin-right: 5px;
+    margin-right: 2px;
 	float: right;
-}
+	position: relative;
+	z-index: 1000;
+top: 60px;}
 
 
 #cities-issues, #cfa-blog, #tweets {
@@ -480,9 +485,10 @@ height: 75px;}
 
 .twtr-widget {
 margin-left:15px;
+font-size: ;
 }
 
-
+.twtr-tweets {font-size: 12px;}
 /*   Inner Page   */
 
 #inner {
@@ -493,6 +499,11 @@ margin-left:15px;
   float: left;
   width: 620px;
 }
+
+#maincontent.fullcolumn {
+  width: 940px;
+}
+
 #maincontent h1{
   font-size: 1.71em;
   color: #4ca3d9;
@@ -556,8 +567,8 @@ a.red-btn span {
 #maincontent .ttl a.red-btn span {
   font-size: .5em;
 }
-#maincontent img {
-  border: 1px solid #e1e1e1;
+#maincontent img.avatar {
+  border: 3px solid #e1e1e1;
 }
 #maincontent img.left {
   margin: 0 12px 7px 0;
@@ -599,6 +610,7 @@ h2.lh {
 #maincontent li {
    padding:0 0 10px 20px;
    background: url(images/bullet-red-arrow.gif) 0 3px no-repeat;
+line-height: 1.4em;
 }
 
 
@@ -843,12 +855,12 @@ padding-left: 10px;
 
 #wp-widget {
     clear:both;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 #author-avatar img {
-    width:75px;
-    height: 75px;
+    width:auto;
+    height: auto;
 }
 
 /* Main sidebars */
@@ -1356,7 +1368,7 @@ border: none;}
   padding-top: 20px;
 }
 
-#cities #participating-wrap {
+#cities #participating-wrap, .issues #participating-wrap  {
   padding-bottom: 30px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
 }
@@ -1422,14 +1434,14 @@ color: #CB2A3C;
   font-size: 1.17em;
 }
 
-#cities #twocols-container {
+#cities #twocols-container, .issues #twocols-container  {
   float: none;
   width: auto;
   margin-top: 30px;
   background: url(images/vertical-dot.gif) 620px 0 repeat-y;
 }
 
-#cities #maincontent {
+#cities #maincontent, .issues  #maincontent  {
   width: 600px;
   font-size: 1.17em;
 }
@@ -1683,7 +1695,7 @@ a.more:hover {
   margin: 20px 0 0;
 }
 
-#press p.date-cat, #cities-detail .wrap .right-col p.date {
+#press p.date-cat, #cities-detail .wrap .right-col p.date, p.date  {
   font-size: 0.86em;
   font-style: italic;
   margin: 5px 0 10px;
@@ -1798,7 +1810,7 @@ a.more:hover {
 
 #involved #maincontent .wrap, #maincontent #posts .wrap {
   width: auto;
-  margin-top: 20px;
+  margin-top: 25px;
   font-size: 1.17em;
 }
 #involved #maincontent .wrap {
@@ -1860,7 +1872,7 @@ a.more:hover {
 }
 
 #maincontent #cfa-blog h2, #cfa-blog h2 a {
-  font-size: 1em;
+font-size: 20px;
   clear: both;
   text-transform: uppercase;
   color: #000;
@@ -1870,37 +1882,31 @@ a.more:hover {
 }
 
 #maincontent #cfa-blog p {
-  font-size: 1 em;
-}
-
-#maincontent #cfa-blog p.date {
-  font-style: italic;
-  padding: 0;
-  margin: 0;
-  font-size: 1em;
+  font-size: .8em;
+line-height: 1.6em;
 }
 
 #maincontent #cfa-blog .post {
-  padding-left: 162px;
-  position: relative;
-  min-height: 115px;
+display: block;
+
 }
 
 #maincontent #cfa-blog #post {
     clear: both;
     margin-bottom: 65px;
+	display: block;
+
 }
 
-#maincontent #cfa-blog p img, #maincontent #cfa-blog div.post img {
-  position: absolute;
-  top: 0;
-  left: 0;
+#maincontent #cfa-blog img.attachment-thumbnail {
+margin-right: 10px;
+display: block;
   border: 8px solid #e1e1e1;
+margin-bottom: 10px;
 }
 
 #maincontent #cfa-blog ul {
   background: url(images/horizontal-dots.gif) 0 0 repeat-x;
-  display: block;
   padding: 12px 0 0;
 }
 
@@ -2185,6 +2191,7 @@ a.more:hover {
 
 #team-donors .team li img {
   margin-top: 19px;
+  
 }
 
 #team-donors .right-col h3 {
@@ -2396,3 +2403,29 @@ a.more:hover {
   font-size: 1.29em;
   padding-left: 105px;
 }
+#issues {margin-top: 10px;}
+#issues div {padding: 10px 15px;}
+#issues h3 { height:32px; padding:50px 0 0 15px; margin: 5px 5px 5px 0px; font-size: 26px; text-align: right; outline: none;}
+#issues h3 a { background-color:#FFF; padding:3px 5px; text-transform:uppercase;}
+#issues h3 a:link {color:#000; text-decoration:none;}
+#issues h3 a:visited {color:#000; text-decoration:none;}
+#issues h3 a:hover {color:#666; text-decoration:none;}
+#issues h3 a:active {color:#666; text-decoration:none;}
+.issues h4 {
+  padding-bottom: 5px;
+ margin-bottom: 8px;
+display: block;
+color: black;
+font-size: 1.2em;
+font-weight: bold;
+padding: 0px 95px 5px 0px;
+position: relative;
+text-transform: uppercase;
+
+}
+.issues strong {color: #409dd6;}
+
+.page-template-issues-single-template-php #issues  h3 { height:32px; padding:80px 0 0 15px; margin: 0px 5px 5px 0px; font-size: 26px; text-align: right;}
+
+.nav-next {float: right;}
+.nav-previous {float: left;}

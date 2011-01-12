@@ -19,25 +19,25 @@ get_header(); ?>
 					<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
 				</div>--><!-- #nav-above -->
 
-					 <div class="ttl"><?php the_title(); ?><a href="#" class="red-btn"><span class="st_sharethis_custom">Share This</a></div>
+					 <div class="ttl"><?php the_title(); ?><a href="#" class="red-btn"><span class="st_sharethis_custom">Share This</a></span></div>
 
 					<div class="entry-meta" style="margin-top: 10px;">
-					<small>	<?php twentyten_posted_on(); ?></small>
+					<small>	<?php twentyten_posted_on(); ?> <?php twentyten_posted_in(); ?></small>
 					</div><!-- .entry-meta -->
 
 					<div class="entry-content">
 						<?php the_content(); ?>
 						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
+						
 					</div>
 						<div class="entry-utility">
-							<?php twentyten_posted_in(); ?>
+							<!--<?php twentyten_posted_in(); ?>-->
 							<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 						</div><!-- .entry-utility --><!-- .entry-content -->
-						
-						<div id="nav-below" class="navigation">
+						<!--<div id="nav-below" class="navigation">
 							<div class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
 							<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
-						</div><!-- #nav-below -->
+						</div> -->
 						<?php comments_template( '', true ); ?>
 </div>
 
@@ -47,27 +47,25 @@ get_header(); ?>
 
 
 <?php if ( get_the_author_meta( 'description' ) ) : // If a user has filled out their description, show a bio on their entries  ?>
-					<div id="entry-author-info">
-						<!-- #author-avatar -->
-						<div id="author-description">
-							<h3 class="widget-title"><?php printf( esc_attr__( 'About %s', 'twentyten' ), get_the_author() ); ?></h3><br />
-						<div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
-								<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 105 ) ); ?>
-							</div><span style="font-size: .85em;"><?php the_author_meta( 'description' ); ?>	<div id="author-link">
-									<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
-										<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
-									</a>
-								</div></span>
-							<!-- #author-link	-->
-						</div><!-- #author-description -->
-					</div><!-- #entry-author-info -->
+				
+					
+					<div class="testimonial-wrap">
+				      <div class="testimonial-content"> <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 90 ) ); ?>
+				        <p><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?></a> <span class="position"><?php the_author_meta( 'nickname' ); ?></span></p>
+				<p style="font-size: .8em; color: #666;">	
+						
+								<?php the_author_meta( 'oneline' ); ?>
+									<br>		<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
+																<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
+															</a></p>
+				         </div>
+				    </div>
 <?php endif; ?>
 
 				
 
 <?php endwhile; // end of the loop. ?>
-<br />
-		
+<br />		
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

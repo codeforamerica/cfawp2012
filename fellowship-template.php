@@ -18,7 +18,7 @@ get_header(); ?>
 <div class="wrap clearfix">
   <div id="mission">
     <h2>OUR FELLOWSHIP</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in nunc est. Quisque eget nisl eros, congue fermentum ipsum. Donec sollicitudin orci quis justo rutrum ut dapibus neque facilisis. Aliquam gravida, massa ut suscipit euismod, tellus leo faucibus sem, ac malesuada elit arcu sit amet ante</p>
+    <p>Through Code for America's fellowship program, talented web developers, designers, and entrepreneurs leverage the power of the internet to make governments more open and efficient, and in doing so, they become civic leaders able to realize transformational change in government with technology.</p>
   </div>
   <?php include 'fellow_carousel.php'; ?>
 
@@ -27,25 +27,26 @@ get_header(); ?>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
     <h2 class="ttl">Why Become a Fellow? <a href="#" class="red-btn"><span>SHARE THIS +</span></a></h2>
+<p>	During the 11-month program, fellows not only work together to solve local problems, but also receive the training and support to be positioned as a leader in business, public service, or both:</p>
     <ul id="why">
-      <li><strong class="number">1</strong> Gov 2.0 Training. You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
-      <li><strong class="number">2</strong> Professional Development. The biggest names in the web industry and the Gov 2.0 movement will provide you unparalleled networking, mentoring, and support.</li>
-      <li><strong class="number">3</strong> Alumni Connections. Working closely with other talented individuals, you will develop lasting professional relationships in a face-paced, startup atmosphere.</li>
-      <li><strong class="number">4</strong> Employer Partnerships. Multiple leading internet companies have already pledged to guarantee interviews for a full-time position after your CfA experience.</li>
+      <li><strong class="number">1</strong> <strong>Gov 2.0 Training.</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
+      <li><strong class="number">2</strong> <strong>Professional Development.</strong> The biggest names in the web industry and the Gov 2.0 movement will provide you unparalleled networking, mentoring, and support.</li>
+      <li><strong class="number">3</strong> <strong>Alumni Connections.</strong> Working closely with other talented individuals, you will develop lasting professional relationships in a face-paced, startup atmosphere.</li>
+      <li><strong class="number">4</strong> <strong>Employer Partnerships.</strong> Multiple leading internet companies have already pledged to guarantee interviews for a full-time position after your CfA experience.</li>
     </ul>
     <div class="box">
       <h3 class="ttl">What Are We looking For? <a href="#" class="more">Read More</a></h3>
       <ul id="what" class="clearfix">
-        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/looking-for-pic.jpg" alt="" /></li>
-        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/looking-for-pic.jpg" alt="" /></li>
-        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/looking-for-pic.jpg" alt="" /></li>
-        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/looking-for-pic.jpg" alt="" /></li>
+        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows1.jpg" alt="" /></li>
+        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows2.jpg" alt="" /></li>
+        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows3.jpg" alt="" /></li>
+        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows5.jpg" alt="" /></li>
       </ul>
       <p>Anyone with the skills and passion to make cities work better using technology. Many of you will be starting your careers, but others of you will have been working on the web for years and just want a chance to do something important and altruistic. All of you will want to see your work make a difference to cities and change how government works.</p>
     </div>
     <div class="box">
       <h3 class="ttl">The application Process <a href="#" class="more">Read More</a></h3>
-      <p>Applications are due August 15th at MIDNIGHT PST, but don’t wait until then to apply. We may ask you for additional information once we see your application, and the more time you give us, the better your chances of being selected. Folks selected for interviews will be contacted by September 1.</p>
+      <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The application deadline for the 2011 fellowship has passed. The application process for the 2012 Fellowship will open on March 1, 2011.</p>
     </div>
     <div class="box">
       <h3 class="ttl">The Training <a href="#" class="more">Read More</a></h3>
@@ -55,8 +56,8 @@ get_header(); ?>
   <div class="right-col">
     <div class="testimonial-wrap">
       <div class="testimonial-content">
-        <h4>"Testimonial by a current Code for America Fellow."</h4>
-        <p>Aneesh Chopra <span class="position">OSTP Associate Director</span></p>
+        <h4>"Join our movement... and <em>make a difference</em>"</h4>
+        <p>Aneesh Chopra <span class="position">United States CTO</span></p>
         <img src="<?php bloginfo( 'template_url' ); ?>/images/Aneesh.jpg" alt="Aneesh Chopra" /> </div>
     </div>
     <ul>
@@ -66,14 +67,14 @@ get_header(); ?>
     </ul>
     <div id="dates">
       <h3>Dates To Keep In Mind</h3>
-      <h4>Contributors</h4>
+      <h4>2012 Applicants</h4>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
-          <td>06/01/10</td>
+          <td>03/01/11</td>
           <th>Application form for all fellows available <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>08/15/10</td>
+          <td>08/15/11</td>
           <th>Fellow applications due <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
@@ -82,28 +83,36 @@ get_header(); ?>
             begin <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>10/01/10</td>
+          <td>10/01/11</td>
           <th>Final decisions on fellows announced <span>&raquo;</span></th>
         </tr>
-        <tr class="odd">
-          <td>10/15/10</td>
-          <th>Deadline for fellows to commit to the program <span>&raquo;</span></th>
+       	<tr class="odd">
+          <td>01/04/12</td>
+          <th>2012 Fellows begin CfA Institute<span>&raquo;</span></th>
         </tr>
       </table>
-      <h4>Fellows</h4>
+      <h4>2011 Fellows</h4>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
-          <td>01/10</td>
+          <td>01/11</td>
           <th>Orientation/CFA Institute <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>02/10</td>
+          <td>02/11</td>
           <th>City Tour <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>03/10 - 08/10</td>
-          <th>Development <span>&raquo;</span></th>
+          <td>03/11 - 08/11</td>
+          <th>Development with ongoing training and mentoring <span>&raquo;</span></th>
         </tr>
+		  <tr>
+	          <td>09/11</td>
+	          <th>Launch Conference <span>&raquo;</span></th>
+	        </tr>
+			<tr class="odd">
+	          <td>09/11 - 11/11</td>
+	          <th>Maintenance/Hand-off <span>&raquo;</span></th>
+	        </tr>
       </table>
     </div>
   </div>

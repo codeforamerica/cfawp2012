@@ -36,10 +36,12 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/slider.css" type="text/css" />
+<link rel="SHORTCUT ICON" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.ico"/> 
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.core.js"></script> 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.tabs.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/superfish.js"></script>
@@ -57,9 +59,36 @@ $(document).ready(function() {
   $("#slider").anythingSlider({	
 		  buildArrows         : true,      
 		  buildNavigation     : false,      
-		  autoPlay            : false,     
-		  easing              : "swing"    
+		  autoPlay            : true,  
+		  easing              : "swing"
 		});
+
+    $('a[rel=tooltip1]').mouseover(function(e) {
+        var tip1 = $(this).attr('title');    
+        $(this).attr('title','');
+		$("#tip1").html(tip1);
+    }).mouseout(function() {
+        $(this).attr('title',$('#tip1').html());
+		$("#tip1").html(' ');
+
+    });
+	$('a[rel=tooltip2]').mouseover(function(e) {
+        var tip2 = $(this).attr('title');    
+        $(this).attr('title','');
+		$("#tip2").html(tip2);
+    }).mouseout(function() {
+        $(this).attr('title',$('#tip2').html());
+		$("#tip2").html(' ');
+    });
+	$('a[rel=tooltip3]').mouseover(function(e) {
+        var tip3 = $(this).attr('title');    
+        $(this).attr('title','');
+		$("#tip3").html(tip3);
+    }).mouseout(function() {
+        $(this).attr('title',$('#tip3').html());
+		$("#tip3").html(' ');
+    });
+	$("#issues").accordion({ active: "none", autoHeight: false });
 
 });
 </script>
@@ -79,7 +108,7 @@ $(document).ready(function() {
 <!--   ==============   HEADER   ==============   -->
 <div id="header" class="wrap">
 <!--Logo -->
-	<a href="http://codeforamerica.org" class="like-btn" id="logo">Code for America</a>
+	<a href="/wp" class="like-btn" id="logo">Code for America</a>
 	<!--Tag line -->
 	<div id="tag-line">
 	<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png"><!--	<h1>A New Kind of Public Service</h1>

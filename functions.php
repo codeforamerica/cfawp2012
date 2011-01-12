@@ -178,6 +178,39 @@ function twentyten_setup() {
 }
 endif;
 
+add_action( 'show_user_profile', 'my_show_extra_profile_fields' );
+add_action( 'edit_user_profile', 'my_show_extra_profile_fields' );
+
+function my_show_extra_profile_fields( $user ) { ?>
+
+	<h3>Extra profile information</h3>
+
+	<table class="form-table">
+
+		<tr>
+			<th><label for="oneline">One Line Bio</label></th>
+
+			<td>
+				<input type="text" name="oneline" id="online" value="<?php echo esc_attr( get_the_author_meta( 'oneline', $user->ID ) ); ?>" class="regular-text" /><br />
+				<span class="description">Please enter your One Line Bio.</span>
+			</td>
+		</tr>
+
+	</table>
+<?php }
+
+add_action( 'personal_options_update', 'my_save_extra_profile_fields' );
+add_action( 'edit_user_profile_update', 'my_save_extra_profile_fields' );
+
+function my_save_extra_profile_fields( $user_id ) {
+
+	if ( !current_user_can( 'edit_user', $user_id ) )
+		return false;
+
+	/* Copy and paste this line for additional fields. Make sure to change 'twitter' to the field ID. */
+	update_usermeta( $user_id, 'oneline', $_POST['oneline'] );
+}
+
 if ( ! function_exists( 'twentyten_admin_header_style' ) ) :
 /**
  * Styles the header image displayed on the Appearance > Header admin panel.
@@ -465,9 +498,9 @@ function twentyten_posted_in() {
 	// Retrieves tag list of current post, separated by commas.
 	$tag_list = get_the_tag_list( '', ', ' );
 	if ( $tag_list ) {
-		$posted_in = __( 'This entry was posted in %1$s and tagged %2$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'twentyten' );
+		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a> and tagged %2$s.', 'twentyten' );
 	} elseif ( is_object_in_taxonomy( get_post_type(), 'category' ) ) {
-		$posted_in = __( 'This entry was posted in %1$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'twentyten' );
+		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a>', 'twentyten' );
 	} else {
 		$posted_in = __( 'Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'twentyten' );
 	}
@@ -481,3 +514,4 @@ function twentyten_posted_in() {
 	);
 }
 endif;
+

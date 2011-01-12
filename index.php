@@ -20,45 +20,47 @@ get_header(); ?>
 	  	<div class="wrap clearfix" id="video-gallery">
           <ul id="slide-nav" class="thumbs"> 
          <div style="width: 181px; float: left;">     
-	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>Video</span></strong></a></li> 
+	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/codedsky.jpg" alt="" /><strong><span>Seeking Cites</span></strong></a></li> 
               <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" alt="" /><strong><span>Boston</span></strong></a></li>       
               <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/philly.jpg" alt="" /><strong><span>Philadelphia</span></strong></a></li> 
 		</div>
        
  		<div style="float: left;">
-       <div id="slide-1" class="player"> 
-        <img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" width="550" height="330"  /> 
-        </div>
+	
+			 <div id="slide-1" class="player"> 
+	            <a href="/citizen-action-center" class="post-image"> 
+	            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+				<span class="title"><strong>Bring CfA to Your City:</strong><br />Now Seeking Applications for the 2012 City Program</span> 
+	            </a> 
+	          </div>
+       
         <div id="slide-2" class="player"> 
-          <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+          <a href="http://50.16.221.90/cfa_wordpress/?page_id=1020" class="post-image"> 
           <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
 		<span class="title"><strong>The Boston Project:</strong><br />Improving High School Education by Connecting the Community</span> 
   
           </a> 
         </div>
         <div id="slide-3" class="player"> 
-           <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+           <a href="http://50.16.221.90/cfa_wordpress/?page_id=947" class="post-image"> 
            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/philly.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />  
 		<span class="title"><strong>The Philadelphia Project:</strong><br />Helping Citizens Get Involved to Support Public Services</span> 
  
            </a> 
          </div>
-         <div id="slide-4" class="player"> 
-            <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
-            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-			<span class="title"><strong>Bring CfA to Your City:</strong><br />Now Seeking Applications for the 2012 City Program</span> 
-
-            </a> 
-          </div>
+        <div id="slide-4" class="player"> 
+	        <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></embed></object>
+			 
+	        </div>
           <div id="slide-5" class="player"> 
-             <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+             <a href="http://50.16.221.90/cfa_wordpress/?page_id=955" class="post-image"> 
              <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/seattle.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
 			<span class="title"><strong>The Seattle Project:</strong><br />Empowering Civic Leaders to Mobilize their Communities</span> 
 
              </a> 
            </div>
            <div id="slide-6" class="player"> 
-              <a href="http://demos.legendthemes.com/slider-demo/2010/06/14/hello-world/" class="post-image"> 
+              <a href="http://50.16.221.90/cfa_wordpress/?page_id=973" class="post-image"> 
               <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/dc.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
 			<span class="title"><strong>The DC Project:</strong><br />Working with Government to Share Technology for the Public Good</span> 
 
@@ -66,7 +68,7 @@ get_header(); ?>
             </div> </div>
 
 <div style="width: 181px; float: right;">   
-			<li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/codedsky.jpg" alt="" /><strong><span>Seeking Cites</span></strong></a></li> 
+			<li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>Video</span></strong></a></li> 
               <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/seattle.jpg" alt="" /><strong><span>Seattle</span></strong></a></li> 
               <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/dc.jpg" alt="" /><strong><span>Washington DC</span></strong></a></li>      
  </div>
@@ -194,6 +196,8 @@ our (infrequent) newsletter</span>
                 </script>
 					<style>.twtr-hd { padding: 0px; }
 					.twtr-ft {display: none;}
+					.twtr-tweet {font-size: 10px;}
+					
 					</style>
 				</div>
 			</div>
