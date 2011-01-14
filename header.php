@@ -88,8 +88,8 @@ $(document).ready(function() {
         $(this).attr('title',$('#tip3').html());
 		$("#tip3").html(' ');
     });
-	$("#issues").accordion({ active: "none", autoHeight: false });
-
+		$("#issues").accordion({ active: "none", autoHeight: false });
+		
 });
 </script>
 
