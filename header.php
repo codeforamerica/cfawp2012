@@ -44,6 +44,7 @@
 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.core.js"></script> 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.tabs.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/superfish.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/carousel.js"></script>
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/jquery.anythingslider.min.js"></script>
@@ -54,6 +55,7 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
+	
   $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
   $("ul.menu").superfish({pathClass: "current-menu-item" }); 
   $("#slider").anythingSlider({	
@@ -70,7 +72,6 @@ $(document).ready(function() {
     }).mouseout(function() {
         $(this).attr('title',$('#tip1').html());
 		$("#tip1").html(' ');
-
     });
 	$('a[rel=tooltip2]').mouseover(function(e) {
         var tip2 = $(this).attr('title');    
@@ -88,7 +89,9 @@ $(document).ready(function() {
         $(this).attr('title',$('#tip3').html());
 		$("#tip3").html(' ');
     });
-		$("#issues").accordion({ active: "none", autoHeight: false });
+
+	$('#issues').accordion({ active: "none", autoHeight: false });
+
 		
 });
 </script>
