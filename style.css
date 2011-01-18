@@ -661,12 +661,12 @@ line-height: 1.4em;
 .right-col #get-involved img, img.mainwidget {
   border: 8px solid #e1e1e1;
 }
-.right-col #newsletter {
+.right-col #signup {
   display: block;
   margin-top: 5px;
   width: auto;
 }
-.right-col #newsletter input {
+.right-col #signup input {
   height: 20px;
 width: 180px;
   line-height: 20px;
@@ -676,7 +676,7 @@ width: 180px;
 	float: left;
 padding-left: 10px;
 }
-.right-col #newsletter button {
+.right-col #signup button {
   height: 20px;
   background: url(images/newsl-submit-btn-bg.gif) 50% 50% no-repeat;
   width: 30px;
