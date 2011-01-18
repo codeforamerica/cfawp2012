@@ -17,7 +17,7 @@ get_header(); ?>
 
 <div class="wrap clearfix" id="involved">
   <div id="maincontent">
-    <h2 class="ttl">5 Ways You Can Make a Difference: <a href="#" class="red-btn"><span>Share This +</span></a></h2>
+    <h2 class="ttl">5 Ways You Can Make a Difference <a href="#" class="red-btn"><span>Share This +</span></a></h2>
     <ul id="the-ways" class="clearfix">
 		<li><a href="/donate"><img src="<?php bloginfo( 'template_url' ); ?>/images/donate.jpg" alt="Donate" /><strong>1</strong> Donate <span>&raquo;</span></a></li>
 		<li><a href="http://action.codeforamerica.org/page/share/cfa"><img src="<?php bloginfo( 'template_url' ); ?>/images/spread-the-world.jpg" alt="Spread the Word" /><strong>2</strong> Spread the Word <span>&raquo;</span></a></li>
