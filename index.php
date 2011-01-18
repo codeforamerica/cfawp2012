@@ -80,7 +80,7 @@ get_header(); ?>
 	
 	
 	  <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="signup" class="clearfix">
-	  	<strong>CONNECT WITH CfA</strong> <input type="text" value="Email"  type="email" style="width: 160px;" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><input type="text" value="Zip Code"  type="email" id="zip" name="zip" style="width: 70px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> <span>You should sign up to receive <br />
+	  	<strong>CONNECT WITH CfA</strong> <input type="text" value="Email"  type="email" style="width: 160px;" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><input type="text" value="Zip Code"  type="email" id="zip" name="zip" style="border-left: 2px solid #f2f2f2; width: 70px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> <span>You should sign up to receive <br />
 our (infrequent) newsletter</span>
 	  </form>
 	    <div class="wrap-t">
@@ -125,6 +125,10 @@ our (infrequent) newsletter</span>
     <li><a href="http://www.esri.com" title="ESRI"><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"></a></li>                
  
 	<li><a href="http://www.oreillymedia.com" title="O'Reilly Media "><img src="<?php bloginfo('template_directory'); ?>/images/logos/oreilly-logo.png"></a></li>
+	<li><a href="http://www.sunlightfoundation.com" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.png"></a></li>
+    
+	<li><a href="/donors" title="More"><img src="<?php bloginfo('template_directory'); ?>/images/logos/more.png"></a></li>
+	
                   <li><a href="http://www.sunlightfoundation.org" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.png"></a></li>
     </ul>             				
              </div><div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow.gif"></div>

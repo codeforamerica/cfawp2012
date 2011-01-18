@@ -72,7 +72,7 @@ get_header(); ?>
 			
 		</ul>
 
-		<h3>board of advisor <span style="color: #999; margin-left: 10px;"><span id="tip3"></span></span></h3>
+		<h3>board of advisors <span style="color: #999; margin-left: 10px;"><span id="tip3"></span></span></h3>
 		<ul class="clearfix">
 				<li class="first"><a href="/who-we-are/#dbryant" rel="tooltip3" title="Deb Bryant"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dbryant.jpg" alt="Staff name" /></a></li>
 				<li><a href="/who-we-are/#kcurry" rel="tooltip3" title="Kevin Curry"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Staff name" /></a></li>
@@ -111,11 +111,11 @@ get_header(); ?>
     <th>ESRI</th>
     <td>$100,000</td>
   </tr>
-<tr>
+<tr class="odd">
     <th>O'Reilly Media</th>
     <td>$100,000</td>
   </tr>
-<tr class="odd">
+<tr>
     <th>Microsoft</th>
     <td>$50,000</td>
   </tr>
