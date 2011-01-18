@@ -24,17 +24,18 @@ get_header(); ?>
 	
 				<?php the_content(); ?></div></div><div class="right-col">
 				<div id="wp-widget"><h3 class="widget-title">Get Involved Now</h3>			<div class="textwidget"><img src="/wp-content/themes/cfawp2012/images/get-involved-rc.jpg" alt="Get involved now" class="mainwidget">
-				<ul>
-					<li><a href="#">Sign up for updates</a>
-						<form method="post" action="" id="newsletter" class="clearfix">
-					  	<input type="text" value="type email here"><button type="submit" class="like-btn">Send</button> 
-						</form>
-					</li>
-					<li><a href="#">Spread the Word</a></li>
-					<li><a href="#">Contribute some code</a></li>
-					<li><a href="#">Become a partner</a></li>
-					<li><a href="#" class="active">Donate</a></li>
-				</ul></div>
+					<ul>
+						<li><a href="#">Sign up for updates</a>
+
+					<form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="newsletter" class="clearfix">
+						   <input type="text" value="Email"  type="email" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> 
+						  </form>
+						</li>
+						<li><a href="http://action.codeforamerica.org/page/share/cfa">Spread the Word</a></li>
+						<li><a href="http://action.codeforamerica.org/page/s/2011-signup">Contribute some code</a></li>
+						<li><a href="/cities/citizen-action-center">Contact Your City</a></li>
+						<li><a href="/donate" class="active">Donate</a></li>
+					</ul></div>
 						</div></div></div>
 						<div id="twocols-container" class="clearfix">
 						    <div id="maincontent" class="entry-content">

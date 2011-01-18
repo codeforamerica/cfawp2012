@@ -21,9 +21,9 @@ get_header(); ?>
     <ul id="the-ways" class="clearfix">
 		<li><a href="/donate"><img src="<?php bloginfo( 'template_url' ); ?>/images/donate.jpg" alt="Donate" /><strong>1</strong> Donate <span>&raquo;</span></a></li>
 		<li><a href="http://action.codeforamerica.org/page/share/cfa"><img src="<?php bloginfo( 'template_url' ); ?>/images/spread-the-world.jpg" alt="Spread the Word" /><strong>2</strong> Spread the Word <span>&raquo;</span></a></li>
-		<li><a href="http://groups.google.com/group/cfa-labs"><img src="<?php bloginfo( 'template_url' ); ?>/images/contribute-code.jpg" alt="Contribute Some Code" /><strong>3</strong> Contribute Some Code <span>&raquo;</span></a></li>
+		<li><a href="http://action.codeforamerica.org/page/s/2011-signup"><img src="<?php bloginfo( 'template_url' ); ?>/images/contribute-code.jpg" alt="Contribute Some Code" /><strong>3</strong> Contribute Some Code <span>&raquo;</span></a></li>
 		<li><a href="/cities/citizen-action-center"><img src="<?php bloginfo( 'template_url' ); ?>/images/contact-your-city.jpg" alt="Contact Your City" /><strong>4</strong> Contact Your City <span>&raquo;</span></a></li>
-		<li><a href="mailto:info@codeforamerica.org"><img src="<?php bloginfo( 'template_url' ); ?>/images/become-a-partner.jpg" alt="Become a Partner" /><strong>5</strong> Become a Partner <span>&raquo;</span></a></li>
+		<li><a href="/sponsor"><img src="<?php bloginfo( 'template_url' ); ?>/images/become-a-partner.jpg" alt="Become a Partner" /><strong>5</strong> Become a Partner <span>&raquo;</span></a></li>
 	</ul>
 	
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
@@ -37,7 +37,7 @@ get_header(); ?>
 	<?php endwhile; ?>
 	
 	<div class="wrap" id="cfa-blog" style="">
-		<div class="ttl"><a href="#" class="like-btn" id="ttl-rss">RSS</a> CfA BLOG <a href="#" class="more">Go to Blog</a></div>
+		<div class="ttl"><a href="#" class="like-btn" id="ttl-rss">RSS</a> CfA BLOG: Ways to Get Involved <a href="#" class="more">Go to Blog</a></div>
 	
 		<?php query_posts('showposts=2&category_name=get-involved'); ?>		  
 
