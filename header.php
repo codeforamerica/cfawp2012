@@ -111,7 +111,7 @@ $(document).ready(function() {
 <!--   ==============   HEADER   ==============   -->
 <div id="header" class="wrap">
 <!--Logo -->
-	<a href="/wp" class="like-btn" id="logo">Code for America</a>
+	<a href="/" class="like-btn" id="logo">Code for America</a>
 	<!--Tag line -->
 	<div id="tag-line">
 	<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png"><!--	<h1>A New Kind of Public Service</h1>
