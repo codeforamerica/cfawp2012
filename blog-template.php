@@ -35,12 +35,54 @@ query_posts( $queryargs . '&paged=' . $page); ?>
 					         </div>
 				
 				    </div><br>
+					<!--		<h3 class="widget-title">Tweets</h3>				
+							<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+			                <script>
+			                new TWTR.Widget({
+			                  version: 2,
+			                  type: 'search',
+			                  search: 'codeforamerica',
+			                  interval: 3000,
+			                  title: '',
+			                  subject: '',
+			                  width: 300,
+			                  height: 350,
+			                  theme: {
+			                    shell: {
+			                      background: '#ffffff',
+			                      color: '#ffffff'
+			                    },
+			                    tweets: {
+			                      background: '#ffffff',
+			                      color: '#444444',
+			                      links: '#1985b5'
+			                    }
+			                  },
+			                  features: {
+			                    scrollbar: false,
+			                    loop: true,
+			                    live: true,
+			                    hashtags: true,
+			                    timestamp: true,
+			                    avatars: true,
+			                    toptweets: true,
+			                    behavior: 'default'
+			                  }
+			                }).render().start();
+			                </script>
+								<style>.twtr-hd { padding: 0px;}
+								.twtr-ft {display: none;}
+								.twtr-tweet {font-size: 10px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+								.twtr-widget {
+								margin-left: 0px;
+								}
+								</style><br /><br />-->
 				
-				<h3 class="widget-title">CfA Blogs</h3>
+		<!--		<h3 class="widget-title">CfA Blogs</h3>
 			<a href="http://c4a.me/staff-blog/">	<img src="<?php bloginfo('template_directory'); ?>/images/headerblog.jpg" width="300px;" hspace="15"></a>
 				<a href="http://c4a.me/fellows-blog/"><img src="<?php bloginfo('template_directory'); ?>/images/headerfellow.jpg" width="300px;"  hspace="15"></a>
 		<a href="http://c4a.me/projects-blog/">	<img src="<?php bloginfo('template_directory'); ?>/images/headerproj.jpg" width="300px;"  hspace="15"></a>
-			<br><br>
+			<br><br>-->
 				
 <?php get_sidebar(); ?>
 
