@@ -18,7 +18,7 @@ get_header(); ?>
 <div class="wrap clearfix" id="cities-detail">
   <div id="top-wrap" class="clearfix">
   <!--District of columbia -->
-  	<div id="intro"><?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+  	<div id="intro" class="entry-content"><?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 	
     <h2><?php the_title(); ?></h2>
 
@@ -39,14 +39,15 @@ get_header(); ?>
 	</div>
 	<ul>
 		<li><a href="#">Sign up for updates</a>
-			<form method="post" action="" id="newsletter" class="clearfix">
-		  	<input type="text" value="type email here" /><button type="submit" class="like-btn">Send</button> 
-			</form>
+
+	<form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="newsletter" class="clearfix">
+		   <input type="text" value="Email"  type="email" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> 
+		  </form>
 		</li>
-		<li><a href="#">Spread the Word</a></li>
-		<li><a href="#">Contribute some code</a></li>
-		<li><a href="#">Become a partner</a></li>
-		<li><a href="#" class="active">Donate</a></li>
+		<li><a href="http://action.codeforamerica.org/page/share/cfa">Spread the Word</a></li>
+		<li><a href="http://action.codeforamerica.org/page/s/2011-signup">Contribute some code</a></li>
+		<li><a href="/cities/citizen-action-center">Contact Your City</a></li>
+		<li><a href="/donate" class="active">Donate</a></li>
 	</ul>
   </div></div>
   <div class="wrap clearfix">

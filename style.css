@@ -53,6 +53,13 @@ input, select, textarea, button {
   font-size: 1.00em;
 }
 
+
+.alignleft  { float: left; height: auto; margin: 5px 15px 5px 0; }
+.alignright  { float: right; height: auto; margin: 5px 0 5px 15px; }
+.aligncenter  { text-align: center; margin-bottom:15px;}
+img.aligncenter  { margin-left:auto; margin-right:auto; display:block; }
+
+
 .left {
   float: left;
 }
