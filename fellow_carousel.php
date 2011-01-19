@@ -8,7 +8,7 @@
           <li><a href="/author/michael" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/evans.png"></a><span><strong>Michael Evans</strong></span></li>
           <li><a href="/author/peter" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/fecteau.png"></a><span><strong>Peter Fecteau</strong></span></li>
           <li><a href="/author/michelle" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/koeth.png"></a><span><strong>Michelle Koeth</strong></span></li>
-          <li><a href="/author/matt" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/lewis.png"></a><span><strong>Michael Lewis</strong></span></li>  
+          <li><a href="/author/matt" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/lewis.png"></a><span><strong>Matt Lewis</strong></span></li>  
 		  <li><a href="/author/karla" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/macedo.png"></a><span><strong>Karla Macedo</strong></span></li>
           <li><a href="/author/joel" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/mahoney.png"></a><span><strong>Joel Mahoney</strong></span></li>                
           <li><a href="/author/john" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/mertens.png"></a><span><strong>John Mertens</strong></span></li>
