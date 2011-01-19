@@ -35,14 +35,14 @@ get_header(); ?>
 	          </div>
        
         <div id="slide-2" class="player"> 
-          <a href="http://50.16.221.90/cfa_wordpress/?page_id=1020" class="post-image"> 
+          <a href="/boston" class="post-image"> 
           <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
 		<span class="title"><strong>The Boston Project:</strong><br />Improving High School Education by Connecting the Community</span> 
   
           </a> 
         </div>
         <div id="slide-3" class="player"> 
-           <a href="http://50.16.221.90/cfa_wordpress/?page_id=947" class="post-image"> 
+           <a href="/philadelphia" class="post-image"> 
            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/philly.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />  
 		<span class="title"><strong>The Philadelphia Project:</strong><br />Helping Citizens Get Involved to Support Public Services</span> 
  
@@ -53,14 +53,14 @@ get_header(); ?>
 			 
 	        </div>
           <div id="slide-5" class="player"> 
-             <a href="http://50.16.221.90/cfa_wordpress/?page_id=955" class="post-image"> 
+             <a href="/seattle" class="post-image"> 
              <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/seattle.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
 			<span class="title"><strong>The Seattle Project:</strong><br />Empowering Civic Leaders to Mobilize their Communities</span> 
 
              </a> 
            </div>
            <div id="slide-6" class="player"> 
-              <a href="http://50.16.221.90/cfa_wordpress/?page_id=973" class="post-image"> 
+              <a href="/dc" class="post-image"> 
               <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/dc.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
 			<span class="title"><strong>The DC Project:</strong><br />Working with Government to Share Technology for the Public Good</span> 
 
