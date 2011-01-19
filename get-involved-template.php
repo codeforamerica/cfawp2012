@@ -37,7 +37,7 @@ get_header(); ?>
 	<?php endwhile; ?>
 	
 	<div class="wrap" id="cfa-blog" style="">
-		<div class="ttl"><a href="#" class="like-btn" id="ttl-rss">RSS</a> GET INVOLVED <a href="/blog" class="more">Go to Blog</a></div>
+		<div class="ttl"><a href="http://c4a.me/feed/" class="like-btn" id="ttl-rss">RSS</a> GET INVOLVED <a href="/blog" class="more">Go to Blog</a></div>
 	
 		<?php query_posts('showposts=3&category_name=get-involved'); ?>		  
 
