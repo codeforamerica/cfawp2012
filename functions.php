@@ -507,7 +507,7 @@ function twentyten_posted_in() {
 	// Retrieves tag list of current post, separated by commas.
 	$tag_list = get_the_tag_list( '', ', ' );
 	if ( $tag_list ) {
-		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a> and tagged %2$s.', 'twentyten' );
+		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a>', 'twentyten' );
 	} elseif ( is_object_in_taxonomy( get_post_type(), 'category' ) ) {
 		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a>', 'twentyten' );
 	} else {

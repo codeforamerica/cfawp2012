@@ -105,7 +105,7 @@ img.aligncenter  { margin-left:auto; margin-right:auto; display:block; }
   outline: none;
 }
 
-a img, img a {text-decoration: none;}
+a img, img a {text-decoration: none; border: none;}
 
 
 /*   ============   HEADER   ============   */
