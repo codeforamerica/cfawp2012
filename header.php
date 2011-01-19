@@ -39,7 +39,7 @@
 <link rel="SHORTCUT ICON" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.ico"/> 
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
+<meta name="bitly-verification" content="cd12bcc2529c"/>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 
 <script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.core.js"></script> 
