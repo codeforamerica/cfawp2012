@@ -31,7 +31,7 @@ get_header(); ?>
     <ul id="why">
       <li><strong class="number">1</strong> <strong>Gov 2.0 Training.</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
       <li><strong class="number">2</strong> <strong>Professional Development.</strong> The biggest names in the web industry and the Gov 2.0 movement will provide you unparalleled networking, mentoring, and support.</li>
-      <li><strong class="number">3</strong> <strong>Alumni Connections.</strong> Working closely with other talented individuals, you will develop lasting professional relationships in a face-paced, startup atmosphere.</li>
+      <li><strong class="number">3</strong> <strong>Alumni Connections.</strong> Working closely with other talented individuals, you will develop lasting professional relationships in a fast-paced, startup atmosphere.</li>
       <li><strong class="number">4</strong> <strong>Employer Partnerships.</strong> Multiple leading internet companies have already pledged to guarantee interviews for a full-time position after your CfA experience.</li>
     </ul>
     <div class="box">
