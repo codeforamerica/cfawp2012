@@ -195,7 +195,14 @@ function my_show_extra_profile_fields( $user ) { ?>
 				<span class="description">Please enter your One Line Bio.</span>
 			</td>
 		</tr>
+			<tr>
+				<th><label for="twitter">Twitter Handle</label></th>
 
+				<td>
+					<input type="text" name="twitter" id="twitter" value="<?php echo esc_attr( get_the_author_meta( 'twitter', $user->ID ) ); ?>" class="regular-text" /><br />
+					<span class="description">Please enter your twitter handle <strong>with @</strong></span>
+				</td>
+			</tr>
 	</table>
 <?php }
 
@@ -209,6 +216,8 @@ function my_save_extra_profile_fields( $user_id ) {
 
 	/* Copy and paste this line for additional fields. Make sure to change 'twitter' to the field ID. */
 	update_usermeta( $user_id, 'oneline', $_POST['oneline'] );
+	update_usermeta( $user_id, 'twitter', $_POST['twitter'] );
+	
 }
 
 if ( ! function_exists( 'twentyten_admin_header_style' ) ) :

@@ -57,7 +57,8 @@ get_header(); ?>
 								<?php the_author_meta( 'oneline' ); ?>
 									<br>		<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
 																<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
-															</a></p>
+															</a><br />	<a href="http://twitter.com/<?php the_author_meta( 'twitter' ); ?>"><?php the_author_meta( 'twitter' ); ?></a>
+															</p>
 				         </div>
 				    </div>
 <?php endif; ?>
