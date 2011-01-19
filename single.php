@@ -55,9 +55,7 @@ get_header(); ?>
 				<p style="font-size: .8em; color: #666;">	
 						
 								<?php the_author_meta( 'oneline' ); ?>
-									<br>		<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>">
-																<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?>
-															</a><br />	<a href="http://twitter.com/<?php the_author_meta( 'twitter' ); ?>"><?php the_author_meta( 'twitter' ); ?></a>
+									<br>	<a href="http://twitter.com/<?php the_author_meta( 'twitter' ); ?>"><?php the_author_meta( 'twitter' ); ?></a> | <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php printf( __( 'Bio & Posts <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?></a>	
 															</p>
 				         </div>
 				    </div>
