@@ -30,7 +30,7 @@ get_header(); ?>
 			 <div id="slide-1" class="player"> 
 	            <a href="/citizen-action-center" class="post-image"> 
 	            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-				<span class="title"><strong>Bring CfA to Your City:</strong><br />Now Seeking Applications for the 2012 City Program</span> 
+				<span class="title"><strong>Recorde Your City:</strong><br />Now Seeking Applications for the 2012 Code for America City Program</span> 
 	            </a> 
 	          </div>
        
