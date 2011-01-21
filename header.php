@@ -35,89 +35,89 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/slider.css" type="text/css" />
 <link rel="SHORTCUT ICON" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.ico"/> 
-
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<meta name="bitly-verification" content="cd12bcc2529c"/>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.core.js"></script> 
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/ui.tabs.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/superfish.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/carousel.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/jquery.anythingslider.min.js"></script>
-
-
-
-
-
+<?php if (is_home()) {?>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/header-min.js"></script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/carousel.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-	
-  $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
   $("ul.menu").superfish({pathClass: "current-menu-item" }); 
-  $("#slider").anythingSlider({	
-		  buildArrows         : true,      
-		  buildNavigation     : false,      
-		  autoPlay            : true,  
-		  easing              : "swing"
-		});
-
-    $('a[rel=tooltip1]').mouseover(function(e) {
-        var tip1 = $(this).attr('title');    
-        $(this).attr('title','');
-		$("#tip1").html(tip1);
-    }).mouseout(function() {
-        $(this).attr('title',$('#tip1').html());
-		$("#tip1").html(' ');
-    });
-	$('a[rel=tooltip2]').mouseover(function(e) {
-        var tip2 = $(this).attr('title');    
-        $(this).attr('title','');
-		$("#tip2").html(tip2);
-    }).mouseout(function() {
-        $(this).attr('title',$('#tip2').html());
-		$("#tip2").html(' ');
-    });
-	$('a[rel=tooltip3]').mouseover(function(e) {
-        var tip3 = $(this).attr('title');    
-        $(this).attr('title','');
-		$("#tip3").html(tip3);
-    }).mouseout(function() {
-        $(this).attr('title',$('#tip3').html());
-		$("#tip3").html(' ');
-    });
-
-	$('#issues').accordion({ active: "none", autoHeight: false });
-
-		
+  $("#video-gallery").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 4000);
 });
 </script>
+<?php } elseif (is_page(array(2,344))) { ?>	
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/header-min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/carousel.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	  $("ul.menu").superfish({pathClass: "current-menu-item" }); 
+	  $('a[rel=tooltip1]').mouseover(function(e) {
+	        var tip1 = $(this).attr('title');    
+	        $(this).attr('title','');
+			$("#tip1").html(tip1);
+	    }).mouseout(function() {
+	        $(this).attr('title',$('#tip1').html());
+			$("#tip1").html(' ');
+	    });
+		$('a[rel=tooltip2]').mouseover(function(e) {
+	        var tip2 = $(this).attr('title');    
+	        $(this).attr('title','');
+			$("#tip2").html(tip2);
+	    }).mouseout(function() {
+	        $(this).attr('title',$('#tip2').html());
+			$("#tip2").html(' ');
+	    });
+		$('a[rel=tooltip3]').mouseover(function(e) {
+	        var tip3 = $(this).attr('title');    
+	        $(this).attr('title','');
+			$("#tip3").html(tip3);
+	    }).mouseout(function() {
+	        $(this).attr('title',$('#tip3').html());
+			$("#tip3").html(' ');
+	    });
+	});
+	</script>
+<?php } elseif (is_page("36"))  { ?>
+	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/header-min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/jquery.anythingslider.min.js"></script>
+<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/slider.css" type="text/css" />
+	<script type="text/javascript">
+	$(document).ready(function() {
+	  $("ul.menu").superfish({pathClass: "current-menu-item" }); 
+	 $("#slider").anythingSlider({	
+			  buildArrows         : true,      
+			  buildNavigation     : false,      
+			  autoPlay            : true,  
+			  easing              : "swing"
+			});
+	});
+	</script>
+<?php	} elseif (is_page("2647"))  { ?>
+		<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/header-min.js"></script>
+		<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/accordion.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+		  $("ul.menu").superfish({pathClass: "current-menu-item" }); 
+		$('#issues').accordion({ active: "none", autoHeight: false });
+	   
+		});
+		</script>			
+<?php } else {  ?>
+	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/header-min.js"></script>
+			<script type="text/javascript">
+			$(document).ready(function() {
+			  $("ul.menu").superfish({pathClass: "current-menu-item" }); 
 
+			});
+			</script>		
+<?php } ?>
 <?php
 	if ( is_singular() && get_option( 'thread_comments' ) )
 	wp_enqueue_script( 'comment-reply' );
 	wp_head();
 ?>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20825280-1']);
-  _gaq.push(['_setDomainName', 'none']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
 </head>
 
 
