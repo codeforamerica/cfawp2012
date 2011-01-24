@@ -116,46 +116,49 @@ get_header(); ?>
     <td>$100,000</td>
   </tr>
 <tr>
+    <th>Kaphan Foundation</th>
+    <td>$50,000</td>
+  </tr>
+<tr class="odd">
     <th>Microsoft</th>
     <td>$50,000</td>
   </tr>
-  <tr class="odd">
+  <tr>
     <th>O’Reilly Foundation</th>
     <td>$50,000</td>
   </tr>
-<tr>
-	<tr>
-	    <th>Scott and Vonceil Yara</th>
+<tr class="odd">
+	    <th>Vonceil and Scott Yara</th>
 	    <td>$50,000</td>
 	  </tr>
-	<tr class="odd">
+	<tr>
     <th>Google</th>
     <td>$40,000</td>
   </tr>
-  <tr>
+  <tr class="odd">
     <th>Paul Maritz</th>
     <td>$25,000</td>
   </tr>
-  <tr class="odd">
+  <tr>
     <th>Mike &amp; Monica Harrington</th>
     <td>$10,000</td>
   </tr>
-  <tr>
+  <tr class="odd">
     <th>Sunlight Foundation</th>
     <td>$10,000</td>
   </tr>
-  <tr class="odd">
+  <tr>
     <th>Case Foundation</th>
     <td>$10,000</td>
   </tr>
-  <tr>
+  <tr class="odd">
     <th>Anne &amp; Louis Abrons Foundation</th>
     <td>$10,000</td>
   </tr>
-  <tr class="odd">
+  <tr>
     <th>Clay Johnson</th>
-    <td>$10,000</td>
-	<tr>
+    <td>$10,000</td></tr>
+	<tr class="odd">
 	    <th>Stephen Elop</th>
 	    <td>$10,000</td>
   </tr>
