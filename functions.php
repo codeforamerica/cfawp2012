@@ -407,7 +407,7 @@ function twentyten_widgets_init() {
 		'name' => __( 'Secondary Widget Area', 'twentyten' ),
 		'id' => 'secondary-widget-area',
 		'description' => __( 'The secondary widget area', 'twentyten' ),
-		'before_widget' => '<div>',
+		'before_widget' => '<div style="margin-bottom: 15px;">',
 		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
