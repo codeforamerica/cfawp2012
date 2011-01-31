@@ -44,7 +44,7 @@ query_posts( $queryargs . '&paged=' . $page); ?>
 									<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
 							</div><!-- #secondary .widget-area -->
 						<?php endif; ?>
-				<br /><br />
+				
 					<!--		<h3 class="widget-title">Tweets</h3>				
 							<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			                <script>
