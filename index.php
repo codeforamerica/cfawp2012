@@ -28,9 +28,9 @@ get_header(); ?>
  		<div style="float: left;">
 	
 			 <div id="slide-1" class="player"> 
-	            <a href="/citizen-action-center" class="post-image"> 
+	            <a href="/2012-city-webinar" class="post-image"> 
 	            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-				<span class="title"><strong>Recode Your City:</strong><br />Now Seeking Applications for the 2012 CfA City Program</span> 
+				<span class="title"><strong>Recode Your City:</strong><br />Webinar: Learn about the 2012 City Program</span> 
 	            </a> 
 	          </div>
        
