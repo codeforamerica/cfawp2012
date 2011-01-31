@@ -108,6 +108,8 @@ img.aligncenter  { margin-left:auto; margin-right:auto; display:block; }
 a img, img a {text-decoration: none; border: none;}
 
 
+.user {float: left; margin-right: 5px;}
+
 /*   ============   HEADER   ============   */
 
 #header {
