@@ -137,7 +137,7 @@
 						?> " ></a>
 					<?php the_excerpt(); ?>
 		            <ul>
-		<li>Share: <a href="#" class="like-btn" id="mail-b">E-mail</a> <a href="#" class="like-btn" id="rss-b">RSS</a> <a href="#" class="like-btn st_facebook_custom" id="fb-b"">Facebook</a> <a href="#" class="like-btn" id="tw-b">Twitter</a></li>
+		<li>Share: <a href="#" class="like-btn st_email_custom" id="mail-b">E-mail</a> <a href="<?php the_permalink(); ?>/feed" class="like-btn" id="rss-b">RSS</a> <a href="#" class="like-btn st_facebook_custom" id="fb-b"">Facebook</a> <a href="#" class="like-btn st_twitter_custom" id="tw-b">Twitter</a></li>
 		            	<li><?php comments_popup_link( __( 'Comment', 'twentyten' ), __( 'Comment (1)', 'twentyten' ), __( 'Comments (%)', 'twentyten' ), 'comments' ); ?></li>
 		            	<li class="right"><a class="more" href="<?php the_permalink(); ?>">Read More</a></li>
 		            </ul>
