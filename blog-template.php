@@ -35,6 +35,16 @@ query_posts( $queryargs . '&paged=' . $page); ?>
 					         </div>
 				
 				    </div><br>
+				
+					<?php
+						// A second sidebar for widgets, just because.
+						if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
+
+							<div id="secondary" class="widget-area" role="complementary">
+									<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
+							</div><!-- #secondary .widget-area -->
+						<?php endif; ?>
+				
 					<!--		<h3 class="widget-title">Tweets</h3>				
 							<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 			                <script>
