@@ -497,6 +497,7 @@ function twentyten_posted_on() {
 }
 endif;
 
+
 if ( ! function_exists( 'twentyten_posted_in' ) ) :
 /**
  * Prints HTML with meta information for the current post (category, tags and permalink).

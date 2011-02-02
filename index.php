@@ -148,12 +148,19 @@ our (infrequent) newsletter</span>
 					<?php endif; ?>
 				</div>
 				<!--CfA Blog -->
+				
+				<?php	
+	     			function new_excerpt_length($length) {
+					return 10;
+				}
+				add_filter('excerpt_length', 'new_excerpt_length'); ?>
+
 				<div id="cfa-blog">
 					<h2>CfA Blog <a href="http://c4a.me/feed/" class="like-btn">RSS</a></h2>
 					<?php query_posts('showposts=2'); ?>		  
 								     <ul>   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 								           <li> <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?> <strong>»</strong></a></h3>
-										<p>	 <?php the_content_rss('', TRUE, '', 10, 0); ?></p>
+										<?php the_excerpt(); ?>
 								</li>
 								 
 								        <?php endwhile; endif; ?>
