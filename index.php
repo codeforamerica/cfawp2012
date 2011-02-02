@@ -156,7 +156,7 @@ our (infrequent) newsletter</span>
 					<?php query_posts('showposts=2'); ?>		  
 								     <ul>   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 								           <li> <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?> <strong>»</strong></a></h3>
-										<p>		<?php echo excerpt(10); ?>
+										<p>		<?php echo excerpt(12); ?>
 										</p>
 								</li>
 								 
