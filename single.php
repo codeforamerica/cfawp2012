@@ -34,7 +34,7 @@ get_header(); ?>
 							<!--<?php twentyten_posted_in(); ?>-->
 							<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 						</div><!-- .entry-utility --><!-- .entry-content -->
-						<div id="nav-below" class="navigation" style="margin-bottom: 15px;">
+						<div id="nav-below" class="navigation" style="margin-bottom: 25px; min-height: 30px;">
 							
 						
 							<div class="nav-previous" style="width: 250px;"><?php previous_post_link( '%link', '<span class="btn">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
