@@ -34,11 +34,11 @@ get_header(); ?>
 							<!--<?php twentyten_posted_in(); ?>-->
 							<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 						</div><!-- .entry-utility --><!-- .entry-content -->
-						<div id="nav-below" class="navigation">
+						<div id="nav-below" class="navigation" style="margin-bottom: 15px;">
 							
 						
 							<div class="nav-previous" style="width: 250px;"><?php previous_post_link( '%link', '<span class="btn">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
-							<div class="nav-next"  style="width: 250px;"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
+							<div class="nav-next"  style="width: 250px; text-align: right;"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
 						</div>
 						<?php comments_template( '', true ); ?>
 </div>
