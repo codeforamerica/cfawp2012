@@ -142,28 +142,10 @@ get_header(); ?>
     <td>$25,000</td>
   </tr>
   <tr>
-    <th>Mike &amp; Monica Harrington</th>
-    <td>$10,000</td>
+    <th>Union Square Ventures</th>
+    <td>$25,000</td>
   </tr>
-  <tr class="odd">
-    <th>Sunlight Foundation</th>
-    <td>$10,000</td>
-  </tr>
-  <tr>
-    <th>Case Foundation</th>
-    <td>$10,000</td>
-  </tr>
-  <tr class="odd">
-    <th>Anne &amp; Louis Abrons Foundation</th>
-    <td>$10,000</td>
-  </tr>
-  <tr>
-    <th>Clay Johnson</th>
-    <td>$10,000</td></tr>
-	<tr class="odd">
-	    <th>Stephen Elop</th>
-	    <td>$10,000</td>
-  </tr>
+ 
 </table>
 <p align="right"><a href="/donors" class="more"><strong>MORE</strong></a></p>
 
