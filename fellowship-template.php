@@ -63,18 +63,18 @@ get_header(); ?>
     <ul>
       <li><a href="/2011-code-for-america-fellows/">Meet Our Fellows</a></li>
       <li><a href="/fellows/2012-program-and-timeline/">Learn More About the Fellowship</a></li>
-      <li><a href="https://codeforamerica.wufoo.com/forms/2012-code-for-america-fellows-application/" class="active">Apply To Be A Fellow</a></li>
+      <li><a href="http://codeforamerica.org/fellows/apply/" class="active">Apply To Be A Fellow</a></li>
     </ul>
     <div id="dates">
       <h3>Dates To Keep In Mind</h3>
       <h4>2012 Applicants</h4>
       <table border="0" cellspacing="0" cellpadding="0">
 		<tr  class="odd">
-          <td>03/15/11</td>
+          <td>04/1/11</td>
           <th>Early Decision (ED) Application Deadline <span>&raquo;</span></th>
         </tr>
 		<tr>
-          <td>03/11 - 04/11</td>
+          <td>04/11 - 05/11</td>
           <th>Interviews for ED Applicants <span>&raquo;</span></th>
         </tr>
         <tr class="odd">

@@ -1,5 +1,5 @@
 <div id="fellows">
-	<h3 class="ttl">Meet a Fellow <a href="https://codeforamerica.wufoo.com/forms/2012-code-for-america-fellows-application/" class="more">Apply for the fellowship</a></h3>
+	<h3 class="ttl">Meet a Fellow <a href="http://codeforamerica.org/fellows/apply/" class="more">Apply for the fellowship</a></h3>
 	<div id="fellowcarousel">
         <ul>
           <li><a href="/2011-code-for-america-fellows/#michaelb" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/bernstein.png"></a><span><strong>Michael Bernstein</strong></span></li>
