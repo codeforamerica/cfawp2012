@@ -135,7 +135,7 @@ $(document).ready(function() {
 	</div>
 	<!--Social Links -->
 	<ul id="social">
-		<li><a href="http://c4a.me/feed/" id="rss">RSS</a></li>
+		<li><a href="http://codeforamerica.org/feed/" id="rss">RSS</a></li>
 		<li><a href="http://www.facebook.com/codeforamerica" id="fb">Facebook</a></li>
 		<li><a href="http://www.youtube.com/user/CodeforAmerica" id="yt">YouTube</a></li>
 		<li><a href="http://www.twitter.com/codeforamerica" id="tw">Twitter</a></li>

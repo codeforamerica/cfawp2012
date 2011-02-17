@@ -82,7 +82,7 @@ get_header(); ?>
           <th>ED Applicants Notified of Selection <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>08/01/10</td>
+          <td>08/01/11</td>
           <th>Regular Application Deadline <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
