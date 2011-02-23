@@ -70,16 +70,8 @@ get_header(); ?>
       <h4>2012 Applicants</h4>
       <table border="0" cellspacing="0" cellpadding="0">
 		<tr  class="odd">
-          <td>04/1/11</td>
-          <th>Early Decision (ED) Application Deadline <span>&raquo;</span></th>
-        </tr>
-		<tr>
-          <td>04/11 - 05/11</td>
-          <th>Interviews for ED Applicants <span>&raquo;</span></th>
-        </tr>
-        <tr class="odd">
-          <td>05/1/11</td>
-          <th>ED Applicants Notified of Selection <span>&raquo;</span></th>
+          <td>03/11</td>
+          <th>Application Opens <span>&raquo;</span></th>
         </tr>
         <tr>
           <td>08/01/11</td>
