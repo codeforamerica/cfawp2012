@@ -115,6 +115,10 @@ a img, img a {text-decoration: none; border: none;}
 font-size: .8em;
 text-align: center;}
 
+.wp-caption .alignright {float: right;}
+.wp-caption .alignleft {float: left;}
+
+
 /*   ============   HEADER   ============   */
 
 #header {
