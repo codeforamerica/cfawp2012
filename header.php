@@ -11,6 +11,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php
 	/*
