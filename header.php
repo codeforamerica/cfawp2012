@@ -119,6 +119,8 @@ $(document).ready(function() {
 	wp_enqueue_script( 'comment-reply' );
 	wp_head();
 ?>
+
+<script type="text/javascript">var switchTo5x=true;</script>
 </head>
 
 
