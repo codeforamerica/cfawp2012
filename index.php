@@ -48,7 +48,7 @@ get_header(); ?>
            </a> 
          </div>
         <div id="slide-4" class="player"> 
-            <a href="/fellows/nomination" class="post-image"> 
+            <a href="/fellows/nominate" class="post-image"> 
             <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
 			<span class="title"><strong>Tag, You're It:</strong><br />Nominate a Colleague for the 2012 Code for America Fellowship</span> 
             </a>
