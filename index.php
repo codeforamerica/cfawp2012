@@ -20,7 +20,7 @@ get_header(); ?>
 	  	<div class="wrap clearfix" id="video-gallery">
           <ul id="slide-nav" class="thumbs"> 
          <div style="width: 181px; float: left;">     
-	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/codedsky.jpg" alt="" /><strong><span>Seeking Cites</span></strong></a></li> 
+	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>Video</span></strong></a></li> 
               <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" alt="" /><strong><span>Boston</span></strong></a></li>       
               <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/philly.jpg" alt="" /><strong><span>Philadelphia</span></strong></a></li> 
 		</div>
@@ -28,10 +28,9 @@ get_header(); ?>
  		<div style="float: left;">
 	
 			 <div id="slide-1" class="player"> 
-	            <a href="/cities/citizen-action-center" class="post-image"> 
-	            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-				<span class="title"><strong>Recode Your City:</strong><br />Learn How You Can Bring CfA to Your City</span> 
-	            </a> 
+	            
+     	        <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></embed></object>
+
 	          </div>
        
         <div id="slide-2" class="player"> 
@@ -49,8 +48,11 @@ get_header(); ?>
            </a> 
          </div>
         <div id="slide-4" class="player"> 
-	        <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></embed></object>
-			 
+            <a href="/fellows/nomination" class="post-image"> 
+            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+			<span class="title"><strong>Tag, You're It:</strong><br />Nominate a Colleague for the 2012 Code for America Fellowship</span> 
+            </a>
+            
 	        </div>
           <div id="slide-5" class="player"> 
              <a href="/seattle" class="post-image"> 
@@ -68,9 +70,9 @@ get_header(); ?>
             </div> </div>
 
 <div style="width: 181px; float: right;">   
-			<li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>Video</span></strong></a></li> 
-              <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/seattle.jpg" alt="" /><strong><span>Seattle</span></strong></a></li> 
-              <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/dc.jpg" alt="" /><strong><span>Washington DC</span></strong></a></li>      
+        <li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/codedsky.jpg" alt="" /><strong><span>Tag, You're It</span></strong></a></li> 
+        <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/seattle.jpg" alt="" /><strong><span>Seattle</span></strong></a></li>
+        <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/dc.jpg" alt="" /><strong><span>Washington DC</span></strong></a></li>      
  </div>
           </ul>                                                                
 		</div>
