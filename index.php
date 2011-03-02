@@ -20,7 +20,7 @@ get_header(); ?>
 	  	<div class="wrap clearfix" id="video-gallery">
           <ul id="slide-nav" class="thumbs"> 
          <div style="width: 181px; float: left;">     
-	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>Video</span></strong></a></li> 
+	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>The Fellowship</span></strong></a></li> 
               <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" alt="" /><strong><span>Boston</span></strong></a></li>       
               <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/philly.jpg" alt="" /><strong><span>Philadelphia</span></strong></a></li> 
 		</div>
