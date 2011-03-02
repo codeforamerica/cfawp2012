@@ -23,7 +23,7 @@ get_header(); ?>
 <div style="width: 620px; padding: 0px; float: left; " class="entry-content">	<h3 id="page-header" style="background:url(<?php $headerimg="headerimg"; echo get_post_meta($post->ID, $headerimg, true); ?>) center center no-repeat"><a href="#" ><?php the_title(); ?></a></h3>
 	
 				<?php the_content(); ?></div></div><div class="right-col">
-				<div id="wp-widget"><h3 class="widget-title">Get Involved Now</h3>			<div class="textwidget"><img src="/wp-content/themes/cfawp2012/images/get-involved-rc.jpg" alt="Get involved now" class="mainwidget">
+				<div id="wp-widget"><h3 class="widget-title">Get Involved Now</h3>			<div class="textwidget">
 					<ul>
 						<li><a href="#">Sign up for updates</a>
 
