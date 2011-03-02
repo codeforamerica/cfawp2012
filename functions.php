@@ -602,4 +602,3 @@ function myplugin_save_postdata( $post_id ) {
    return $mydata;
 }
 ?>
-
