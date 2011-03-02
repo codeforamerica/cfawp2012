@@ -16,7 +16,6 @@ Template Name: Labs-Main
 get_header(); ?>
 
 <div class="wrap clearfix" id="cities">
-  <!--PARTICIPATING CITIES -->
   <div id="participating-wrap" class="clearfix">
     <div id="participating">
       <h2>Labs Fridays</h2>
@@ -63,7 +62,22 @@ get_header(); ?>
 
 		<?php endwhile; ?>
 
-
+    	<div class="wrap" id="cfa-blog" style="">
+    		<div class="ttl">
+    		    <a href="http://codeforamerica.org/feed/" class="like-btn" id="ttl-rss">RSS</a> Labs Friday Posts <a href="/blog" class="more">Go to Blog</a>
+    		</div>	
+    		<?php query_posts('showposts=3&category_name=labs'); ?>		  
+    		<div>
+        		<div id="maincontent">
+        		    <div class="ttl">	
+        		        <?php $headerimg="headerimg"; echo get_post_meta($post->ID, $headerimg, true); ?>
+        			</div>
+        			<?php $blogtitle = get_post_meta($post->ID, 'blogtitle', true);
+        			$blogdesc = get_post_meta($post->ID, 'blogdesc', true); ?>
+        			<?php get_template_part( 'loop' ); ?>
+        	    </div>
+    	    </div>  
+    	</div>
     </div>
     <div class="right-col"> 
       <h3>Upcoming Labs Fridays</h3>

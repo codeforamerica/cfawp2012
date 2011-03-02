@@ -37,20 +37,22 @@ get_header(); ?>
 	<?php endwhile; ?>
 	
 	<div class="wrap" id="cfa-blog" style="">
-		<div class="ttl"><a href="http://c4a.me/feed/" class="like-btn" id="ttl-rss">RSS</a> GET INVOLVED <a href="/blog" class="more">Go to Blog</a></div>
-	
+		<div class="ttl">
+		    <a href="http://c4a.me/feed/" class="like-btn" id="ttl-rss">RSS</a> GET INVOLVED <a href="/blog" class="more">Go to Blog</a>
+		</div>	
 		<?php query_posts('showposts=3&category_name=get-involved'); ?>		  
-
-				<div>
-			      <div id="maincontent">
-				<div class="ttl">	<?php $headerimg="headerimg"; echo get_post_meta($post->ID, $headerimg, true); ?>
-			</div><?php $blogtitle = get_post_meta($post->ID, 'blogtitle', true);
-			$blogdesc = get_post_meta($post->ID, 'blogdesc', true); ?>
-						<?php
-						get_template_part( 'loop' );
-						?>
-	
-</div></div>  </div></div>
+		<div>
+    		<div id="maincontent">
+    		    <div class="ttl">	
+    		        <?php $headerimg="headerimg"; echo get_post_meta($post->ID, $headerimg, true); ?>
+    			</div>
+    			<?php $blogtitle = get_post_meta($post->ID, 'blogtitle', true);
+    			$blogdesc = get_post_meta($post->ID, 'blogdesc', true); ?>
+    			<?php get_template_part( 'loop' ); ?>
+    	    </div>
+	    </div>  
+	</div>
+  </div>
   <div class="right-col" id="featured-partners">
 	<ul>
 		<li><h3>Featured Partners &amp; Supporters <span></span></h3></li>
