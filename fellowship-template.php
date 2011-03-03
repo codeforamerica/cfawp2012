@@ -46,7 +46,7 @@ get_header(); ?>
     </div>
     <div class="box">
       <h3 class="ttl">The application Process <a href="/fellows/fellow-selection/" class="more">Read More</a></h3>
-      <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The application deadline for the 2011 fellowship has passed. The application process for the 2012 Fellowship will open on March 1, 2011.</p>
+      <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The application deadline for the 2011 fellowship has passed. The application process for the 2012 Fellowship will open in early March.</p>
     </div>
     <div class="box">
       <h3 class="ttl">The Training <a href="/fellows/institute/" class="more">Read More</a></h3>
