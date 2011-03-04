@@ -28,7 +28,7 @@ get_header(); ?>
                 <div class="textwidget">
                     <?php $getinvolved="getinvolved"; echo get_post_meta($post->ID, $getinvolved, true); ?>	
                 </div>
-            </div>
+            </div><br />
             <div id="wp-widget"><h3 class="widget-title">Be Social</h3>	
                 <div class="textwidget">
                 
