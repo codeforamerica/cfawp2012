@@ -553,6 +553,9 @@ function myplugin_add_custom_box() {
                 'myplugin_inner_custom_box', 'post' );
     add_meta_box( 'myplugin_sectionid', __( 'My Post Section Title', 'myplugin_textdomain' ), 
                 'myplugin_inner_custom_box', 'page' );
+    add_meta_box( 'myplugin_sectionid', __( 'Take Action Link', 'myplugin_textdomain' ), 
+                 'myplugin_inner_custom_box', 'cfa_project' );
+
 }
 
 /* Prints the box content */
@@ -562,8 +565,8 @@ function myplugin_inner_custom_box() {
   wp_nonce_field( plugin_basename(__FILE__), 'myplugin_noncename' );
 
   // The actual fields for data entry
-  echo '<label for="myplugin_new_field">' . __("Description for this field", 'myplugin_textdomain' ) . '</label> ';
-  echo '<input type="text" id= "myplugin_new_field" name="myplugin_new_field" value="whatever" size="25" />';
+  echo '<label for="myplugin_new_field">' . __("Paste link to key way to get involved", 'myplugin_textdomain' ) . '</label> ';
+  echo '<input type="text" id= "myplugin_new_field" name="myplugin_new_field" value="" size="80" />';
 }
 
 /* When the post is saved, saves our custom data */
@@ -601,4 +604,22 @@ function myplugin_save_postdata( $post_id ) {
 
    return $mydata;
 }
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+	register_post_type( 'cfa_project',
+		array(
+			'labels' => array(
+				'name' => __( 'Projects' ),
+				'singular_name' => __( 'Projects' )
+			),
+			'public' => true,
+            'rewrite' => false,
+            'capability_type' => 'post',
+            'supports' => array('title','editor','author', 'custom-fields', 'thumbnail',)
+		)
+	);
+}
+
+
+
 ?>
