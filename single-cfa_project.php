@@ -7,7 +7,7 @@ get_header(); ?>
     <div id="participating-wrap" class="clearfix">
          <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <div id="issues">	
-            <div style="width: 620px; padding: 0px; float: left; " class="entry-content">	<h3 id="page-header" style="background:url(<?php $headerimg="headerimg"; echo get_post_meta($post->ID, $headerimg, true); ?>) center center no-repeat"><a href="#" ><?php the_title(); ?></a></h3>
+            <div style="width: 620px; padding: 0px; float: left; " class="entry-content">	<h3 id="page-header" style="background:url(<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large'); echo $large_image_url[0]; ?>) center center no-repeat"><a href="#" ><?php the_title(); ?></a></h3>
                 <?php the_content(); ?> 
             </div>
         </div>
