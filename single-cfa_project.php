@@ -40,8 +40,7 @@ get_header(); ?>
 
 <div id="twocols-container" class="clearfix">
     <div id="maincontent" class="entry-content">
-        <?php $leftcolumn="leftcolumn
-        "; echo get_post_meta($post->ID, $leftcolumn, true); ?>	
+        <?php $leftcolumn="leftcolumn"; echo get_post_meta($post->ID, $leftcolumn, true); ?>	
         <?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
     </div>
     <div class="right-col">
