@@ -95,7 +95,7 @@ $(document).ready(function() {
 			});
 	});
 	</script>
-<?php	} elseif (is_page("2647"))  { ?>
+<?php	} elseif (is_page(array(2647,3927)))  { ?>
 		<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/header-min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/accordion.js"></script>
 		<script type="text/javascript">
