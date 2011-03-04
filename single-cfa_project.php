@@ -23,7 +23,7 @@ get_header(); ?>
                     </p>
                 </div>
             </div>
-        <?php endif; ?>
+        <?php endif; ?><br />
             <div id="wp-widget"><h3 class="widget-title">Get Involved Now</h3>	
                 <div class="textwidget">
                     <?php $getinvolved="getinvolved"; echo get_post_meta($post->ID, $getinvolved, true); ?>	
