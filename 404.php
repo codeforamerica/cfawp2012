@@ -5,6 +5,7 @@
  * @package WordPress
  * @subpackage Twenty_Ten
  * @since Twenty Ten 1.0
+ * pete was here
  */
 
 get_header(); ?>
