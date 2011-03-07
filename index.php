@@ -28,9 +28,11 @@ get_header(); ?>
  		<div style="float: left;">
 	
 			 <div id="slide-1" class="player"> 
-	            
-     	        <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></embed></object>
-
+	             <?php if ( is_active_sidebar( 'third-footer-widget-area' ) ) : ?>
+									
+											<?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
+					<?php endif; ?>
+     	        
 	          </div>
        
         <div id="slide-2" class="player"> 

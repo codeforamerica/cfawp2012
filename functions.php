@@ -615,7 +615,7 @@ function create_post_type() {
 			'public' => true,
             'rewrite' => false,
             'capability_type' => 'post',
-            'supports' => array('title','editor','author', 'custom-fields', 'thumbnail',)
+            'supports' => array('title','editor','author', 'excerpt', 'custom-fields', 'thumbnail',)
 		)
 	);
 }
