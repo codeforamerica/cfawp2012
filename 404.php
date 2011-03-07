@@ -15,7 +15,7 @@ get_header(); ?>
 
 			<div id="post-0" class="post error404 not-found">
 				<div class="entry-content">
-					<img src="<?php bloginfo( 'template_url' ); ?>/images/pandas.png" alt="" /><h1 class="entry-title"><?php _e( 'Not Found', 'twentyten' ); ?></h1>
+					<img src="<?php bloginfo( 'template_url' ); ?>/images/pandas.png" alt="" /><h1 class="entry-title"><?php _e( 'Life, Liberty, and the Pursuit...', 'twentyten' ); ?></h1>
 					
 			        
 					<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help. Or napping.', 'twentyten' ); ?></p>

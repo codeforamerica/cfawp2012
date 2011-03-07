@@ -53,6 +53,13 @@ input, select, textarea, button {
   font-size: 1.00em;
 }
 
+
+img.alignleft  { float: left; height: auto; margin: 5px 15px 5px 0; }
+img.alignright  { float: right; height: auto; margin: 5px 0 5px 15px; }
+img.aligncenter  { text-align: center; margin-bottom:15px;}
+img.aligncenter  { margin-left:auto; margin-right:auto; display:block; }
+
+
 .left {
   float: left;
 }
@@ -98,7 +105,18 @@ input, select, textarea, button {
   outline: none;
 }
 
-a img, img a {text-decoration: none;}
+a img, img a {text-decoration: none; border: none;}
+
+
+.user {float: left; margin-right: 5px;}
+.author-list {min-height: 250px;}
+
+.wp-caption-text {font-style: italic;
+font-size: .8em;
+text-align: center;}
+
+.wp-caption .alignright {float: right;}
+.wp-caption .alignleft {float: left;}
 
 
 /*   ============   HEADER   ============   */
@@ -430,6 +448,9 @@ top: 60px;}
    font-weight: bold;
    text-shadow: -3px 2px 3px #d9d9d9;
 }
+
+
+
 #cfa-blog h2 {
   position: relative;
   padding-left: 31px;
@@ -576,6 +597,7 @@ a.red-btn span {
 #maincontent img.right {
   margin: 0 0 7px 12px;
 }
+
 #maincontent .caption {
    padding-bottom: 4px;
    background: url(images/horizontal-dots.gif) 0 100% repeat-x;
@@ -887,7 +909,7 @@ padding-left: 10px;
 -------------------------------------------------------------- */
 
 #footer {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 #colophon {
 	border-top: 4px solid #000;
@@ -1324,7 +1346,7 @@ display: block;
 font-size: 18px;
 padding: 10px;
 position: absolute;
-bottom: 100px;
+bottom: 80px;
 max-width: 300px;
 text-align: right;
 font-weight: normal;
@@ -2349,7 +2371,7 @@ margin-bottom: 10px;
   font-family: Georgia, Times, "Times New Roman", serif;
   color: #000;
   padding: 15px 15px 15px 116px;
-  min-height: 112px;
+  min-height: 90px;
   position: relative;
 }
 

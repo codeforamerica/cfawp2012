@@ -26,12 +26,12 @@ get_header(); ?>
 <div class="wrap" id="dots"></div>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
-    <h2 class="ttl">Why Become a Fellow? <a href="#" class="red-btn"><span>SHARE THIS +</span></a></h2>
+    <h2 class="ttl">Why Become a Fellow? <a href="#" class="red-btn"><span class="st_sharethis_custom">SHARE THIS +</span></a></h2>
 <p>	During the 11-month program, fellows not only work together to solve local problems, but also receive the training and support to be positioned as a leader in business, public service, or both:</p>
     <ul id="why">
       <li><strong class="number">1</strong> <strong>Gov 2.0 Training.</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
       <li><strong class="number">2</strong> <strong>Professional Development.</strong> The biggest names in the web industry and the Gov 2.0 movement will provide you unparalleled networking, mentoring, and support.</li>
-      <li><strong class="number">3</strong> <strong>Alumni Connections.</strong> Working closely with other talented individuals, you will develop lasting professional relationships in a face-paced, startup atmosphere.</li>
+      <li><strong class="number">3</strong> <strong>Alumni Connections.</strong> Working closely with other talented individuals, you will develop lasting professional relationships in a fast-paced, startup atmosphere.</li>
       <li><strong class="number">4</strong> <strong>Employer Partnerships.</strong> Multiple leading internet companies have already pledged to guarantee interviews for a full-time position after your CfA experience.</li>
     </ul>
     <div class="box">
@@ -46,7 +46,7 @@ get_header(); ?>
     </div>
     <div class="box">
       <h3 class="ttl">The application Process <a href="/fellows/fellow-selection/" class="more">Read More</a></h3>
-      <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The application deadline for the 2011 fellowship has passed. The application process for the 2012 Fellowship will open on March 1, 2011.</p>
+      <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The application deadline for the 2011 fellowship has passed. The application process for the 2012 Fellowship will open in early March.</p>
     </div>
     <div class="box">
       <h3 class="ttl">The Training <a href="/fellows/institute/" class="more">Read More</a></h3>
@@ -63,18 +63,18 @@ get_header(); ?>
     <ul>
       <li><a href="/2011-code-for-america-fellows/">Meet Our Fellows</a></li>
       <li><a href="/fellows/2012-program-and-timeline/">Learn More About the Fellowship</a></li>
-      <li><a href="https://codeforamerica.wufoo.com/forms/2012-code-for-america-fellows-application/" class="active">Apply To Be A Fellow</a></li>
+      <li><a href="http://codeforamerica.org/fellows/apply/" class="active">Apply To Be A Fellow</a></li>
     </ul>
     <div id="dates">
       <h3>Dates To Keep In Mind</h3>
       <h4>2012 Applicants</h4>
       <table border="0" cellspacing="0" cellpadding="0">
 		<tr  class="odd">
-          <td>03/15/11</td>
+          <td>04/15/11</td>
           <th>Early Decision (ED) Application Deadline <span>&raquo;</span></th>
         </tr>
 		<tr>
-          <td>03/11 - 04/11</td>
+          <td>04/15/11 - 05/11</td>
           <th>Interviews for ED Applicants <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
@@ -82,7 +82,7 @@ get_header(); ?>
           <th>ED Applicants Notified of Selection <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>08/01/10</td>
+          <td>08/01/11</td>
           <th>Regular Application Deadline <span>&raquo;</span></th>
         </tr>
         <tr class="odd">

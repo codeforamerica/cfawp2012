@@ -20,7 +20,7 @@ get_header(); ?>
 	  	<div class="wrap clearfix" id="video-gallery">
           <ul id="slide-nav" class="thumbs"> 
          <div style="width: 181px; float: left;">     
-	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/codedsky.jpg" alt="" /><strong><span>Seeking Cites</span></strong></a></li> 
+	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>The Fellowship</span></strong></a></li> 
               <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" alt="" /><strong><span>Boston</span></strong></a></li>       
               <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/philly.jpg" alt="" /><strong><span>Philadelphia</span></strong></a></li> 
 		</div>
@@ -28,39 +28,43 @@ get_header(); ?>
  		<div style="float: left;">
 	
 			 <div id="slide-1" class="player"> 
-	            <a href="/citizen-action-center" class="post-image"> 
-	            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-				<span class="title"><strong>Bring CfA to Your City:</strong><br />Now Seeking Applications for the 2012 City Program</span> 
-	            </a> 
+	             <?php if ( is_active_sidebar( 'third-footer-widget-area' ) ) : ?>
+									
+											<?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
+					<?php endif; ?>
+     	        
 	          </div>
        
         <div id="slide-2" class="player"> 
-          <a href="http://50.16.221.90/cfa_wordpress/?page_id=1020" class="post-image"> 
+          <a href="/boston" class="post-image"> 
           <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
 		<span class="title"><strong>The Boston Project:</strong><br />Improving High School Education by Connecting the Community</span> 
   
           </a> 
         </div>
         <div id="slide-3" class="player"> 
-           <a href="http://50.16.221.90/cfa_wordpress/?page_id=947" class="post-image"> 
+           <a href="/philadelphia" class="post-image"> 
            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/philly.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />  
 		<span class="title"><strong>The Philadelphia Project:</strong><br />Helping Citizens Get Involved to Support Public Services</span> 
  
            </a> 
          </div>
         <div id="slide-4" class="player"> 
-	        <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></embed></object>
-			 
+            <a href="/fellows/nominate" class="post-image"> 
+            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+			<span class="title"><strong>Tag, You're It:</strong><br />Nominate a Colleague for the 2012 Code for America Fellowship</span> 
+            </a>
+            
 	        </div>
           <div id="slide-5" class="player"> 
-             <a href="http://50.16.221.90/cfa_wordpress/?page_id=955" class="post-image"> 
+             <a href="/seattle" class="post-image"> 
              <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/seattle.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
 			<span class="title"><strong>The Seattle Project:</strong><br />Empowering Civic Leaders to Mobilize their Communities</span> 
 
              </a> 
            </div>
            <div id="slide-6" class="player"> 
-              <a href="http://50.16.221.90/cfa_wordpress/?page_id=973" class="post-image"> 
+              <a href="/dc" class="post-image"> 
               <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/dc.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
 			<span class="title"><strong>The DC Project:</strong><br />Working with Government to Share Technology for the Public Good</span> 
 
@@ -68,9 +72,9 @@ get_header(); ?>
             </div> </div>
 
 <div style="width: 181px; float: right;">   
-			<li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>Video</span></strong></a></li> 
-              <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/seattle.jpg" alt="" /><strong><span>Seattle</span></strong></a></li> 
-              <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/dc.jpg" alt="" /><strong><span>Washington DC</span></strong></a></li>      
+        <li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/codedsky.jpg" alt="" /><strong><span>Tag, You're It</span></strong></a></li> 
+        <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/seattle.jpg" alt="" /><strong><span>Seattle</span></strong></a></li>
+        <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/dc.jpg" alt="" /><strong><span>Washington DC</span></strong></a></li>      
  </div>
           </ul>                                                                
 		</div>
@@ -80,7 +84,7 @@ get_header(); ?>
 	
 	
 	  <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="signup" class="clearfix">
-	  	<strong>CONNECT WITH CfA</strong> <input type="text" value="Email"  type="email" style="width: 160px;" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><input type="text" value="Zip Code"  type="email" id="zip" name="zip" style="width: 70px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> <span>You should sign up to receive <br />
+	  	<strong>CONNECT WITH CfA</strong> <input type="text" value="Email"  type="email" style="width: 160px;" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><input type="text" value="Zip Code"  type="email" id="zip" name="zip" style="border-left: 2px solid #f2f2f2; width: 70px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> <span>You should sign up to receive <br />
 our (infrequent) newsletter</span>
 	  </form>
 	    <div class="wrap-t">
@@ -118,16 +122,20 @@ our (infrequent) newsletter</span>
 			<h3>Who’s Got Our Back?</h3>
 		<div class="prev"><img src="<?php bloginfo('template_directory'); ?>/images/prev-arrow.gif"></div>	<div id="mycarousel">
                 <ul>
+	<li><a href="http://www.knightfoundation.org" title="Knight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/knight-logo.png"></a></li>
+	<li><a href="http://www.omidyar.com/" title="Omidyar Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/on-logo.png"></a></li>
+    <li><a href="http://www.rockefellerfoundation.org/" title="Rockefeller Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/rockefeller-logo.png"></a></li>
+    <li><a href="http://www.casefoundation.org" title="Case Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/case-logo.png"></a></li>  
+    <li><a href="http://www.esri.com" title="ESRI"><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"></a></li>                
+
+	<li><a href="http://www.oreillymedia.com" title="O'Reilly Media "><img src="<?php bloginfo('template_directory'); ?>/images/logos/oreilly-logo.png"></a></li>
+    <li><a href="http://www.jointconcepts.com" title="Joint Concepts"><img src="<?php bloginfo('template_directory'); ?>/images/logos/jc-logo.png"></a></li>
+ 	
+	<li><a href="http://www.sunlightfoundation.com" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.png"></a></li>
+    
+	<li><a href="/donors" title="More"><img src="<?php bloginfo('template_directory'); ?>/images/logos/more.png"></a></li>
+	
                   <li><a href="http://www.sunlightfoundation.org" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.png"></a></li>
-                  <li><a href="http://www.esri.com" title="ESRI"><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"></a></li>                
-                  <li><a href="http://www.omidyar.com/" title="Omidyar Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/on-logo.png"></a></li>
-                  <li><a href="http://www.rockefellerfoundation.org/" title="Rockefeller Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/rockefeller-logo.png"></a></li>
-                  <li><a href="http://www.casefoundation.org" title="Case Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/case-logo.png"></a></li>  
-				   <li><a href="http://www.sunlightfoundation.org" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.png"></a></li>
-	                  <li><a href="http://www.esri.com" title="ESRI"><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"></a></li>                
-	                  <li><a href="http://www.omidyar.com/" title="Omidyar Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/on-logo.png"></a></li>
-	                  <li><a href="http://www.rockefellerfoundation.org/" title="Rockefeller Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/rockefeller-logo.png"></a></li>
-	                  <li><a href="http://www.casefoundation.org" title="Case Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/case-logo.png"></a></li>                                    
     </ul>             				
              </div><div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow.gif"></div>
 			
@@ -144,18 +152,22 @@ our (infrequent) newsletter</span>
 					<?php endif; ?>
 				</div>
 				<!--CfA Blog -->
+				
+				
+
 				<div id="cfa-blog">
-					<h2>CfA Blog <a href="#" class="like-btn">RSS</a></h2>
+					<h2>CfA Blog <a href="http://c4a.me/feed/" class="like-btn">RSS</a></h2>
 					<?php query_posts('showposts=2'); ?>		  
 								     <ul>   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 								           <li> <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?> <strong>»</strong></a></h3>
-										<p>	 <?php the_content_rss('', TRUE, '', 10); ?></p>
+										<p>		<?php echo excerpt(12); ?>
+										</p>
 								</li>
 								 
 								        <?php endwhile; endif; ?>
 				
 					</ul>
-					<a href="#" class="btn">Go to Blog</a>
+					<a href="/code-for-america-blog/" class="btn">Go to Blog</a>
 				</div>
 				<!--Tweets -->
 			<div id="tweets">				

@@ -65,11 +65,11 @@
 					<li><a href="/feed">RSS</a></li>
 				</ul>
 			</li>
-			<li><h4><a href="#">Search</a></h4><form role="search" method="get" id="searchform" action="/cfa_wordpress/">
+			<li><h4><a href="#">Search</a></h4><form role="search" method="get" id="searchform" action="/">
 		<input type="text" value="..." name="s" id="s" style="border: 1px dotted #ccc; font-weight: bold; padding-left: 2px; width: 140px;" value="First name" onfocus="if (this.value == '...') {this.value = '';}" onblur="if (this.value == '') {this.value = '...';}">
 						</form></li>
 		</ul>
-		<p id="copyr">Code for America Labs, Inc is a non-partisan, non-political 501(c)3 organization. Content is licensed through <a href="#">Creative Commons</a>.</p>
+		<p id="copyr"><small>Code for America Labs, Inc is a non-partisan, non-political 501(c)(3) organization. Content is licensed through <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a>.<br>Site designed by <a href="http://www.jointconcepts.com/">Joint Concepts</a>.</small></p>
 	</div>
 	<?php
 		/* Always have wp_footer() just before the closing </body>
@@ -82,7 +82,41 @@
   </div>
   <!--   ==============   END FOOTER   ==============   -->
 
+<script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20825280-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+var _sf_async_config={uid:20661,domain:"codeforamerica.org"};
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+       "js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'72c27113-3bfc-4c68-a34e-b85a85d478db'});</script>
 
 </body>
 </html>

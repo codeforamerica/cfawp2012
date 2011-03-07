@@ -55,37 +55,39 @@ get_header(); ?>
     <div class="team">
 		<h3>STAFF <span style="color: #999; margin-left: 10px;"><span id="tip1"></span></span></h3>
 		<ul class="clearfix">
-			<li class="first"><a href="author/jen" rel="tooltip1" title="Jennifer Pahlka"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jen.jpg" alt="Jennifer Pahlka" /></a></li>
-			<li><a href="author/meghan"  rel="tooltip1" title="Meghan Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/meghan.png" alt="Staff name" /></a></li>
-			<li class="last"><a href="author/alissa" rel="tooltip1" title="Alissa Black"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/alissa.png" alt="Staff name" /></a></li>
-			<li><a href="author/dan" rel="tooltip1"  title="Dan Melton"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dan.png" alt="Staff name" /></a></li>
-			<li><a href="/author/abhi" rel="tooltip1" title="Abhi Nemani"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/abhi.png" alt="Staff name" /></a></li>
+			<li class="first"><a href="/author/jen" rel="tooltip1" title="Jennifer Pahlka"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jen.jpg" alt="Jennifer Pahlka" /></a></li><li><a href="/author/abhi" rel="tooltip1" title="Abhi Nemani"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/abhi.png" alt="Staff name" /></a></li>
+			
+			<li><a href="/author/mreilly"  rel="tooltip1" title="Meghan Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/meghan.png" alt="Staff name" /></a></li>
+			<li><a href="/author/dan" rel="tooltip1"  title="Dan Melton"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dan.png" alt="Staff name" /></a></li>
+			
+			<li><a href="/author/alissa" rel="tooltip1" title="Alissa Black"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/alissa.png" alt="Staff name" /></a></li>
+			<li class="last"><a href="/who-we-are/#david" rel="tooltip1"  title="David Eaves"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/david.jpg" alt="Staff name" /></a></li>
 			
 		</ul>
 
 		<h3>board of directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
 		<ul class="clearfix">
-			<li class="first"><a href="who-we-are/#toreilly" rel="tooltip2" title="Tim O'Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/toreilly.jpg" alt="Staff name" /></a></li>
-		<li>	<a href="who-we-are/#agreenhill" rel="tooltip2" title="Andrew Greenhill"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenhill.jpg" alt="Staff name" /></a></li>
-		<li>	<a href="who-we-are/#mharrington" rel="tooltip2" title="Monica Harrington"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mharrington.jpg" alt="Staff name" /></a></li>
-		<li>	<a href="who-we-are/#llin" rel="tooltip2" title="Leonard Lin"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/llin.jpg" alt="Staff name" /></a></li>
+			<li class="first"><a href="/who-we-are/#toreilly" rel="tooltip2" title="Tim O'Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/toreilly.jpg" alt="Staff name" /></a></li>
+		<li>	<a href="/who-we-are/#agreenhill" rel="tooltip2" title="Andrew Greenhill"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenhill.jpg" alt="Staff name" /></a></li>
+		<li>	<a href="/who-we-are/#mharrington" rel="tooltip2" title="Monica Harrington"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mharrington.jpg" alt="Staff name" /></a></li>
+		<li>	<a href="/who-we-are/#llin" rel="tooltip2" title="Leonard Lin"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/llin.jpg" alt="Staff name" /></a></li>
 			
 		</ul>
 
-		<h3>board of advisor <span style="color: #999; margin-left: 10px;"><span id="tip3"></span></span></h3>
+		<h3>board of advisors <span style="color: #999; margin-left: 10px;"><span id="tip3"></span></span></h3>
 		<ul class="clearfix">
-				<li class="first"><a href="who-we-are/#dbryant" rel="tooltip3" title="Deb Bryant"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dbryant.jpg" alt="Staff name" /></a></li>
-				<li><a href="who-we-are/#kcurry" rel="tooltip3" title="Kevin Curry"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Staff name" /></a></li>
-				<li><a href="who-we-are/#cjohnson" rel="tooltip3" title="Clay Johnson"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cjohnson.jpg" alt="Staff name" /></a></li>
-				<li><a href="who-we-are/#jhodge" rel="tooltip3" title="Jascha Franklin-Hodge"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jhodge.jpg" alt="Staff name" /></a></li>
-				<li><a href="who-we-are/#agreenfield" rel="tooltip3" title="Adam Greenfield"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenfield.jpg" alt="Staff name" /></li>
-				<li><a href="who-we-are/#pcorbett" rel="tooltip3" title="Peter Corbett"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/pcorbett.jpg" alt="Staff name" /></a></li>
-				<li class="first"><a href="who-we-are/#clawson" rel="tooltip3" title="Carolyn Lawson"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/clawson.jpg" alt="Staff name" /></a></li>
-				<li><a href="who-we-are/#mmigurski" rel="tooltip3" title="Michal Migursky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mmigurski.jpg" alt="Staff name" /></a></li>
-				<li><a href="who-we-are/#bcerveny" rel="tooltip3" title="Ben Cerveny"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bcerveny.jpg" alt="Staff name" /></a></li>
-				<li><a href="who-we-are/#arasiej" rel="tooltip3" title="Andrew Rasiej"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/arasiej.jpg" alt="Staff name" /></a></li>
+				<li class="first"><a href="/who-we-are/#dbryant" rel="tooltip3" title="Deb Bryant"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dbryant.jpg" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#kcurry" rel="tooltip3" title="Kevin Curry"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#cjohnson" rel="tooltip3" title="Clay Johnson"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cjohnson.jpg" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#jhodge" rel="tooltip3" title="Jascha Franklin-Hodge"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jhodge.jpg" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#agreenfield" rel="tooltip3" title="Adam Greenfield"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenfield.jpg" alt="Staff name" /></li>
+				<li><a href="/who-we-are/#pcorbett" rel="tooltip3" title="Peter Corbett"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/pcorbett.jpg" alt="Staff name" /></a></li>
+				<li class="first"><a href="/who-we-are/#clawson" rel="tooltip3" title="Carolyn Lawson"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/clawson.jpg" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#mmigurski" rel="tooltip3" title="Michal Migursky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mmigurski.jpg" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#bcerveny" rel="tooltip3" title="Ben Cerveny"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bcerveny.jpg" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#arasiej" rel="tooltip3" title="Andrew Rasiej"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/arasiej.jpg" alt="Staff name" /></a></li>
 
-				<li><a href="who-we-are/#cshirky" rel="tooltip3" title="Clay Shirky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cshirky.jpg" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#cshirky" rel="tooltip3" title="Clay Shirky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cshirky.jpg" alt="Staff name" /></a></li>
 		</ul>
 		<p align="right" style="margin-top: -3px;"><a href="/who-we-are/#city-steering" class="more"><strong>CITY STEERING COMMITTEE</strong></a><!--&nbsp;&nbsp;&nbsp;<a href="#" class="more"><strong>FRIENDS OF CFA</strong></a>--></p>
 		
@@ -107,55 +109,43 @@ get_header(); ?>
     <th>Rockefeller Foundation</th>
     <td>$200,000</td>
   </tr>
-<tr>
+ <tr>
+    <th>ESRI</th>
+    <td>$100,000</td>
+  </tr>
+<tr class="odd">
     <th>O'Reilly Media</th>
     <td>$100,000</td>
+  </tr>
+<tr>
+    <th>Kaphan Foundation</th>
+    <td>$50,000</td>
   </tr>
 <tr class="odd">
     <th>Microsoft</th>
     <td>$50,000</td>
   </tr>
   <tr>
-    <th>ESRI</th>
-    <td>$50,000</td>
-  </tr>
-  <tr class="odd">
     <th>O’Reilly Foundation</th>
     <td>$50,000</td>
   </tr>
-<tr>
-	<tr>
-	    <th>Scott Yara</th>
+<tr class="odd">
+	    <th>Vonceil and Scott Yara</th>
 	    <td>$50,000</td>
 	  </tr>
-	<tr class="odd">
+	<tr>
     <th>Google</th>
     <td>$40,000</td>
   </tr>
-  <tr>
+  <tr class="odd">
     <th>Paul Maritz</th>
     <td>$25,000</td>
   </tr>
-  <tr class="odd">
-    <th>Mike &amp; Monica Harrington</th>
-    <td>$10,000</td>
-  </tr>
   <tr>
-    <th>Sunlight Foundation</th>
-    <td>$10,000</td>
+    <th>Union Square Ventures</th>
+    <td>$25,000</td>
   </tr>
-  <tr class="odd">
-    <th>Case Foundation</th>
-    <td>$10,000</td>
-  </tr>
-  <tr>
-    <th>Anne &amp; Louis Abrons Foundation</th>
-    <td>$10,000</td>
-  </tr>
-  <tr class="odd">
-    <th>Clay Johnson</th>
-    <td>$10,000</td>
-  </tr>
+ 
 </table>
 <p align="right"><a href="/donors" class="more"><strong>MORE</strong></a></p>
 

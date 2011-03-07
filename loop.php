@@ -128,16 +128,16 @@
 	
 		
 			<div id="post" class="loop-post">
-			 	<h2 class=""><div style="float: right;">  <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 40 ) ); ?></div><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+			 	<h2 class=""><div style="float: right; margin-left: 10px;">  <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 40 ) ); ?></div><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 					<p class="date"><?php twentyten_posted_on(); ?>  <?php twentyten_posted_in(); ?></p>
 			<div style="float: left; margin-bottom: 30px;"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_post_thumbnail('thumbnail'); ?></div>	<div class="post" style="<?php 
 					if (has_post_thumbnail()) {
 					echo 'margin-left: 180px';
 					 };
 						?> " ></a>
-					<?php the_excerpt(); ?>
+					<?php the_excerpt('',FALSE,''); ?>
 		            <ul>
-		<li>Share: <a href="#" class="like-btn" id="mail-b">E-mail</a> <a href="#" class="like-btn" id="rss-b">RSS</a> <a href="#" class="like-btn" id="fb-b">Facebook</a> <a href="#" class="like-btn" id="tw-b">Twitter</a></li>
+		<li>Share: <a href="#" class="like-btn st_email_custom" id="mail-b">E-mail</a> <a href="<?php the_permalink(); ?>/feed" class="like-btn" id="rss-b">RSS</a> <a href="#" class="like-btn st_facebook_custom" id="fb-b"">Facebook</a> <a href="#" class="like-btn st_twitter_custom" id="tw-b">Twitter</a></li>
 		            	<li><?php comments_popup_link( __( 'Comment', 'twentyten' ), __( 'Comment (1)', 'twentyten' ), __( 'Comments (%)', 'twentyten' ), 'comments' ); ?></li>
 		            	<li class="right"><a class="more" href="<?php the_permalink(); ?>">Read More</a></li>
 		            </ul>

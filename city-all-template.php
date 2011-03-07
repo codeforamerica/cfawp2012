@@ -22,14 +22,14 @@ get_header(); ?>
   <div id="participating-wrap" class="clearfix">
     <div id="participating">
       <h2>PARTICIPATING CITIES</h2>
-      <div class="links"> <a href="/boston">Boston <span>&raquo;</span></a> <a href="/dc">Washington, D.C. <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a>  <a href="/cities/apply">Apply <span>&raquo;</span></a></div>
+      <div class="links"> <a href="/boston">Boston <span>&raquo;</span></a> <a href="/dc">Washington, D.C. <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a>  <a href="http://action.codeforamerica.org/page/s/2012-city-signup">Apply <span>&raquo;</span></a></div>
       <p>Cities matter. Big or small, they are where we work, how we survive, and what we call home. CfA connects forward-thinking cities with the talent from the web industry to develop reusable civic technology. Partnering cities will not only solve a critical problem using technology, but also help cultivate the next generation of tech-savvy, civic leaders.
 	
 	</p>
       <ul>
         <li><a href="/cities/model-city-projects">Read about our model city projects</a></li>
         <li><a href="/citizen-action-center">Spread the word in your city</a></li>
-        <li><a href="/cities/apply" class="active">apply to become a cfa city</a></li>
+        <li><a href="http://action.codeforamerica.org/page/s/2012-city-signup" class="active">apply to become a cfa city</a></li>
       </ul>
     </div>
     <ul id="slider">

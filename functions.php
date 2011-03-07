@@ -195,7 +195,14 @@ function my_show_extra_profile_fields( $user ) { ?>
 				<span class="description">Please enter your One Line Bio.</span>
 			</td>
 		</tr>
+			<tr>
+				<th><label for="twitter">Twitter Handle</label></th>
 
+				<td>
+					<input type="text" name="twitter" id="twitter" value="<?php echo esc_attr( get_the_author_meta( 'twitter', $user->ID ) ); ?>" class="regular-text" /><br />
+					<span class="description">Please enter your twitter handle <strong>with @</strong></span>
+				</td>
+			</tr>
 	</table>
 <?php }
 
@@ -209,6 +216,8 @@ function my_save_extra_profile_fields( $user_id ) {
 
 	/* Copy and paste this line for additional fields. Make sure to change 'twitter' to the field ID. */
 	update_usermeta( $user_id, 'oneline', $_POST['oneline'] );
+	update_usermeta( $user_id, 'twitter', $_POST['twitter'] );
+	
 }
 
 if ( ! function_exists( 'twentyten_admin_header_style' ) ) :
@@ -271,7 +280,7 @@ add_filter( 'excerpt_length', 'twentyten_excerpt_length' );
  * @return string "Continue Reading" link
  */
 function twentyten_continue_reading_link() {
-	return ' <a class="more" href="'. get_permalink() . '">' . __( 'Read More', 'twentyten' ) . '</a>';
+	return ' ';
 }
 
 /**
@@ -398,8 +407,8 @@ function twentyten_widgets_init() {
 		'name' => __( 'Secondary Widget Area', 'twentyten' ),
 		'id' => 'secondary-widget-area',
 		'description' => __( 'The secondary widget area', 'twentyten' ),
-		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
-		'after_widget' => '</li>',
+		'before_widget' => '<div style="margin-bottom: 15px;">',
+		'after_widget' => '</div>',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
@@ -431,8 +440,8 @@ function twentyten_widgets_init() {
 		'name' => __( 'Third Footer Widget Area', 'twentyten' ),
 		'id' => 'third-footer-widget-area',
 		'description' => __( 'The third footer widget area', 'twentyten' ),
-		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
-		'after_widget' => '</li>',
+		'before_widget' => '',
+		'after_widget' => '',
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
@@ -488,6 +497,18 @@ function twentyten_posted_on() {
 }
 endif;
 
+function excerpt($limit) {
+  $excerpt = explode(' ', get_the_excerpt(), $limit);
+  if (count($excerpt)>=$limit) {
+    array_pop($excerpt);
+    $excerpt = implode(" ",$excerpt).'...';
+  } else {
+    $excerpt = implode(" ",$excerpt);
+  }	
+  $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
+  return $excerpt;
+}
+
 if ( ! function_exists( 'twentyten_posted_in' ) ) :
 /**
  * Prints HTML with meta information for the current post (category, tags and permalink).
@@ -498,7 +519,7 @@ function twentyten_posted_in() {
 	// Retrieves tag list of current post, separated by commas.
 	$tag_list = get_the_tag_list( '', ', ' );
 	if ( $tag_list ) {
-		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a> and tagged %2$s.', 'twentyten' );
+		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a>', 'twentyten' );
 	} elseif ( is_object_in_taxonomy( get_post_type(), 'category' ) ) {
 		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a>', 'twentyten' );
 	} else {
@@ -515,3 +536,90 @@ function twentyten_posted_in() {
 }
 endif;
 
+/* Define the custom box */
+
+// WP 3.0+
+// add_action('add_meta_boxes', 'myplugin_add_custom_box');
+
+// backwards compatible
+add_action('admin_init', 'myplugin_add_custom_box', 1);
+
+/* Do something with the data entered */
+add_action('save_post', 'myplugin_save_postdata');
+
+/* Adds a box to the main column on the Post and Page edit screens */
+function myplugin_add_custom_box() {
+    add_meta_box( 'myplugin_sectionid', __( 'My Post Section Title', 'myplugin_textdomain' ), 
+                'myplugin_inner_custom_box', 'post' );
+    add_meta_box( 'myplugin_sectionid', __( 'My Post Section Title', 'myplugin_textdomain' ), 
+                'myplugin_inner_custom_box', 'page' );
+    add_meta_box( 'myplugin_sectionid', __( 'Take Action Link', 'myplugin_textdomain' ), 
+                 'myplugin_inner_custom_box', 'cfa_project' );
+
+}
+
+/* Prints the box content */
+function myplugin_inner_custom_box() {
+
+  // Use nonce for verification
+  wp_nonce_field( plugin_basename(__FILE__), 'myplugin_noncename' );
+
+  // The actual fields for data entry
+  echo '<label for="myplugin_new_field">' . __("Paste link to key way to get involved", 'myplugin_textdomain' ) . '</label> ';
+  echo '<input type="text" id= "myplugin_new_field" name="myplugin_new_field" value="" size="80" />';
+}
+
+/* When the post is saved, saves our custom data */
+function myplugin_save_postdata( $post_id ) {
+
+  // verify this came from the our screen and with proper authorization,
+  // because save_post can be triggered at other times
+
+  if ( !wp_verify_nonce( $_POST['myplugin_noncename'], plugin_basename(__FILE__) )) {
+    return $post_id;
+  }
+
+  // verify if this is an auto save routine. If it is our form has not been submitted, so we dont want
+  // to do anything
+  if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE ) 
+    return $post_id;
+
+  
+  // Check permissions
+  if ( 'page' == $_POST['post_type'] ) {
+    if ( !current_user_can( 'edit_page', $post_id ) )
+      return $post_id;
+  } else {
+    if ( !current_user_can( 'edit_post', $post_id ) )
+      return $post_id;
+  }
+
+  // OK, we're authenticated: we need to find and save the data
+
+  $mydata = $_POST['myplugin_new_field'];
+
+  // Do something with $mydata 
+  // probably using add_post_meta(), update_post_meta(), or 
+  // a custom table (see Further Reading section below)
+
+   return $mydata;
+}
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+	register_post_type( 'cfa_project',
+		array(
+			'labels' => array(
+				'name' => __( 'Projects' ),
+				'singular_name' => __( 'Projects' )
+			),
+			'public' => true,
+            'rewrite' => false,
+            'capability_type' => 'post',
+            'supports' => array('title','editor','author', 'excerpt', 'custom-fields', 'thumbnail',)
+		)
+	);
+}
+
+
+
+?>
