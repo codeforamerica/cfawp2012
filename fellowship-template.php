@@ -63,6 +63,8 @@ get_header(); ?>
     <ul>
       <li><a href="/2011-code-for-america-fellows/">Meet Our Fellows</a></li>
       <li><a href="/fellows/2012-program-and-timeline/">Learn More About the Fellowship</a></li>
+      <li><a href="/fellows/nominate/">Nominate a Future Fellow</a></li>
+      
       <li><a href="http://codeforamerica.org/fellows/apply/" class="active">Apply To Be A Fellow</a></li>
     </ul>
     <div id="dates">
