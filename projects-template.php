@@ -17,15 +17,23 @@ get_header(); ?>
 	
 	  <div id="maincontent" class="fullcolumn" style="width: 940px;" >
 
-      <div style="width: 230px; height: 500px; padding-right: 0px; float: left; ">	
+      <div style="width: 295px; height: 500px; padding-right: 0px; float: left; ">	
           <div class="ttl" style="padding: 5px; font-size: 1.51em;">Code for America. Now.</div>  
           
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
           
       <?php the_content(); ?><?php endwhile; ?>
+      <h4>Upcoming Events</h4>
+<ul>
+	<li><a href="http://sunlightfoundation.com">Wiki</a></li>
+	<li><a href="http://maplight.org">Live Site</a></li>
+	<li><a href="http://opensecrets.org">IRC Channel</a></li>
+	<li><a href="http://opencrs.com">Twitter</a></li>
+</ul>
       
     </div>
-        <div style="width: 450px; padding-left: 15px; float: left; " class="entry-content">	
+    
+        <div style="width: 630px; padding-left: 15px; float: left; " class="entry-content">	
             <div id="issues">	
 
 <?php
@@ -44,17 +52,7 @@ while ( $loop->have_posts() ) : $loop->the_post(); ?>
 <?php endwhile; ?>
 
 
-</div></div>
-
-<div style="width: 230px; height: 500px; padding-left: 10px; float: left;" id="issues">	
-<h4>Upcoming Events</h4>
-<ul>
-	<li><a href="http://sunlightfoundation.com">Wiki</a></li>
-	<li><a href="http://maplight.org">Live Site</a></li>
-	<li><a href="http://opensecrets.org">IRC Channel</a></li>
-	<li><a href="http://opencrs.com">Twitter</a></li>
-</ul></div>
-</div>
+</div></div></div>
 
 
 <?php get_footer(); ?>
