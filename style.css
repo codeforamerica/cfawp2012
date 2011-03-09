@@ -37,7 +37,7 @@ ul, ol, dl, dt, dd {
 }
 
 div.entry-content ul {
-  list-style: circle;
+  list-style: none;
   margin: 0;
   padding: 0 0 0 25px;}
 
