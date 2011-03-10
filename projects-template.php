@@ -23,12 +23,12 @@ get_header(); ?>
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
           
       <?php the_content(); ?><?php endwhile; ?>
-      <h4>Upcoming Events</h4>
+      <h4>Tools and Resources</h4>
 <ul>
-	<li><a href="http://sunlightfoundation.com">Wiki</a></li>
-	<li><a href="http://maplight.org">Live Site</a></li>
-	<li><a href="http://opensecrets.org">IRC Channel</a></li>
-	<li><a href="http://opencrs.com">Twitter</a></li>
+    <li><a href="http://help.github.com/">Learn How to Setup Git</a></li>
+	<li><a href="http://github.com/codeforamerica">Code for America GitHub</a></li>    
+    <li><a href="http://devcenter.heroku.com/articles/quickstart">Learn How to Setup Heroku</a></li>
+    <li><a href="http://rubyonrails.org/download">Learn How to Setup Rails</a></li>
 </ul>
       
     </div>
@@ -42,12 +42,10 @@ $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
     <h3 id="page-header" style="text-align: left; padding-left: 0px; background:url(<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large'); echo $large_image_url[0]; ?>) center center no-repeat"><a href="#" ><?php the_title(); ?></a></h3>
-	
-			<div>	<?php the_content(); ?>
-			    <?php $rightcolumn="rightcolumn"; echo get_post_meta($post->ID, $rightcolumn, true); ?>
-                
-				<p><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Read more</a></p>
-				</div>
+    <div>
+        <?php the_content(); ?>                
+        <p><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Read more</a></p>
+    </div>
 
 <?php endwhile; ?>
 
