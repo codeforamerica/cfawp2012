@@ -82,7 +82,7 @@ get_header(); ?>
 				<li><a href="/who-we-are/#jhodge" rel="tooltip3" title="Jascha Franklin-Hodge"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jhodge.jpg" alt="Staff name" /></a></li>
 				<li><a href="/who-we-are/#agreenfield" rel="tooltip3" title="Adam Greenfield"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenfield.jpg" alt="Staff name" /></li>
 				<li><a href="/who-we-are/#pcorbett" rel="tooltip3" title="Peter Corbett"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/pcorbett.jpg" alt="Staff name" /></a></li>
-				<li class="first"><a href="/who-we-are/#clawson" rel="tooltip3" title="Carolyn Lawson"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/clawson.jpg" alt="Staff name" /></a></li>
+				<!--<li class="first"><a href="/who-we-are/#clawson" rel="tooltip3" title="Carolyn Lawson"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/clawson.jpg" alt="Staff name" /></a></li>-->
 				<li><a href="/who-we-are/#mmigurski" rel="tooltip3" title="Michal Migursky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mmigurski.jpg" alt="Staff name" /></a></li>
 				<li><a href="/who-we-are/#bcerveny" rel="tooltip3" title="Ben Cerveny"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bcerveny.jpg" alt="Staff name" /></a></li>
 				<li><a href="/who-we-are/#arasiej" rel="tooltip3" title="Andrew Rasiej"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/arasiej.jpg" alt="Staff name" /></a></li>
