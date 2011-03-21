@@ -776,6 +776,8 @@ padding-left: 10px;
 
 #issues #maincontent ul {font-size: 14px;}
 
+#issues .right-col #get-involved h3, h3.widget-title {margin-bottom: 0px;}
+
 
 
 /*   ---------   Float containers fix   ---------   */
