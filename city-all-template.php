@@ -21,8 +21,8 @@ get_header(); ?>
   <!--PARTICIPATING CITIES -->
   <div id="participating-wrap" class="clearfix">
     <div id="participating">
-      <h2>PARTICIPATING CITIES</h2>
-      <div class="links"> <a href="/boston">Boston <span>&raquo;</span></a> <a href="/dc">Washington, D.C. <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a>  <a href="http://action.codeforamerica.org/page/s/2012-city-signup">Apply <span>&raquo;</span></a></div>
+      <h2>CURRENT PROJECTS </h2>
+      <div class="links"> <a href="/boston">Boston <span>&raquo;</span></a> <a href="/dc">Civic Commons <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a>  <a href="http://action.codeforamerica.org/page/s/2012-city-signup">Apply <span>&raquo;</span></a></div>
       <p>Cities matter. Big or small, they are where we work, how we survive, and what we call home. CfA connects forward-thinking cities with the talent from the web industry to develop reusable civic technology. Partnering cities will not only solve a critical problem using technology, but also help cultivate the next generation of tech-savvy, civic leaders.
 	
 	</p>
@@ -47,8 +47,8 @@ get_header(); ?>
         <div class="clearfix">
           <table border="0" cellspacing="0" cellpadding="0">
             <tr>
-              <th>Washington, D.C.</th>
-              <td>A leader in the local Gov 2.0, DC hopes create an simple, easy way for governments to share technology and save money. &raquo;</td>
+              <th>Civic Commons</th>
+              <td>In partnership with multiple organizations and agencies, we are creating an simple, easy way for governments to share technology and save money. &raquo;</td>
             </tr>
           </table>
         </div>
