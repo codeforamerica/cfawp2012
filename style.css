@@ -58,6 +58,10 @@ input, select, textarea, button {
   font-size: 1.00em;
 }
 
+blockquote {
+	border-left: 5px #CCC solid;
+	padding-left: 10px;
+}
 
 img.alignleft  { float: left; height: auto; margin: 5px 15px 5px 0; }
 img.alignright  { float: right; height: auto; margin: 5px 0 5px 15px; }
