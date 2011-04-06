@@ -89,7 +89,7 @@ get_header(); ?>
 
 				<li><a href="/who-we-are/#cshirky" rel="tooltip3" title="Clay Shirky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cshirky.jpg" alt="Staff name" /></a></li>
 		</ul>
-		<p align="right" style="margin-top: -3px;"><a href="/who-we-are/#city-steering" class="more"><strong>CITY STEERING COMMITTEE</strong></a>&nbsp;&nbsp;&nbsp;<a href="#" class="more"><strong>Project Mentors</strong></a></p>
+		<p align="right" style="margin-top: -3px;"><a href="/who-we-are/#city-steering" class="more"><strong>CITY STEERING COMMITTEE</strong></a>&nbsp;&nbsp;&nbsp;<a href="/who-we-are/#mentors" class="more"><strong>PROJECT MENTORS</strong></a></p>
 		
 	</div>
 	
