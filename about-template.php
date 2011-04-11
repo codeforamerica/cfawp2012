@@ -21,7 +21,7 @@ get_header(); ?>
 	<div class="wrap clearfix">
 		<div id="mission">
 			<h2>OUR MISSION</h2>
-			<p>Code for America enlists the brightest minds of the web industry into public service to use their skills to solve core problems facing our communities. We help talented technologists leverage the power of the internet to make governments more open and efficient, and become civic leaders able to realize transformational change with technology.</p>
+			<p>Code for America enlists the talent of the web industry into public service to use their skills to solve core problems facing our communities. We help passionate technologists leverage the power of the internet to make governments more open and efficient, and become civic leaders able to realize transformational change with technology.</p>
 		</div>
         <?php include 'fellow_carousel.php'; ?>		
 	</div>
