@@ -159,7 +159,7 @@ our (infrequent) newsletter</span>
 
 				<div id="cfa-blog">
 					<h2>CfA Blog <a href="http://c4a.me/feed/" class="like-btn">RSS</a></h2>
-					<?php query_posts('showposts=2'); ?>		  
+					<?php query_posts('showposts=2&tag__not_in=61'); ?>		  
 								     <ul>   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 								           <li> <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?> <strong>»</strong></a></h3>
 										<p>		<?php echo excerpt(12); ?>
