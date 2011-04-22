@@ -130,13 +130,6 @@ $(document).ready(function() {
 	wp_head();
 ?>
 
-<link href='http://fonts.googleapis.com/css?family=Maiden+Orange' rel='stylesheet' type='text/css'>
-<style>
-.entry-content {
-  font-family: 'Maiden Orange', serif;
- 
-}
-</style>
 
 
 </head>
