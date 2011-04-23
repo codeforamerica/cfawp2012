@@ -55,7 +55,7 @@ get_header(); ?>
 			<span class="title"><strong>Tag, You're It:</strong><br />Nominate a Colleague for the 2012 Code for America Fellowship</span> 
             </a>-->
             
-            <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/JEU2p1rrLHo?fs=1&amp;hl=en_US&amp;rel=0"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/JEU2p1rrLHo?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></object>
+            <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/JEU2p1rrLHo?fs=1&amp;hl=en_US&amp;rel=0"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/JEU2p1rrLHo?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></object>
             
 	        </div>
           <div id="slide-5" class="player"> 
