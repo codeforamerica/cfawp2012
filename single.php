@@ -16,7 +16,13 @@ get_header(); ?>
 
 			<?php
             if ( in_category('CfA Labs') ) {
-           echo "<div class='ttl' style='margin-bottom: 15px;'>	<img style='border: none;' src='http://codeforamerica.org/wp-content/uploads/2011/04/CfA_Labs.jpg'></div>";
+           echo "<div class='ttl' style='margin-bottom: 15px;'>	<img style='border: none;' src='http://codeforamerica.org/wp-content/uploads/2011/04/CfA_Labs.jpg'></div>"; }
+           
+           else {
+               
+               echo "<div class='ttl' style='margin-bottom: 15px;'>	<img style='border: none;' src='http://codeforamerica.org/wp-content/uploads/2010/12/BloggingForAmerica.jpg'></div>"; 
+               
+           
            
             } 
             ?>
