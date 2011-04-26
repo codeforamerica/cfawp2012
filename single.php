@@ -14,10 +14,12 @@ get_header(); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-			<!--	<div id="nav-above" class="navigation">
-					<div class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
-					<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
-				</div>--><!-- #nav-above -->
+			<?php
+            if ( in_category('CfA Labs') ) {
+           echo "<div class='ttl' style='margin-bottom: 15px;'>	<img style='border: none;' src='http://codeforamerica.org/wp-content/uploads/2011/04/CfA_Labs.jpg'></div>";
+           
+            } 
+            ?>
 
 					 <div class="ttl"><?php the_title(); ?><a href="#" class="red-btn"><span class="st_sharethis_custom">Share This</a></span></div>
 
