@@ -111,28 +111,24 @@ get_header(); ?>
             Applications <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>05/01/11</td>
-          <th>Finalists Announced <span>&raquo;</span></th>
-        </tr>
-        <tr class="odd">
           <td>06/01/11</td>
           <th>Selected Cities Notified <span>&raquo;</span></th>
         </tr>
-        <tr>
+        <tr class="odd">
           <td>06/15/11</td>
           <th>Selected Cities Announced <span>&raquo;</span></th>
         </tr>
-        <tr class="odd">
+        <tr>
           <td>06/11 - 09/11</td>
           <th>Product Scoping and
             Contracting <span>&raquo;</span></th>
         </tr>
-        <tr>
+        <tr class="odd">
           <td>09/15/11</td>
           <th>Product Overviews
             Announced <span>&raquo;</span></th>
         </tr>
-        <tr class="odd">
+        <tr>
           <td>01/12</td>
           <th>New Class of Fellows
             Begins Development Cycle <span>&raquo;</span></th>
