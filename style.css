@@ -127,6 +127,9 @@ text-align: center;}
 .wp-caption .alignright {float: right;}
 .wp-caption .alignleft {float: left;}
 
+#maincontent .entry-meta {
+    font-style: italic;
+}
 
 /*   ============   HEADER   ============   */
 
