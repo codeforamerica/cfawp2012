@@ -546,12 +546,22 @@ font-size: ;
 #maincontent h3 {
   font-size: 1em;
   color: #4ca3d9;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ccc;
+  text-transform: uppercase;
 }
 
 .entry-content p {
-	line-height: 1.6em;
+	line-height: 22px;
+	font-size: 13px;
 	
 }
+
+.entry-content a {
+    font-weight: bold;
+}
+
+
 
 #maincontent a {
 	text-decoration: none;
@@ -566,7 +576,8 @@ font-size: ;
 
 
 #maincontent .ttl {
-  font-size: 1.71em;
+/*  font-size: 1.71em; */
+  font-size: 28px;
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
