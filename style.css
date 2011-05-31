@@ -550,9 +550,14 @@ font-size: ;
 #maincontent h3 {
   font-size: 1em;
   color: #4ca3d9;
-  padding-bottom: 10px;
-  border-bottom: 3px solid #ccc;
-  text-transform: uppercase;
+
+}
+
+.single-post #maincontent h3 {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ccc;
+    text-transform: uppercase;
+    
 }
 
 .entry-content p {
