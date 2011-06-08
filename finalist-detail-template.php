@@ -68,7 +68,8 @@ get_header(); ?>
 		  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
 		// ]]></script></div>
 	</div>
-	
+	<?php endwhile; ?>
+    
   </div>
 </div>
 
