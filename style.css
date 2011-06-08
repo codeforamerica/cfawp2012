@@ -1439,12 +1439,16 @@ border: none;}
   margin-bottom: 5px;
 }
 
-#cities #participating h1 {
+#cities-detail h1 {
   font-size: 2em;
   color: #000;
   padding-bottom: 8px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
   margin-bottom: 5px;
+}
+
+#ideas {
+    padding-top: 15px;
 }
 
 

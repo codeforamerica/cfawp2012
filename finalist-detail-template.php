@@ -49,10 +49,10 @@ get_header(); ?>
 		<li><a href="/donate" class="active">Donate</a></li>
 	</ul>
   </div></div>
-  <div class="wrap clearfix">
+  <div class="clearfix">
   	<div>
 
-		<div id="press">
+		<div id="ideas">
 		<script type="text/javascript">// <![CDATA[
 		  var is_ssl = ("https:" == document.location.protocol);
 		  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
