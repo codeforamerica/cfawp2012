@@ -67,7 +67,7 @@ get_header(); ?>
 
 		<h3>board of directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
 		<ul class="clearfix">
-			<li class="first"><a href="/who-we-are/#amclaughlin" rel="tooltip2" title="Andrew McLaughlin"><img src="http://civiccommons.org/wp-content/themes/cityguide/images/andrew-mclaughlin.jpg" width="80px" height="80px" alt="Staff name" /></a></li>
+			<li class="first"><a href="/who-we-are/#amclaughlin" rel="tooltip2" title="Andrew McLaughlin"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/amclaughlin.jpg" alt="Staff name" /></a></li>
 		<li>	<a href="/who-we-are/#agreenhill" rel="tooltip2" title="Andrew Greenhill"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenhill.jpg" alt="Staff name" /></a></li>
 		<li>	<a href="/who-we-are/#mharrington" rel="tooltip2" title="Monica Harrington"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mharrington.jpg" alt="Staff name" /></a></li>
 		<li>	<a href="/who-we-are/#llin" rel="tooltip2" title="Leonard Lin"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/llin.jpg" alt="Staff name" /></a></li>
