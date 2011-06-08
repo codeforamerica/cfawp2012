@@ -553,6 +553,11 @@ font-size: ;
 
 }
 
+h3 {
+  color: #4ca3d9;
+
+}
+
 .single-post #maincontent h3 {
     padding-bottom: 10px;
     border-bottom: 3px solid #ccc;
