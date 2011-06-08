@@ -1450,6 +1450,7 @@ border: none;}
   padding-bottom: 8px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 #ideas {

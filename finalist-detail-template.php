@@ -19,7 +19,7 @@ get_header(); ?>
   <div id="top-wrap" class="clearfix">
   	<div id="intro" class="entry-content"><?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 	
-    <h1><?php the_title(); ?><span style="color: #b3b2b2; font-size: 14px; vertical-align: top;">[BETA]</span></h1>
+    <h2><?php the_title(); ?><span style="color: #b3b2b2; font-size: 14px; vertical-align: top;">[BETA]</span><a href="#" class="red-btn"><span class="st_sharethis_custom">Share This +</span></a></h2>
 
 
 
