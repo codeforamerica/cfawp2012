@@ -570,12 +570,12 @@ h3 {
 	font-size: 13px;
 }
 
-entry-content li {
+.entry-content li {
     	line-height: 22px;
     	font-size: 13px;
 }
 
-entry-content ul {
+.entry-content ul {
     padding-bottom: 0px;
 }
 
