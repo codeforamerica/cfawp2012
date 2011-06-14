@@ -568,7 +568,15 @@ h3 {
 .entry-content p {
 	line-height: 22px;
 	font-size: 13px;
-	
+}
+
+entry-content li {
+    	line-height: 22px;
+    	font-size: 13px;
+}
+
+entry-content ul {
+    padding-bottom: 0px;
 }
 
 .entry-content a {
@@ -668,6 +676,8 @@ h2.lh {
    background: url(images/bullet-red-arrow.gif) 0 3px no-repeat;
 line-height: 1.4em;
 }
+
+
 
 
 .right-col {
