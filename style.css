@@ -678,7 +678,13 @@ line-height: 1.4em;
 }
 
 
-.bio {padding-left: 100px; position: relative;}
+.bio {
+    padding-left: 100px; 
+    position: relative; 
+    margin-bottom: 25px;
+    border-bottom: 1px solid #CCC;
+    }
+    
 .bio img {position: absolute; top: 6px; left: 0;}
 
 .right-col {
