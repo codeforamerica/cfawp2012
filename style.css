@@ -678,7 +678,8 @@ line-height: 1.4em;
 }
 
 
-
+.bio {padding-left: 100px; position: relative;}
+.bio img {position: absolute; top: 6px; left: 0;}
 
 .right-col {
   float: right;
