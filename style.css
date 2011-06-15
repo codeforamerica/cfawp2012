@@ -684,6 +684,8 @@ line-height: 1.4em;
     margin-bottom: 25px;
     border-bottom: 1px solid #CCC;
     padding-bottom: 10px;
+    font-size: 13px;
+    line-height: 22px;
     }
     
 .bio img {position: absolute; top: 6px; left: 0;}
