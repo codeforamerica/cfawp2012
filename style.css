@@ -558,7 +558,7 @@ h3 {
 
 }
 
-.single-post #maincontent h3 {
+.single-post #maincontent h3, .page-template-default h3 {
     padding-bottom: 10px;
     border-bottom: 3px solid #ccc;
     text-transform: uppercase;
