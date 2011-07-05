@@ -635,7 +635,7 @@ a.red-btn span {
 
 .single-post #maincontent .ttl {
     font-family: Oswald, Helvetica Neue, Helvetic, Arial;
-    font-size: 36px;
+    font-size: 40px;
     letter-spacing: -.05em;
     background: none;
     border-bottom: 4px solid #ccc;
@@ -1913,7 +1913,7 @@ a.more:hover {
 
 #involved #maincontent .wrap, #maincontent #posts .wrap {
   width: auto;
-  margin-top: 25px;
+  margin-top: 15px;
   font-size: 1.17em;
 }
 #involved #maincontent .wrap {

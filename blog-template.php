@@ -18,8 +18,8 @@ query_posts( $queryargs . '&paged=' . $page); ?>
 
 		<div class="wrap clearfix" id="inner">
 	      <div id="maincontent">
-		<div class="ttl">	<?php $headerimg="headerimg"; echo get_post_meta($post->ID, $headerimg, true); ?>
-	</div><?php $blogtitle = get_post_meta($post->ID, 'blogtitle', true);
+		<div class="ttl" style="background: none; padding: 0;">	<?php $headerimg="headerimg"; echo get_post_meta($post->ID, $headerimg, true); ?>
+	</div> <?php $blogtitle = get_post_meta($post->ID, 'blogtitle', true);
 	$blogdesc = get_post_meta($post->ID, 'blogdesc', true); ?>
 				<?php
 				get_template_part( 'loop' );

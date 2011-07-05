@@ -14,7 +14,7 @@ get_header(); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-			<?php
+		<!--	<?php
             if ( in_category('CfA Labs') ) {
            echo "<div class='ttl' style='margin-bottom: 15px;'>	<img style='border: none;' src='http://codeforamerica.org/wp-content/uploads/2011/04/CfA_Labs.jpg'></div>"; }
            
@@ -25,7 +25,7 @@ get_header(); ?>
            
            
             } 
-            ?>
+            ?>-->
 
 					 <div class="ttl"><?php the_title(); ?><a href="#" class="red-btn"><span class="st_sharethis_custom">Share This</a></span></div>
 
