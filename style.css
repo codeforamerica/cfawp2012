@@ -628,8 +628,19 @@ a.red-btn span {
   right: 0;
 }
 #maincontent .ttl a.red-btn span {
-  font-size: .5em;
+  font-size: 12px;
+  font-family: Helvetica Neue, Helvetic, Arial;
+  letter-spacing: 0;
 }
+
+.single-post #maincontent .ttl {
+    font-family: Oswald, Helvetica Neue, Helvetic, Arial;
+    font-size: 36px;
+    letter-spacing: -.05em;
+    background: none;
+    border-bottom: 4px solid #ccc;
+}
+
 #maincontent img.avatar {
   border: 3px solid #e1e1e1;
 }
@@ -1964,13 +1975,16 @@ a.more:hover {
 }
 
 #maincontent #cfa-blog h2, #cfa-blog h2 a {
-font-size: 20px;
+font-size: 30px;
   clear: both;
   text-transform: uppercase;
   color: #000;
   padding: 0;
   min-height: 10px;
   margin-top: 7px;
+  font-family: Oswald, Helvetica Neue, Helvetica, Arial;
+  letter-spacing: -.05em;
+  
 }
 
 #maincontent #cfa-blog p {
