@@ -1975,7 +1975,7 @@ a.more:hover {
 }
 
 #maincontent #cfa-blog h2, #cfa-blog h2 a {
-font-size: 30px;
+  font-size: 34px;
   clear: both;
   text-transform: uppercase;
   color: #000;
