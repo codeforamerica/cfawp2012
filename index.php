@@ -20,7 +20,7 @@ get_header(); ?>
 	  	<div class="wrap clearfix" id="video-gallery">
           <ul id="slide-nav" class="thumbs"> 
          <div style="width: 181px; float: left;">     
-	<li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>The Fellowship</span></strong></a></li> 
+	<li><a href="#slide-1"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/bythenumbers-small.png" alt="" /><strong><span>By the Numbers</span></strong></a></li> 
               <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" alt="" /><strong><span>Boston</span></strong></a></li>       
               <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/philly.jpg" alt="" /><strong><span>Philadelphia</span></strong></a></li> 
 		</div>
@@ -28,10 +28,8 @@ get_header(); ?>
  		<div style="float: left;">
 	
 			 <div id="slide-1" class="player"> 
-	             <?php if ( is_active_sidebar( 'third-footer-widget-area' ) ) : ?>
-									
-											<?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
-					<?php endif; ?>
+			     <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/zc6GxCLt0Mw?fs=1&amp;hl=en_US&amp;rel=0"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/zc6GxCLt0Mw?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></object>
+	             
      	        
 	          </div>
        
@@ -66,17 +64,18 @@ get_header(); ?>
              </a> 
            </div>
            <div id="slide-6" class="player"> 
-              <a href="/dc" class="post-image"> 
-              <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/dc.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-			<span class="title"><strong>The DC Project:</strong><br />Working with Government to Share Technology for the Public Good</span> 
+                  <?php if ( is_active_sidebar( 'third-footer-widget-area' ) ) : ?>
 
-              </a> 
+  											<?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
+  					<?php endif; ?>
             </div> </div>
 
 <div style="width: 181px; float: right;">   
         <li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/karla.png" alt="" /><strong><span>Fellow Spotlight</span></strong></a></li> 
         <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/seattle.jpg" alt="" /><strong><span>Seattle</span></strong></a></li>
-        <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/dc.jpg" alt="" /><strong><span>Washington DC</span></strong></a></li>      
+        <li>
+             <a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>The Fellowship</span></strong></a>
+        </li>      
  </div>
           </ul>                                                                
 		</div>
