@@ -48,12 +48,9 @@ get_header(); ?>
            </a> 
          </div>
         <div id="slide-4" class="player"> 
-            <!--<a href="/fellows/nominate" class="post-image"> 
-            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/codedsky.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-			<span class="title"><strong>Tag, You're It:</strong><br />Nominate a Colleague for the 2012 Code for America Fellowship</span> 
-            </a>-->
+           
             
-            <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/JEU2p1rrLHo?fs=1&amp;hl=en_US&amp;rel=0"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/JEU2p1rrLHo?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></object>
+           <iframe src="http://player.vimeo.com/video/25839633?title=0&amp;byline=0&amp;portrait=0" width="550" height="330" frameborder="0"></iframe>
             
 	        </div>
           <div id="slide-5" class="player"> 
@@ -71,7 +68,7 @@ get_header(); ?>
             </div> </div>
 
 <div style="width: 181px; float: right;">   
-        <li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/karla.png" alt="" /><strong><span>Fellow Spotlight</span></strong></a></li> 
+        <li><a href="#slide-4"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/mjumbe1.png" alt="" /><strong><span>Fellow Spotlight</span></strong></a></li> 
         <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/seattle.jpg" alt="" /><strong><span>Seattle</span></strong></a></li>
         <li>
              <a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>The Fellowship</span></strong></a>
