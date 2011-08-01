@@ -2535,3 +2535,22 @@ text-transform: uppercase;
 
 .nav-next {float: right;}
 .nav-previous {float: left;}
+
+/* Added By Pete Fecteau - 7-27-11 */
+
+a.applynow {
+display:block;
+background-image:url(http://codeforamerica.org/wp-content/uploads/2011/07/APPLY_NOW_BTN1.png);
+background-repeat:no-repeat;
+background-position: 0 -55px;
+width:950px;
+height:55px;
+overflow:hidden;
+text-decoration:none;
+position: relative;
+left: 50%;
+margin-left: -475px;
+}
+a.applynow:hover {
+background-position: 0 0;
+}
