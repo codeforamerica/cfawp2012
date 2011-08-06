@@ -2,6 +2,7 @@
 	<h3 class="ttl">Meet a Fellow <a href="http://codeforamerica.org/fellows/apply/" class="more">Apply for the fellowship</a></h3>
 	<div id="fellowcarousel">
         <ul>
+        <li><a href="/author/tyler" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/stalder.png"></a><span><strong>Tyler Stalder</strong></span></li>          
           <li><a href="/author/anna" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/bloom.png"></a><span><strong>Anna Bloom</strong></span></li>
           <li><a href="/author/jeremy" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/canfield.png"></a><span><strong>Jeremy Canfield</strong></span></li>  
           <li><a href="/author/michael" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/evans.png"></a><span><strong>Michael Evans</strong></span></li>
@@ -20,7 +21,6 @@
           <li><a href="/author/talin" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/salway.png"></a><span><strong>Talin Salway</strong></span></li>  
 		  <li><a href="/author/chacha" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/sikes.png"></a><span><strong>Chacha Sikes</strong></span></li>
           <li><a href="/author/scott" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/silverman.png"></a><span><strong>Scott Silverman</strong></span></li>          
-          <li><a href="/author/tyler" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/stalder.png"></a><span><strong>Tyler Stalder</strong></span></li>          
 </ul>             				
 <div class="prev"><img src="<?php bloginfo('template_directory'); ?>/images/back-arrow2.png"></div>
  <div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow2.png"></div>
