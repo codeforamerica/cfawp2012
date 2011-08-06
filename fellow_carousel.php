@@ -2,7 +2,6 @@
 	<h3 class="ttl">Meet a Fellow <a href="http://codeforamerica.org/fellows/apply/" class="more">Apply for the fellowship</a></h3>
 	<div id="fellowcarousel">
         <ul>
-          <li><a href="/2011-code-for-america-fellows/#michaelb" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/bernstein.png"></a><span><strong>Michael Bernstein</strong></span></li>
           <li><a href="/author/anna" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/bloom.png"></a><span><strong>Anna Bloom</strong></span></li>
           <li><a href="/author/jeremy" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/canfield.png"></a><span><strong>Jeremy Canfield</strong></span></li>  
           <li><a href="/author/michael" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/evans.png"></a><span><strong>Michael Evans</strong></span></li>
