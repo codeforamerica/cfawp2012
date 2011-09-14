@@ -94,7 +94,7 @@ get_header(); ?>
     <div class="right-col">
       <h3>Dates To Keep In Mind</h3>
       <h4>2012 City Application Timeline</h4>
-      <p>The application process for 2012 cities will be opening in early November. For more information, see the timeline below and don’t hesitate to get in touch with any questions.</p>
+      <p>The application process for 2013 cities will be opening in early November. For more information, see the timeline below and don’t hesitate to get in touch with any questions.</p>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
           <td>11/01/10</td>
