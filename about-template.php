@@ -69,7 +69,7 @@ get_header(); ?>
 		<ul class="clearfix">
 			<li class="first"><a href="/who-we-are/#amclaughlin" rel="tooltip2" title="Andrew McLaughlin"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/amclaughlin.jpg" alt="Staff name" /></a></li>
 		<li>	<a href="/who-we-are/#agreenhill" rel="tooltip2" title="Andrew Greenhill"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenhill.jpg" alt="Staff name" /></a></li>
-		<li>	<a href="/who-we-are/#mharrington" rel="tooltip2" title="Monica Harrington"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mharrington.jpg" alt="Staff name" /></a></li>
+		<li>	<a href="/who-we-are/#jlilly" rel="tooltip2" title="John Lilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jlilly.jpg" alt="Staff name" /></a></li>
 		<li>	<a href="/who-we-are/#llin" rel="tooltip2" title="Leonard Lin"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/llin.jpg" alt="Staff name" /></a></li>
 			
 		</ul>
