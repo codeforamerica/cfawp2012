@@ -20,6 +20,7 @@ get_header(); ?>
 			        
 					<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help. Or napping.', 'twentyten' ); ?></p>
 					<?php get_search_form(); ?>
+					<p><em>Image credit: <a href="http://www.mischiefchampion.com/style/p/2010/Aug/life_questions">Mischief Champion</a></em></p>
 				</div><!-- .entry-content -->
 			</div><!-- #post-0 -->
 
