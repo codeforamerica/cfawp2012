@@ -19,58 +19,57 @@ get_header(); ?>
 	  <!--Video Gallery -->	  
 	  	<div class="wrap clearfix" id="video-gallery">
           <ul id="slide-nav" class="thumbs"> 
-         <div style="width: 181px; float: left;">     
-	<li><a href="#slide-1"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/bythenumbers-small.png" alt="" /><strong><span>By the Numbers</span></strong></a></li> 
-              <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012-thumb.png" alt="" /><strong><span></span></strong></a></li>       
-              <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/philly.jpg" alt="" /><strong><span>Philadelphia</span></strong></a></li> 
+         <div style="width: 181px; float: left;">   
+	         <li><a href="#slide-1"><img src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012-thumb.png" alt="" /><strong><span>What's Ahead</span></strong></a></li>       
+      
+	<li><a href="#slide-2"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/bythenumbers-small.png" alt="" /><strong><span>CfA Culture</span></strong></a></li> 
+              <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/report-thumb.jpg" alt="" /><strong><span>Annual Report</span></strong></a></li> 
 		</div>
        
  		<div style="float: left;">
-	
-			 <div id="slide-1" class="player"> 
-			     <object width="547" height="330"><param name="movie" value="http://www.youtube.com/v/zc6GxCLt0Mw?fs=1&amp;hl=en_US&amp;rel=0"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed src="http://www.youtube.com/v/zc6GxCLt0Mw?fs=1&amp;hl=en_US&amp;rel=0&amp;hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="547" height="330"></object>
-	             
+			   <div id="slide-1" class="player"> 
+		          <a href="/2012" class="post-image"> 
+		          <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
+
+		          </a> 
+		        </div>
+		
+			 <div id="slide-2" class="player"> 
+			     <iframe src="http://player.vimeo.com/video/30575113?title=0&amp;byline=0&amp;portrait=0" width="550" height="330" frameborder="0"></iframe>
+	           
      	        
 	          </div>
        
-        <div id="slide-2" class="player"> 
-          <a href="/2012" class="post-image"> 
-          <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
-  
-          </a> 
-        </div>
+     
         <div id="slide-3" class="player"> 
-           <a href="/philadelphia" class="post-image"> 
-           <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/philly.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />  
-		<span class="title"><strong>The Philadelphia Project:</strong><br />Helping Citizens Get Involved to Support Public Services</span> 
+           <a href="/2011report" class="post-image"> 
+           <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/report.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />  
+		<span class="title"><strong>The 2012 Annual Report:</strong><br />Check out our snapshot of CfA 2011: what we did and what we learned.</span> 
  
            </a> 
          </div>
         <div id="slide-4" class="player"> 
-           
             
            <iframe src="http://player.vimeo.com/video/25839633?title=0&amp;byline=0&amp;portrait=0" width="550" height="330" frameborder="0"></iframe>
             
 	        </div>
           <div id="slide-5" class="player"> 
-             <a href="/seattle" class="post-image"> 
-             <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/seattle.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-			<span class="title"><strong>The Seattle Project:</strong><br />Empowering Civic Leaders to Mobilize their Communities</span> 
+             <a href="/apply" class="post-image"> 
+             <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/apply.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+			<span class="title"><strong>Applications Open for CfA 2013</strong><br />Apply now to become a 2012 Code for America Fellow</span> 
 
              </a> 
            </div>
            <div id="slide-6" class="player"> 
-                  <?php if ( is_active_sidebar( 'third-footer-widget-area' ) ) : ?>
-
-  											<?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
-  					<?php endif; ?>
+                 <iframe width="550" height="330" src="http://www.youtube.com/embed/yR5Zsc-YEq4" frameborder="0" allowfullscreen></iframe>
             </div> </div>
 
 <div style="width: 181px; float: right;">   
-        <li><a href="#slide-4"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/mjumbe1.png" alt="" /><strong><span>Fellow Spotlight</span></strong></a></li> 
-        <li><a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/seattle.jpg" alt="" /><strong><span>Seattle</span></strong></a></li>
+	<li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/apply-thumb.png" alt="" /><strong><span>Apply Now</span></strong></a></li>
+   
+        <li><a href="#slide-5"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/mjumbe1.png" alt="" /><strong><span>Fellow Spotlight</span></strong></a></li> 
         <li>
-             <a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>The Fellowship</span></strong></a>
+             <a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>"What If"</span></strong></a>
         </li>      
  </div>
           </ul>                                                                
