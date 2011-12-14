@@ -29,18 +29,18 @@ get_header(); ?>
 <div class="wrap clearfix" id="whh">
 	<div class="box">
 		<h3>Who we are</h3>
-		<p>Code for America is a new non-profit, and a new kind of organization. Our team is made up of web geeks, city experts, and technology industry leaders. We are building a network of civic leaders who believe there is a better way of doing things and want to make a difference.</p>
+		<p>Code for America is a new non-profit, and a new kind of organization. Our team is made up of web geeks, city experts, and technology industry leaders. We are building a network of civic leaders and organizations who believe there is a better way of doing things and want to make a difference.</p>
 		<p align="right"><a href="/who-we-are" class="more">Get to know us</a></p> 
 	</div>
 	<div class="box">
 		<h3>what we do</h3>
-		<p>We make it easy and attractive for the web generation to give back through our Fellowship, which connects  technologists with cities to work together to innovate; our Incubator, which will support disruptive civic startups; and our Brigade, which helps community groups reuse civic software in their communities.</p>
+		<p>We make it easy and attractive for the web generation to give back through our Fellowship, which connects  technologists with cities to work together to innovate; our Incubator, which will support disruptive civic startups; and our Brigade, which helps local, community groups reuse civic software.</p>
 		<p align="right"><a href="/cities" class="more">Our Current Projects</a></p> 
 		
 	</div>
 	<div class="box">
 			<h3>how we make a difference</h3>
-			<p>Code for America helps governments become more transparent, connected, and efficient by connecting web developers with people who deliver city services, and through that process, we are growing the corp of tech-savvy citizens and organizations working to better our communities.</p>
+			<p>Code for America helps governments become more connected, lean, and participatory by creating new opportunities for public service, so we're not only making a direct impact everyday, but also creating the relationships and network for lasting change.</p>
 			<p align="right"><a href="/broader-impact" class="more">Our Broader Impact</a></p> 
 			
 	<!--	<h3>How we’re funded</h3>
