@@ -18,19 +18,15 @@ get_header(); ?>
 	  <div id="maincontent" class="fullcolumn" style="width: 940px;" >
 
       <div style="width: 295px; height: 500px; padding-right: 0px; float: left; ">	
-          <div class="ttl" style="padding: 5px; font-size: 1.51em;">Code for America. Now.</div>  
+          <div class="ttl" style="padding: 5px; font-size: 1.51em;">Our Apps and Projects</div>  
           
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
           
       <?php the_content(); ?><?php endwhile; ?>
-      <h4>Our Tools and Resources</h4>
+      <h4>Developer Resources</h4>
 <ul>
     <li><a href="http://groups.google.com/group/cfa-labs">Join the Main Google Group</a></li>
-    <li><a href="http://help.github.com/">Learn How to Setup Git</a></li>
 	<li><a href="http://github.com/codeforamerica">Code for America GitHub</a></li>    
-    <li><a href="http://devcenter.heroku.com/articles/quickstart">Learn How to Setup Heroku</a></li>
-    <li><a href="http://rubyonrails.org/download">Learn How to Setup Rails</a></li>
-    <li><a href="http://www.pivotaltracker.com/features">Learn About Pivotal Tracker</a></li>    
 </ul>
       
     </div>
