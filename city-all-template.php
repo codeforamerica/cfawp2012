@@ -21,8 +21,9 @@ get_header(); ?>
   <!--PARTICIPATING CITIES -->
   <div id="participating-wrap" class="clearfix">
     <div id="participating">
-      <h2>CURRENT PROJECTS </h2>
-      <div class="links"> <a href="/boston">Boston <span>&raquo;</span></a> <a href="/dc">Civic Commons <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a>  <a href="http://action.codeforamerica.org/page/s/2012-city-signup">Apply <span>&raquo;</span></a></div>
+      <h2>CITY PARTNERS </h2>
+      <div class="links"> 2011: <a href="/boston">Boston <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a> <br />
+	2012: <a href="/2012-partners/austin">Austin <span>&raquo;</span></a> <a href="/2012-partners/detroit">Detroit <span>&raquo;</span></a> <a href="/2012-partners/chicago">Chicago <span>&raquo;</span></a>  <a href="/2012-partners/honolulu">Honolulu <span>&raquo;</span></a>  <a href="/2012-partners/macon">Macon <span>&raquo;</span></a> <a href="/2012-partners/nola">New Orleans <span>&raquo;</span></a>  <a href="/2012-partners/philadelphia">Philadelphia <span>&raquo;</span></a>  <a href="/2012-partners/santa-cruz">Santa Cruz <span>&raquo;</span></a> <br /><a href="http://action.codeforamerica.org/page/s/2012-city-signup">Apply for 2013 <span>&raquo;</span></a></div>
       <p>Cities matter. Big or small, they are where we work, how we survive, and what we call home. CfA connects forward-thinking cities with the talent from the web industry to develop reusable civic technology. Partnering cities will not only solve a critical problem using technology, but also help cultivate the next generation of tech-savvy, civic leaders.
 	
 	</p>
@@ -34,7 +35,7 @@ get_header(); ?>
     </div>
 	<link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/leaflet.ie.css" /><![endif]-->
-	<div id="map" style="width: 600px; height: 320px"></div>
+	<div id="map" style="width: 600px; height: 325px"></div>
 
 	<script src="http://leaflet.cloudmade.com/dist/leaflet.js"></script>
 	<script>
