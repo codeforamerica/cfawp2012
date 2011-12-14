@@ -23,14 +23,14 @@ get_header(); ?>
     <div id="participating">
       <h2>CITY PARTNERS </h2>
       <div class="links"> 2011: <a href="/boston">Boston <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a> <br />
-	2012: <a href="/austin">Austin <span>&raquo;</span></a> <a href="/2012-partners/detroit">Detroit <span>&raquo;</span></a> <a href="/2012-partners/chicago">Chicago <span>&raquo;</span></a>  <a href="/2012-partners/honolulu">Honolulu <span>&raquo;</span></a>  <a href="/2012-partners/macon">Macon <span>&raquo;</span></a> <a href="/2012-partners/nola">New Orleans <span>&raquo;</span></a>  <a href="/2012-partners/philadelphia">Philadelphia <span>&raquo;</span></a>  <a href="/2012-partners/santa-cruz">Santa Cruz <span>&raquo;</span></a> <a href="http://action.codeforamerica.org/page/s/2012-city-signup">Apply for 2013 <span>&raquo;</span></a></div>
+	2012: <a href="/austin">Austin <span>&raquo;</span></a> <a href="/2012-partners/detroit">Detroit <span>&raquo;</span></a> <a href="/2012-partners/chicago">Chicago <span>&raquo;</span></a>  <a href="/2012-partners/honolulu">Honolulu <span>&raquo;</span></a>  <a href="/2012-partners/macon">Macon <span>&raquo;</span></a> <a href="/2012-partners/nola">New Orleans <span>&raquo;</span></a>  <a href="/2012-partners/philadelphia">Philadelphia <span>&raquo;</span></a>  <a href="/2012-partners/santa-cruz">Santa Cruz <span>&raquo;</span></a> <a href="http://codeforamerica.org/cities/2013-city-interest-form/">Apply for 2013 <span>&raquo;</span></a></div>
       <p>CfA connects forward-thinking cities with the talent from the web industry to develop reusable civic technology. Partnering cities will not only solve a critical problem using technology, but also help cultivate the next generation of tech-savvy, civic leaders.
 	
 	</p>
       <ul>
         <li><a href="/cities/model-city-projects">Read about our model city projects</a></li>
         <li><a href="/citizen-action-center">Spread the word in your city</a></li>
-        <li><a href="http://action.codeforamerica.org/page/s/2012-city-signup" class="active">apply to become a cfa city</a></li>
+        <li><a href="http://codeforamerica.org/cities/2013-city-interest-form/" class="active">apply to become a cfa city</a></li>
       </ul>
     </div>
 	<link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.css" />
@@ -106,45 +106,43 @@ get_header(); ?>
     </div>
     <div class="right-col">
       <h3>Dates To Keep In Mind</h3>
-      <h4>2012 City Application Timeline</h4>
-      <p>The application process for 2013 cities will be opening in early November. For more information, see the timeline below and don’t hesitate to get in touch with any questions.</p>
+      <h4>2013 City Application Timeline</h4>
+      <p>The application process for 2013 cities will be opening in early January. Till then, be sure to let us know your city is interested, and we can start the conversation.</p>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
-          <td>11/01/10</td>
+          <td>1/09/12</td>
           <th>Application Process<br />
             Opened <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>11/10 - 03/11</td>
+          <td>1/10 - 03/31</td>
           <th>City Application Period <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>03/01/11</td>
+          <td>03/31/12</td>
           <th>Deadline for 
             Applications <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>06/01/11</td>
-          <th>Selected Cities Notified <span>&raquo;</span></th>
+          <td>4/12 - 6/12</td>
+          <th>City Applications Reviewed <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>06/15/11</td>
+          <td>4/12 - 6/12</td>
+          <th>Cities confirm support & funding<span>&raquo;</span></th>
+        </tr>
+        <tr>
+          <td>7/12</td>
+          <th>City Finalists Announced <span>&raquo;</span></th>
+        </tr>
+        <tr class="odd">
+          <td>9/11</td>
           <th>Selected Cities Announced <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>06/11 - 09/11</td>
-          <th>Product Scoping and
-            Contracting <span>&raquo;</span></th>
-        </tr>
-        <tr class="odd">
-          <td>09/15/11</td>
-          <th>Product Overviews
-            Announced <span>&raquo;</span></th>
-        </tr>
-        <tr>
-          <td>01/12</td>
+          <td>01/2/13</td>
           <th>New Class of Fellows
-            Begins Development Cycle <span>&raquo;</span></th>
+            Begins Program <span>&raquo;</span></th>
         </tr>
       </table>
     </div>

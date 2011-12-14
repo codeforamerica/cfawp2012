@@ -21,7 +21,7 @@ get_header(); ?>
           <ul id="slide-nav" class="thumbs"> 
          <div style="width: 181px; float: left;">     
 	<li><a href="#slide-1"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/bythenumbers-small.png" alt="" /><strong><span>By the Numbers</span></strong></a></li> 
-              <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012-thumb.jpg" alt="" /><strong><span></span></strong></a></li>       
+              <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012-thumb.png" alt="" /><strong><span></span></strong></a></li>       
               <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/philly.jpg" alt="" /><strong><span>Philadelphia</span></strong></a></li> 
 		</div>
        
