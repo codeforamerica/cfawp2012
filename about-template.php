@@ -40,7 +40,7 @@ get_header(); ?>
 	</div>
 	<div class="box">
 			<h3>how we make a difference</h3>
-			<p>Code for America helps governments become more connected, lean, and participatory by creating new opportunities for public service, so we're not only making a direct impact everyday, but also creating the relationships and network for lasting change.</p>
+			<p>Code for America helps governments become more connected, lean, and participatory through new opportunities for public service -- both inside and outside government -- so we're not only making a direct impact everyday, but also creating the relationships and network for lasting change.</p>
 			<p align="right"><a href="/broader-impact" class="more">Our Broader Impact</a></p> 
 			
 	<!--	<h3>How we’re funded</h3>

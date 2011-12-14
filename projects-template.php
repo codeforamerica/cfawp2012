@@ -23,14 +23,10 @@ get_header(); ?>
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
           
       <?php the_content(); ?><?php endwhile; ?>
-      <h4>Our Tools and Resources</h4>
+      <h4>Join our projects</h4>
 <ul>
-    <li><a href="http://groups.google.com/group/cfa-labs">Join the Main Google Group</a></li>
-    <li><a href="http://help.github.com/">Learn How to Setup Git</a></li>
+    <li><a href="http://groups.google.com/group/cfa-labs">CfA Labs Google Group</a></li>
 	<li><a href="http://github.com/codeforamerica">Code for America GitHub</a></li>    
-    <li><a href="http://devcenter.heroku.com/articles/quickstart">Learn How to Setup Heroku</a></li>
-    <li><a href="http://rubyonrails.org/download">Learn How to Setup Rails</a></li>
-    <li><a href="http://www.pivotaltracker.com/features">Learn About Pivotal Tracker</a></li>    
 </ul>
       
     </div>
@@ -43,11 +39,8 @@ $args = array( 'post_type' => 'cfa_project', 'posts_per_page' => 20, 'orderby' =
 $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-    <h3 id="page-header" style="text-align: left; padding-left: 0px; background:url(<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large'); echo $large_image_url[0]; ?>) center center no-repeat"><a href="#" ><?php the_title(); ?></a></h3>
-    <div>
-        <?php the_content(); ?>                
-        <p><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Read more</a></p>
-    </div>
+  <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?> <h3 id="page-header" style="text-align: left; padding-left: 0px; background:url(<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large'); echo $large_image_url[0]; ?>) center center no-repeat"><a href="#" ><?php the_title(); ?></a></h3></a>
+   
 
 <?php endwhile; ?>
 
