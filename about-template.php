@@ -34,13 +34,13 @@ get_header(); ?>
 	</div>
 	<div class="box">
 		<h3>what we do</h3>
-		<p>We make it easy and attractive for the web generation to give back. Working with civic leaders, we identify core problems, and then we recruit passionate web developers to create new kinds of solutions: light-weight, efficient, and scalable.</p>
+		<p>We make it easy and attractive for the web generation to give back through our Fellowship, which connects  technologists with cities to work together to innovate; our Incubator, which will support disruptive civic startups; and our Brigade, which helps community groups reuse civic software in their communities.</p>
 		<p align="right"><a href="/cities" class="more">Our Current Projects</a></p> 
 		
 	</div>
 	<div class="box">
 			<h3>how we make a difference</h3>
-			<p>Code for America helps governments become more transparent, connected, and efficient by connecting web developers with people who deliver city services, and through that process, we are growing the corp of tech-savvy citizens working to better our communities.</p>
+			<p>Code for America helps governments become more transparent, connected, and efficient by connecting web developers with people who deliver city services, and through that process, we are growing the corp of tech-savvy citizens and organizations working to better our communities.</p>
 			<p align="right"><a href="/broader-impact" class="more">Our Broader Impact</a></p> 
 			
 	<!--	<h3>How we’re funded</h3>
@@ -55,13 +55,19 @@ get_header(); ?>
     <div class="team">
 		<h3>STAFF <span style="color: #999; margin-left: 10px;"><span id="tip1"></span></span></h3>
 		<ul class="clearfix">
-			<li class="first"><a href="/author/jen" rel="tooltip1" title="Jennifer Pahlka"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jen.jpg" alt="Jennifer Pahlka" /></a></li><li><a href="/author/abhi" rel="tooltip1" title="Abhi Nemani"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/abhi.png" alt="Staff name" /></a></li>
 			
+			<li class="first"><a href="/author/jen" rel="tooltip1" title="Jennifer Pahlka"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jen.jpg" alt="Jennifer Pahlka" /></a></li>
+			<li><a href="/author/abhi" rel="tooltip1" title="Abhi Nemani"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/abhi.png" alt="Staff name" /></a></li>
 			<li><a href="/author/mreilly"  rel="tooltip1" title="Meghan Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/meghan.png" alt="Staff name" /></a></li>
-			<li><a href="/author/dan" rel="tooltip1"  title="Dan Melton"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dan.png" alt="Staff name" /></a></li>
-			
+			<li><a href="//who-we-are/#bob" rel="tooltip1" title="Bob Sofman"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bob.jpg" alt="Bob Sofman" /></a></li>
 			<li><a href="/author/alissa" rel="tooltip1" title="Alissa Black"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/alissa.png" alt="Staff name" /></a></li>
 			<li class="last"><a href="/who-we-are/#david" rel="tooltip1"  title="David Eaves"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/david.jpg" alt="Staff name" /></a></li>
+			
+			<li class="first"><a href="/author/ryan" rel="tooltip1" title="Ryan Resella"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/ryan.jpg" alt="Staff name" /></a></li>
+			<li><a href="/author/lr" rel="tooltip1" title="Lauren Reid"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/lauren.jpg" alt="Lauren Reid" /></a></li>
+			<li><a href="/who-we-are/#sheila"  rel="tooltip1" title="Sheila Bapat"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/sheila.jpg" alt="Staff name" /></a></li>
+			<li><a href="/who-we-are/#michael" rel="tooltip1"  title="Michael Santus"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/michael.jpg" alt="Staff name" /></a></li>
+			<li class="last"><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
 			
 		</ul>
 
