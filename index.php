@@ -23,7 +23,7 @@ get_header(); ?>
 	         <li><a href="#slide-1"><img src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012-thumb.png" alt="" /><strong><span>What's Ahead</span></strong></a></li>       
       
 	<li><a href="#slide-2"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/bythenumbers-small.png" alt="" /><strong><span>CfA Culture</span></strong></a></li> 
-              <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/report-thumb.jpg" alt="" /><strong><span>Annual Report</span></strong></a></li> 
+              <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/report-thumb.png" alt="" /><strong><span>Annual Report</span></strong></a></li> 
 		</div>
        
  		<div style="float: left;">
@@ -44,7 +44,7 @@ get_header(); ?>
         <div id="slide-3" class="player"> 
            <a href="/2011report" class="post-image"> 
            <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/report.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />  
-		<span class="title"><strong>The 2012 Annual Report:</strong><br />Check out our snapshot of CfA 2011: what we did and what we learned.</span> 
+		<span class="title"><strong>The 2012 Annual Report:</strong><br />Check out our snapshot of CfA 2011: what we did and what we learned</span> 
  
            </a> 
          </div>
