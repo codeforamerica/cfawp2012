@@ -44,7 +44,7 @@ get_header(); ?>
 			cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
 			cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: 18, attribution: cloudmadeAttribution});
 		
-		map.setView(new L.LatLng(40.114646, -120.172816), 3).addLayer(cloudmade);
+		map.setView(new L.LatLng(40.7607793, -111.8910474), 3).addLayer(cloudmade);
 		
 		var LeafIcon = L.Icon.extend({
 			iconUrl: 'http://www.torontopath.com/uploads/map-pin-red.png',
@@ -85,7 +85,6 @@ get_header(); ?>
 			map.addLayer(marker1).addLayer(marker2).addLayer(marker3).addLayer(marker4).addLayer(marker5).addLayer(marker6).addLayer(marker7).addLayer(marker8).addLayer(marker9).addLayer(marker10);
 		
 
-		marker3.openPopup();
 	</script>
   </div>
 
