@@ -51,7 +51,7 @@ get_header(); ?>
 		   <div id="slide-4" class="player"> 
 	             <a href="/apply" class="post-image"> 
 	             <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/apply.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-				<span class="title"><strong>Applications Open for CfA 2013</strong><br />Apply now to become a 2012 Code for America Fellow</span> 
+				<span class="title"><strong>Applications Open for CfA 2013</strong><br />Apply now to become a 2013 Code for America Fellow</span> 
 
 	             </a> 
 	           </div>

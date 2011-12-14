@@ -43,12 +43,8 @@ $args = array( 'post_type' => 'cfa_project', 'posts_per_page' => 20, 'orderby' =
 $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-    <h3 id="page-header" style="text-align: left; padding-left: 0px; background:url(<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large'); echo $large_image_url[0]; ?>) center center no-repeat"><a href="#" ><?php the_title(); ?></a></h3>
-    <div>
-        <?php the_content(); ?>                
-        <p><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Read more</a></p>
-    </div>
-
+    <h3 id="page-header" style="text-align: left; padding-left: 0px; background:url(<?php $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large'); echo $large_image_url[0]; ?>) center center no-repeat"><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h3>
+  
 <?php endwhile; ?>
 
 
