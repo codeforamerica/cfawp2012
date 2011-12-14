@@ -61,8 +61,9 @@ get_header(); ?>
              </a> 
            </div>
            <div id="slide-6" class="player"> 
-                 <iframe width="550" height="330" src="http://www.youtube.com/embed/yR5Zsc-YEq4" frameborder="0" allowfullscreen></iframe>
-            </div> </div>
+	           <iframe src="http://player.vimeo.com/video/25839633?title=0&amp;byline=0&amp;portrait=0" width="550" height="330" frameborder="0"></iframe>
+            </div> 
+</div>
 
 <div style="width: 181px; float: right;">   
 	<li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/apply-thumb.png" alt="" /><strong><span>Apply Now</span></strong></a></li>
