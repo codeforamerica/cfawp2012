@@ -21,7 +21,7 @@ get_header(); ?>
           <ul id="slide-nav" class="thumbs"> 
          <div style="width: 181px; float: left;">     
 	<li><a href="#slide-1"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/bythenumbers-small.png" alt="" /><strong><span>By the Numbers</span></strong></a></li> 
-              <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" alt="" /><strong><span>Boston</span></strong></a></li>       
+              <li><a href="#slide-2"><img src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012-thumb.jpg" alt="" /><strong><span></span></strong></a></li>       
               <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/philly.jpg" alt="" /><strong><span>Philadelphia</span></strong></a></li> 
 		</div>
        
@@ -34,9 +34,8 @@ get_header(); ?>
 	          </div>
        
         <div id="slide-2" class="player"> 
-          <a href="/boston" class="post-image"> 
-          <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/boston.jpg" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
-		<span class="title"><strong>The Boston Project:</strong><br />Improving High School Education by Connecting the Community</span> 
+          <a href="/2012" class="post-image"> 
+          <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
   
           </a> 
         </div>
