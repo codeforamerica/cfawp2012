@@ -21,7 +21,7 @@ get_header(); ?>
 	<div class="wrap clearfix">
 		<div id="mission">
 			<h2>OUR MISSION</h2>
-			<p>Code for America helps governments work better for everyone with the people and the power of the web. Through our <a href="/fellows">Fellowship</a>, <a href="/incubator">Incubator</a>, and <a href="/brigade">Brigade</a>, we're building a network of cities, citizens, community groups, and startups, all equally committed to reimagining government for the 21st century.</p>
+			<p>Code for America helps governments work better for everyone with the people and the power of the web. Through our <a href="/fellows">Fellowship</a>, <a href="/accelerator">Accelerator</a>, and <a href="/brigade">Brigade</a>, we're building a network of cities, citizens, community groups, and startups, all equally committed to reimagining government for the 21st century.</p>
 		</div>
         <?php include 'fellow_carousel.php'; ?>		
 	</div>
@@ -34,7 +34,7 @@ get_header(); ?>
 	</div>
 	<div class="box">
 		<h3>what we do</h3>
-		<p>We make it easy and attractive for the web generation to give back through our Fellowship, which connects  technologists with cities to work together to innovate; our Incubator, which will support disruptive civic startups; and our Brigade, which helps local, community groups reuse civic software.</p>
+		<p>We make it easy and attractive for the web generation to give back through our Fellowship, which connects  technologists with cities to work together to innovate; our Accelerator, which will support disruptive civic startups; and our Brigade, which helps local, community groups reuse civic software.</p>
 		<p align="right"><a href="/cities" class="more">Our Current Projects</a></p> 
 		
 	</div>
