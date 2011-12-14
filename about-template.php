@@ -21,7 +21,7 @@ get_header(); ?>
 	<div class="wrap clearfix">
 		<div id="mission">
 			<h2>OUR MISSION</h2>
-			<p>Code for America helps governments work better for everyone with the people and the power of the web. Our flagship program, the <a href="/fellows">CfA Fellowship</a>, connects passionate technologists with forward-thinking cities, hoping to do more with less; together with our <a href="/incubator">Incubator</a> and <a href="/brigade">Brigade</a>, we're building a network of cities, citizens, community groups, and startups, all equally committed to reimagining government for the 21st century.</p>
+			<p>Code for America helps governments work better for everyone with the people and the power of the web. Through our <a href="/fellows">Fellowship</a>, <a href="/incubator">Incubator</a>, and <a href="/brigade">Brigade</a>, we're building a network of cities, citizens, community groups, and startups, all equally committed to reimagining government for the 21st century.</p>
 		</div>
         <?php include 'fellow_carousel.php'; ?>		
 	</div>
