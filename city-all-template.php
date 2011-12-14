@@ -34,7 +34,7 @@ get_header(); ?>
     </div>
 	<link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/leaflet.ie.css" /><![endif]-->
-	<div id="map" style="width: 600px; height: 310px"></div>
+	<div id="map" style="width: 600px; height: 320px"></div>
 
 	<script src="http://leaflet.cloudmade.com/dist/leaflet.js"></script>
 	<script>
@@ -44,7 +44,7 @@ get_header(); ?>
 			cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
 			cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: 18, attribution: cloudmadeAttribution});
 		
-		map.setView(new L.LatLng(40.114646, -115.172816), 3).addLayer(cloudmade);
+		map.setView(new L.LatLng(40.114646, -120.172816), 3).addLayer(cloudmade);
 		
 		var LeafIcon = L.Icon.extend({
 			iconUrl: 'http://www.torontopath.com/uploads/map-pin-red.png',
