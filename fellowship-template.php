@@ -27,12 +27,11 @@ get_header(); ?>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
     <h2 class="ttl">Why Become a Fellow? <a href="#" class="red-btn"><span class="st_sharethis_custom">SHARE THIS +</span></a></h2>
-<p>	During the 11-month program, fellows not only work together to solve local problems, but also receive the training and support to be positioned as a leader in business, public service, or both:</p>
+<p>	During the 11-month program, fellows not only work together to help cities innovate, but also receive the training and support to be positioned as a leader in business, public service, or both:</p>
     <ul id="why">
       <li><strong class="number">1</strong> <strong>Gov 2.0 Training.</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
       <li><strong class="number">2</strong> <strong>Professional Development.</strong> The biggest names in the web industry and the Gov 2.0 movement will provide you unparalleled networking, mentoring, and support.</li>
       <li><strong class="number">3</strong> <strong>Alumni Connections.</strong> Working closely with other talented individuals, you will develop lasting professional relationships in a fast-paced, startup atmosphere.</li>
-      <li><strong class="number">4</strong> <strong>Employer Partnerships.</strong> Multiple leading internet companies have already pledged to guarantee interviews for a full-time position after your CfA experience.</li>
     </ul>
     <div class="box">
       <h3 class="ttl">What Are We looking For? <a href="/fellows/2012-program-and-timeline/" class="more">The Program</a></h3>
@@ -46,7 +45,7 @@ get_header(); ?>
     </div>
     <div class="box">
       <h3 class="ttl">The application Process <a href="/fellows/fellow-selection/" class="more">Read More</a></h3>
-      <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The application deadline for the 2011 fellowship has passed. The application process for the 2012 Fellowship will open in early March.</p>
+      <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The 2012 Fellowship begins in January 2012. The application cycle for 2013 is now open with a <strong>Spring Cycle deadline of March 18, 2012</strong>.</p>
     </div>
     <div class="box">
       <h3 class="ttl">The Training <a href="/fellows/institute/" class="more">Read More</a></h3>
@@ -69,42 +68,42 @@ get_header(); ?>
     </ul>
     <div id="dates">
       <h3>Dates To Keep In Mind</h3>
-      <h4>2012 Applicants</h4>
+      <h4>2013 Applicants</h4>
       <table border="0" cellspacing="0" cellpadding="0">
 		<tr  class="odd">
-          <td>04/17/11</td>
-          <th>Early Decision (ED) Application Deadline <span>&raquo;</span></th>
+          <td>03/18/11</td>
+          <th>Spring Cycle Application Deadline <span>&raquo;</span></th>
         </tr>
 		<tr>
-          <td>04/17/11 - 05/1/11</td>
-          <th>Interviews for ED Applicants <span>&raquo;</span></th>
+          <td>03/18/11 - 04/15/11</td>
+          <th>Interviews for Spring Applicants <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>05/1/11</td>
-          <th>ED Applicants Notified of Selection <span>&raquo;</span></th>
+          <td>05/4/11</td>
+          <th>Spring Applicants Notified of Selection <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>07/31/11</td>
-          <th>Regular Application Deadline <span>&raquo;</span></th>
+          <td>07/29/11</td>
+          <th>Fall Application Deadline <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
           <td>08/11 - 09/11</td>
           <th>Interviews <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>09/15/11</td>
+          <td>09/14/11</td>
           <th>Applicants Notified of Selection <span>&raquo;</span></th>
         </tr>
 		 <tr class="odd">
-	          <td>10/1/11</td>
-	          <th>2012 CfA Fellows<br>Announced <span>&raquo;</span></th>
+	          <td>10/11</td>
+	          <th>2013 CfA Fellows<br>Announced <span>&raquo;</span></th>
 	        </tr>
        	<tr>
-          <td>01/04/12</td>
-          <th>2012 Fellowship Starts <span>&raquo;</span></th>
+          <td>01/02/13</td>
+          <th>2013 Fellowship Starts <span>&raquo;</span></th>
         </tr>
       </table>
-      <h4>2011 Fellows</h4>
+      <h4>2012 Fellows</h4>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
           <td>01/11</td>
@@ -115,15 +114,15 @@ get_header(); ?>
           <th>City Tour <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>03/11 - 08/11</td>
+          <td>03/11 - 09/11</td>
           <th>Development with ongoing training and mentoring <span>&raquo;</span></th>
         </tr>
 		  <tr>
-	          <td>09/11</td>
-	          <th>Launch Conference <span>&raquo;</span></th>
+	          <td>10/11</td>
+	          <th>CfA Summit (Conference) <span>&raquo;</span></th>
 	        </tr>
 			<tr class="odd">
-	          <td>09/11 - 11/11</td>
+	          <td>10/11 - 11/11</td>
 	          <th>Maintenance/Hand-off <span>&raquo;</span></th>
 	        </tr>
       </table>

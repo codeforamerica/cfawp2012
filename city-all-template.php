@@ -32,48 +32,61 @@ get_header(); ?>
         <li><a href="http://action.codeforamerica.org/page/s/2012-city-signup" class="active">apply to become a cfa city</a></li>
       </ul>
     </div>
-    <ul id="slider">
-      <li> <a href="/boston"><img src="<?php bloginfo( 'template_url' ); ?>/images/Boston.jpg" alt="Boston" /></a>
-        <div class="clearfix">
-          <table border="0" cellspacing="0" cellpadding="0">
-            <tr>
-           <th>Boston</th>
-              <td>Home to the first public school in the nation. The perfect place for Code for America Fellows to build a platform for educational services. &raquo;</td>
-            </tr>
-          </table>
-        </div>
-      </li>
-      <li> <a href="/dc"><img src="<?php bloginfo( 'template_url' ); ?>/images/headers/dc.jpg" alt="DC" /></a>
-        <div class="clearfix">
-          <table border="0" cellspacing="0" cellpadding="0">
-            <tr>
-              <th>Civic Commons</th>
-              <td>In partnership with multiple organizations and agencies, we are creating an simple, easy way for governments to share technology and save money. &raquo;</td>
-            </tr>
-          </table>
-        </div>
-      </li>
-	 <li> <a href="/philadelphia"><img src="<?php bloginfo( 'template_url' ); ?>/images/headers/philly2.jpg" alt="Philadelphia" /></a>
-        <div class="clearfix">
-          <table border="0" cellspacing="0" cellpadding="0">
-            <tr>
-              <th>Philadelphia</th>
-              <td>Philadelphia is looking to re-imagine the way citizens communicate within their city.  &raquo;</td>
-            </tr>
-          </table>
-        </div>
-      </li>
-	 <li> <a href="/seattle"><img src="<?php bloginfo( 'template_url' ); ?>/images/headers/seattle.jpg" alt="Boston" /></a>
-        <div class="clearfix">
-          <table border="0" cellspacing="0" cellpadding="0">
-            <tr>
-              <th>Seattle</th>
-              <td>Seattle wants to find ways to empower their growing contingent of civic leaders with tools to strengthen their communities. &raquo;</td>
-            </tr>
-          </table>
-        </div>
-      </li>
-    </ul>
+	<link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/leaflet.ie.css" /><![endif]-->
+	<div id="map" style="width: 600px; height: 310px"></div>
+
+	<script src="http://leaflet.cloudmade.com/dist/leaflet.js"></script>
+	<script>
+		var map = new L.Map('map');
+		
+		var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/cf8ddd35acc140c4825b8dbcd42f2705/42515/256/{z}/{x}/{y}.png',
+			cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+			cloudmade = new L.TileLayer(cloudmadeUrl, {maxZoom: 18, attribution: cloudmadeAttribution});
+		
+		map.setView(new L.LatLng(40.114646, -115.172816), 3).addLayer(cloudmade);
+		
+		var LeafIcon = L.Icon.extend({
+			iconUrl: 'http://www.torontopath.com/uploads/map-pin-red.png',
+			shadowUrl: 'http://leaflet.cloudmade.com/docs/images/leaf-shadow.png',
+			iconSize: new L.Point(38, 40),
+			shadowSize: new L.Point(68, 40),
+			iconAnchor: new L.Point(22, 40),
+			popupAnchor: new L.Point(-3, -76)
+		});
+		
+		var greenIcon = new LeafIcon(),
+			redIcon = new LeafIcon('http://leaflet.cloudmade.com/docs/images/leaf-red.png'),
+			orangeIcon = new LeafIcon('http://leaflet.cloudmade.com/docs/images/leaf-orange.png');
+		
+		var marker1 = new L.Marker(new L.LatLng(41.8781136, -87.6297982));
+			marker2 = new L.Marker(new L.LatLng(21.3069444, -157.8583333));
+			marker3 = new L.Marker(new L.LatLng(30.267153, -97.7430608));
+			marker4 = new L.Marker(new L.LatLng(36.9741171,	-122.0307963));
+			marker5 = new L.Marker(new L.LatLng(39.952335, -75.163789));
+			marker6 = new L.Marker(new L.LatLng(32.8406946, -83.6324022));
+			marker7 = new L.Marker(new L.LatLng(42.331427, -83.0457538));
+			marker8 = new L.Marker(new L.LatLng(29.9510658, -90.0715323));
+			marker9 = new L.Marker(new L.LatLng(42.3584308, -71.0597732));
+			marker10 = new L.Marker(new L.LatLng(47.6062095, -122.3320708));
+
+		marker1.bindPopup("<a href='http://codeforamerica.org/2012-partner/chicago'>Chicago</a><br />2012 CfA City");
+		marker2.bindPopup("<a href='http://codeforamerica.org/2012-partner/honolulu'>Honolulu</a><br />2012 CfA City");
+		marker3.bindPopup("<a href='http://codeforamerica.org/2012-partner/austin'>Austin</a><br />2012 CfA City");
+		marker4.bindPopup("<a href='http://codeforamerica.org/2012-partner/santa-cruz'>Santa Cruz</a><br />2012 CfA City");
+		marker5.bindPopup("<a href='http://codeforamerica.org/2012-partner/philadelphia'>Philadelphia</a><br />2011-12 CfA City");
+		marker6.bindPopup("<a href='http://codeforamerica.org/2012-partner/macon'>Macon</a><br />2012 CfA City");
+		marker7.bindPopup("<a href='http://codeforamerica.org/2012-partner/detroit'>Detroit</a><br />2012 CfA City");
+		marker8.bindPopup("<a href='http://codeforamerica.org/2012-partner/nola'>New Orleans</a><br />2012 CfA City");
+		marker9.bindPopup("<a href='http://codeforamerica.org/boston'>Boston</a><br />2011 CfA City");
+		marker10.bindPopup("<a href='http://codeforamerica.org/seattle'>Seattle</a><br />2011 CfA City");
+		
+
+			map.addLayer(marker1).addLayer(marker2).addLayer(marker3).addLayer(marker4).addLayer(marker5).addLayer(marker6).addLayer(marker7).addLayer(marker8).addLayer(marker9).addLayer(marker10);
+		
+
+		marker3.openPopup();
+	</script>
   </div>
 
   <div id="twocols-container" class="clearfix">
