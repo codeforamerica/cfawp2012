@@ -61,8 +61,7 @@ get_header(); ?>
              </a> 
            </div>
            <div id="slide-6" class="player"> 
-	           <iframe src="http://player.vimeo.com/video/25839633?title=0&amp;byline=0&amp;portrait=0" width="550" height="330" frameborder="0"></iframe>
-            </div> 
+<object width="550" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="550" height="350" allowscriptaccess="always" allowfullscreen="true"></embed></object>            </div> 
 </div>
 
 <div style="width: 181px; float: right;">   
