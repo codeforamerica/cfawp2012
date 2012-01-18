@@ -71,7 +71,7 @@ get_header(); ?>
    	    <li>
              <a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>"What If"</span></strong></a>
         </li>
-        <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/curve.png" alt="" /><strong><span>The IT Curve</span></strong></a></li> 
+        <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/curve2.png" alt="" /><strong><span>The IT Curve</span></strong></a></li> 
     
  </div>
           </ul>                                                                
