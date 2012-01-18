@@ -20,7 +20,7 @@ get_header(); ?>
 	  	<div class="wrap clearfix" id="video-gallery">
           <ul id="slide-nav" class="thumbs"> 
          <div style="width: 181px; float: left;">   
-	         <li><a href="#slide-1"><img src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012-thumb.png" alt="" /><strong><span>What's Ahead</span></strong></a></li>       
+	         <li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/apply-thumb.png" alt="" /><strong><span>Cities: Apply Now!</span></strong></a></li>       
       
 	<li><a href="#slide-2"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/bythenumbers-small.png" alt="" /><strong><span>CfA Culture</span></strong></a></li> 
               <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/report-thumb.png" alt="" /><strong><span>Annual Report</span></strong></a></li> 
@@ -28,10 +28,11 @@ get_header(); ?>
        
  		<div style="float: left;">
 			   <div id="slide-1" class="player"> 
-		          <a href="/2012" class="post-image"> 
-		          <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
-
-		          </a> 
+		       
+				    <a href="/cities/apply" class="post-image"> 
+		             <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/apply.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
+					<span class="title"><strong>Now Recruiting: Cities for CfA 2013</strong><br />Apply now to become a 2013 Code for America City Partner</span>              </a>
+	
 		        </div>
 		
 			 <div id="slide-2" class="player"> 
@@ -49,32 +50,28 @@ get_header(); ?>
            </a> 
          </div>
 		   <div id="slide-4" class="player"> 
-	             <a href="/apply" class="post-image"> 
-	             <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/apply.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-				<span class="title"><strong>Applications Open for CfA 2013</strong><br />Apply now to become a 2013 Code for America Fellow</span> 
+	         	   <a href="/2012" class="post-image"> 
+				          <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
 
-	             </a> 
+				          </a>
 	           </div>
+	
+	
 			 <div id="slide-5" class="player"> 
 	<object width="550" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="550" height="330" allowscriptaccess="always" allowfullscreen="true"></embed></object>            </div>
         <div id="slide-6" class="player"> 
-          	 <a href="/cities" class="post-image"> 
-             <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/cities.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-			<span class="title"><strong>CfA Cities: 10 &amp; Growing</strong><br />We are always looking to bring more innovative cities into the CfA Network</span> 
-
-             </a>
-            
+          	 <iframe src="http://player.vimeo.com/video/31281413?title=0&amp;byline=0&amp;portrait=0" width="550" height="330" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	        </div>
        
           
 </div>
 
 <div style="width: 181px; float: right;">   
-	<li><a href="#slide-4"><img src="<?php bloginfo("template_url"); ?>/images/headers/apply-thumb.png" alt="" /><strong><span>Apply Now</span></strong></a></li>
+	<li><a href="#slide-4"><img src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012-thumb.png" alt="" /><strong><span>What's Ahead</span></strong></a></li>
    	    <li>
              <a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>"What If"</span></strong></a>
         </li>
-        <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/cities-thumb.png" alt="" /><strong><span>CfA Cities</span></strong></a></li> 
+        <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/curve.png" alt="" /><strong><span>The IT Curve</span></strong></a></li> 
     
  </div>
           </ul>                                                                
