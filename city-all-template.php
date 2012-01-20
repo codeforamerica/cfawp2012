@@ -28,7 +28,7 @@ get_header(); ?>
 	
 	</p>
       <ul>
-        <li><a href="/cities/model-city-projects">Read about our model city projects</a></li>
+        <li><a href="/cities/faqs-cities-applying-to-program/">Learn more about the  program</a></li>
         <li><a href="/citizen-action-center">Spread the word in your city</a></li>
         <li><a href="http://codeforamerica.org/cities/2013-city-interest-form/" class="active">apply to become a cfa city</a></li>
       </ul>
