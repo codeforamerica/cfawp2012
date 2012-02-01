@@ -1,4 +1,3 @@
-
 <?php
 /**
  * The template for displaying all pages.
@@ -16,7 +15,7 @@ get_header(); ?>
 
 
 
-<div class="wrap-b"><!--test-->
+<div class="wrap-b">
 	<div class="wrap clearfix">
 		<div id="mission">
 			<h2>OUR MISSION</h2>
