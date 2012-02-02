@@ -2,25 +2,32 @@
 	<h3 class="ttl">Meet a Fellow <a href="http://codeforamerica.org/fellows/apply/" class="more">Apply for the fellowship</a></h3>
 	<div id="fellowcarousel">
         <ul>
-        <li><a href="/author/tyler" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/stalder.png"></a><span><strong>Tyler Stalder</strong></span></li>          
-          <li><a href="/author/anna" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/bloom.png"></a><span><strong>Anna Bloom</strong></span></li>
-          <li><a href="/author/jeremy" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/canfield.png"></a><span><strong>Jeremy Canfield</strong></span></li>  
-          <li><a href="/author/michael" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/evans.png"></a><span><strong>Michael Evans</strong></span></li>
-          <li><a href="/author/peter" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/fecteau.png"></a><span><strong>Peter Fecteau</strong></span></li>
-          <li><a href="/author/michelle" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/koeth.png"></a><span><strong>Michelle Koeth</strong></span></li>
-          <li><a href="/author/matt" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/lewis.png"></a><span><strong>Matt Lewis</strong></span></li>  
-		  <li><a href="/author/karla" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/macedo.png"></a><span><strong>Karla Macedo</strong></span></li>
-          <li><a href="/author/joel" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/mahoney.png"></a><span><strong>Joel Mahoney</strong></span></li>                
-          <li><a href="/author/john" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/mertens.png"></a><span><strong>John Mertens</strong></span></li>
-          <li><a href="/author/erik" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/ober.png"></a><span><strong>Erik Michaels-Ober</strong></span></li>
-          <li><a href="/2011-code-for-america-fellows/#max" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/ogden.png"></a><span><strong>Max Ogden</strong></span></li>
-          <li><a href="/author/aaron" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/ogle.png"></a><span><strong>Aaron Ogle</strong></span></li>  
-          <li><a href="/author/alan" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/palazzolo.png"></a><span><strong>Alan Palazzolo</strong></span></li>
-          <li><a href="/author/mjumbe" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/poe.png"></a><span><strong>Mjumbe Poe</strong></span></li>
-          <li><a href="/author/ryan" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/resella.png"></a><span><strong>Ryan Resella</strong></span></li>
-          <li><a href="/author/talin" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/salway.png"></a><span><strong>Talin Salway</strong></span></li>  
-		  <li><a href="/author/chacha" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/sikes.png"></a><span><strong>Chacha Sikes</strong></span></li>
-          <li><a href="/author/scott" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2011fellows/silverman.png"></a><span><strong>Scott Silverman</strong></span></li>          
+          <li><a href="http://codeforamerica.org/2012-fellows/#Ruthie Bendor" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/bendor.png"></a><span><strong>Ruthie Bendor</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Jesse Bounds" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/bounds.png"></a><span><strong>Jesse Bounds</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Rob Brackett" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/brackett.png"></a><span><strong>Rob Brackett</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Jim Craner" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/craner.png"></a><span><strong>Jim Craner</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Nick Doiron" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/doiron.png"></a><span><strong>Nick Doiron</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Matt Hampel" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/hampel.png"></a><span><strong>Matt Hampel</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Elizabeth Hunt" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/hunt.png"></a><span><strong>Elizabeth Hunt</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Angel Kittiyachavalit" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/kittiyachavalit.png"></a><span><strong>Angel Kittichavalit</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Michelle Lee" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/lee.png"></a><span><strong>Michelle Lee</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Jessica Lord" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/lord.png"></a><span><strong>Jessica Lord</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Joe Merante" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/merante.png"></a><span><strong>Joe Merante</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Emily Moore" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/moore.png"></a><span><strong>Emily Moore</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Sheba Najmi" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/najmi.png"></a><span><strong>Sheba Najmi</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Alex Pandel" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/pandel.png"></a><span><strong>Alex Pandel</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Amir Reavis-Bey" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/reavis-bey.png"></a><span><strong>Amir Reavis-Bey</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Alicia Rouault" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/rouault.png"></a><span><strong>Alicia Rouault</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Ben Sheldon" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/sheldon.png"></a><span><strong>Ben Sheldon</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Tamara Shopsin" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/shopsin.png"></a><span><strong>Tamara Shopsin</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Prashant Singh" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/singh.png"></a><span><strong>Prashant Singh</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Eddie Tejeda" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/tejeda.png"></a><span><strong>Eddie Tejeda</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Mick Thompson" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/thompson.png"></a><span><strong>Mick Thompson</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Aurelio Tinio" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/tinio.png"></a><span><strong>Aurelio Tinio</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Diana Tran" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/tran.png"></a><span><strong>Diana Tran</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Serena Wales" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/wales.png"></a><span><strong>Serena Wales</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Zach Williams" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/williams.png"></a><span><strong>Zach Williams</strong></span></li>
+          <li><a href="http://codeforamerica.org/2012-fellows/#Alex Yule" title=""><img src="<?php bloginfo('template_directory'); ?>/images/2012fellows/yule.png"></a><span><strong>Alex Yule</strong></span></li>
 </ul>             				
 <div class="prev"><img src="<?php bloginfo('template_directory'); ?>/images/back-arrow2.png"></div>
  <div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow2.png"></div>
