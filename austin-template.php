@@ -1,5 +1,3 @@
-
-
 <?php
 /**
  * The template for displaying all pages.
@@ -18,11 +16,12 @@ get_header(); ?>
 <div class="wrap clearfix">
   <div id="mission">
     <h2>Team Austin loves cookies!</h2>
-    <p>Through Code for America's fellowship program, talented web developers, designers, and entrepreneurs leverage the power of the internet to make governments more open and efficient, and in doing so, they become civic leaders able to realize transformational change in government with technology.</p>
+    <p>Some intro text here.</p>
   </div>
 </div>
 
 <div class="wrap" id="dots"></div>
+
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
     <h2 class="ttl">Why Become a Fellow? <a href="#" class="red-btn"><span class="st_sharethis_custom">SHARE THIS +</span></a></h2>
@@ -46,18 +45,8 @@ get_header(); ?>
       <h3 class="ttl">The application Process <a href="/fellows/fellow-selection/" class="more">Read More</a></h3>
       <p>To apply, prospective fellows must submit examples of previous relevant work, along with short essays explaining their interest, goals, and background. The 2012 Fellowship begins in January 2012. The application cycle for 2013 is now open with a <strong>Spring Cycle deadline of March 18, 2012</strong>.</p>
     </div>
-    <div class="box">
-      <h3 class="ttl">The Training <a href="/fellows/institute/" class="more">Read More</a></h3>
-      <p>The selected fellows come together at the Bay Area headquarters for a month of training, team building, working on internal tools, and project research.  A key element of this portion of the program is the guest speaker series; leaders in both government and the web industry provide inspiration and build the corps’ networks.</p>
-    </div>
   </div>
   <div class="right-col">
-    <div class="testimonial-wrap">
-      <div class="testimonial-content">
-        <h4>"Join our movement... and <em>make a difference</em>"</h4>
-        <p>Aneesh Chopra <span class="position">United States CTO</span></p>
-        <img src="<?php bloginfo( 'template_url' ); ?>/images/Aneesh.jpg" alt="Aneesh Chopra" /> </div>
-    </div>
     <ul>
       <li><a href="/2011-code-for-america-fellows/">Meet Our Fellows</a></li>
       <li><a href="/fellows/2012-program-and-timeline/">Learn More About the Fellowship</a></li>
@@ -67,63 +56,16 @@ get_header(); ?>
     </ul>
     <div id="dates">
       <h3>Dates To Keep In Mind</h3>
-      <h4>2013 Applicants</h4>
+      <h4>&nbsp</h4>
       <table border="0" cellspacing="0" cellpadding="0">
 		<tr  class="odd">
-          <td>03/18/11</td>
-          <th>Spring Cycle Application Deadline <span>&raquo;</span></th>
+          <td>02/25/12</td>
+          <th>Code Across America: A Day of Civic Innovation <span>&raquo;</span></th>
         </tr>
 		<tr>
-          <td>03/18/11 - 04/15/11</td>
-          <th>Interviews for Spring Applicants <span>&raquo;</span></th>
+          <td>03/03/12</td>
+          <th>End of Residency <span>&raquo;</span></th>
         </tr>
-        <tr class="odd">
-          <td>05/4/11</td>
-          <th>Spring Applicants Notified of Selection <span>&raquo;</span></th>
-        </tr>
-        <tr>
-          <td>07/29/11</td>
-          <th>Fall Application Deadline <span>&raquo;</span></th>
-        </tr>
-        <tr class="odd">
-          <td>08/11 - 09/11</td>
-          <th>Interviews <span>&raquo;</span></th>
-        </tr>
-        <tr>
-          <td>09/14/11</td>
-          <th>Applicants Notified of Selection <span>&raquo;</span></th>
-        </tr>
-		 <tr class="odd">
-	          <td>10/11</td>
-	          <th>2013 CfA Fellows<br>Announced <span>&raquo;</span></th>
-	        </tr>
-       	<tr>
-          <td>01/02/13</td>
-          <th>2013 Fellowship Starts <span>&raquo;</span></th>
-        </tr>
-      </table>
-      <h4>2012 Fellows</h4>
-      <table border="0" cellspacing="0" cellpadding="0">
-        <tr class="odd">
-          <td>01/11</td>
-          <th>Orientation/CFA Institute <span>&raquo;</span></th>
-        </tr>
-        <tr>
-          <td>02/11</td>
-          <th>City Tour <span>&raquo;</span></th>
-        </tr>
-        <tr class="odd">
-          <td>03/11 - 09/11</td>
-          <th>Development with ongoing training and mentoring <span>&raquo;</span></th>
-        </tr>
-		  <tr>
-	          <td>10/11</td>
-	          <th>CfA Summit (Conference) <span>&raquo;</span></th>
-	        </tr>
-			<tr class="odd">
-	          <td>10/11 - 11/11</td>
-	          <th>Maintenance/Hand-off <span>&raquo;</span></th>
-	        </tr>
       </table>
     </div>
   </div>
