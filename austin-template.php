@@ -54,7 +54,7 @@ get_header(); ?>
 		
     <div class="box">
       <h3 class="ttl">Are you wondering, "Should I go to a Hackathon?" <a href="/fellows/2012-program-and-timeline/" class="more">Read More</a></h3>
-      <p>Here's a guide to help you decide.  And when you become convinced, remember to save the date of February 25th for "Code Across America: A National Day of Civic Innovation".</p>
+      <p>Here's a guide to help you decide.  And when you become convinced, remember to save the date of <strong>February 25th for "Code Across America: A National Day of Civic Innovation"</strong>.</p>
       <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/hackathonpromo620px.png" alt="" />
 
       <ul id="what" class="clearfix">
