@@ -16,8 +16,10 @@ get_header(); ?>
 <div class="wrap clearfix">
   <div id="mission">
     <h2>Team Austin loves cookies!</h2>
-    <p>Some intro text here.</p>
+    <p>Sign up for our newsletter below.</p>
+		<input></input>
   </div>
+  <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_header_1.gif" alt="" />
 </div>
 
 <div class="wrap" id="dots"></div>
@@ -47,32 +49,52 @@ get_header(); ?>
     </div>
   </div>
   <div class="right-col">
+    <ul>
+      <li><a href="/fellows/2012-program-and-timeline/">Learn More About the Fellowship</a></li>
+      <li><a href="/2012-fellows/">Meet The Fellows</a></li>
+    </ul>
+		
     <div class="testimonial-wrap">
       <div class="testimonial-content">
-        <h4>Sign up for our newsletter.</h4>
-	  </div>
+        <h4>"Join our movement... and <em>make a difference</em>"</h4>
+        <p>Joe Merante <span class="position">United States CTO</span></p>
+        <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/merante.png" alt="Joe Merante" />
+			</div>
     </div>
-    <ul>
-      <li><a href="/2011-code-for-america-fellows/">Meet Our Fellows</a></li>
-      <li><a href="/fellows/2012-program-and-timeline/">Learn More About the Fellowship</a></li>
-      <li><a href="/fellows/nominate/">Nominate a Future Fellow</a></li>
-      
-      <li><a href="http://codeforamerica.org/fellows/apply/" class="active">Apply To Be A Fellow</a></li>
-    </ul>
+		&nbsp;
+		
+    <div class="testimonial-wrap">
+      <div class="testimonial-content">
+        <h4>"Join our movement... and <em>make a difference</em>"</h4>
+        <p>Emily Wright Moore <span class="position">United States CTO</span></p>
+        <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/moore.png" alt="Emily Wright Moore" />
+			</div>
+    </div>
+		&nbsp;
+		
+    <div class="testimonial-wrap">
+      <div class="testimonial-content">
+        <h4>"Join our movement... and <em>make a difference</em>"</h4>
+        <p>Aurelio Tinio <span class="position">United States CTO</span></p>
+        <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/tinio.png" alt="Aurelio Tinio" />
+			</div>
+    </div>
+		
     <div id="dates">
       <h3>Dates To Keep In Mind</h3>
       <h4>&nbsp</h4>
       <table border="0" cellspacing="0" cellpadding="0">
-		<tr  class="odd">
-          <td>02/25/12</td>
-          <th>Code Across America: A Day of Civic Innovation <span>&raquo;</span></th>
+				<tr  class="odd">
+	        <td>02/25/12</td>
+	        <th>Code Across America: A Day of Civic Innovation <span>&raquo;</span></th>
         </tr>
-		<tr>
+				<tr>
           <td>03/03/12</td>
           <th>End of Residency <span>&raquo;</span></th>
         </tr>
       </table>
     </div>
+		
   </div>
 </div>
 <?php get_footer(); ?>
