@@ -43,14 +43,6 @@ get_header(); ?>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
 		
-    <h2 class="ttl">Our Goals <a href="#" class="red-btn"><span class="st_sharethis_custom">SHARE THIS +</span></a></h2>
-<p>	During the 11-month program, fellows not only work together to help cities innovate, but also receive the training and support to be positioned as a leader in business, public service, or both:</p>
-    <ul id="why">
-      <li><strong class="number">1</strong> <strong>Open data</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
-      <li><strong class="number">2</strong> <strong>Understand our audience</strong> The biggest names in the web industry and the Gov 2.0 movement will provide you unparalleled networking, mentoring, and support.</li>
-      <li><strong class="number">3</strong> <strong>Nurture civic hackers</strong> Working closely with other talented individuals, you will develop lasting professional relationships in a fast-paced, startup atmosphere.</li>
-      <li><strong class="number">4</strong> <strong>Identify apps and projects</strong> Working closely with other talented individuals, you will develop lasting professional relationships in a fast-paced, startup atmosphere.</li>
-    </ul>
 		
     <div class="box">
       <h3 class="ttl">Are you wondering, "Should I go to a Hackathon?" <a href="/fellows/2012-program-and-timeline/" class="more">Read More</a></h3>
