@@ -15,7 +15,7 @@ get_header(); ?>
 
 <div class="wrap clearfix">
   <div id="mission">
-    <h2>Team Austin loves cookies!</h2>
+    <h2>Team Austin loves BBQ!</h2>
     <p>
 			<!-- Begin MailChimp Signup Form -->
 			<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
@@ -53,14 +53,16 @@ get_header(); ?>
     </ul>
 		
     <div class="box">
-      <h3 class="ttl">What Are We looking For? <a href="/fellows/2012-program-and-timeline/" class="more">Read More</a></h3>
+      <h3 class="ttl">Are you wondering, "Should I go to a Hackathon?" <a href="/fellows/2012-program-and-timeline/" class="more">Read More</a></h3>
+      <p>Here's a guide to help you decide.  And when you become convinced, remember to save the date of February 25th for "Code Across America: A National Day of Civic Innovation".</p>
+      <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/hackathonpromo620px.png" alt="" />
+
       <ul id="what" class="clearfix">
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows1.jpg" alt="" /></li>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows2.jpg" alt="" /></li>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows3.jpg" alt="" /></li>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows5.jpg" alt="" /></li>
       </ul>
-      <p>Anyone with the skills and passion to make cities work better using technology. Many of you will be starting your careers, but others of you will have been working on the web for years and just want a chance to do something important and altruistic. All of you will want to see your work make a difference to cities and change how government works.</p>
     </div>
 		
     <div class="box">
