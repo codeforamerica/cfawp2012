@@ -41,21 +41,11 @@ get_header(); ?>
 <div class="wrap" id="dots"></div>
 
 <div class="wrap clearfix" id="fellows-wrap">
-  <div id="maincontent">
+  <div id="maincontent">		
 		
-		
-    <div class="box">
-      <h3 class="ttl">Are you wondering, "Should I go to a Hackathon?" <a href="/fellows/2012-program-and-timeline/" class="more">Read More</a></h3>
-      <p>Here's a guide to help you decide.  And when you become convinced, remember to save the date of <strong>February 25th for "Code Across America: A National Day of Civic Innovation"</strong>.</p>
-      <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/hackathonpromo620px.png" alt="" />
-
-      <ul id="what" class="clearfix">
-        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows1.jpg" alt="" /></li>
-        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows2.jpg" alt="" /></li>
-        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows3.jpg" alt="" /></li>
-        <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows5.jpg" alt="" /></li>
-      </ul>
-    </div>
+    <h3 class="ttl">Are you wondering, "Should I go to a Hackathon?" <a href="/fellows/2012-program-and-timeline/" class="more">Read More</a></h3>
+    <p>Here's a guide to help you decide.  And when you become convinced, remember to save the date of <strong>February 25th for "Code Across America: A National Day of Civic Innovation"</strong>.</p>
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/hackathonpromo620px.png" alt="" />
 		
     <div class="box">
       <h3 class="ttl">Why Austin? <a href="/2012-city-finalists/austin-old/" class="more">Read More</a></h3>
