@@ -33,6 +33,12 @@ get_header(); ?>
 			</div>
 
 			<!--End mc_embed_signup-->    	
+		</p>
+		<p>
+			Also if by City Hall please make sure to swing by and say hi.  We're usually in <strong>Room 3102</strong>, at least for the rest of this week.
+		</p>
+		<p>			
+			Please send any suggestions and ideas you may have for us at <a href='mailto:austin@codeforamerica.org'>austin@codeforamerica.org</a>. Thanks.
     </p>
   </div>
   <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_header_1.gif" alt="" />
