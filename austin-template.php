@@ -83,7 +83,7 @@ get_header(); ?>
     <div class="testimonial-wrap">
       <div class="testimonial-content">
         <h4>"Join our movement... and <em>make a difference</em>"</h4>
-        <p>Joe Merante <span class="position">United States CTO</span></p>
+        <p>Joe Merante <span class="position">Awesome Guy</span></p>
         <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/merante.png" alt="Joe Merante" />
 			</div>
     </div>
@@ -92,7 +92,7 @@ get_header(); ?>
     <div class="testimonial-wrap">
       <div class="testimonial-content">
         <h4>"Join our movement... and <em>make a difference</em>"</h4>
-        <p>Emily Wright Moore <span class="position">United States CTO</span></p>
+        <p>Emily Wright Moore <span class="position">Awesome Gal</span></p>
         <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/moore.png" alt="Emily Wright Moore" />
 			</div>
     </div>
@@ -101,7 +101,7 @@ get_header(); ?>
     <div class="testimonial-wrap">
       <div class="testimonial-content">
         <h4>"Join our movement... and <em>make a difference</em>"</h4>
-        <p>Aurelio Tinio <span class="position">United States CTO</span></p>
+        <p>Aurelio Tinio <span class="position">Another Awesome Guy</span></p>
         <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/tinio.png" alt="Aurelio Tinio" />
 			</div>
     </div>
@@ -116,7 +116,11 @@ get_header(); ?>
         </tr>
 				<tr>
           <td>03/03/12</td>
-          <th>End of Residency <span>&raquo;</span></th>
+          <th>End of Austin Residency <span>&raquo;</span></th>
+        </tr>
+				<tr  class="odd">
+	        <td>11/12</td>
+	        <th>End of 2012 Fellowship <span>&raquo;</span></th>
         </tr>
       </table>
     </div>
