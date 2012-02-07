@@ -47,6 +47,11 @@ get_header(); ?>
     </div>
   </div>
   <div class="right-col">
+    <div class="testimonial-wrap">
+      <div class="testimonial-content">
+        <h4>Sign up for our newsletter.</h4>
+	  </div>
+    </div>
     <ul>
       <li><a href="/2011-code-for-america-fellows/">Meet Our Fellows</a></li>
       <li><a href="/fellows/2012-program-and-timeline/">Learn More About the Fellowship</a></li>
