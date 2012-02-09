@@ -35,13 +35,13 @@ get_header(); ?>
 			<!--End mc_embed_signup-->    	
 		</p>
 		<p>
-			Also if by City Hall please make sure to swing by and say hi.  We're usually in <strong>Room 3102</strong>, at least for the rest of this week.
+			If you're near City Hall, come say hi!   We're usually in <strong>Room 3102</strong>, at least for the rest of this week.
 		</p>
 		<p>			
 			Please send any suggestions and ideas you may have for us at <a href='mailto:austin@codeforamerica.org'>austin@codeforamerica.org</a>. Thanks.
     </p>
   </div>
-  <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_header_1.gif" alt="" />
+  <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_conjunctured_banner.png" alt="" />
 </div>
 
 <div class="wrap" id="dots"></div>
@@ -72,8 +72,8 @@ get_header(); ?>
 		
     <div class="testimonial-wrap">
       <div class="testimonial-content">
-        <h4>"Join our movement... and <em>make a difference</em>"</h4>
-        <p>Joe Merante <span class="position">Awesome Guy</span></p>
+        <h4>"Working to further Austin's open government momentum."</h4>
+        <p>Joe Merante <span class="position">Law, Drupal, Guitars</span></p>
         <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/merante.png" alt="Joe Merante" />
 			</div>
     </div>
@@ -81,8 +81,8 @@ get_header(); ?>
 		
     <div class="testimonial-wrap">
       <div class="testimonial-content">
-        <h4>"Join our movement... and <em>make a difference</em>"</h4>
-        <p>Emily Wright Moore <span class="position">Awesome Gal</span></p>
+        <h4>"Listening for ways to encourage participation."</h4>
+        <p>Emily Wright Moore <span class="position">Design, Cities, Stories</span></p>
         <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/moore.png" alt="Emily Wright Moore" />
 			</div>
     </div>
@@ -90,8 +90,8 @@ get_header(); ?>
 		
     <div class="testimonial-wrap">
       <div class="testimonial-content">
-        <h4>"Join our movement... and <em>make a difference</em>"</h4>
-        <p>Aurelio Tinio <span class="position">Another Awesome Guy</span></p>
+        <h4>"Applying a startup mindset to the city."</h4>
+        <p>Aurelio Tinio <span class="position">Travel, Coding, Basketball</span></p>
         <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/tinio.png" alt="Aurelio Tinio" />
 			</div>
     </div>
