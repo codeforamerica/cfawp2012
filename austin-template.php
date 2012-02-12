@@ -96,7 +96,7 @@ get_header(); ?>
         <a href='http://twitter.com/tinio/'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/tinio.png" alt="Aurelio Tinio" /></a>
 			</div>
     </div>
-		
+
     <div id="dates">
       <h3>Dates To Keep In Mind</h3>
       <h4>&nbsp</h4>
@@ -115,6 +115,41 @@ get_header(); ?>
         </tr>
       </table>
     </div>
+		&nbsp;
+		&nbsp;
+	
+	<div>
+		<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<script>
+		new TWTR.Widget({
+		  version: 2,
+		  type: 'search',
+		  search: '#cfaATX',
+		  interval: 30000,
+		  title: 'Code for America',
+		  subject: 'Austin, TX',
+		  width: 'auto',
+		  height: 300,
+		  theme: {
+		    shell: {
+		      background: '#8ec1da',
+		      color: '#ffffff'
+		    },
+		    tweets: {
+		      background: '#ffffff',
+		      color: '#444444',
+		      links: '#1985b5'
+		    }
+		  },
+		  features: {
+		    scrollbar: false,
+		    loop: true,
+		    live: true,
+		    behavior: 'default'
+		  }
+		}).render().start();
+		</script>
+	</div>		
 		
   </div>
 </div>
