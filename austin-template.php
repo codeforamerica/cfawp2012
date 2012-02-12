@@ -39,8 +39,10 @@ get_header(); ?>
 		</p>
 		<p>			
 			Please send any suggestions and ideas you may have for by <a href='https://docs.google.com/a/codeforamerica.org/spreadsheet/viewform?formkey=dG5feE9uaGxKVF9ZZVBQd0JZMFpjYXc6MQ'>clicking here</a>. Thanks.
-
-    </p>
+	    </p>
+		<p>
+			A quick presentation to get an overview of the program can also be <a href="<?php bloginfo( 'template_url' ); ?>/images/austin/cfapresentation.pdf">seen here</a>.
+		</p>
   </div>
   <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_conjunctured_banner.png" alt="" />
 </div>
