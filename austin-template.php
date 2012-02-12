@@ -38,7 +38,8 @@ get_header(); ?>
 			If you're near City Hall, come say hi!   We're usually in <strong>Room 3102</strong>, at least for the rest of this week.
 		</p>
 		<p>			
-			Please send any suggestions and ideas you may have for us at <a href='mailto:austin@codeforamerica.org'>austin@codeforamerica.org</a>. Thanks.
+			Please send any suggestions and ideas you may have for by <a href='https://docs.google.com/a/codeforamerica.org/spreadsheet/viewform?formkey=dG5feE9uaGxKVF9ZZVBQd0JZMFpjYXc6MQ'>clicking here</a>. Thanks.
+
     </p>
   </div>
   <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_conjunctured_banner.png" alt="" />
