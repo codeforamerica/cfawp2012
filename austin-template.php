@@ -50,7 +50,7 @@ get_header(); ?>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">		
 		
-    <h3 class="ttl">Are you wondering, "Should I go to a Hackathon?" <a href="/fellows/2012-program-and-timeline/" class="more">Read More</a></h3>
+    <h3 class="ttl">Are you wondering, "Should I go to a Hackathon?"</h3>
     <p>Here's a guide to help you decide.  And when you become convinced, remember to save the date of <strong>February 25th for "Code Across America: A National Day of Civic Innovation"</strong>.</p>
     <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/hackathonpromo620px.png" alt="" />
 		
@@ -75,7 +75,7 @@ get_header(); ?>
       <div class="testimonial-content">
         <h4>"Working to further Austin's open government momentum."</h4>
         <p>Joe Merante <span class="position">Law, Drupal, Guitars</span></p>
-        <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/merante.png" alt="Joe Merante" />
+        <a href='http://twitter.com/joemerante/'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/merante.png" alt="Joe Merante" /></a>
 			</div>
     </div>
 		&nbsp;
@@ -84,7 +84,7 @@ get_header(); ?>
       <div class="testimonial-content">
         <h4>"Listening for ways to encourage participation."</h4>
         <p>Emily Wright Moore <span class="position">Design, Cities, Stories</span></p>
-        <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/moore.png" alt="Emily Wright Moore" />
+        <a href='http://twitter.com/emilyville/'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/moore.png" alt="Emily Wright Moore" /></a>
 			</div>
     </div>
 		&nbsp;
@@ -93,7 +93,7 @@ get_header(); ?>
       <div class="testimonial-content">
         <h4>"Applying a startup mindset to the city."</h4>
         <p>Aurelio Tinio <span class="position">Travel, Coding, Basketball</span></p>
-        <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/tinio.png" alt="Aurelio Tinio" />
+        <a href='http://twitter.com/tinio/'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/tinio.png" alt="Aurelio Tinio" /></a>
 			</div>
     </div>
 		
