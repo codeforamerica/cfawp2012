@@ -43,8 +43,11 @@ get_header(); ?>
 		<p>
 			A quick presentation to get an overview of the program can also be <a href="<?php bloginfo( 'template_url' ); ?>/images/austin/cfapresentation.pdf">seen here</a>.
 		</p>
+		<p>
+			And make sure to register for our upcoming hackathon by <a href="http://cfaaustin.eventbrite.com">clicking here</a>.
+		</p>
   </div>
-  <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_conjunctured_banner.png" alt="" />
+  <a href='http://cfaaustin.eventbrite.com'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_conjunctured_banner.png" alt="" /></a>
 </div>
 
 <div class="wrap" id="dots"></div>
