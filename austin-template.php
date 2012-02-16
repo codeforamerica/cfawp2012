@@ -15,7 +15,7 @@ get_header(); ?>
 
 <div class="wrap clearfix">
   <div id="mission">
-    <h2>Team Austin <i>loves</i> BBQ!</h2>
+    <h2>Team Austin <em>loves</em> BBQ!</h2>
     <p>
 			<!-- Begin MailChimp Signup Form -->
 			<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
