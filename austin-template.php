@@ -14,7 +14,11 @@ Template Name: Austin
 get_header(); ?>
 
 <div class="wrap clearfix">
-  <div id="mission">
+  <div>
+    <a href='http://cfaaustin.eventbrite.com'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/site_banner.png" alt="" /></a>
+  </div>
+  <div class='wrap clearfix'>
+    <div style="float: left; width: 620px;">
     <h2>Team Austin <em>loves</em> BBQ!</h2>
     <p>
 			<!-- Begin MailChimp Signup Form -->
@@ -46,8 +50,13 @@ get_header(); ?>
 		<p>
 			And make sure to register for our upcoming hackathon by <a href="http://cfaaustin.eventbrite.com">clicking here</a>.
 		</p>
+    </div>
+	
+    <div class='right-col'>
+      <a href='http://cfaaustin.eventbrite.com'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/hackathonbutton2.png" alt="" /></a>  
+    </div>
   </div>
-  <a href='http://cfaaustin.eventbrite.com'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_conjunctured_banner.png" alt="" /></a>
+  
 </div>
 
 <div class="wrap" id="dots"></div>
