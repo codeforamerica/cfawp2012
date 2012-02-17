@@ -19,7 +19,7 @@ get_header(); ?>
   </div>
   <div class='wrap clearfix'>
     <div style="float: left; width: 620px;">
-    <h2>Team Austin <em>loves</em> BBQ!</h2>
+    <h3 style="font-weight: bold; color: #000; text-transform: uppercase; font-size: 1.45em;">Team Austin <em>loves</em> BBQ!</h3>
     <p>
 			<!-- Begin MailChimp Signup Form -->
 			<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
