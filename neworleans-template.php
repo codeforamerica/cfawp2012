@@ -15,36 +15,29 @@ get_header(); ?>
 
 <div class="wrap clearfix">
   <div id="mission">
-    <h2>Team Austin loves BBQ!</h2>
+    <h2>Team New Orleans</h2>
     <p>
-			<!-- Begin MailChimp Signup Form -->
-			<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-			<style type="text/css">
-				#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-				/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-				   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-			</style>
-			<div id="mc_embed_signup">
-			<form action="http://codeforamerica.us4.list-manage1.com/subscribe/post?u=7eae25b3fcdc6e862a1a20456&amp;id=5fa034319d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-				<label for="mce-EMAIL">Subscribe to our mailing list</label>
-				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-				<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-			</form>
-			</div>
+	<!-- Begin MailChimp Signup Form -->
+	<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+	<div id="mc_embed_signup">
+	<form action="http://codeforamerica.us4.list-manage.com/subscribe/post?u=bc89bc1a568c7ecb05735ef0d&amp;id=c5194b384f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+		<label for="mce-EMAIL">Subscribe to our mailing list</label>
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+		<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	</form>
+	</div>
 
-			<!--End mc_embed_signup-->    	
-		</p>
-		<p>
-			If you're near City Hall, come say hi!   We're usually in <strong>Room 3102</strong>, at least for the rest of this week.
+	<!--End mc_embed_signup-->
 		</p>
 		<p>			
-			Please send any suggestions and ideas you may have for by <a href='https://docs.google.com/a/codeforamerica.org/spreadsheet/viewform?formkey=dG5feE9uaGxKVF9ZZVBQd0JZMFpjYXc6MQ'>clicking here</a>. Thanks.
+			Please send any suggestions and ideas you may have for by <a href='https://www.google.com/moderator/#15/e=1e9f42&t=1e9f42.40'>clicking here</a>. Thanks.
 	    </p>
-		<p>
-			A quick presentation to get an overview of the program can also be <a href="<?php bloginfo( 'template_url' ); ?>/images/austin/cfapresentation.pdf">seen here</a>.
-		</p>
   </div>
-  <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_conjunctured_banner.png" alt="" />
 </div>
 
 <div class="wrap" id="dots"></div>
@@ -58,13 +51,6 @@ get_header(); ?>
 		
     <div class="box">
       <h3 class="ttl">Why Austin? <a href="/2012-city-finalists/austin-old/" class="more">Read More</a></h3>
-			<p id="internal-source-marker_0.628739543234031"><a href="http://codeforamerica.org/wp-content/uploads/2011/06/austinv3.jpeg"><img class="aligncenter size-full wp-image-6290" title="austinv3" src="http://codeforamerica.org/wp-content/uploads/2011/06/austinv3.jpeg" alt="" width="630" height="180" /></a></p>
-
-			<blockquote>“I  think it would be good if Austin could work with Code for America  fellows and create new applications for our community... I know  Austin’s tech community will be very interested in the Fellowship  program – it’s a great opportunity.”
-
-			- Mayor Lee Leffingwell</blockquote>
-			<a href="http://codeforamerica.org/wp-content/uploads/2011/06/Austinseal1.jpg"><img class="alignright size-medium wp-image-6293" title="Austinseal" src="http://codeforamerica.org/wp-content/uploads/2011/06/Austinseal1-300x300.jpg" alt="" width="168" height="168" /></a>Austin  has proposed to partner with Code for America to produce lightweight  creative technology that empowers the city to become a platform for  community engagement. The project will extend access to government that  allows city agencies to easily and effectively deliver information and  services. Instead of a citizen government relationship limited to  request and response, such a system will allow for more dynamic  collection of feedback, issue management, email notification, discussion  and event management.			
-			The  goals of transparency and openness are becoming standard expectations  in nearly every level of government. Often government agencies struggle  to achieve these goals and meet the demands of the communities they  serve due to a lack of technological resources that make common  information and services available.  The City of Austin is challenged  with keeping up with their motivated and engaged community. City leaders  are committed to closing the gap between typical city government issues  and the best impulses of the community it represents.
     </div>
   </div>
   <div class="right-col">
@@ -76,8 +62,8 @@ get_header(); ?>
     <div class="testimonial-wrap">
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
-        <p>Alex Pandel <span class="position">Law, Drupal, Guitars</span></p>
-        <a href='http://twitter.com/joemerante/'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/alexp.png" alt="Joe Merante" /></a>
+        <p>Alex Pandel <span class="position">Designer</span></p>
+        <a href='http://twitter.com/joemerante/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/pandel.png" alt="Alex Pandel" /></a>
 			</div>
     </div>
 		&nbsp;
@@ -85,8 +71,8 @@ get_header(); ?>
     <div class="testimonial-wrap">
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
-        <p>Amir Ravis-Bay <span class="position">Design, Cities, Stories</span></p>
-        <a href='http://twitter.com/emilyville/'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/amir.png" alt="Emily Wright Moore" /></a>
+        <p>Amir Reavis-Bey <span class="position">Software Engineer</span></p>
+        <a href='http://twitter.com/emilyville/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/reavis-bey.png" alt="Amir Reavis-Bey" /></a>
 			</div>
     </div>
 		&nbsp;
@@ -94,16 +80,16 @@ get_header(); ?>
     <div class="testimonial-wrap">
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
-        <p>Eddie A Tejeda <span class="position">Travel, Coding, Basketball</span></p>
-        <a href='http://twitter.com/tinio/'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/eddie.png" alt="Aurelio Tinio" /></a>
+        <p>Eddie A Tejeda <span class="position">Web Developer</span></p>
+        <a href='http://twitter.com/tinio/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/tejeda.png" alt="Eddie A Tejeda" /></a>
 			</div>
     </div>
 
     <div class="testimonial-wrap">
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
-        <p>Serena Wales <span class="position">Travel, Coding, Basketball</span></p>
-        <a href='http://twitter.com/tinio/'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/serena.png" alt="Aurelio Tinio" /></a>
+        <p>Serena Wales <span class="position">Web Developer</span></p>
+        <a href='http://twitter.com/tinio/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/wales.png" alt="Serena Wales" /></a>
 			</div>
     </div>
 
