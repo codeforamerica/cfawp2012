@@ -44,14 +44,7 @@ get_header(); ?>
 
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">		
-		
-    <h3 class="ttl">Are you wondering, "Should I go to a Hackathon?"</h3>
-    <p>Here's a guide to help you decide.  And when you become convinced, remember to save the date of <strong>February 25th for "Code Across America: A National Day of Civic Innovation"</strong>.</p>
-    <img src="<?php bloginfo( 'template_url' ); ?>/images/austin/hackathonpromo620px.png" alt="" />
-		
-    <div class="box">
-      <h3 class="ttl">Why Austin? <a href="/2012-city-finalists/austin-old/" class="more">Read More</a></h3>
-    </div>
+	<?php the_content(); ?>
   </div>
   <div class="right-col">
     <ul>
@@ -63,7 +56,7 @@ get_header(); ?>
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Alex Pandel <span class="position">Designer</span></p>
-        <a href='http://twitter.com/joemerante/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/pandel.png" alt="Alex Pandel" /></a>
+        <a href='http://twitter.com/alexpandel/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/pandel.png" alt="Alex Pandel" /></a>
 			</div>
     </div>
 		&nbsp;
@@ -81,16 +74,17 @@ get_header(); ?>
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Eddie A Tejeda <span class="position">Web Developer</span></p>
-        <a href='http://twitter.com/tinio/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/tejeda.png" alt="Eddie A Tejeda" /></a>
+        <a href='http://twitter.com/eddietejeda/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/tejeda.png" alt="Eddie A Tejeda" /></a>
 			</div>
     </div>
+		&nbsp;
 
     <div class="testimonial-wrap">
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Serena Wales <span class="position">Web Developer</span></p>
-        <a href='http://twitter.com/tinio/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/wales.png" alt="Serena Wales" /></a>
-			</div>
+        <a href='http://twitter.com/gangleton/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/wales.png" alt="Serena Wales" /></a>
+	  </div>
     </div>
 
     <div id="dates">
