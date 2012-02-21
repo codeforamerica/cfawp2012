@@ -62,6 +62,7 @@ get_header(); ?>
 					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 				</form>
 			</div>
+		<?php the_content(); ?>
 		<?php edit_post_link(); ?>
 		<?php endwhile; ?>
   <?php endif; ?>
