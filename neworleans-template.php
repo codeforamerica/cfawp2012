@@ -13,8 +13,15 @@ Template Name: New Orleans
 
 get_header(); ?>
 
+<style>
+#twitter_feed{
+	float:right;
+	width: 300px;
+}
+</style>
+
 <div class="wrap clearfix">
-	<div id="mission">
+	<div id="main">
 		<?php if (have_posts()) : ?>
 
 		<h1><?php the_title(); ?></h1>
@@ -62,7 +69,9 @@ get_header(); ?>
 					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 				</form>
 			</div>
+		<div id="the_content">
 		<?php the_content(); ?>
+		</div>
 		<?php edit_post_link(); ?>
 		<?php endwhile; ?>
   <?php endif; ?>
