@@ -49,7 +49,7 @@ get_header(); ?>
 <?php
 if (have_posts()) :
    while (have_posts()) : the_post();
-      the_content();
+//      the_content();
    endwhile;
 endif;
 ?>	  	
@@ -64,7 +64,7 @@ endif;
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Alex Pandel <span class="position">Designer</span></p>
-        <a href='http://twitter.com/alexpandel/'><img style="width: 200px; height: 150px; background: url(<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg) no-repeat" alt="Alex Pandel" /></div></a>
+        <a href='http://twitter.com/alexpandel/'><img style="width: 150px; height: 150px; background: url(<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg) no-repeat" alt="Alex Pandel" /></div></a>
 			</div>
     </div>
 		&nbsp;
@@ -73,7 +73,7 @@ endif;
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Amir Reavis-Bey <span class="position">Software Engineer</span></p>
-        <a href='http://twitter.com/maromba/'><img style="width: 200px; height: 150px; background: url(<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg) no-repeat" alt="Amir Reavis-Bey" /></div></a>
+        <a href='http://twitter.com/maromba/'><img style="width: 150px; height: 150px; background: url(<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg) no-repeat" alt="Amir Reavis-Bey" /></div></a>
 			</div>
     </div>
 		&nbsp;
@@ -82,7 +82,7 @@ endif;
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Eddie A Tejeda <span class="position">Web Developer</span></p>
-        <a href='http://twitter.com/eddietejeda/'><div style="width: 200px; height: 150px; background: url(<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg) no-repeat" alt="Eddie A Tejeda" /></div></a>
+        <a href='http://twitter.com/eddietejeda/'><div style="width: 150px; height: 150px; background: url(<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg) no-repeat" alt="Eddie A Tejeda" /></div></a>
 			</div>
     </div>
 		&nbsp;
@@ -91,7 +91,7 @@ endif;
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Serena Wales <span class="position">Web Developer</span></p>
-        <a href='http://twitter.com/gangleton/'><div style="width: 200px; height: 150px; background: url(<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg) no-repeat" alt="Serena Wales" /></div></a>
+        <a href='http://twitter.com/gangleton/'><div style="width: 150px; height: 150px; background: url(<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg) no-repeat" alt="Serena Wales" /></div></a>
 	  </div>
     </div>
 
