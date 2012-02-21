@@ -56,7 +56,7 @@ get_header(); ?>
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Alex Pandel <span class="position">Designer</span></p>
-        <a href='http://twitter.com/alexpandel/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/pandel.png" alt="Alex Pandel" /></a>
+        <a href='http://twitter.com/alexpandel/'><img src="<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg" alt="Alex Pandel" /></a>
 			</div>
     </div>
 		&nbsp;
@@ -65,7 +65,7 @@ get_header(); ?>
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Amir Reavis-Bey <span class="position">Software Engineer</span></p>
-        <a href='http://twitter.com/emilyville/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/reavis-bey.png" alt="Amir Reavis-Bey" /></a>
+        <a href='http://twitter.com/emilyville/'><img src="<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg" alt="Amir Reavis-Bey" /></a>
 			</div>
     </div>
 		&nbsp;
@@ -74,7 +74,7 @@ get_header(); ?>
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Eddie A Tejeda <span class="position">Web Developer</span></p>
-        <a href='http://twitter.com/eddietejeda/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/tejeda.png" alt="Eddie A Tejeda" /></a>
+        <a href='http://twitter.com/eddietejeda/'><img src="<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg" alt="Eddie A Tejeda" /></a>
 			</div>
     </div>
 		&nbsp;
@@ -83,7 +83,7 @@ get_header(); ?>
       <div class="testimonial-content">
         <h4>"QUOTE."</h4>
         <p>Serena Wales <span class="position">Web Developer</span></p>
-        <a href='http://twitter.com/gangleton/'><img src="<?php bloginfo( 'template_url' ); ?>/images/2012fellows/wales.png" alt="Serena Wales" /></a>
+        <a href='http://twitter.com/gangleton/'><img src="<?php bloginfo( 'template_url' ); ?>/images/neworleans/neworleans-team.jpg" alt="Serena Wales" /></a>
 	  </div>
     </div>
 
