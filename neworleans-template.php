@@ -18,6 +18,11 @@ get_header(); ?>
 	float:right;
 	width: 300px;
 }
+
+#content{
+	float: left;
+	width: 800px;
+}
 </style>
 
 <div class="wrap clearfix">
@@ -27,6 +32,9 @@ get_header(); ?>
 		<h1><?php the_title(); ?></h1>
 	
 		<?php while (have_posts()) : the_post(); ?>    
+			<div id="content">
+			<?php the_content(); ?>
+			</div>
 	 	
 			<div id="twitter_feed">
 				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -60,8 +68,11 @@ get_header(); ?>
 				}).render().start();
 				</script>
 			</div>		
+			<?php edit_post_link(); ?>
 		
 		
+		
+		    <h1>If you'd like to be updated about our upcoming events, sign up for our mailing list below</h1>
 			<div id="mc_embed_signup">
 				<form action="http://codeforamerica.us4.list-manage.com/subscribe/post?u=bc89bc1a568c7ecb05735ef0d&amp;id=c5194b384f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 					<label for="mce-EMAIL">Subscribe to our mailing list</label>
@@ -69,10 +80,6 @@ get_header(); ?>
 					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 				</form>
 			</div>
-		<div id="the_content">
-		<?php the_content(); ?>
-		</div>
-		<?php edit_post_link(); ?>
 		<?php endwhile; ?>
   <?php endif; ?>
 
