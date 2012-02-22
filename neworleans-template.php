@@ -29,6 +29,14 @@ get_header(); ?>
 .team{
 	float: left;
 }
+
+#content li {
+	font-size: 135%;
+	line-height: 35px;
+}
+.post-edit-link{
+	clear: both;
+}
 </style>
 
 <div class="wrap clearfix">
