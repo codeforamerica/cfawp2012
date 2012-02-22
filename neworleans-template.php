@@ -23,6 +23,9 @@ get_header(); ?>
 	float: left;
 	width: 605px;
 }
+#mc_embed_signup{
+	clear:both;
+}
 </style>
 
 <div class="wrap clearfix">
@@ -73,6 +76,7 @@ get_header(); ?>
 		
 		
 			<div id="mc_embed_signup">
+				<h1>Notifications</h1>
 				<form action="http://codeforamerica.us4.list-manage.com/subscribe/post?u=bc89bc1a568c7ecb05735ef0d&amp;id=c5194b384f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 					<label for="mce-EMAIL">Subscribe to our mailing list</label>
 					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
