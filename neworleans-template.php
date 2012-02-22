@@ -21,7 +21,7 @@ get_header(); ?>
 
 #content{
 	float: left;
-	width: 600pxpx;
+	width: 600px;
 }
 </style>
 
