@@ -25,9 +25,11 @@ get_header(); ?>
 }
 #mc_embed_signup{
 	clear:both;
+	height: 100px;
 }
 .team{
 	float: left;
+	width: 170px;
 }
 
 #content li {
@@ -97,26 +99,25 @@ get_header(); ?>
 			
 			
 			
-
 			<h1>Meet the Team</h1>
 			<div id="the_team">
 				<div class="team">
-				<img src="/wp-content/themes/cfawp2012/images/2012fellows/pandel.png" width="150px">
+				<img src="/wp-content/themes/cfawp2012/images/2012fellows/pandel.png" width="100px">
 				<p><b>Alex Pandel, Designer</b></p>
 				</div>
 
 				<div class="team">
-				<img src="/wp-content/themes/cfawp2012/images/2012fellows/reavis-bey.png" width="150px">
+				<img src="/wp-content/themes/cfawp2012/images/2012fellows/reavis-bey.png" width="100px">
 				<p><b>Amir Reavis-Bey, Software Engineer</b></p>
 				</div>
 
 				<div class="team">
-				<img src="/wp-content/themes/cfawp2012/images/2012fellows/tejeda.png" width="150px">
+				<img src="/wp-content/themes/cfawp2012/images/2012fellows/tejeda.png" width="100px">
 				<p><b>Eddie A Tejeda, Web Developer</b></p>
 				</div>
 
 				<div class="team">
-				<img src="/wp-content/themes/cfawp2012/images/2012fellows/wales.png" width="150px">
+				<img src="/wp-content/themes/cfawp2012/images/2012fellows/wales.png" width="100px">
 				<p><b>Serena Wales, Web Developer</a></p>
 				</div>
 			</div>	
