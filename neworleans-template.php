@@ -26,6 +26,9 @@ get_header(); ?>
 #mc_embed_signup{
 	clear:both;
 }
+.team{
+	float: left;
+}
 </style>
 
 <div class="wrap clearfix">
@@ -83,6 +86,32 @@ get_header(); ?>
 					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 				</form>
 			</div>
+			
+			
+			
+
+			<h1>Meet the Team</h1>
+			<div id="the_team">
+				<div class="team">
+				<img src="/wp-content/themes/cfawp2012/images/2012fellows/pandel.png" width="150px">
+				<p><b>Alex Pandel, Designer</b></p>
+				</div>
+
+				<div class="team">
+				<img src="/wp-content/themes/cfawp2012/images/2012fellows/reavis-bey.png" width="150px">
+				<p><b>Amir Reavis-Bey, Software Engineer</b></p>
+				</div>
+
+				<div class="team">
+				<img src="/wp-content/themes/cfawp2012/images/2012fellows/tejeda.png" width="150px">
+				<p><b>Eddie A Tejeda, Web Developer</b></p>
+				</div>
+
+				<div class="team">
+				<img src="/wp-content/themes/cfawp2012/images/2012fellows/wales.png" width="150px">
+				<p><b>Serena Wales, Web Developer</a></p>
+				</div>
+			</div>	
 			
 		<?php endwhile; ?>
   <?php endif; ?>
