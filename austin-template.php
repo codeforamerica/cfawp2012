@@ -20,6 +20,16 @@ get_header(); ?>
   <div class='wrap clearfix'>
     <div style="float: left; width: 620px;">
     <h3 style="font-weight: bold; color: #000; text-transform: uppercase; font-size: 1.45em;">Team Austin <em>loves</em> BBQ!</h3>
+		<p>			
+			Please send any suggestions and ideas you may have for us by <a href='https://docs.google.com/a/codeforamerica.org/spreadsheet/viewform?formkey=dG5feE9uaGxKVF9ZZVBQd0JZMFpjYXc6MQ'>clicking here</a>. Thanks.
+	    </p>
+		<p>
+			A quick presentation to get an overview of the program can also be <a href="<?php bloginfo( 'template_url' ); ?>/images/austin/cfapresentation.pdf">seen here</a>.
+		</p>
+	
+    </div>
+	
+    <div class='right-col'>
     <p>
 			<!-- Begin MailChimp Signup Form -->
 			<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
@@ -38,22 +48,7 @@ get_header(); ?>
 
 			<!--End mc_embed_signup-->    	
 		</p>
-		<p>
-			If you're near City Hall, come say hi!   We're usually in <strong>Room 3102</strong>, at least for the rest of this week.
-		</p>
-		<p>			
-			Please send any suggestions and ideas you may have for by <a href='https://docs.google.com/a/codeforamerica.org/spreadsheet/viewform?formkey=dG5feE9uaGxKVF9ZZVBQd0JZMFpjYXc6MQ'>clicking here</a>. Thanks.
-	    </p>
-		<p>
-			A quick presentation to get an overview of the program can also be <a href="<?php bloginfo( 'template_url' ); ?>/images/austin/cfapresentation.pdf">seen here</a>.
-		</p>
-		<p>
-			And make sure to register for our upcoming hackathon by <a href="http://cfaaustin.eventbrite.com">clicking here</a>.
-		</p>
-    </div>
-	
-    <div class='right-col'>
-      <a href='http://cfaaustin.eventbrite.com'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/hackathonbutton2.png" alt="" /></a>  
+
     </div>
   </div>
   
