@@ -19,14 +19,13 @@ get_header(); ?>
   </div>
   <div class='wrap clearfix'>
     <div style="float: left; width: 620px;">
-    <h3 style="font-weight: bold; color: #000; text-transform: uppercase; font-size: 1.45em;">Team Austin <em>loves</em> BBQ!</h3>
+    <h3 style="font-weight: bold; color: #000; text-transform: uppercase; font-size: 1.45em;">And This Is Just The Beginning. . . </h3>
 		<p>			
-			Please send any suggestions and ideas you may have for us by <a href='https://docs.google.com/a/codeforamerica.org/spreadsheet/viewform?formkey=dG5feE9uaGxKVF9ZZVBQd0JZMFpjYXc6MQ'>clicking here</a>. Thanks.
-	    </p>
-		<p>
-			A quick presentation to get an overview of the program can also be <a href="<?php bloginfo( 'template_url' ); ?>/images/austin/cfapresentation.pdf">seen here</a>.
+Phew! That was quick. Five weeks, three fellows, and an unbelievable amount of support from the City and community. Thank you. From the meetings and idea sessions, the code-a-thon event, People's Gallery app and BBQ (yes, <a href='http://franklinbarbecue.com/'>certain places</a> are in fact worth waiting for!), we're proud to be honorary Austinites. Below are a few photos and highlights from our experience so far, along with notes about our next steps. Please stay tuned for updates via this newsletter, hashtag <a href="https://twitter.com/#!/search/%23cfaATX">#cfaATX</a> on Twitter and our web site, <a href="http://codeforamerica.org/austin/">codeforamerica.org/austin</a>.
 		</p>
-	
+<p>
+Thank you for all of the valuable feedback you've provided. We're doing our best to highlight your work, build more apps and help others build, suggest new processes and make connections. If there's anything else we can do, ideas or data sets you have (or need), please don't hesitate to <a href='mailto:austin@codeforamerica.org'>get in touch!</a>	
+</p>
     </div>
 	
     <div class='right-col'>
