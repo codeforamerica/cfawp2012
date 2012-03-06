@@ -25,6 +25,8 @@ Phew! That was quick. Five weeks, three fellows, and an unbelievable amount of s
 		</p>
 <p>
 Thank you for all of the valuable feedback you've provided. We're doing our best to highlight your work, build more apps and help others build, suggest new processes and make connections. If there's anything else we can do, ideas or data sets you have (or need), please don't hesitate to <a href='mailto:austin@codeforamerica.org'>get in touch!</a>	
+<br/><br/>
+<a href="http://us4.campaign-archive2.com/?u=7eae25b3fcdc6e862a1a20456&id=5696a88507">Read More...</a>
 </p>
     </div>
 	
@@ -46,6 +48,17 @@ Thank you for all of the valuable feedback you've provided. We're doing our best
 			</div>
 
 			<!--End mc_embed_signup-->    	
+
+<style type="text/css">
+<!--
+.display_archive {font-family: arial,verdana; font-size: 12px;}
+.campaign {line-height: 125%; margin: 5px;}
+//-->
+</style>
+				Also check out the archives:
+
+<script language="javascript" src="http://us4.campaign-archive1.com/generate-js/?u=7eae25b3fcdc6e862a1a20456&fid=1445&show=10" type="text/javascript"></script>
+			
 		</p>
 
     </div>
