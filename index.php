@@ -75,8 +75,6 @@ get_header(); ?>
 			<div class="wrap clearfix">
 			<!--Helping Cities Solve Common Issues -->
 				<div id="cities-issues">
-					<h2>Helping Cities Solve <br />
-					Common Issues</h2>
 					<?php if ( is_active_sidebar( 'fourth-footer-widget-area' ) ) : ?>
 									
 											<?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>
