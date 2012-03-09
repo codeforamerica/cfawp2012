@@ -63,6 +63,7 @@
 					<li><a href="http://twitter.com/codeforamerica">Twitter</a></li>
 					<li><a href="http://www.youtube.com/user/CodeforAmerica">YouTube</a></li>
 					<li><a href="/feed">RSS</a></li>
+                                        <li><a href="https://github.com/codeforamerica">GitHub</a></li>
 				</ul>
 			</li>
 			<li><h4><a href="#">Search</a></h4><form role="search" method="get" id="searchform" action="/">
