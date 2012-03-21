@@ -40,7 +40,7 @@ get_header(); ?>
 		<p style="
 		    text-align: left;
 		    padding-left: 3px;
-		">Our fellows work hand in hand with forward thinking cities across the country to help them do more with less...</p>
+		">Our fellows work hand in hand with forward thinking cities across the country to help them do more with less.<br />The deadline for the 2013 program is <strong>March 31</strong>.</p>
 		<a href="/cities/apply"><img src="http://codeforamerica.org/wp-content/uploads/2012/03/cities-apply.png" align="left"></a>
 		<a href="/cities"><img src="http://codeforamerica.org/wp-content/uploads/2012/03/learn.png" align="left"></a></div>
 		</div>
