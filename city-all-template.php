@@ -23,14 +23,14 @@ get_header(); ?>
     <div id="participating">
       <h2>CITY PARTNERS </h2>
       <div class="links"> 2011: <a href="/boston">Boston <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a> <br />
-	2012: <a href="/austin">Austin <span>&raquo;</span></a> <a href="/2012-partners/detroit">Detroit <span>&raquo;</span></a> <a href="/2012-partners/chicago">Chicago <span>&raquo;</span></a>  <a href="/2012-partners/honolulu">Honolulu <span>&raquo;</span></a>  <a href="/2012-partners/macon">Macon <span>&raquo;</span></a> <a href="/2012-partners/nola">New Orleans <span>&raquo;</span></a>  <a href="/2012-partners/philadelphia">Philadelphia <span>&raquo;</span></a>  <a href="/2012-partners/santa-cruz">Santa Cruz <span>&raquo;</span></a> <a href="http://codeforamerica.org/cities/2013-city-interest-form/">Apply for 2013 <span>&raquo;</span></a></div>
+	2012: <a href="/austin">Austin <span>&raquo;</span></a> <a href="/2012-partners/detroit">Detroit <span>&raquo;</span></a> <a href="/2012-partners/chicago">Chicago <span>&raquo;</span></a>  <a href="/2012-partners/honolulu">Honolulu <span>&raquo;</span></a>  <a href="/2012-partners/macon">Macon <span>&raquo;</span></a> <a href="/2012-partners/nola">New Orleans <span>&raquo;</span></a>  <a href="/2012-partners/philadelphia">Philadelphia <span>&raquo;</span></a>  <a href="/2012-partners/santa-cruz">Santa Cruz <span>&raquo;</span></a> <a href="http://codeforamerica.org/cities/apply/">Apply for 2013 <span>&raquo;</span></a></div>
       <p>CfA connects forward-thinking cities with the talent from the web industry to develop reusable civic technology. Partnering cities will not only solve a critical problem using technology, but also help cultivate the next generation of tech-savvy, civic leaders.
 	
 	</p>
       <ul>
         <li><a href="/cities/faqs-cities-applying-to-program/">Learn more about the  program</a></li>
         <li><a href="/citizen-action-center">Spread the word in your city</a></li>
-        <li><a href="http://codeforamerica.org/cities/2013-city-interest-form/" class="active">apply to become a cfa city</a></li>
+        <li><a href="http://codeforamerica.org/cities/apply/" class="active">apply to become a cfa city</a></li>
       </ul>
     </div>
 	<link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.css" />
