@@ -24,7 +24,7 @@ get_header(); ?>
 		    height: 315px;
 		">
 		<div class="featured-home-img">
-			<a href="http://codeforamerica.org/2012/03/08/jennifer-pahlka-at-ted-video/"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/jented.png" align="right" style="height: 250px; padding: 30px;"></a>
+			<a href="http://codeforamerica.org/2012/03/08/jennifer-pahlka-at-ted-video/"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/jented.png" align="right" style="height: 250px; padding: 30px 40px;"></a>
 		</div>
 		<div class="callout" style="width: 450px; padding: 40px;">
 		<h2 style="font-family: oswald; text-transform: uppercase; color: black; font-size: 30px; text-align: left; letter-spacing: -.04em;.; line-height: 1.2em;">"We Need to Remember We're Not Just Consumers. We're Citizens"</h2>
