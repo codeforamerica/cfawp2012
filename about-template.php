@@ -58,7 +58,7 @@ get_header(); ?>
 			<li><a href="/author/abhi" rel="tooltip1" title="Abhi Nemani"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/abhi.jpg" alt="Staff name" /></a></li>
 			<li><a href="/author/mreilly"  rel="tooltip1" title="Meghan Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/meghan.png" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#bob" rel="tooltip1" title="Bob Sofman"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bob.jpg" alt="Bob Sofman" /></a></li>
-			<li><a href="/author/alissa" rel="tooltip1" title="Alissa Black"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/alissa.png" alt="Staff name" /></a></li>
+			<li><a href="/author/mark-headd" rel="tooltip1" title="Mark Headd"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mark.png" alt="Staff name" /></a></li>
 			<li class="last"><a href="/who-we-are/#david" rel="tooltip1"  title="David Eaves"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/david.jpg" alt="Staff name" /></a></li>
 			
 			<li class="first"><a href="/author/ryan" rel="tooltip1" title="Ryan Resella"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/ryan.jpg" alt="Staff name" /></a></li>
