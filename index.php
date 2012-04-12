@@ -27,7 +27,7 @@ get_header(); ?>
 			<a href="http://codeforamerica.org/2012/03/08/jennifer-pahlka-at-ted-video/"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/jented.png" align="right" style="height: 250px; padding: 30px 40px;"></a>
 		</div>
 		<div class="callout" style="width: 450px; padding: 40px;">
-		<h2 style="font-family: oswald; text-transform: uppercase; color: black; font-size: 30px; text-align: left; letter-spacing: -.04em;.; line-height: 1.2em;">"We Need to Remember We're Not Just Consumers. We're Citizens"</h2>
+		<h2 style="font-family: oswald; text-transform: uppercase; color: black; font-size: 30px; text-align: left; letter-spacing: -.04em;.; line-height: 1.2em;">"We're Not Going To Fix Government Until We Fix Citizenship"</h2>
 		<p style="text-align: left; padding-left: 3px;">CfA's Founder Jennifer Pahlka gave a TED Talk about our fellowship program, which calls technologists into public service.<br /> We're now recruiting our 2013 class. <strong>Make a difference.</strong></p>
 		<a href="/apply"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/apply.png" align="left"></a>
 		<a href="/fellows"><img src="http://codeforamerica.org/wp-content/uploads/2012/03/learn.png" align="left"></a></div>
