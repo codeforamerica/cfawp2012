@@ -101,42 +101,41 @@ get_header(); ?>
   <div class="right-col">
 	<h3>Donors</h3>
 	<table border="0" cellspacing="0" cellpadding="0">
-  <tr class="odd">
+	<tr class="odd">
+	 <th>Google</th>
+	 <td>$1,500,000</td>
+	</tr>
+  <tr>
     <th>Knight Foundation</th>
     <td>$250,000</td>
   </tr>
-  <tr>
+  <tr class="odd">
     <th>Omidyar Network</th>
     <td>$250,000</td>
   </tr>
-  <tr class="odd">
+  <tr>
     <th>Rockefeller Foundation</th>
     <td>$200,000</td>
   </tr>
- <tr>
+ <tr class="odd">
     <th>ESRI</th>
     <td>$100,000</td>
   </tr>
-<tr class="odd">
+<tr>
     <th>O'Reilly Media</th>
     <td>$100,000</td>
   </tr>
-<tr>
+<tr class="odd">
     <th>Kaphan Foundation</th>
     <td>$50,000</td>
   </tr>
-<tr class="odd">
+<tr>
     <th>Microsoft</th>
     <td>$50,000</td>
   </tr>
-  <tr>
+  <tr class="odd">
     <th>O’Reilly Foundation</th>
     <td>$50,000</td>
-  </tr>
-
-	<tr class="odd">
-    <th>Google</th>
-    <td>$40,000</td>
   </tr>
   <tr>
     <th>Paul Maritz</th>
