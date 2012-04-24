@@ -35,12 +35,16 @@
 					<li><a href="/fellows/apply">Apply</a></li>
 				</ul>
 			</li>
-			<li><h4><a href="/cities">Cities</a></h4>
+			<li><h4><a href="/cities">2012 Cities</a></h4>
 				<ul>
-					<li><a href="/boston">Boston</a></li>
-					<li><a href="/dc">Washington DC</a></li>
-					<li><a href="/philadelphia">Philadelphia</a></li>
-					<li><a href="/seattle">Seattle</a></li>		
+					<li><a href="/2012-partners/austin">Austin</a></li>
+					<li><a href="/2012-partners/chicago">Chicago</a></li>
+					<li><a href="/2012-partners/detroit">Detroit</a></li>
+					<li><a href="/2012-partners/honolulu">Honolulu</a></li>
+					<li><a href="/2012-partners/macon">Macon</a></li>
+					<li><a href="/2012-partners/nola">New Orleans</a></li>
+					<li><a href="/2012-partners/philadelphia">Philadelphia</a></li>
+					<li><a href="/2012-partners/santa-cruz">Santa Cruz</a></li>
 				</ul>
 			</li>
 			<li><h4><a href="/issues">Issues</a></h4>
