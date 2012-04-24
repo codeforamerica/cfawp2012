@@ -14,8 +14,23 @@ Template Name: Austin
 get_header(); ?>
 
 <div class="wrap clearfix">
-  <div id="mission">
-    <h2>Team Austin <em>loves</em> BBQ!</h2>
+  <div>
+    <a href='http://cfaaustin.eventbrite.com'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/site_banner.png" alt="" /></a>
+  </div>
+  <div class='wrap clearfix'>
+    <div style="float: left; width: 620px;">
+    <h3 style="font-weight: bold; color: #000; text-transform: uppercase; font-size: 1.45em;">And This Is Just The Beginning. . . </h3>
+		<p>			
+Phew! That was quick. Five weeks, three fellows, and an unbelievable amount of support from the City and community. Thank you. From the meetings and idea sessions, the code-a-thon event, People's Gallery app and BBQ (yes, <a href='http://franklinbarbecue.com/'>certain places</a> are in fact worth waiting for!), we're proud to be honorary Austinites. Below are a few photos and highlights from our experience so far, along with notes about our next steps. Please stay tuned for updates via this newsletter, hashtag <a href="https://twitter.com/#!/search/%23cfaATX">#cfaATX</a> on Twitter and our web site, <a href="http://codeforamerica.org/austin/">codeforamerica.org/austin</a>.
+		</p>
+<p>
+Thank you for all of the valuable feedback you've provided. We're doing our best to highlight your work, build more apps and help others build, suggest new processes and make connections. If there's anything else we can do, ideas or data sets you have (or need), please don't hesitate to <a href='mailto:austin@codeforamerica.org'>get in touch!</a>	
+<br/><br/>
+<a href="http://us4.campaign-archive2.com/?u=7eae25b3fcdc6e862a1a20456&id=5696a88507">Read More...</a>
+</p>
+    </div>
+	
+    <div class='right-col'>
     <p>
 			<!-- Begin MailChimp Signup Form -->
 			<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
@@ -33,21 +48,22 @@ get_header(); ?>
 			</div>
 
 			<!--End mc_embed_signup-->    	
+
+<style type="text/css">
+<!--
+.display_archive {font-family: arial,verdana; font-size: 12px;}
+.campaign {line-height: 125%; margin: 5px;}
+//-->
+</style>
+				Also check out the archives:
+
+<script language="javascript" src="http://us4.campaign-archive1.com/generate-js/?u=7eae25b3fcdc6e862a1a20456&fid=1445&show=10" type="text/javascript"></script>
+			
 		</p>
-		<p>
-			If you're near City Hall, come say hi!   We're usually in <strong>Room 3102</strong>, at least for the rest of this week.
-		</p>
-		<p>			
-			Please send any suggestions and ideas you may have for by <a href='https://docs.google.com/a/codeforamerica.org/spreadsheet/viewform?formkey=dG5feE9uaGxKVF9ZZVBQd0JZMFpjYXc6MQ'>clicking here</a>. Thanks.
-	    </p>
-		<p>
-			A quick presentation to get an overview of the program can also be <a href="<?php bloginfo( 'template_url' ); ?>/images/austin/cfapresentation.pdf">seen here</a>.
-		</p>
-		<p>
-			And make sure to register for our upcoming hackathon by <a href="http://cfaaustin.eventbrite.com">clicking here</a>.
-		</p>
+
+    </div>
   </div>
-  <a href='http://cfaaustin.eventbrite.com'><img src="<?php bloginfo( 'template_url' ); ?>/images/austin/austin_conjunctured_banner.png" alt="" /></a>
+  
 </div>
 
 <div class="wrap" id="dots"></div>

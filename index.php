@@ -16,107 +16,26 @@
 get_header(); ?>
 
 	<div class="wrap-b">
-	  <!--Video Gallery -->	  
-	  	<div class="wrap clearfix" id="video-gallery">
-          <ul id="slide-nav" class="thumbs"> 
-         <div style="width: 181px; float: left;">   
-	         <li><a href="#slide-1"><img src="<?php bloginfo("template_url"); ?>/images/headers/apply-thumb.png" alt="" /><strong><span>Cities: Apply Now!</span></strong></a></li>       
-      
-	<li><a href="#slide-2"><img src="http://codeforamerica.org/wp-content/uploads/2011/07/bythenumbers-small.png" alt="" /><strong><span>CfA Culture</span></strong></a></li> 
-              <li><a href="#slide-3"><img src="<?php bloginfo("template_url"); ?>/images/headers/report-thumb.png" alt="" /><strong><span>Annual Report</span></strong></a></li> 
+	  <!--featured -->	  
+	
+		<div id="featured" style="
+		    width: 935px;
+		    margin: 0 auto;
+		    height: 315px;
+		">
+		<div class="featured-home-img">
+			<a href="http://codeforamerica.org/2012/03/08/jennifer-pahlka-at-ted-video/"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/jented.png" align="right" style="height: 250px; padding: 30px 40px;"></a>
 		</div>
-       
- 		<div style="float: left;">
-			   <div id="slide-1" class="player"> 
-		       
-				    <a href="/cities/apply" class="post-image"> 
-		             <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/apply.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />   
-					<span class="title"><strong>Now Recruiting: CfA 2013 Cities</strong><br />Deadline Approaching: Apply Now to Bring CfA to Your City in 2013</span>              </a>
-	
-		        </div>
-		
-			 <div id="slide-2" class="player"> 
-			     <iframe src="http://player.vimeo.com/video/30575113?title=0&amp;byline=0&amp;portrait=0" width="550" height="330" frameborder="0"></iframe>
-	           
-     	        
-	          </div>
-       
-     
-        <div id="slide-3" class="player"> 
-           <a href="/2011report" class="post-image"> 
-           <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/report.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" />  
-		<span class="title"><strong>The 2012 Annual Report:</strong><br />Check out our snapshot of CfA 2011: what we did and what we learned</span> 
- 
-           </a> 
-         </div>
-		   <div id="slide-4" class="player"> 
-	         	   <a href="/2012" class="post-image"> 
-				          <img width="550" height="330"  src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012.png" class="attachment-rotator-post-image wp-post-image" alt="bridge-2" title="bridge-2" /> 
-
-				          </a>
-	           </div>
-	
-	
-			 <div id="slide-5" class="player"> 
-	<object width="550" height="330"><param name="movie" value="http://www.youtube.com/v/yR5Zsc-YEq4?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/yR5Zsc-YEq4?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="550" height="330" allowscriptaccess="always" allowfullscreen="true"></embed></object>            </div>
-        <div id="slide-6" class="player"> 
-          	 <iframe src="http://player.vimeo.com/video/31281413?title=0&amp;byline=0&amp;portrait=0" width="550" height="330" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	        </div>
-       
-          
-</div>
-
-<div style="width: 181px; float: right;">   
-	<li><a href="#slide-4"><img src="<?php bloginfo('template_directory'); ?>/images/headers/cfa2012-thumb.png" alt="" /><strong><span>What's Ahead</span></strong></a></li>
-   	    <li>
-             <a href="#slide-5"><img src="<?php bloginfo("template_url"); ?>/images/headers/tim.jpg" alt="" /><strong><span>"What If"</span></strong></a>
-        </li>
-        <li><a href="#slide-6"><img src="<?php bloginfo("template_url"); ?>/images/headers/curve2.png" alt="" /><strong><span>The IT Curve</span></strong></a></li> 
-    
- </div>
-          </ul>                                                                
+		<div class="callout" style="width: 450px; padding: 40px;">
+		<h2 style="font-family: oswald; text-transform: uppercase; color: black; font-size: 30px; text-align: left; letter-spacing: -.04em;.; line-height: 1.2em;">"We Need to Remember We're Not Just Consumers. We're Citizens"</h2>
+		<p style="text-align: left; padding-left: 3px;">CfA's Founder Jennifer Pahlka gave a TED Talk about our fellowship program, which calls technologists into public service.<br /> We're now recruiting our 2013 class. <strong>Make a difference.</strong></p>
+		<a href="/apply"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/apply.png" align="left"></a>
+		<a href="/fellows"><img src="http://codeforamerica.org/wp-content/uploads/2012/03/learn.png" align="left"></a></div>
 		</div>
+
 	  </div>
 	  <!--Newsletter Subscribtion -->
-	  
-<form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="signup" class="clearfix">
-	  	<strong>CONNECT WITH CfA</strong> <input type="text" value="Email"  type="email" style="width: 160px;" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><input type="text" value="Zip Code"  type="email" id="zip" name="zip" style="border-left: 2px solid #f2f2f2; width: 70px;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> <span>You should sign up to receive <br />
-our (infrequent) newsletter</span>
-	  </form>
 
-	
-	
-	    <div class="wrap-t">
-			<div class="wrap clearfix" id="become-wrap">
-			<!--Become a Fellow -->
-				<div class="box">
-					<h2><strong>1</strong> Fellowship</h2>
-					<img src="<?php bloginfo('template_directory'); ?>/images/become-fellow.jpg" alt="Become a Fellow" />
-					<?php wp_nav_menu( array('menu'=> 'cfa_fellows', 'menu_id' => '','container' => 'ul',  ) ); ?>
-				</div>
-		
-				<!--Become a City -->
-				<div class="box">
-					<h2><strong>2</strong> City Program</h2>
-					<img src="<?php bloginfo('template_directory'); ?>/images/become-city.jpg" alt="Become a City" />
-					<?php wp_nav_menu( array('menu'=> 'cfa_city', 'menu_id' => '','container' => 'ul',  ) ); ?>
-				</div>
-				
-					<!--Get Involved -->
-					<div class="box">
-						<h2><strong>3</strong> Volunteers</h2>
-						<img src="<?php bloginfo('template_directory'); ?>/images/get-involved.jpg" alt="Get Involved" />
-						<?php wp_nav_menu( array('menu'=> 'cfa_get_involved', 'menu_id' => '','container' => 'ul',  ) ); ?>
-					</div>
-				<!--Support CfA -->
-				<div class="box">
-					<h2><strong>4</strong> Supporters</h2>
-					<img src="<?php bloginfo('template_directory'); ?>/images/support-cfa.jpg" alt="Support CfA" />
-					<?php wp_nav_menu( array('menu'=> 'cfa_support', 'menu_id' => '','container' => 'ul',  ) ); ?>
-				</div>
-			</div>
-		</div>
-		<div class="wrap-b">&nbsp;</div>
 		<div class="wrap clearfix" id="whos">
 			<h3>Who’s Got Our Back?</h3>
 		<div class="prev"><img src="<?php bloginfo('template_directory'); ?>/images/prev-arrow.gif"></div>	<div id="mycarousel">
@@ -124,9 +43,12 @@ our (infrequent) newsletter</span>
 	<li><a href="http://www.knightfoundation.org" title="Knight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/knight-logo.png"></a></li>
 	<li><a href="http://www.omidyar.com/" title="Omidyar Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/on-logo.png"></a></li>
     <li><a href="http://www.rockefellerfoundation.org/" title="Rockefeller Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/rockefeller-logo.png"></a></li>
+    <li><a href="http://www.google.com" title="Google"><img src="<?php bloginfo('template_directory'); ?>/images/logos/google-logo.png"></a></li>  
+
     <li><a href="http://www.esri.com" title="ESRI"><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"></a></li>                
-    <li><a href="http://www.cisco.com" title="Cisco"><img src="<?php bloginfo('template_directory'); ?>/images/logos/cisco-logo.jpg"></a></li>  
 	<li><a href="http://www.oreillymedia.com" title="O'Reilly Media "><img src="<?php bloginfo('template_directory'); ?>/images/logos/oreilly-logo.png"></a></li>
+	<li><a href="http://www.bluehost.com" title="Bluehost"><img src="<?php bloginfo('template_directory'); ?>/images/logos/bluehost.jpg"></a></li>
+	
 	<li><a href="http://www.casefoundation.org" title="Case Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/case-logo.png"></a></li>  
     
     <li><a href="http://www.jointconcepts.com" title="Joint Concepts"><img src="<?php bloginfo('template_directory'); ?>/images/logos/jc-logo.png"></a></li>
@@ -144,8 +66,6 @@ our (infrequent) newsletter</span>
 			<div class="wrap clearfix">
 			<!--Helping Cities Solve Common Issues -->
 				<div id="cities-issues">
-					<h2>Helping Cities Solve <br />
-					Common Issues</h2>
 					<?php if ( is_active_sidebar( 'fourth-footer-widget-area' ) ) : ?>
 									
 											<?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>
