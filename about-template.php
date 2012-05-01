@@ -105,18 +105,26 @@ get_header(); ?>
 	 <th>Google</th>
 	 <td>$1,500,000</td>
 	</tr>
-  <tr>
-    <th>Knight Foundation</th>
-    <td>$250,000</td>
-  </tr>
-  <tr class="odd">
+	<tr>
     <th>Omidyar Network</th>
+    <td>$1,000,000</td>
+  </tr>
+  <tr>
+    <th class="odd">Knight Foundation</th>
+    <td>$750,000</td>
+  </tr>
+  <tr>
+    <th>Bluehost</th>
     <td>$250,000</td>
   </tr>
   <tr>
-    <th>Rockefeller Foundation</th>
+    <th class="odd">Rockefeller Foundation</th>
     <td>$200,000</td>
   </tr>
+  <tr>
+      <th>Kauffman Foundation</th>
+      <td>$135,000</td>
+    </tr>
  <tr class="odd">
     <th>ESRI</th>
     <td>$100,000</td>

@@ -107,7 +107,7 @@ get_header(); ?>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
           <td>01/11</td>
-          <th>Orientation/CFA Institute <span>&raquo;</span></th>
+          <th>Orientation/CfA Training <span>&raquo;</span></th>
         </tr>
         <tr>
           <td>02/11</td>
