@@ -109,16 +109,16 @@ get_header(); ?>
     <th>Omidyar Network</th>
     <td>$1,000,000</td>
   </tr>
-  <tr>
-    <th class="odd">Knight Foundation</th>
+  <tr class="odd">
+    <th>Knight Foundation</th>
     <td>$750,000</td>
   </tr>
   <tr>
     <th>Bluehost</th>
     <td>$250,000</td>
   </tr>
-  <tr>
-    <th class="odd">Rockefeller Foundation</th>
+  <tr class="odd">
+    <th>Rockefeller Foundation</th>
     <td>$200,000</td>
   </tr>
   <tr>
