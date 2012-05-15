@@ -24,13 +24,13 @@ get_header(); ?>
 		    height: 315px;
 		">
 		<div class="featured-home-img">
-			<a href="http://codeforamerica.org/2012/03/08/jennifer-pahlka-at-ted-video/"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/jented.png" align="right" style="height: 250px; padding: 30px 40px;"></a>
+			<a href="http://codeforamerica.org/accelerator/"><img src="http://codeforamerica.org/wp-content/uploads/2012/05/govspending1.png" align="right" style="height: 240px; padding: 30px 60px;"></a>
 		</div>
 		<div class="callout" style="width: 450px; padding: 40px;">
-		<h2 style="font-family: oswald; text-transform: uppercase; color: black; font-size: 30px; text-align: left; letter-spacing: -.04em;.; line-height: 1.2em;">"We Need to Remember We're Not Just Consumers. We're Citizens"</h2>
-		<p style="text-align: left; padding-left: 3px;">CfA's Founder Jennifer Pahlka gave a TED Talk about our fellowship program, which calls technologists into public service.<br /> We're now recruiting our 2013 class. <strong>Make a difference.</strong></p>
-		<a href="/apply"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/apply.png" align="left"></a>
-		<a href="/fellows"><img src="http://codeforamerica.org/wp-content/uploads/2012/03/learn.png" align="left"></a></div>
+		<h2 style="font-family: oswald; text-transform: uppercase; color: black; font-size: 30px; text-align: left; letter-spacing: -.04em;.; line-height: 1.2em;">Request for Disruption:<br />Calling All Civic Startups</h2>
+		<p style="text-align: left; padding-left: 3px;">We're recruiting civic startups for the inaugural CfA Accelerator. Selected teams get funding, training, and support to take on the last big, undisrupted market: government. <strong>Deadline June 1.</strong></p>
+		<a href="/accelerator/apply.html"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/apply.png" align="left"></a>
+		<a href="/accelerator"><img src="http://codeforamerica.org/wp-content/uploads/2012/03/learn.png" align="left"></a></div>
 		</div>
 
 	  </div>
