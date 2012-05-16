@@ -57,7 +57,7 @@ get_header(); ?>
     
 	<li><a href="/donors" title="More"><img src="<?php bloginfo('template_directory'); ?>/images/logos/more.png"></a></li>
 	
-                  <li><a href="http://www.sunlightfoundation.org" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.png"></a></li>
+                  <li><a href="http://www.sunlightfoundation.org" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.jpg"></a></li>
     </ul>             				
              </div><div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow.gif"></div>
 			
