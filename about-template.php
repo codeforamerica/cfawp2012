@@ -59,15 +59,14 @@ get_header(); ?>
 			<li><a href="/author/mreilly"  rel="tooltip1" title="Meghan Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/meghan.png" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#bob" rel="tooltip1" title="Bob Sofman"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bob.jpg" alt="Bob Sofman" /></a></li>
 			<li><a href="/author/mark-headd" rel="tooltip1" title="Mark Headd"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mark.png" alt="Staff name" /></a></li>
-			<li class="last"><a href="/author/kevin" rel="tooltip1" title="Kevin Curry"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Kevin Curry" /></a></li>
+			<li><a href="/author/kevin" rel="tooltip1" title="Kevin Curry"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Kevin Curry" /></a></li>
 			
-			
-			<li class="first"><a href="/author/ryan" rel="tooltip1" title="Ryan Resella"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/ryan.jpg" alt="Staff name" /></a></li>
+						<li class="first"><a href="/who-we-are/#rboug" rel="tooltip1" title="Ron Bouganim"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/rboug.png" alt="Staff name" /></a></li>
+			<li><a href="/author/ryan" rel="tooltip1" title="Ryan Resella"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/ryan.jpg" alt="Staff name" /></a></li>
 			<li><a href="/author/lr" rel="tooltip1" title="Lauren Reid"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/lauren.jpg" alt="Lauren Reid" /></a></li>
 			<li><a href="/who-we-are/#sheila"  rel="tooltip1" title="Sheila Bapat"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/sheila.jpg" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#michael" rel="tooltip1"  title="Michael Santus"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/michael.jpg" alt="Staff name" /></a></li>
-			<li><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
-			<li class="last"><a href="/who-we-are/#david" rel="tooltip1"  title="David Eaves"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/david.jpg" alt="Staff name" /></a></li>
+			<li  class="last"><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
 			
 			
 		</ul>
@@ -91,6 +90,8 @@ get_header(); ?>
 				<!--<li class="first"><a href="/who-we-are/#clawson" rel="tooltip3" title="Carolyn Lawson"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/clawson.jpg" alt="Staff name" /></a></li>-->
 				<li><a href="/who-we-are/#mmigurski" rel="tooltip3" title="Michal Migursky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mmigurski.jpg" alt="Staff name" /></a></li>
 				<li><a href="/who-we-are/#bcerveny" rel="tooltip3" title="Ben Cerveny"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bcerveny.jpg" alt="Staff name" /></a></li>
+				<li class="last"><a href="/who-we-are/#david" rel="tooltip3"  title="David Eaves"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/david.jpg" alt="Staff name" /></a></li>
+  			
 				<li><a href="/who-we-are/#arasiej" rel="tooltip3" title="Andrew Rasiej"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/arasiej.jpg" alt="Staff name" /></a></li>
 
 				<li><a href="/who-we-are/#cshirky" rel="tooltip3" title="Clay Shirky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cshirky.jpg" alt="Staff name" /></a></li>
