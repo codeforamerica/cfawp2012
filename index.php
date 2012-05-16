@@ -38,7 +38,7 @@ get_header(); ?>
 
 		<div class="wrap clearfix" id="whos">
 			<h3>Who’s Got Our Back?</h3>
-		<div class="prev"><img src="<?php bloginfo('template_directory'); ?>/images/prev-arrow.gif"></div>	<div id="mycarousel">
+		<div class="prev"><img src="<?php bloginfo('template_directory'); ?>/images/back-arrow2.png"></div>	<div id="mycarousel">
                 <ul>
 	<li><a href="http://www.knightfoundation.org" title="Knight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/knight-logo.png"></a></li>
 	<li><a href="http://www.omidyar.com/" title="Omidyar Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/on-logo.png"></a></li>
@@ -59,7 +59,7 @@ get_header(); ?>
 	
                   <li><a href="http://www.sunlightfoundation.org" title="Sunlight Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.jpg"></a></li>
     </ul>             				
-             </div><div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow.gif"></div>
+             </div><div class="next"><img src="<?php bloginfo('template_directory'); ?>/images/next-arrow2.png"></div>
 			
 		</div>
 		<div class="wrap-t">
