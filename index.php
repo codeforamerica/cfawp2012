@@ -65,15 +65,25 @@ get_header(); ?>
 		<div class="wrap-t">
 			<div class="wrap clearfix">
 			<!--Helping Cities Solve Common Issues -->
-				<div id="cities-issues">
-					<?php if ( is_active_sidebar( 'fourth-footer-widget-area' ) ) : ?>
-									
-											<?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>
-					<?php endif; ?>
-				</div>
+      <div id="cities-issues" class="right-col" style="background: none;">				
+              <div id="wp-widget">
+                <h2>Code for America:<br>'A Peace Corps for Geeks'</h2>
+                <p>CfA is working to change the way governments work through technology and public service. You can give a year, a few months, or just a few minutes, but you can make a difference.  </p> 
+                <ul>
+                   <li><a href="#">Sign up to get involved</a>
+                      <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="newsletter" class="clearfix">
+                        <input type="text" value="Email" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"><button type="submit" class="like-btn">Send</button> 
+                	    </form>
+                	  </li>
+                  <li><a href="http://codeforamerica.org/apply">Apply for the Fellowship</a></li>
+                  <li><a href="http://codeforamerica.org/cities/apply">Join the Brigade</a></li>
+                  <li><a href="/about">Learn More</a></li>
+
+                </ul>
+                </div>
+              		</div>
+
 				<!--CfA Blog -->
-				
-				
 
 				<div id="cfa-blog">
 					<h2>CfA Blog <a href="http://c4a.me/feed/" class="like-btn">RSS</a></h2>
@@ -90,47 +100,12 @@ get_header(); ?>
 					<a href="/code-for-america-blog/" class="btn">Go to Blog</a>
 				</div>
 				<!--Tweets -->
-			<div id="tweets">				
-				<h2>What’s Being Said About CfA ?</h2>				
-				<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-                <script>
-                new TWTR.Widget({
-                  version: 2,
-                  type: 'search',
-                  search: 'codeforamerica',
-                  interval: 3000,
-                  title: '',
-                  subject: '',
-                  width: 280,
-                  height: 170,
-                  theme: {
-                    shell: {
-                      background: '#ebebeb',
-                      color: '#ffffff'
-                    },
-                    tweets: {
-                      background: '#ebebeb',
-                      color: '#444444',
-                      links: '#1985b5'
-                    }
-                  },
-                  features: {
-                    scrollbar: false,
-                    loop: true,
-                    live: true,
-                    hashtags: true,
-                    timestamp: true,
-                    avatars: true,
-                    toptweets: true,
-                    behavior: 'default'
-                  }
-                }).render().start();
-                </script>
-					<style>.twtr-hd { padding: 0px; }
-					.twtr-ft {display: none;}
-					.twtr-tweet {font-size: 10px;}
-					
-					</style>
+   			<div id="cities-issues" style="background: none; margin-left: 20px;">
+					<?php if ( is_active_sidebar( 'fourth-footer-widget-area' ) ) : ?>
+									
+											<?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>
+					<?php endif; ?>
+				</div>
 				</div>
 			</div>
 		</div>
