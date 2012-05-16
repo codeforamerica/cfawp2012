@@ -418,6 +418,10 @@ top: 60px;}
   width: 300px;
   margin-top: 30px;
 }
+
+#cities-issues p, #cfa-blog p, #tweets p {
+    font-size: 13px;
+}
 #cfa-blog, #tweets {
   margin-left: 20px;
 }
