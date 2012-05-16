@@ -67,8 +67,8 @@ get_header(); ?>
 			<!--Helping Cities Solve Common Issues -->
       <div id="cities-issues" class="right-col" style="background: none;">				
               <div id="wp-widget">
-                <h2>Code for America:<br>'A Peace Corps for Geeks'</h2>
-                <p>CfA is working to change the way governments work through technology and public service. You can give a year, a few months, or just a few minutes, but you can make a difference.  </p> 
+                <h2>About Code for America:<br>'A Peace Corps for Geeks'</h2>
+                <p style="margin-top: 3px;">CfA is working to change the way cities work through technology and public service. You can give a year, a few months, or just a few minutes, but you can make a difference.  </p> 
                 <ul>
                    <li><a href="#">Sign up to get involved</a>
                       <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="newsletter" class="clearfix">
@@ -76,7 +76,7 @@ get_header(); ?>
                 	    </form>
                 	  </li>
                   <li><a href="http://codeforamerica.org/apply">Apply for the Fellowship</a></li>
-                  <li><a href="http://codeforamerica.org/cities/apply">Join the Brigade</a></li>
+                  <li><a href="http://brigade.codeforamerica.org">Join the Brigade</a></li>
                   <li><a href="/about">Learn More</a></li>
 
                 </ul>
