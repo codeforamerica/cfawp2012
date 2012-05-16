@@ -59,13 +59,16 @@ get_header(); ?>
 			<li><a href="/author/mreilly"  rel="tooltip1" title="Meghan Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/meghan.png" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#bob" rel="tooltip1" title="Bob Sofman"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bob.jpg" alt="Bob Sofman" /></a></li>
 			<li><a href="/author/mark-headd" rel="tooltip1" title="Mark Headd"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mark.png" alt="Staff name" /></a></li>
-			<li class="last"><a href="/who-we-are/#david" rel="tooltip1"  title="David Eaves"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/david.jpg" alt="Staff name" /></a></li>
+			<li class="last"><a href="/author/kevin" rel="tooltip3" title="Kevin Curry"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Kevin Curry" /></a></li>
+			
 			
 			<li class="first"><a href="/author/ryan" rel="tooltip1" title="Ryan Resella"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/ryan.jpg" alt="Staff name" /></a></li>
 			<li><a href="/author/lr" rel="tooltip1" title="Lauren Reid"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/lauren.jpg" alt="Lauren Reid" /></a></li>
 			<li><a href="/who-we-are/#sheila"  rel="tooltip1" title="Sheila Bapat"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/sheila.jpg" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#michael" rel="tooltip1"  title="Michael Santus"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/michael.jpg" alt="Staff name" /></a></li>
-			<li class="last"><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
+			<li><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
+			<li class="last"><a href="/who-we-are/#david" rel="tooltip1"  title="David Eaves"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/david.jpg" alt="Staff name" /></a></li>
+			
 			
 		</ul>
 
@@ -81,7 +84,6 @@ get_header(); ?>
 		<h3>board of advisors <span style="color: #999; margin-left: 10px;"><span id="tip3"></span></span></h3>
 		<ul class="clearfix">
 				<li class="first"><a href="/who-we-are/#dbryant" rel="tooltip3" title="Deb Bryant"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dbryant.jpg" alt="Staff name" /></a></li>
-				<li><a href="/who-we-are/#kcurry" rel="tooltip3" title="Kevin Curry"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Staff name" /></a></li>
 				<li><a href="/who-we-are/#cjohnson" rel="tooltip3" title="Clay Johnson"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cjohnson.jpg" alt="Staff name" /></a></li>
 				<li><a href="/who-we-are/#jhodge" rel="tooltip3" title="Jascha Franklin-Hodge"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jhodge.jpg" alt="Staff name" /></a></li>
 				<li><a href="/who-we-are/#agreenfield" rel="tooltip3" title="Adam Greenfield"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenfield.jpg" alt="Staff name" /></li>
