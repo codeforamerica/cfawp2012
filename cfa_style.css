@@ -434,11 +434,11 @@ opacity: 1;
 }
 #slider-wrap a#prev {
   left: 5px;
-  background: url(images/prev-arrow.gif) 0 0 no-repeat;
+  background: url(images/back-arrow2.png) 0 0 no-repeat;
 }
 #slider-wrap a#next {
   right: 0;
-  background: url(images/next-arrow.gif) 0 0 no-repeat;
+  background: url(images/next-arrow2.png) 0 0 no-repeat;
 }
 
 #cities-issues, #cfa-blog, #tweets {

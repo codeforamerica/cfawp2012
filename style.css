@@ -378,7 +378,7 @@ text-shadow: #CCC 1px 1px 1px;
 }
 
 .next, .prev {
-	padding: 18px 0px 0px 15px;
+	padding: 13px 0px 0px 15px;
 	float: left
 }
 
@@ -1684,11 +1684,11 @@ a.more:hover {
 }
 #slider-wrap a#prev {
   left: 5px;
-  background: url(images/prev-arrow.gif) 0 0 no-repeat;
+  background: url(images/back-arrow2.png) 0 0 no-repeat;
 }
 #slider-wrap a#next {
   right: 0;
-  background: url(images/next-arrow.gif) 0 0 no-repeat;
+  background: url(images/next-arrow2.png) 0 0 no-repeat;
 }
 
 
