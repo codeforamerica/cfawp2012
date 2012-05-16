@@ -70,7 +70,7 @@ get_header(); ?>
                 <h2>About Code for America:<br>'A Peace Corps for Geeks'</h2>
                 <p style="margin-top: 3px;">CfA is working to change the way cities work through technology and public service. You can give a year, a few months, or just a few minutes, but you can make a difference.  </p> 
                 <ul>
-                   <li><a href="#">Sign up to get involved</a>
+                   <li><a href="/get-involved/">Sign up to get involved</a>
                       <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="newsletter" class="clearfix">
                         <input type="text" value="Email" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"><button type="submit" class="like-btn">Send</button> 
                 	    </form>
