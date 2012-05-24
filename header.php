@@ -159,7 +159,7 @@ $(document).ready(function() {
 	<!--Navigation -->
 	<div id="nav-wrap">
 		<?php wp_nav_menu( array('menu'=> 'cfa_main', 'menu_id' => 'nav', 'container' => 'ul',  ) ); ?>
-		<a href="/apply" id="donate" class="like-btn">Apply</a>
+		<a href="/get-involved/" id="donate" class="like-btn">Get Involved</a>
 	</div>
 </div>
 	
