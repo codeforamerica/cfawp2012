@@ -2559,6 +2559,6 @@ a.applynow:hover {
 background-position: 0 0;
 }
 
-.dsq-comment-footer li {
+#maincontent .dsq-comment-footer li, #dsq-content li {
   background: none;
 }
