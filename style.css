@@ -2558,3 +2558,7 @@ margin-left: -475px;
 a.applynow:hover {
 background-position: 0 0;
 }
+
+.dsq-comment-footer li {
+  background: none;
+}
