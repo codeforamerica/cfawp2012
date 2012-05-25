@@ -2562,3 +2562,25 @@ background-position: 0 0;
 #maincontent .dsq-comment-footer li, #dsq-content li {
   background: none;
 }
+
+#programs {
+  width: 100%; 
+  display: block;
+}
+
+.program {
+  width: 270px; 
+  float: left; 
+  padding: 0 20px 20px 20px;
+}
+
+#civcoms {
+  padding: 0 20px 0 115px;
+}
+#maincontent h2.program-title {
+  font-family: Oswald; 
+  font-size: 22px; 
+  font-weight: normal; 
+  text-transform: uppercase; 
+  color: #000000;
+}
