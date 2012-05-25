@@ -191,6 +191,9 @@ text-shadow: #999 1px 1px 1px;
 #social li a#yt {
   background-image: url(images/yt-icon.png);
 }
+#social li a#gh {
+  background-image: url(images/gh-icon.png);
+}
 #social li a#tw {
   background-image: url(images/tw-icon.png);
 }
