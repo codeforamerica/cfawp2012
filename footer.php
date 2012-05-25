@@ -30,7 +30,6 @@
 			<li><h4><a href="/fellows">Fellows</a></h4>
 				<ul>
 					<li><a href="/fellows/institute">Timeline</a></li>
-					<li><a href="/fellows/2012-program-and-timeline/">Institute</a></li>
 					<li><a href="/fellows/fellows-selection">Process</a></li>
 					<li><a href="/fellows/apply">Apply</a></li>
 				</ul>
