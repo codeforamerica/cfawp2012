@@ -62,9 +62,8 @@ get_header(); ?>
 			<li><a href="/author/kevin" rel="tooltip1" title="Kevin Curry"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Kevin Curry" /></a></li>
 			
 						<li class="first"><a href="/who-we-are/#rboug" rel="tooltip1" title="Ron Bouganim"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/rboug.png" alt="Staff name" /></a></li>
-			<li><a href="/author/ryan" rel="tooltip1" title="Ryan Resella"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/ryan.jpg" alt="Staff name" /></a></li>
+			<li><a href="/author/joel" rel="tooltip1" title="Joel Mahoney"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/joel.png" alt="Staff name" /></a></li>
 			<li><a href="/author/lr" rel="tooltip1" title="Lauren Reid"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/lauren.jpg" alt="Lauren Reid" /></a></li>
-			<li><a href="/who-we-are/#sheila"  rel="tooltip1" title="Sheila Bapat"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/sheila.jpg" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#michael" rel="tooltip1"  title="Michael Santus"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/michael.jpg" alt="Staff name" /></a></li>
 			<li  class="last"><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
 			
