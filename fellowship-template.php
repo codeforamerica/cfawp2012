@@ -26,7 +26,7 @@ get_header(); ?>
 <div class="wrap" id="dots"></div>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
-    <h2 class="ttl">You Can Code for America. Deadline 7/29. <a href="#" class="red-btn"><span class="st_sharethis_custom">SHARE THIS +</span></a></h2>
+    <h2 class="ttl">You Can Code for America. Deadline 7/29. <a href="/apply" class="red-btn">Apply Now +</a></h2>
 <p>	During the 11-month program, fellows not only work together to help cities innovate, but also receive the training and support to be positioned as a leader in business, public service, or both:</p>
     <ul id="why">
       <li><strong class="number">1</strong> <strong>Gov 2.0 Training.</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
