@@ -18,7 +18,7 @@ get_header(); ?>
 <div class="wrap clearfix">
   <div id="mission">
     <h2>OUR FELLOWSHIP</h2>
-    <p>Through Code for America's fellowship program, talented web developers, designers, and entrepreneurs leverage the power of the internet to make governments more open and efficient, and in doing so, they become civic leaders able to realize transformational change in government with technology.</p>
+    <p>Through Code for America's fellowship program, passionate web developers, designers, and entrepreneurs leverage the power of the internet to make governments more open and efficient, and in doing so, they develop new skills, join a  network of civic leaders, and most of all, have an impact.</p>
   </div>
   <?php include 'fellow_carousel.php'; ?>
 
@@ -26,7 +26,7 @@ get_header(); ?>
 <div class="wrap" id="dots"></div>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
-    <h2 class="ttl">Why Become a Fellow? <a href="#" class="red-btn"><span class="st_sharethis_custom">SHARE THIS +</span></a></h2>
+    <h2 class="ttl">You Can Code for America. Deadline 7/29. <a href="#" class="red-btn"><span class="st_sharethis_custom">SHARE THIS +</span></a></h2>
 <p>	During the 11-month program, fellows not only work together to help cities innovate, but also receive the training and support to be positioned as a leader in business, public service, or both:</p>
     <ul id="why">
       <li><strong class="number">1</strong> <strong>Gov 2.0 Training.</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
