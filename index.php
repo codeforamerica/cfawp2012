@@ -21,7 +21,7 @@ get_header(); ?>
 		<div id="featured" style="
 		    width: 935px;
 		    margin: 0 auto;
-		    height: 315px;
+		    height: 300px;
 		">
 		<div class="featured-home-img">
 			<a href="http://codeforamerica.org/apply"><img src="http://codeforamerica.org/wp-content/uploads/2012/07/biz2.png" align="right" style="height: 225px; padding: 30px 40px;"></a>
