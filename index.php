@@ -15,25 +15,18 @@
 
 get_header(); ?>
 
-	<div class="wrap-b">
+  <div class="wrap-b">
 	  <!--featured -->	  
 	
-		<div id="featured" style="
-		    width: 935px;
-		    margin: 0 auto;
-		    height: 300px;
-		">
-		<div class="featured-home-img">
-			<a href="http://codeforamerica.org/apply"><img src="http://codeforamerica.org/wp-content/uploads/2012/07/biz2.png" align="right" style="height: 225px; padding: 30px 40px;"></a>
-		</div>
-		<div class="callout" style="width: 450px; padding: 40px;">
-      <h2 style="font-family: oswald; text-transform: uppercase; color: black; font-size: 30px; text-align: left; letter-spacing: -.04em;.; line-height: 1.2em;">Code the Next Chapter of American History</h2>
-      <p style="text-align: left; padding-left: 3px;">If you're a developer, designer, or entrepreneur, the CfA Fellowship is your opportunity to use your skills to make a difference.<br /><strong>The deadline for applications is July 29. </strong></p>
-      <a href="/apply"><img src="http://codeforamerica.org/wp-content/uploads/2012/04/apply.png" align="left"></a>
-      <a href="/fellows"><img src="http://codeforamerica.org/wp-content/uploads/2012/03/learn.png" align="left"></a></div>
+		<div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url(http://codeforamerica.org/wp-content/uploads/2012/08/openimpact.png) no-repeat;">
+		  <div class="callout" style="width: 450px; padding: 105px 50px;">
+		    <p style="text-align: left; padding-left: 3px;">From both inside city hall and outside, you can help transform the way your city works. Here are step-by-step instructions how:</p>
+		    <a href="http://openimpact.us" data-bitly-type="bitly_hover_card"><img src="http://codeforamerica.org/wp-content/uploads/2012/08/getstarted.png" align="left"></a>
+		  </div>
 		</div>
 
-	  </div>
+  </div>
+  
 	  <!--Newsletter Subscribtion -->
 
 		<div class="wrap clearfix" id="whos">
