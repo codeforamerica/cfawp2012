@@ -35,7 +35,7 @@ get_header(); ?>
             <div id="issues">	
 
 <?php
-$args = array( 'post_type' => 'cfa_project', 'posts_per_page' => 20, 'orderby' => 'rand' );
+$args = array( 'post_type' => 'cfa_project', 'posts_per_page' => 40, 'orderby' => 'date' );
 $loop = new WP_Query( $args );
 while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
