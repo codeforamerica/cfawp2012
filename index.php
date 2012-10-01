@@ -18,13 +18,14 @@ get_header(); ?>
   <div class="wrap-b">
 	  <!--featured -->	  
 	
-		<div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url(http://codeforamerica.org/wp-content/uploads/2012/08/openimpact.png) no-repeat;">
-		  <div class="callout" style="width: 450px; padding: 105px 50px;">
-		    <p style="text-align: left; padding-left: 3px;">From both inside city hall and outside, you can help transform the way your city works. Here are step-by-step instructions how:</p>
-		    <a href="http://openimpact.us" data-bitly-type="bitly_hover_card"><img src="http://codeforamerica.org/wp-content/uploads/2012/08/getstarted.png" align="left"></a>
-		    <a href="http://codeforamerica.org/events" data-bitly-type="bitly_hover_card"><img src="http://codeforamerica.org/wp-content/uploads/2012/08/attendevent.png" align="left"></a>
-		  </div>
-		</div>
+    <div id="featured" style="width: 935px; margin: 0 auto; height: 310px; background: url(http://codeforamerica.org/wp-content/uploads/2012/10/cities-back.png) no-repeat bottom;">
+    		  <div class="callout" style="width: 450px; padding: 50px 50px 105px 160px;">
+    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 40px; letter-spacing: -.05em; text-align: left;">Celebrating Cities</h1>
+    		    <p style="text-align: left; padding-left: 3px;padding-top: 0px;margin-top: 0px;">Code for America works because of innovative city leaders, looking for a different way of doing things:</p>
+    		    <a href="/2013-partners" data-bitly-type="bitly_hover_card" style=""><img src="http://codeforamerica.org/wp-content/uploads/2012/10/2013.png" align="right"></a>
+    		    <a href="/cities" data-bitly-type="bitly_hover_card"><img src="http://codeforamerica.org/wp-content/uploads/2012/10/more.png" align="right"></a>
+    		  </div>
+    		</div>
 
   </div>
   
@@ -62,11 +63,14 @@ get_header(); ?>
                 <h2>Code for America:<br>'A Peace Corps for Geeks'</h2>
                 <p style="margin-top: 3px;">CfA is working to change the way cities work through technology and public service. You can give a year, a few months, or just a few minutes, but you can make a difference.  </p> 
                 <ul>
-                  <li><a href="/programs">Learn More about what we do</a></li>
-                  <li><a href="http://brigade.codeforamerica.org">Sign up to get involved</a></li>
-                  <li><a href="http://codeforamerica.org/events">Attend an Event</a></li>
-                  <li><a href="/get-involved/">Stay connected</a>
-                  <li><a href="/donate">Donate</a></li>
+                   <li><a href="/get-involved/">Sign up to get involved</a>
+                      <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="newsletter" class="clearfix">
+                        <input type="text" value="Email" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"><button type="submit" class="like-btn">Send</button> 
+                	    </form>
+                	  </li>
+                  <li><a href="http://codeforamerica.org/apply">Apply for the Fellowship</a></li>
+                  <li><a href="http://brigade.codeforamerica.org">Join the Brigade</a></li>
+                  <li><a href="/about">Learn More</a></li>
 
                 </ul>
                 </div>
