@@ -18,12 +18,12 @@ get_header(); ?>
   <div class="wrap-b">
 	  <!--featured -->	  
 	
-    <div id="featured" style="width: 935px; margin: 0 auto; height: 310px; background: url(http://codeforamerica.org/wp-content/uploads/2012/10/cities-back.png) no-repeat bottom;">
+    <div id="featured" style="width: 935px; margin: 0 auto; height: 310px; background: url(http://codeforamerica.org/wp-content/uploads/2012/10/startups-back.png) no-repeat bottom;">
     		  <div class="callout" style="width: 450px; padding: 50px 50px 105px 160px;">
-    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 40px; letter-spacing: -.05em; text-align: left;">Celebrating Cities</h1>
-    		    <p style="text-align: left; padding-left: 3px;padding-top: 0px;margin-top: 0px;">Code for America works because of innovative city leaders, looking for a different way of doing things:</p>
-    		    <a href="/2013-partners" data-bitly-type="bitly_hover_card" style=""><img src="http://codeforamerica.org/wp-content/uploads/2012/10/2013.png" align="right"></a>
-    		    <a href="/cities" data-bitly-type="bitly_hover_card"><img src="http://codeforamerica.org/wp-content/uploads/2012/10/more.png" align="right"></a>
+    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 40px; letter-spacing: -.05em; text-align: left;">2013 Civic Startups</h1>
+    		    <p style="text-align: left; padding-left: 3px;padding-top: 0px;margin-top: 0px;">Check out the seven startups selected out of 235 applicants that are changing the face of government technology.</p>
+    		    <a href="http://codeforamerica.org/welcome-2012-cfa-accelerator-startups/" data-bitly-type="bitly_hover_card" style=""><img src="http://codeforamerica.org/wp-content/uploads/2012/10/teams.png" align="right"></a>
+    		    <a href="/accelerator" data-bitly-type="bitly_hover_card"><img src="http://codeforamerica.org/wp-content/uploads/2012/10/more.png" align="right"></a>
     		  </div>
     		</div>
 
