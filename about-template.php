@@ -103,6 +103,11 @@ get_header(); ?>
 				<li><a href="/who-we-are/#arasiej" rel="tooltip3" title="Andrew Rasiej"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/arasiej.jpg" alt="Staff name" /></a></li>
 
 				<li><a href="/who-we-are/#cshirky" rel="tooltip3" title="Clay Shirky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cshirky.jpg" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#tsteinberg" rel="tooltip3" title="Tom Steinberg"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/tomsteinbergsmall.jpg" width="80px" alt="Staff name" /></a></li>
+				<li><a href="/who-we-are/#ekim" rel="tooltip3" title="Eugene Eric Kim"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/eugenekimsmall.jpg" width="80px" alt="Staff name" /></a></li>
+				
+				
+				
 		</ul>
 		<p align="right" style="margin-top: -3px;"><a href="/who-we-are/#city-steering" class="more"><strong>CITY STEERING COMMITTEE</strong></a>&nbsp;&nbsp;&nbsp;<a href="/jobs" class="more"><strong>JOB OPPORTUNITIES</strong></a></p>
 		
