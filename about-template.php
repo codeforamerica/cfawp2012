@@ -51,6 +51,20 @@ get_header(); ?>
   <div id="maincontent">
 	<h2 class="ttl">meet our team</h2>    
     <div class="team">
+        
+		<h3>board of directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
+		<ul class="clearfix">
+			<li class="first"><a href="/who-we-are/#amclaughlin" rel="tooltip2" title="Andrew McLaughlin"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/amclaughlin.jpg" alt="Staff name" /></a></li>
+		<li>	<a href="/who-we-are/#agreenhill" rel="tooltip2" title="Andrew Greenhill"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenhill.jpg" alt="Staff name" /></a></li>
+		<li>	<a href="/who-we-are/#jlilly" rel="tooltip2" title="John Lilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jlilly.jpg" alt="Staff name" /></a></li>
+		<li>	<a href="/who-we-are/#sdonohue" rel="tooltip2" title="Stacy Donohue"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/sdonohue.png" alt="Stacy Donohue" /></a></li>
+		
+		<li>	<a href="/who-we-are/#eries" rel="tooltip2" title="Eric Ries"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/eries.png" alt="Staff name" /></a></li>
+		<li>	<a href="/who-we-are/#njacob" rel="tooltip2" title="Nigel Jacob"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/njacob.png" alt="Staff name" /></a></li>
+		
+			
+		</ul>
+		
 		<h3>STAFF <span style="color: #999; margin-left: 10px;"><span id="tip1"></span></span></h3>
 		<ul class="clearfix">
 			
@@ -66,24 +80,11 @@ get_header(); ?>
 			<li><a href="/author/lr" rel="tooltip1" title="Lauren Reid"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/lauren.jpg" alt="Lauren Reid" /></a></li>
 			<li><a href="/who-we-are/#michael" rel="tooltip1"  title="Michael Santus"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/michael.jpg" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#ashley" rel="tooltip1" title="Ashley Meyers"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ashley.jpg" width="80px" alt="Staff name" /></a></li>
-			<li  class="last"><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
+			<li><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#alex" rel="tooltip1" title="Alex Tran"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/2012-09-10_AlexTran_8914sq-150x150.jpg" width="80px" alt="Staff name" /></a></li>
-			<li><a href="/who-we-are/#clementine" rel="tooltip1" title="Clementine Breslin"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ClemBreslin.jpg" width="80px" alt="Staff name" /></a></li>
-			
-			
-			
+			<li class="first"><a href="/who-we-are/#clementine" rel="tooltip1" title="Clementine Breslin"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ClemBreslin.jpg" width="80px" alt="Staff name" /></a></li>
 		</ul>
 
-		<h3>board of directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
-		<ul class="clearfix">
-			<li class="first"><a href="/who-we-are/#amclaughlin" rel="tooltip2" title="Andrew McLaughlin"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/amclaughlin.jpg" alt="Staff name" /></a></li>
-		<li>	<a href="/who-we-are/#agreenhill" rel="tooltip2" title="Andrew Greenhill"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenhill.jpg" alt="Staff name" /></a></li>
-		<li>	<a href="/who-we-are/#jlilly" rel="tooltip2" title="John Lilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jlilly.jpg" alt="Staff name" /></a></li>
-		<li>	<a href="/who-we-are/#sdonohue" rel="tooltip2" title="Stacy Donohue"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/sdonohue.png" alt="Stacy Donohue" /></a></li>
-		
-		<li>	<a href="/who-we-are/#llin" rel="tooltip2" title="Leonard Lin"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/llin.jpg" alt="Staff name" /></a></li>
-			
-		</ul>
 
 		<h3>board of advisors <span style="color: #999; margin-left: 10px;"><span id="tip3"></span></span></h3>
 		<ul class="clearfix">
