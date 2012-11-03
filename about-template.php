@@ -82,7 +82,9 @@ get_header(); ?>
 			<li><a href="/who-we-are/#ashley" rel="tooltip1" title="Ashley Meyers"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ashley.jpg" width="80px" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#alex" rel="tooltip1" title="Alex Tran"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/2012-09-10_AlexTran_8914sq-150x150.jpg" width="80px" alt="Staff name" /></a></li>
-			<li class="first"><a href="/who-we-are/#clementine" rel="tooltip1" title="Clementine Breslin"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ClemBreslin.jpg" width="80px" alt="Staff name" /></a></li>
+			<li class="first"><a href="http://codeforamerica.org/author/lauren/" rel="tooltip1" title="Lauren Dyson"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ldyson.jpeg" width="80px" alt="Staff name" /></a></li>
+			<li><a href="/who-we-are/#clementine" rel="tooltip1" title="Clementine Breslin"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ClemBreslin.jpg" width="80px" alt="Staff name" /></a></li>
+			
 		</ul>
 
 
@@ -102,7 +104,7 @@ get_header(); ?>
 
 				<li><a href="/who-we-are/#cshirky" rel="tooltip3" title="Clay Shirky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/cshirky.jpg" alt="Staff name" /></a></li>
 		</ul>
-		<p align="right" style="margin-top: -3px;"><a href="/who-we-are/#city-steering" class="more"><strong>CITY STEERING COMMITTEE</strong></a>&nbsp;&nbsp;&nbsp;<a href="/who-we-are/#mentors" class="more"><strong>PROJECT MENTORS</strong></a>&nbsp;&nbsp;&nbsp;<a href="/jobs" class="more"><strong>JOB OPPORTUNITIES</strong></a></p>
+		<p align="right" style="margin-top: -3px;"><a href="/who-we-are/#city-steering" class="more"><strong>CITY STEERING COMMITTEE</strong></a>&nbsp;&nbsp;&nbsp;<a href="/jobs" class="more"><strong>JOB OPPORTUNITIES</strong></a></p>
 		
 	</div>
 	
