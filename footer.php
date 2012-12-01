@@ -70,7 +70,7 @@
 				</ul>
 			</li>
 			<li><h4><a href="#">Search</a></h4><form role="search" method="get" id="searchform" action="/">
-		<input type="text" value="..." name="s" id="s" style="border: 1px dotted #ccc; font-weight: bold; padding-left: 2px; width: 140px;" value="First name" onfocus="if (this.value == '...') {this.value = '';}" onblur="if (this.value == '') {this.value = '...';}">
+		<input type="text" value="..." name="s" id="s" style="border: 1px dotted #ccc; font-weight: bold; padding-left: 2px; width: 140px;" onfocus="if (this.value == '...') {this.value = '';}" onblur="if (this.value == '') {this.value = '...';}">
 						</form></li>
 		</ul>
 		<p id="copyr"><small>Code for America Labs, Inc is a non-partisan, non-political 501(c)(3) organization. Content is licensed through <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a>.<br>Site designed by <a href="http://www.jointconcepts.com/">Joint Concepts</a>.</small></p>

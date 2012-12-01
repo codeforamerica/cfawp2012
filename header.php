@@ -47,7 +47,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="SHORTCUT ICON" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.ico"/> 
-<link href='http://fonts.googleapis.com/css?family=Oswald&v1' rel='stylesheet' type='text/css'> 
+<link href='http://fonts.googleapis.com/css?family=Oswald&amp;v1' rel='stylesheet' type='text/css'> 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <?php if (is_home()) {?>
@@ -145,8 +145,7 @@ $(document).ready(function() {
 	<a href="/" class="like-btn" id="logo">Code for America</a>
 	<!--Tag line -->
 	<div id="tag-line">
-	<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png"><!--	<h1>A New Kind of Public Service</h1>
-		<h2>We connect tech leaders and city governments to build civic apps that make lives better</h2>-->
+		<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png" alt="A new kind of public service – Helping governments work better for everyone with the people and the power of the web.">
 	</div>
 	<!--Social Links -->
 	<ul id="social">
