@@ -52,7 +52,7 @@ get_header(); ?>
 <div class="wrap-t">
 	<div class="wrap clearfix">
 		<!--Helping Cities Solve Common Issues -->
-		<div id="cities-issues" class="home-tile right-col" style="background: none;">				
+		<div id="cities-issues" class="home-tile" style="background: none;">				
 			<div id="wp-widget">
 				<h2>Code for America:<br>‘A Peace Corps for Geeks’</h2>
 				<p style="margin-top: 3px;">CfA is working to change the way cities work through technology and public service. You can give a year, a few months, or just a few minutes, but you can make a difference.</p> 
@@ -88,7 +88,7 @@ get_header(); ?>
   		<a href="/code-for-america-blog/" class="btn">Go to Blog</a>
   	</div>
   	<!--Featured App -->
-  	<div id="featured-app" class="home-tile">
+  	<div id="featured-app" class="home-tile right-col">
   		<?php if ( is_active_sidebar( 'fourth-footer-widget-area' ) ) : ?>
 
   		<?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>

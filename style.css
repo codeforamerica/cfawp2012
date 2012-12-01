@@ -493,6 +493,7 @@ top: 60px;}
 
 #cfa-blog li h3 {
   font-size: 1em;
+  width: 275px;
 }
 
 #cfa-blog li h3 a {
@@ -709,7 +710,6 @@ h2.lh {
 .bio img {position: absolute; top: 6px; left: 0;}
 
 .right-col {
-  float: right;
   width: 300px;
   display: block;
 }
