@@ -52,7 +52,7 @@ get_header(); ?>
 <div class="wrap-t">
 	<div class="wrap clearfix">
 		<!--Helping Cities Solve Common Issues -->
-		<div id="cities-issues" class="home-tile" style="background: none;">				
+		<div id="cities-issues" class="home-tile right-col" style="background: none;">				
 			<div id="wp-widget">
 				<h2>Code for America:<br>‘A Peace Corps for Geeks’</h2>
 				<p style="margin-top: 3px;">CfA is working to change the way cities work through technology and public service. You can give a year, a few months, or just a few minutes, but you can make a difference.</p> 
