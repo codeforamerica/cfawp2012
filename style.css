@@ -712,7 +712,6 @@ h2.lh {
 .right-col {
   width: 300px;
   display: block;
-  float:right;
 }
 #inner .right-col {
   padding-top: 28px;
