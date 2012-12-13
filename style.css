@@ -416,61 +416,6 @@ top: 60px;}
 top: 60px;}
 
 
-.home-tile {
-  float: left;
-  width: 300px;
-  margin-top: 30px;
-  margin-left: 20px;
-}
-
-.home-tile p {
-  font-size: 13px;
-  margin: 0 0 8px;
-  padding:0;
-}
-
-.home-tile:first-child {
-  margin-left: 0;
-}
-
-.home-tile h2 {
-  text-transform: uppercase;
-  color: #000;
-  font-size: 1.50em;
-  min-height: 50px;
-}
-
-.home-tile h3 {
-  font-size: 1em;
-  text-transform: uppercase;
-  padding-bottom: 5px;
-  width: 200px;
-  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
-  float: right;
- margin-bottom: 8px;
-}
-
-.home-tile img.left {
-  display: block;
-  margin: 0 5px 0 0;
-  border: 1px solid #e1e1e1;
-}
-
-.home-tile a.btn {
-  width: 267px;
-  line-height: 38px;
-  height: 41px;
-  margin-left: -4px;
-  display: block;
-  background: url(images/big-btn-bg.png) 0 0 no-repeat;
-  text-align: right;
-  padding-right: 37px;
-  text-transform: uppercase;
-   text-decoration: none;
-   font-size: 1.17em;
-   font-weight: bold;
-   text-shadow: -3px 2px 3px #d9d9d9;
-}
 
 #cfa-blog h2 {
   position: relative;
@@ -712,7 +657,9 @@ h2.lh {
 .right-col {
   width: 300px;
   display: block;
+  float:right;
 }
+
 #inner .right-col {
   padding-top: 28px;
 }
@@ -1317,6 +1264,62 @@ h3#reply-title {
 #respond .form-submit input {
 	font-size: 14px;
 	width: auto;
+}
+
+.home-tile {
+  float: left;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.home-tile p {
+  font-size: 13px;
+  margin: 0 0 8px;
+  padding:0;
+}
+
+.home-tile:first-child {
+  margin-left: 0;
+}
+
+.home-tile h2 {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.50em;
+  min-height: 50px;
+}
+
+.home-tile h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  width: 200px;
+  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
+  float: right;
+ margin-bottom: 8px;
+}
+
+.home-tile img.left {
+  display: block;
+  margin: 0 5px 0 0;
+  border: 1px solid #e1e1e1;
+}
+
+.home-tile a.btn {
+  width: 267px;
+  line-height: 38px;
+  height: 41px;
+  margin-left: -4px;
+  display: block;
+  background: url(images/big-btn-bg.png) 0 0 no-repeat;
+  text-align: right;
+  padding-right: 37px;
+  text-transform: uppercase;
+   text-decoration: none;
+   font-size: 1.17em;
+   font-weight: bold;
+   text-shadow: -3px 2px 3px #d9d9d9;
 }
 
 
