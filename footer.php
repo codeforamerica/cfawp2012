@@ -29,21 +29,23 @@
 			</li>
 			<li><h4><a href="/fellows">Fellows</a></h4>
 				<ul>
-					<li><a href="/fellows/institute">Timeline</a></li>
-					<li><a href="/fellows/fellows-selection">Process</a></li>
+					<li><a href="/fellows/201-program-timeline">Timeline</a></li>
+					<li><a href="/fellows/fellow-selection">Process</a></li>
 					<li><a href="/fellows/apply">Apply</a></li>
 				</ul>
 			</li>
-			<li><h4><a href="/cities">2012 Cities</a></h4>
+			<li><h4><a href="/cities">2013 Cities</a></h4>
 				<ul>
-					<li><a href="/2012-partners/austin">Austin</a></li>
-					<li><a href="/2012-partners/chicago">Chicago</a></li>
-					<li><a href="/2012-partners/detroit">Detroit</a></li>
-					<li><a href="/2012-partners/honolulu">Honolulu</a></li>
-					<li><a href="/2012-partners/macon">Macon</a></li>
-					<li><a href="/2012-partners/nola">New Orleans</a></li>
-					<li><a href="/2012-partners/philadelphia">Philadelphia</a></li>
-					<li><a href="/2012-partners/santa-cruz">Santa Cruz</a></li>
+					<li><a href="/2013-partners/kansas-city">Kansas City, MO</a></li>
+					<li><a href="/2013-partners/kansas-city">Kansas City, KS</a></li>
+					<li><a href="/2013-partners/las-vegas">Las Vegas, NV</a></li>
+					<li><a href="/2013-partners/louisville">Louisville, KY</a></li>
+					<li><a href="/2013-partners/new-york-city">New York City, NY</a></li>
+					<li><a href="/2013-partners/oakland">Oakland, CA</a></li>
+					<li><a href="/2013-partners/san-francisco">San Francisco, CA</a></li>
+					<li><a href="/2013-partners/san-mateo-county">San Mateo County, CA</a></li>
+					<li><a href="/2013-partners/south-bend">South Bend, IN</a></li>
+					<li><a href="/2013-partners/summit-county">Summit County, OH</a></li>
 				</ul>
 			</li>
 			<li><h4><a href="/issues">Issues</a></h4>
