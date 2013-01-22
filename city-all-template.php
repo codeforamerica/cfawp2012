@@ -59,7 +59,7 @@ get_header(); ?>
       <p>The application process for 2013 cities will be opening in early January. Till then, be sure to let us know your city is interested, and we can start the conversation.</p>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
-          <td>1/09/12</td>
+          <td>1/09/13</td>
           <th>Application Process<br />
             Opened <span>&raquo;</span></th>
         </tr>
@@ -68,28 +68,28 @@ get_header(); ?>
           <th>City Application Period <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>03/31/12</td>
+          <td>03/31</td>
           <th>Deadline for 
             Applications <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>4/12 - 6/12</td>
+          <td>4/1 - 4/30</td>
           <th>City Applications Reviewed <span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>4/12 - 6/12</td>
+          <td>5/01 - 6/01</td>
           <th>Cities confirm support & funding<span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>7/12</td>
-          <th>City Finalists Announced <span>&raquo;</span></th>
+          <td>6/01</td>
+          <th>City Finalists Announced (Rolling Acceptance)<span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>9/11</td>
-          <th>Selected Cities Announced <span>&raquo;</span></th>
+          <td>October</td>
+          <th>Selected Cities Announced to the Press <span>&raquo;</span></th>
         </tr>
         <tr>
-          <td>01/2/13</td>
+          <td>January 2014</td>
           <th>New Class of Fellows
             Begins Program <span>&raquo;</span></th>
         </tr>
