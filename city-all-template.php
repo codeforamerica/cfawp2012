@@ -55,7 +55,7 @@ get_header(); ?>
     </div>
     <div class="right-col">
       <h3>Dates To Keep In Mind</h3>
-      <h4>2013 City Application Timeline</h4>
+      <h4>2014 City Application Timeline</h4>
       <p>The application process for 2013 cities will be opening in early January. Till then, be sure to let us know your city is interested, and we can start the conversation.</p>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
