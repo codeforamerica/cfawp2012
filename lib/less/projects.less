@@ -1,0 +1,136 @@
+#projects {
+  .al();
+  .container();
+  margin-top: 20px;
+}
+
+#projects-header h1 {
+  .uppercase();
+  color: $black;
+}
+
+#projects-header hr {
+  border: @grayLighter solid 2px;
+}
+
+#projects-description {
+  .makeColumn(9);
+  margin-left: 0;
+}
+
+#projects-developer-resources {
+  .makeColumn(3);
+  margin-top: 20px;
+}
+
+#projects-showcase-category-filters {
+  margin-top: 20px;
+  border-bottom: 1px dotted @grayDark;
+  height: 30px;
+
+  li {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .filter {
+    padding: 5px 10px;
+    color: @grayDark;
+  }
+
+  .active {
+    .border-radius(5px);
+    background-color: @linkColor;
+    color: @white;
+  }
+}
+
+#project-showcase-keywords-filters {
+  width: 50%;
+  padding: 5px;
+  padding-left: 10px;
+  background-color: @white;
+  border: 1px solid @grayLightest;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#projects-showcase-type-filters {
+  background-color: @grayLightest;
+  padding: 15px;
+
+  li {
+    float: left;
+    margin-right: 10px;
+  }
+}
+
+#projects-clear-filters {
+  margin-left: 10px;
+}
+
+#projects-showcase-sort {
+  .makeColumn(4);
+  margin-top: 20px;
+  margin-left: 0;
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .sort {
+    padding: 5px 0;
+    color: @linkColor;
+  }
+}
+
+#projects-showcase-list {
+  .makeColumn(12);
+  margin-left: 0;
+  margin-top: 20px;
+
+  .project {
+    height: 200px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+    .project-tags, .project-caption {
+      position: absolute;
+      width: 260px;
+    }
+
+    .project-tags {
+      padding: 20px;
+      height: 0;
+      opacity: 0;
+      top: 0;
+      color: @white;
+      background-color: @logoBlue;
+    }
+
+    .project-caption {
+      padding: 10px 20px;
+      bottom: 0;
+      font-size: 1.2em;
+      color: @black;
+      background-color: @grayLightest;
+      opacity: 0.75;
+    }
+
+    &:hover {
+      .project-tags {
+        height: 160px;
+        opacity: 1;
+      }
+
+      .project-caption {
+        background-color: transparent;
+        color: @white;
+        opacity: 1;
+      }
+    }
+
+  }
+}

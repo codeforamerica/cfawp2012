@@ -38,6 +38,18 @@
  * @since Twenty Ten 1.0
  */
 
+require_once("lib/post_types.php");
+require_once("lib/scripts_and_stylesheets.php");
+
+add_action( "init", "cfa_init", 15 );
+
+function cfa_init() {
+  cfa_create_custom_post_types();
+  add_action( "wp_enqueue_scripts", "cfa_enqueue_scripts_and_styles" );
+}
+
+
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  *
@@ -609,13 +621,14 @@ function create_post_type() {
 	register_post_type( 'cfa_project',
 		array(
 			'labels' => array(
-				'name' => __( 'Projects' ),
-				'singular_name' => __( 'Projects' )
+				'name' => __( 'Old CfA Projects' ),
+				'singular_name' => __( 'Old CfA Project' )
 			),
 			'public' => true,
-            'rewrite' => false,
-            'capability_type' => 'post',
-            'supports' => array('title','editor','author', 'excerpt', 'custom-fields', 'thumbnail',)
+        'rewrite' => false,
+        'capability_type' => 'post',
+        'supports' => array('title','editor','author', 'excerpt', 'custom-fields', 'thumbnail'),
+        'taxonomies' => array( 'category', 'post_tags' )
 		)
 	);
 }
