@@ -1467,14 +1467,35 @@ border: none;}
   padding-top: 20px;
 }
 
+#cities .fullcolumn {
+    width: 940px;
+}
+
+#cities .ttl {
+  color: #000;
+  font-family: Oswald, Helvetica Neue, Helvetic, Arial;
+  font-size: 40px;
+  letter-spacing: -.05em;
+  background: none;
+  border-bottom: 4px solid #ccc;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
 #cities #participating-wrap, .issues #participating-wrap  {
   padding-bottom: 30px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
 }
 
 #cities #participating {
-  float: right;
+  float: left;
   width: 320px;
+}
+
+#cities #participating p {
+  margin: 0px auto 40px;
+  font-size: 1.17em;
+
 }
 
 #cities #participating h2 {
@@ -1483,6 +1504,36 @@ border: none;}
   padding-bottom: 8px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
   margin-bottom: 5px;
+}
+
+
+#cities #participating .button {
+  background-color: #CB2739;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+        border-radius: 4px;
+}
+
+#cities #participating .button:hover {
+  background-color: #ae0014;
+  color: #fff;
+  text-decoration: none;
+}
+
+#cities #participating img {
+  max-width: 20px;
+  max-height: 16px;
+  margin: 0px -7px 0px 10px;
+}
+
+
+#cities #video {
+  float: right;
 }
 
 #cities-detail h1 {
@@ -1496,55 +1547,6 @@ border: none;}
 
 #ideas {
     padding-top: 15px;
-}
-
-
-#cities #participating .links {
-  padding-bottom: 8px;
-  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
-  font-weight: bold;
-  font-size: 1.08em;
-  margin-bottom: 8px;
-}
-
-#cities #participating .links a {
-  text-decoration: none;
-  color: #409dd6;
-  margin-right: 7px;
-  white-space: nowrap;
-}
-
-#cities #participating .links a:hover, #cities #participating .links a span {
-  color: #cb283a;
-}
-
-#cities #participating ul {
-background: url(images/horizontal-dots.gif) repeat-x 0px 0px;
-margin-top: 10px;
-padding-top: 10px;
-}
-
-#cities #participating li a {
-color: #707070;
-font-weight: bold;
-text-decoration: none;
-text-transform: uppercase;
-}
-
-#cities #participating li {
-background: url(images/bullet-red-arrow.gif) no-repeat 2px 3px;
-display: block;
-padding: 0px 0px 7px 22px;
-}
-
-#cities #participating li a.active {
-color: #CB2A3C;
-}
-
-#cities #participating p {
-  padding: 0;
-  margin: 0;
-  font-size: 1.17em;
 }
 
 #cities #twocols-container, .issues #twocols-container  {
