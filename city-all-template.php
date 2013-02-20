@@ -35,7 +35,7 @@ get_header(); ?>
 
 
 <div id="maincontent" class="entry-content">
-    <div class="left-col">
+    <div class="left-col overview">
       <h3>Overview</h3>
       <p>The Fellowship partners talented teams of developers, designers, and entrepreneurs with change agents from local governments to address a range of civic challenges. Benefits to participation include:</p>
       <ul>
@@ -56,6 +56,22 @@ get_header(); ?>
     <div class="clearfix"></div>
 
   <h3>Sample Focus Areas</h3>
+  <div class="focusareas">
+    <img src="" />
+    <h3>Civic Infrastructure</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+  </div>
+  <div class="focusareas">
+    <img src="" />
+    <h3>Citizen Engagement</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+  </div>
+  <div class="focusareas">
+    <img src="" />
+    <h3>Criminal Justice</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+  </div>
+  <p class="projects">Check out our<a href="http://codeforamerica.org/projects/"> projects</a>
 
   <div id="twocols-container" class="clearfix">    
 
@@ -94,6 +110,31 @@ get_header(); ?>
         </tr>
       </table>
       <p><a class="button" href="http://codeforamerica.org/cities/apply-now/">Apply Now<img class="arrow" src="<?php bloginfo( 'template_url' ); ?>/images/arrow_white.png" alt="arrow" /></a></p>
+    </div>
+
+    <div class="right-col seals">
+      <h3>Past Partners</h3>
+        <a href="http://codeforamerica.org/2013-partners/kansas-city/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_kansas_city_seal.png" alt="Kansas City Seal" /></a>
+        <a href="http://codeforamerica.org/2013-partners/kansas-city/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_kansas_city_mo_seal.png" alt="Kansas City Mo Seal" /></a>
+        <a href="http://codeforamerica.org/2013-partners/las-vegas/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_vegas_seal.png" alt="Las Vegas" /></a>
+        <a href="http://codeforamerica.org/2013-partners/louisville/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_louisville_seal.png" alt="Louisville" /></a>
+        <a href="http://codeforamerica.org/2013-partners/new-york-city/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_new_york_seal.png" alt="New York" /></a>
+        <a href="http://codeforamerica.org/2013-partners/oakland/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_oakland_seal.png" alt="Oakland" /></a>
+        <a href="http://codeforamerica.org/2013-partners/san-francisco/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_sf_seal.png" alt="San Francisco" /></a>
+        <a href="http://codeforamerica.org/2013-partners/san-mateo-county/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_san_mateo_seal.png" alt="San Mateo County" /></a>
+        <a href="http://codeforamerica.org/2013-partners/south-bend/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_south_bend_seal.png" alt="South Bend" /></a>
+        <a href="http://codeforamerica.org/2013-partners/summit-county/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_summit_county_seal.png" alt="Summit County" /></a>
+        <a href="http://codeforamerica.org/2013-partners/austin/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_austin_seal.png" alt="Austin" /></a>
+        <a href="http://codeforamerica.org/2013-partners/chicago/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_chicago_seal.png" alt="Chicago" /></a>
+        <a href="http://codeforamerica.org/2013-partners/deroit/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_detroit_seal.png" alt="Detroit" /></a>
+        <a href="http://codeforamerica.org/2013-partners/honolulu/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_honolulu_seal.png" alt="Honolulu" /></a>
+        <a href="http://codeforamerica.org/2013-partners/macon/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_macon_seal.png" alt="Macon" /></a>
+        <a href="http://codeforamerica.org/2013-partners/new-orleans/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_new_orleans_seal.png" alt="New Orleans" /></a>
+        <a href="http://codeforamerica.org/2013-partners/philadelphia/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_philly_seal.png" alt="Philadelphia" /></a>
+        <a href="http://codeforamerica.org/2013-partners/santa=-cruz/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_santa_cruz_seal.png" alt="Santa Cruz" /></a>
+        <a href="http://codeforamerica.org/2013-partners/boston/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_boston_seal.png" alt="Boston" /></a>
+        <a href="http://codeforamerica.org/2013-partners/philadelphia/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_philly_seal.png" alt="Philadelphia" /></a>
+        <a href="http://codeforamerica.org/2013-partners/seattle/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_seattle_seal.png" alt="Seattle" /></a>
     </div>
 
     <div class="left-col">

@@ -1587,7 +1587,6 @@ border: none;}
 #cities #maincontent .left-col {
   width: 600px;
   float: left;
-  margin-top: 30px;
   background: url(images/vertical-dot.gif) 620px 0 repeat-y;
 }
 
@@ -1636,6 +1635,23 @@ a.more:hover {
   width: 100%;
   height: 100%;
   z-index: -10;
+}
+
+#cities .focusareas {
+  width: 270px;
+  float: left;
+  padding: 0 20px 20px 20px;
+}
+
+#cities #maincontent .focusareas h3 {
+  text-align: center;
+  color: #666;
+  background: none;
+}
+
+#cities #maincontent .projects {
+  font-size: 1.4em;
+  text-align: center;
 }
 
 #cities .cityDates h3 {
@@ -1698,6 +1714,17 @@ a.more:hover {
   text-align: center;
 }
 
+#cities #maincontent .overview{
+  margin: 30px 0 20px;
+}
+
+#cities .seals img {
+  min-height: 67px;
+  min-width: 70px;
+  width: 26%;
+  float: left;
+  padding: 5px 11px;
+}
 
 /*#cities .right-col {
   font-size: 1.17em;
