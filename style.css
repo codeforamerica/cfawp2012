@@ -1506,8 +1506,7 @@ border: none;}
   margin-bottom: 5px;
 }
 
-
-#cities #participating .button {
+#cities .button {
   background-color: #CB2739;
   color: #fff;
   font-size: 20px;
@@ -1519,13 +1518,13 @@ border: none;}
         border-radius: 4px;
 }
 
-#cities #participating .button:hover {
+#cities .button:hover {
   background-color: #ae0014;
   color: #fff;
   text-decoration: none;
 }
 
-#cities #participating img {
+#cities img.arrow {
   max-width: 20px;
   max-height: 16px;
   margin: 0px -7px 0px 10px;
@@ -1546,24 +1545,32 @@ border: none;}
 }
 
 #ideas {
-    padding-top: 15px;
+  padding-top: 15px;
+}
+
+
+#cities #maincontent .overview h3 {
+  background: transparent;
 }
 
 #cities #twocols-container, .issues #twocols-container  {
   float: none;
   width: auto;
-  margin-top: 30px;
   background: url(images/vertical-dot.gif) 620px 0 repeat-y;
 }
 
-#cities #maincontent, .issues  #maincontent  {
+.issues  #maincontent  {
   width: 600px;
   font-size: 1.17em;
 }
 
-#cities #maincontent h3 {
+#cities #maincontent {
+  width: 940px;
+}
+
+#cities #maincontent h3, #cities .cityDates h3 {
   position: relative;
-  padding: 25px 110px 15px 0;
+  padding: 25px 0px 5px 0;
   background: url(images/horizontal-dots.gif) 0 0 repeat-x;
   margin-top: 15px;
   text-transform: uppercase;
@@ -1571,10 +1578,17 @@ border: none;}
   font-size: 1.21em;
 }
 
-#cities #maincontent h3:first-child {
+#cities #maincontent > .left-col > h3:first-child {
   background: transparent;
   padding-top: 0;
   margin: 0;
+}
+
+#cities #maincontent .left-col {
+  width: 600px;
+  float: left;
+  margin-top: 30px;
+  background: url(images/vertical-dot.gif) 620px 0 repeat-y;
 }
 
 a.more {
@@ -1604,6 +1618,88 @@ a.more:hover {
   padding: 0 0 10px;
 }
 
+#cities .quote {
+  background: #ccc;
+  padding: 25px;
+  width: 250px;
+  margin-top: 30px;
+}
+
+#cities .quote.right-col p {
+  font-size: 1.5em;
+  line-height: 28px;
+}
+
+#cities .quote h4 {
+  font-size: 1.3em;
+}
+
+#cities .cityDates {
+  font-size: 1.17em;
+}
+
+#cities .cityDates h3 {
+  font-size: 1.29em;
+  color: #000;
+  padding: 2px 0 2px 33px;
+  margin-top: -5px;
+  text-transform: uppercase;
+  background: url(images/dates-to-keep-icon.gif) 0 0 no-repeat;
+}
+
+*+html #cities .cityDates h3{
+  min-height: 20px;
+}
+
+#cities .cityDates h4 {
+  margin: 9px 0;
+  font-size: 1em;
+}
+
+#cities .cityDates p{
+  margin: 0;
+  padding: 0 0 7px;
+}
+
+#cities .cityDates table {
+  margin: 10px auto 30px;
+}
+
+#cities .cityDates th, #cities .cityDates td {
+  vertical-align: top;
+  font-size: 0.93em;
+  padding: 20px 9px;
+}
+
+#cities .cityDates th {
+  width: 365px;
+  text-align: left;
+  font-weight: normal;
+}
+
+#cities .cityDates th span {
+  color: #cb283a;
+}
+
+#cities .cityDates td {
+  width: 200px;
+  text-align: right;
+  font-weight: bold;
+  color: #cb283a;
+}
+
+#cities .cityDates tr.odd {
+  background: url(images/odd-bg.gif);
+}
+
+#cities .cityDates .button {
+  margin: 0 auto;
+  width: 143px;
+  display: block;
+  text-align: center;
+}
+
+
 #cities .right-col {
   font-size: 1.17em;
 }
@@ -1619,11 +1715,6 @@ a.more:hover {
 
 *+html #cities .right-col h3{
   min-height: 20px;
-}
-
-#cities .right-col h4 {
-  margin: 9px 0;
-  font-size: 1em;
 }
 
 #cities .right-col p{
