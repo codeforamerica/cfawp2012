@@ -50,10 +50,12 @@ get_header(); ?>
       <a href="http://codeforamerica.org/cities/city-impact/">Learn more <span>&raquo;</span></a>
     </div>
     <div class="quote right-col">
-      <p>From Code for America we thought we’d just get some cool apps for our constituents, but we got so much more; new relationships in City Hall, new connections to the community, a platform for further innovation, and yes, even some great applications.</p>
+      <p><img src="<?php bloginfo( 'template_url' ); ?>/images/quotes.png" alt="quotation marks" /> From Code for America we thought we’d just get some cool apps for our constituents, but we got so much more; new relationships in City Hall, new connections to the community, a platform for further innovation, and yes, even some great applications.</p>
       <h4>Nigel Jacobs<br/>City of Boston</h4>
     </div>
     <div class="clearfix"></div>
+
+  <h3>Sample Focus Areas</h3>
 
   <div id="twocols-container" class="clearfix">    
 
@@ -92,6 +94,19 @@ get_header(); ?>
         </tr>
       </table>
       <p><a class="button" href="http://codeforamerica.org/cities/apply-now/">Apply Now<img class="arrow" src="<?php bloginfo( 'template_url' ); ?>/images/arrow_white.png" alt="arrow" /></a></p>
+    </div>
+
+    <div class="left-col">
+      <h3>Cost</h3>
+      <p>Code for America asks each city to fund the direct costs of the fellows—their stipend, benefits, and travel/lodging expenses. The average cost is $180K for a team of three, and most cities allocate these costs through a budget appropriation. We also ask each city to find matching funds of an equal amount to fund the fellows training, equipment, etc. These funds typically come from an institutional funder or local corporate sponsor. You can learn more about funding options and process on the <a href="http://codeforamerica.org/cities/faqs-cities-applying-to-program/">CfA Funding FAQ</a>.</p>
+    </div>
+
+
+    <div class="right-col">
+      <h3>Questions</h3>
+      <p>Please <a href="http://codeforamerica.org/cities/faqs-cities-applying-to-program/">check out our FAQ</a> or contact Luke Norris, Director of Business Development, with any questions about the fellowship or the funding process.</p>
+      <p><a href="mailto:cityrecruitment@codeforamerica.org">cityrecruitment@codeforamerica.org</a></p>
+      <p>816.200.8925</p>
     </div>
 
   </div>
