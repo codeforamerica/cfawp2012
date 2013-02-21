@@ -1,5 +1,3 @@
-
-
 <?php
 /**
  * The template for displaying all pages.
@@ -26,11 +24,11 @@ get_header(); ?>
     </div>
 
     <div id="participating">
-      <p>We just opened up the application process for our 2014 City Fellowship Program, and we are actively seeking local governments who want to engage with our fellowship program. As many of you know, the Code for America Fellowship is a year long program focused on civic collaboration and innovation. But don’t take our word for it. Find out what past partners have to say about the program. </p>
+      <p>We are actively seeking local governments who want to engage with our fellowship program in 2014. As many of you know, the Code for America Fellowship is a year long program focused on civic collaboration and innovation. But don’t take our word for it. Find out what past partners have to say about the program. </p>
       <p><a class="button" href="http://codeforamerica.org/cities/apply-now/">Apply Now<img class="arrow" src="<?php bloginfo( 'template_url' ); ?>/images/arrow_white.png" alt="arrow" /></a></p>
       <p><strong>Applications due March 31, 2013</strong></p>
     </div>
-	<div id="video" style="width: 600px; height: 325px"><iframe src="http://player.vimeo.com/video/53640839" width="600" height="325" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+	<div id="video" style="width: 600px; height: 325px"><iframe src="http://player.vimeo.com/video/60125263" width="600" height="325" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
   </div>
 
 
@@ -59,17 +57,17 @@ get_header(); ?>
   <div class="focusareas">
     <img src="<?php bloginfo( 'template_url' ); ?>/images/infrastructure.png" />
     <h3>Civic Infrastructure</h3>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <p>Cities who open up data sets can fuel innovation and encourage the creation of new tools to enable civic infrastructure. Some of the tools our partners and fellows have created in this area include <a href="http://blightstatus.com">BlightStatus</a>, <a href="http://codeforamerica.org/?cfa_project=adopt-a-hydrant">Adopta</a>, and <a href="http://localdata.com">LocalData</a>.</p>
   </div>
   <div class="focusareas">
     <img src="<?php bloginfo( 'template_url' ); ?>/images/engagement.png" />
-    <h3>Citizen Engagement</h3>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <h3>Criminal Justice</h3>
+    <p>This year two of our fellows teams (<a href="http://codeforamerica.org/2013-partners/new-york-city/">New York</a> and <a href="http://codeforamerica.org/2013-partners/louisville/">Louisville</a>) are focusing on Criminal Justice. Both teams will work to identify opportunities that enhance and improve the quality, consistency, and accuracy of data used to inform policy and assess programmatic outcomes for pre-trial justice reform. </p>
   </div>
   <div class="focusareas">
     <img src="<?php bloginfo( 'template_url' ); ?>/images/justice.png" />
-    <h3>Criminal Justice</h3>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <h3>Citizen Engagement</h3>
+    <p>While opportunities for innovation vary from city to city, many fellowship teams work towards increased citizen engagement as one of their core outcomes. For example, <a href="http://answers.honolulu.gov">Honolulu Answers</a> generated web content for the city’s web site by engaging with citizens willing to lend a hand.</p>
   </div>
   <p class="projects">Check out our<a href="http://codeforamerica.org/projects/"> projects</a>
 
@@ -78,7 +76,7 @@ get_header(); ?>
     <div class="cityDates left-col">
       <h3>Dates To Keep In Mind</h3>
       <h4>2014 City Application Timeline</h4>
-      <p>The application process for 2013 cities will be opening in early January. Till then, be sure to let us know your city is interested, and we can start the conversation.</p>
+      <p>The application process for 2014 local government partners (cities and counties) is now open; interested government officials are encouraged to apply early and begin the conversation. The deadline for applications is <strong>March 31, 2013</strong>. </p>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
           <td>January - March 2013</td>
