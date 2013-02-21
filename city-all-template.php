@@ -62,7 +62,7 @@ get_header(); ?>
   <div class="focusareas">
     <img src="<?php bloginfo( 'template_url' ); ?>/images/engagement.png" />
     <h3>Criminal Justice</h3>
-    <p>This year two of our fellows teams (<a href="http://codeforamerica.org/2013-partners/new-york-city/">New York</a> and <a href="http://codeforamerica.org/2013-partners/louisville/">Louisville</a>) are focusing on Criminal Justice. Both teams will work to identify opportunities that enhance and improve the quality, consistency, and accuracy of data used to inform policy and assess programmatic outcomes for pre-trial justice reform. </p>
+    <p>This year two of our fellows teams (<a href="http://codeforamerica.org/2013-partners/new-york-city/">New York</a> and <a href="http://codeforamerica.org/2013-partners/louisville/">Louisville</a>) are focusing on Criminal Justice. Both teams will work to identify opportunities that enhance and improve the quality, consistency, and accuracy of pretrial justice data and evaluate data-driven strategies for reform. </p>
   </div>
   <div class="focusareas">
     <img src="<?php bloginfo( 'template_url' ); ?>/images/justice.png" />

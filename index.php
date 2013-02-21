@@ -26,7 +26,7 @@ get_header(); ?>
 			<a href="/2013-partners" data-bitly-type="bitly_hover_card" style=""><img src="http://codeforamerica.org/wp-content/uploads/2012/10/2013.png" alt="Meet the 2012 Cities" class="left"></a>
 		</div>
 		<div id="map" style="width: 500px; height: 260px; float: left; padding-top: 10px;">
-			<iframe src="http://player.vimeo.com/video/53640839" width="500" height="260" style="border: none" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+			<iframe src="http://player.vimeo.com/video/60125263" width="500" height="260" style="border: none" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 		</div>
 	</div>
 </div>	
