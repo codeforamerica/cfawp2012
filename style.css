@@ -1572,7 +1572,7 @@ border: none;}
   position: relative;
   padding: 25px 0px 5px 0;
   background: url(images/horizontal-dots.gif) 0 0 repeat-x;
-  margin-top: 15px;
+  margin-top: 0px;
   text-transform: uppercase;
   color: #000;
   font-size: 1.5em;
@@ -1588,6 +1588,7 @@ border: none;}
   width: 600px;
   float: left;
   background: url(images/vertical-dot.gif) 620px 0 repeat-y;
+  margin-bottom: 20px;
 }
 
 a.more {
@@ -1647,11 +1648,20 @@ a.more:hover {
   text-align: center;
   color: #666;
   background: none;
+  padding-top: 10px;
+}
+
+#cities #maincontent .focusareas img {
+  max-width: 80px;
+  max-height: 80px;
+  display: block;
+  margin: 15px auto 0;
 }
 
 #cities #maincontent .projects {
   font-size: 1.4em;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #cities .cityDates h3 {
@@ -1715,7 +1725,7 @@ a.more:hover {
 }
 
 #cities #maincontent .overview{
-  margin: 30px 0 20px;
+  margin: 30px 0;
 }
 
 #cities .seals img {
@@ -1726,6 +1736,10 @@ a.more:hover {
   padding: 5px 11px;
 }
 
+#cities .right-col span {
+  color: #cb2a3c;
+  font-weight: bold;
+}
 /*#cities .right-col {
   font-size: 1.17em;
 }

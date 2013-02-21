@@ -57,17 +57,17 @@ get_header(); ?>
 
   <h3>Sample Focus Areas</h3>
   <div class="focusareas">
-    <img src="" />
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/infrastructure.png" />
     <h3>Civic Infrastructure</h3>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
   </div>
   <div class="focusareas">
-    <img src="" />
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/engagement.png" />
     <h3>Citizen Engagement</h3>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
   </div>
   <div class="focusareas">
-    <img src="" />
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/justice.png" />
     <h3>Criminal Justice</h3>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
   </div>
@@ -113,7 +113,7 @@ get_header(); ?>
     </div>
 
     <div class="right-col seals">
-      <h3>Past Partners</h3>
+      <h3>Our Partners</h3>
         <a href="http://codeforamerica.org/2013-partners/kansas-city/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_kansas_city_seal.png" alt="Kansas City Seal" /></a>
         <a href="http://codeforamerica.org/2013-partners/kansas-city/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_kansas_city_mo_seal.png" alt="Kansas City Mo Seal" /></a>
         <a href="http://codeforamerica.org/2013-partners/las-vegas/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_vegas_seal.png" alt="Las Vegas" /></a>
@@ -147,7 +147,7 @@ get_header(); ?>
       <h3>Questions</h3>
       <p>Please <a href="http://codeforamerica.org/cities/faqs-cities-applying-to-program/">check out our FAQ</a> or contact Luke Norris, Director of Business Development, with any questions about the fellowship or the funding process.</p>
       <p><a href="mailto:cityrecruitment@codeforamerica.org">cityrecruitment@codeforamerica.org</a></p>
-      <p>816.200.8925</p>
+      <p><span>816.200.8925</span></p>
     </div>
 
   </div>
