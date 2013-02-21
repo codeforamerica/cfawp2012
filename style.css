@@ -1467,14 +1467,35 @@ border: none;}
   padding-top: 20px;
 }
 
+#cities .fullcolumn {
+    width: 940px;
+}
+
+#cities .ttl {
+  color: #000;
+  font-family: Oswald, Helvetica Neue, Helvetic, Arial;
+  font-size: 40px;
+  letter-spacing: -.05em;
+  background: none;
+  border-bottom: 4px solid #ccc;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
 #cities #participating-wrap, .issues #participating-wrap  {
   padding-bottom: 30px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
 }
 
 #cities #participating {
-  float: right;
+  float: left;
   width: 320px;
+}
+
+#cities #participating p {
+  margin: 0px auto 40px;
+  font-size: 1.17em;
+
 }
 
 #cities #participating h2 {
@@ -1483,6 +1504,35 @@ border: none;}
   padding-bottom: 8px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
   margin-bottom: 5px;
+}
+
+#cities .button {
+  background-color: #CB2739;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+        border-radius: 4px;
+}
+
+#cities .button:hover {
+  background-color: #ae0014;
+  color: #fff;
+  text-decoration: none;
+}
+
+#cities img.arrow {
+  max-width: 20px;
+  max-height: 16px;
+  margin: 0px -7px 0px 10px;
+}
+
+
+#cities #video {
+  float: right;
 }
 
 #cities-detail h1 {
@@ -1495,84 +1545,50 @@ border: none;}
 }
 
 #ideas {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 
-#cities #participating .links {
-  padding-bottom: 8px;
-  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
-  font-weight: bold;
-  font-size: 1.08em;
-  margin-bottom: 8px;
-}
-
-#cities #participating .links a {
-  text-decoration: none;
-  color: #409dd6;
-  margin-right: 7px;
-  white-space: nowrap;
-}
-
-#cities #participating .links a:hover, #cities #participating .links a span {
-  color: #cb283a;
-}
-
-#cities #participating ul {
-background: url(images/horizontal-dots.gif) repeat-x 0px 0px;
-margin-top: 10px;
-padding-top: 10px;
-}
-
-#cities #participating li a {
-color: #707070;
-font-weight: bold;
-text-decoration: none;
-text-transform: uppercase;
-}
-
-#cities #participating li {
-background: url(images/bullet-red-arrow.gif) no-repeat 2px 3px;
-display: block;
-padding: 0px 0px 7px 22px;
-}
-
-#cities #participating li a.active {
-color: #CB2A3C;
-}
-
-#cities #participating p {
-  padding: 0;
-  margin: 0;
-  font-size: 1.17em;
+#cities #maincontent .overview h3 {
+  background: transparent;
 }
 
 #cities #twocols-container, .issues #twocols-container  {
   float: none;
   width: auto;
-  margin-top: 30px;
   background: url(images/vertical-dot.gif) 620px 0 repeat-y;
 }
 
-#cities #maincontent, .issues  #maincontent  {
+.issues  #maincontent  {
   width: 600px;
   font-size: 1.17em;
 }
 
-#cities #maincontent h3 {
-  position: relative;
-  padding: 25px 110px 15px 0;
-  background: url(images/horizontal-dots.gif) 0 0 repeat-x;
-  margin-top: 15px;
-  text-transform: uppercase;
-  color: #000;
-  font-size: 1.21em;
+#cities #maincontent {
+  width: 940px;
 }
 
-#cities #maincontent h3:first-child {
+#cities #maincontent h3, #cities .cityDates h3 {
+  position: relative;
+  padding: 25px 0px 5px 0;
+  background: url(images/horizontal-dots.gif) 0 0 repeat-x;
+  margin-top: 0px;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.5em;
+}
+
+#cities #maincontent > .left-col > h3:first-child {
   background: transparent;
   padding-top: 0;
   margin: 0;
+}
+
+#cities #maincontent .left-col {
+  width: 600px;
+  float: left;
+  background: url(images/vertical-dot.gif) 620px 0 repeat-y;
+  margin-bottom: 20px;
 }
 
 a.more {
@@ -1602,7 +1618,129 @@ a.more:hover {
   padding: 0 0 10px;
 }
 
-#cities .right-col {
+#cities .quote {
+  background: #EBEBEB;
+  padding: 25px;
+  width: 250px;
+  margin-top: 30px;
+}
+
+#cities .quote.right-col p, #cities .quote h4 { 
+  font-size: 1.54em;
+  line-height: 1.4em;
+}
+
+#cities .quote img {
+  max-width: 45px;
+  max-height: 38.5px;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+#cities .focusareas {
+  width: 270px;
+  float: left;
+  padding: 0 20px 20px 20px;
+}
+
+#cities #maincontent .focusareas h3 {
+  text-align: center;
+  color: #666;
+  background: none;
+  padding-top: 10px;
+}
+
+#cities #maincontent .focusareas img {
+  max-width: 80px;
+  max-height: 80px;
+  display: block;
+  margin: 15px auto 0;
+}
+
+#cities #maincontent .projects {
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#cities .cityDates h3 {
+  color: #000;
+  padding: 2px 0 2px 33px;
+  margin-top: -5px;
+  text-transform: uppercase;
+  background: url(images/dates-to-keep-icon.gif) 0 0 no-repeat;
+}
+
+*+html #cities .cityDates h3{
+  min-height: 20px;
+}
+
+#cities .cityDates h4 {
+  margin: 9px 0;
+  font-size: 1.17em;
+}
+
+#cities .cityDates p {
+  margin: 0;
+  padding: 0 0 7px;
+}
+
+#cities .cityDates table {
+  margin: 10px auto 30px;
+}
+
+#cities .cityDates th, #cities .cityDates td {
+  vertical-align: top;
+  font-size: 1.29em;
+  padding: 20px 9px;
+}
+
+#cities .cityDates th {
+  width: 365px;
+  text-align: left;
+  font-weight: normal;
+}
+
+#cities .cityDates th span {
+  color: #cb283a;
+}
+
+#cities .cityDates td {
+  width: 200px;
+  text-align: right;
+  font-weight: bold;
+  color: #cb283a;
+}
+
+#cities .cityDates tr.odd {
+  background: url(images/odd-bg.gif);
+}
+
+#cities .cityDates .button {
+  margin: 0 auto;
+  width: 143px;
+  display: block;
+  text-align: center;
+}
+
+#cities #maincontent .overview{
+  margin: 30px 0;
+}
+
+#cities .seals img {
+  min-height: 67px;
+  min-width: 70px;
+  width: 26%;
+  float: left;
+  padding: 5px 11px;
+}
+
+#cities .right-col span {
+  color: #cb2a3c;
+  font-weight: bold;
+}
+/*#cities .right-col {
   font-size: 1.17em;
 }
 
@@ -1617,11 +1755,6 @@ a.more:hover {
 
 *+html #cities .right-col h3{
   min-height: 20px;
-}
-
-#cities .right-col h4 {
-  margin: 9px 0;
-  font-size: 1em;
 }
 
 #cities .right-col p{
@@ -1657,7 +1790,7 @@ a.more:hover {
 
 .right-col tr.odd {
   background: url(images/odd-bg.gif);
-}
+}*/
 
 #slider-wrap {
   float: right;

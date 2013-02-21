@@ -20,81 +20,136 @@ get_header(); ?>
 <div class="wrap clearfix" id="cities">
   <!--PARTICIPATING CITIES -->
   <div id="participating-wrap" class="clearfix">
-    <div id="participating">
-      <h2>CITY PARTNERS </h2>
-      <div class="links"> 2011: <a href="/boston">Boston <span>&raquo;</span></a> <a href="/philadelphia">Philadelphia <span>&raquo;</span></a> <a href="/seattle">Seattle <span>&raquo;</span></a> <br />
-	2012: <a href="/austin">Austin <span>&raquo;</span></a> <a href="/2012-partners/detroit">Detroit <span>&raquo;</span></a> <a href="/2012-partners/chicago">Chicago <span>&raquo;</span></a>  <a href="/2012-partners/honolulu">Honolulu <span>&raquo;</span></a>  <a href="/2012-partners/macon">Macon <span>&raquo;</span></a> <a href="/2012-partners/nola">New Orleans <span>&raquo;</span></a>  <a href="/2012-partners/philadelphia">Philadelphia <span>&raquo;</span></a>  <a href="/2012-partners/santa-cruz">Santa Cruz <span>&raquo;</span></a> <a href="http://codeforamerica.org/cities/apply/">Apply for 2014 <span>&raquo;</span></a></div>
-      <p>CfA connects forward-thinking cities with the talent from the web industry to develop reusable civic technology. Partnering cities will not only solve a critical problem using technology, but also help cultivate the next generation of tech-savvy, civic leaders.
-	
-	</p>
-      <ul>
-        <li><a href="/cities/faqs-cities-applying-to-program/">Learn more about the  program</a></li>
-        <li><a href="/citizen-action-center">Spread the word in your city</a></li>
-        <li><a href="http://codeforamerica.org/cities/apply/" class="active">apply to become a cfa city</a></li>
-      </ul>
+
+    <div class="ttl fullcolumn">
+      Bring CfA to your city
     </div>
-	<link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/leaflet.ie.css" /><![endif]-->
-	<div id="map" style="width: 600px; height: 325px"><iframe src="http://player.vimeo.com/video/53640839" width="600" height="325" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+    <div id="participating">
+      <p>We just opened up the application process for our 2014 City Fellowship Program, and we are actively seeking local governments who want to engage with our fellowship program. As many of you know, the Code for America Fellowship is a year long program focused on civic collaboration and innovation. But don’t take our word for it. Find out what past partners have to say about the program. </p>
+      <p><a class="button" href="http://codeforamerica.org/cities/apply-now/">Apply Now<img class="arrow" src="<?php bloginfo( 'template_url' ); ?>/images/arrow_white.png" alt="arrow" /></a></p>
+      <p><strong>Applications due March 31, 2013</strong></p>
+    </div>
+	<div id="video" style="width: 600px; height: 325px"><iframe src="http://player.vimeo.com/video/53640839" width="600" height="325" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
   </div>
 
-  <div id="twocols-container" class="clearfix">
-    <div id="maincontent" class="entry-content">
-      
-			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-
-								<?php the_content(); ?>
-							
-								<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
-
-
-		<?php endwhile; ?>
-
-
+<div id="maincontent" class="entry-content">
+    <div class="left-col overview">
+      <h3>Overview</h3>
+      <p>The Fellowship partners talented teams of developers, designers, and entrepreneurs with change agents from local governments to address a range of civic challenges. Benefits to participation include:</p>
+      <ul>
+        <li><strong>Catalyst for innovation</strong></li>
+        <li><strong>New perspectives on issues your city is facing</strong></li>
+        <li><strong>Products &amp; interfaces that are simple, beautiful and easy to use</strong></li>
+        <li><strong>Collaboration with a network of civic innovators and thought leaders</strong></li>
+        <li><strong>Visibility on a national stage</strong></li>
+      </ul>
+      <p>The fellows commit to a year of service earning a living-wage stipend and move through the highly structured program using agile “Lean Startup” techniques to develop and implement web and mobile applications that show what’s possible, deeply engage citizens, and increase the transparency of government information and systems. Outcomes include increased civic engagement, strengthened relationships inside and outside of government, and technology tools and products targeted to a pressing issue your city is facing.</p>
+      <p>Know of another city doing great things? <a href="mailto:cityrecruitment@codeforamerica.org">Let us know</a>--we'll be sure to reach out to them?</p>
+      <a href="http://codeforamerica.org/cities/city-impact/">Learn more <span>&raquo;</span></a>
     </div>
-    <div class="right-col">
+    <div class="quote right-col">
+      <p><img src="<?php bloginfo( 'template_url' ); ?>/images/quotes.png" alt="quotation marks" /> From Code for America we thought we’d just get some cool apps for our constituents, but we got so much more; new relationships in City Hall, new connections to the community, a platform for further innovation, and yes, even some great applications.</p>
+      <h4>Nigel Jacobs<br/>City of Boston</h4>
+    </div>
+    <div class="clearfix"></div>
+
+  <h3>Sample Focus Areas</h3>
+  <div class="focusareas">
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/infrastructure.png" />
+    <h3>Civic Infrastructure</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+  </div>
+  <div class="focusareas">
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/engagement.png" />
+    <h3>Citizen Engagement</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+  </div>
+  <div class="focusareas">
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/justice.png" />
+    <h3>Criminal Justice</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+  </div>
+  <p class="projects">Check out our<a href="http://codeforamerica.org/projects/"> projects</a>
+
+  <div id="twocols-container" class="clearfix">    
+
+    <div class="cityDates left-col">
       <h3>Dates To Keep In Mind</h3>
       <h4>2014 City Application Timeline</h4>
       <p>The application process for 2013 cities will be opening in early January. Till then, be sure to let us know your city is interested, and we can start the conversation.</p>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
-          <td>1/09/13</td>
-          <th>Application Process<br />
-            Opened <span>&raquo;</span></th>
+          <td>January - March 2013</td>
+          <th>City Application Period</th>
         </tr>
         <tr>
-          <td>1/10 - 03/31</td>
-          <th>City Application Period <span>&raquo;</span></th>
+          <td>March 31, 2013</td>
+          <th>Deadline for Applications</th>
         </tr>
         <tr class="odd">
-          <td>03/31</td>
-          <th>Deadline for 
-            Applications <span>&raquo;</span></th>
+          <td>April 2013</td>
+          <th>City Applications Reviewed</th>
         </tr>
         <tr>
-          <td>4/1 - 4/30</td>
-          <th>City Applications Reviewed <span>&raquo;</span></th>
+          <td>May 2013</td>
+          <th>CfA meets with cities to confirm support &amp; funding</th>
         </tr>
         <tr class="odd">
-          <td>5/01 - 6/01</td>
-          <th>Cities confirm support & funding<span>&raquo;</span></th>
+          <td>June 1, 2013</td>
+          <th>City Finalists Announced (Rolling Acceptance)</th>
         </tr>
         <tr>
-          <td>6/01</td>
-          <th>City Finalists Announced (Rolling Acceptance)<span>&raquo;</span></th>
+          <td>October 2013</td>
+          <th>Selected Cities Announced to the Press</th>
         </tr>
         <tr class="odd">
-          <td>October</td>
-          <th>Selected Cities Announced to the Press <span>&raquo;</span></th>
-        </tr>
-        <tr>
           <td>January 2014</td>
-          <th>New Class of Fellows
-            Begins Program <span>&raquo;</span></th>
+          <th>New Class of Fellows Begin Program</th>
         </tr>
       </table>
+      <p><a class="button" href="http://codeforamerica.org/cities/apply-now/">Apply Now<img class="arrow" src="<?php bloginfo( 'template_url' ); ?>/images/arrow_white.png" alt="arrow" /></a></p>
     </div>
+
+    <div class="right-col seals">
+      <h3>Our Partners</h3>
+        <a href="http://codeforamerica.org/2013-partners/kansas-city/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_kansas_city_seal.png" alt="Kansas City Seal" /></a>
+        <a href="http://codeforamerica.org/2013-partners/kansas-city/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_kansas_city_mo_seal.png" alt="Kansas City Mo Seal" /></a>
+        <a href="http://codeforamerica.org/2013-partners/las-vegas/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_vegas_seal.png" alt="Las Vegas" /></a>
+        <a href="http://codeforamerica.org/2013-partners/louisville/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_louisville_seal.png" alt="Louisville" /></a>
+        <a href="http://codeforamerica.org/2013-partners/new-york-city/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_new_york_seal.png" alt="New York" /></a>
+        <a href="http://codeforamerica.org/2013-partners/oakland/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_oakland_seal.png" alt="Oakland" /></a>
+        <a href="http://codeforamerica.org/2013-partners/san-francisco/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_sf_seal.png" alt="San Francisco" /></a>
+        <a href="http://codeforamerica.org/2013-partners/san-mateo-county/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_san_mateo_seal.png" alt="San Mateo County" /></a>
+        <a href="http://codeforamerica.org/2013-partners/south-bend/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_south_bend_seal.png" alt="South Bend" /></a>
+        <a href="http://codeforamerica.org/2013-partners/summit-county/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_summit_county_seal.png" alt="Summit County" /></a>
+        <a href="http://codeforamerica.org/2013-partners/austin/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_austin_seal.png" alt="Austin" /></a>
+        <a href="http://codeforamerica.org/2013-partners/chicago/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_chicago_seal.png" alt="Chicago" /></a>
+        <a href="http://codeforamerica.org/2013-partners/deroit/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_detroit_seal.png" alt="Detroit" /></a>
+        <a href="http://codeforamerica.org/2013-partners/honolulu/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_honolulu_seal.png" alt="Honolulu" /></a>
+        <a href="http://codeforamerica.org/2013-partners/macon/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_macon_seal.png" alt="Macon" /></a>
+        <a href="http://codeforamerica.org/2013-partners/new-orleans/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_new_orleans_seal.png" alt="New Orleans" /></a>
+        <a href="http://codeforamerica.org/2013-partners/philadelphia/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_philly_seal.png" alt="Philadelphia" /></a>
+        <a href="http://codeforamerica.org/2013-partners/santa=-cruz/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_santa_cruz_seal.png" alt="Santa Cruz" /></a>
+        <a href="http://codeforamerica.org/2013-partners/boston/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_boston_seal.png" alt="Boston" /></a>
+        <a href="http://codeforamerica.org/2013-partners/philadelphia/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_philly_seal.png" alt="Philadelphia" /></a>
+        <a href="http://codeforamerica.org/2013-partners/seattle/"><img src="<?php bloginfo( 'template_url' ); ?>/images/cities_seattle_seal.png" alt="Seattle" /></a>
+    </div>
+
+    <div class="left-col">
+      <h3>Cost</h3>
+      <p>Code for America asks each city to fund the direct costs of the fellows—their stipend, benefits, and travel/lodging expenses. The average cost is $180K for a team of three, and most cities allocate these costs through a budget appropriation. We also ask each city to find matching funds of an equal amount to fund the fellows training, equipment, etc. These funds typically come from an institutional funder or local corporate sponsor. You can learn more about funding options and process on the <a href="http://codeforamerica.org/cities/faqs-cities-applying-to-program/">CfA Funding FAQ</a>.</p>
+    </div>
+
+
+    <div class="right-col">
+      <h3>Questions</h3>
+      <p>Please <a href="http://codeforamerica.org/cities/faqs-cities-applying-to-program/">check out our FAQ</a> or contact Luke Norris, Director of Business Development, with any questions about the fellowship or the funding process.</p>
+      <p><a href="mailto:cityrecruitment@codeforamerica.org">cityrecruitment@codeforamerica.org</a></p>
+      <p><span>816.200.8925</span></p>
+    </div>
+
   </div>
 </div>
 <?php get_footer(); ?>
