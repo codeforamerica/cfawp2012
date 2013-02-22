@@ -60,16 +60,18 @@ get_header(); ?>
     <p>Cities who open up data sets can fuel innovation and encourage the creation of new tools to enable civic infrastructure. Some of the tools our partners and fellows have created in this area include <a href="http://blightstatus.com">BlightStatus</a>, <a href="http://codeforamerica.org/?cfa_project=adopt-a-hydrant">Adopta</a>, and <a href="http://localdata.com">LocalData</a>.</p>
   </div>
   <div class="focusareas">
-    <img src="<?php bloginfo( 'template_url' ); ?>/images/engagement.png" />
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/justice.png" />
     <h3>Criminal Justice</h3>
     <p>This year two of our fellows teams (<a href="http://codeforamerica.org/2013-partners/new-york-city/">New York</a> and <a href="http://codeforamerica.org/2013-partners/louisville/">Louisville</a>) are focusing on Criminal Justice. Both teams will work to identify opportunities that enhance and improve the quality, consistency, and accuracy of pretrial justice data and evaluate data-driven strategies for reform. </p>
   </div>
   <div class="focusareas">
-    <img src="<?php bloginfo( 'template_url' ); ?>/images/justice.png" />
+    <img src="<?php bloginfo( 'template_url' ); ?>/images/engagement.png" />
     <h3>Citizen Engagement</h3>
     <p>While opportunities for innovation vary from city to city, many fellowship teams work towards increased citizen engagement as one of their core outcomes. For example, <a href="http://answers.honolulu.gov">Honolulu Answers</a> generated web content for the city’s web site by engaging with citizens willing to lend a hand.</p>
   </div>
-  <p class="projects">Check out our<a href="http://codeforamerica.org/projects/"> projects</a>
+  <div class="clearfix"></div>
+  <p>Code for America fellows have focused on many other areas and are open to working on a wide range of issues -- as long as it is one that your community really cares about. Other focus areas have included Health and Human Services, Disaster Relief, Procurement, Open 311 initiatives, Education, and more. </p>
+  <p class="projects">Check out our<a href="http://codeforamerica.org/projects/"> projects</a> | <a href="http://codeforamerica.org/2012-partners/">2012 Partners</a> | <a href="http://codeforamerica.org/2013-partners/">2013 Partners</a>
 
   <div id="twocols-container" class="clearfix">    
 
