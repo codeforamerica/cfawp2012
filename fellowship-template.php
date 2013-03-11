@@ -94,8 +94,8 @@ get_header(); ?>
       <h4>2013 Fellows</h4>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
-          <td>01/13</td>
-          <th>Orientation/CfA Training <span>&raquo;</span></th>
+          <td style="width:110px">01/13</td>
+          <th>Orientation/Training&nbsp;<span>&raquo;</span></th>
         </tr>
         <tr>
           <td>02/13</td>
