@@ -32,7 +32,7 @@ get_header(); ?>
       <li><strong class="number">1</strong> <strong>Gov 2.0 Training.</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
       <li><strong class="number">2</strong> <strong>Professional Development.</strong> The biggest names in the web industry and the Gov 2.0 movement will provide you unparalleled networking, mentoring, and support.</li>
       <li><strong class="number">3</strong> <strong>Connections.</strong> Working closely with other talented individuals, you will develop lasting relationships in a fast-paced, startup atmosphere.</li>
-      <li><strong class="number">3</strong> <strong>A Labor of Love.</strong> You’ll not only accomplish a lot and make the world a better place, you’ll have a lot of fun working with other passionate people. To borrow a line from the Peace Corps, it will be the toughest job you’ll ever love.</li?
+      <li><strong class="number">4</strong> <strong>A Labor of Love.</strong> You’ll not only accomplish a lot and make the world a better place, you’ll have a lot of fun working with other passionate people. To borrow a line from the Peace Corps, it will be the toughest job you’ll ever love.</li>
     </ul>
     <div class="box">
       <h3 class="ttl">What Are We looking For? <a href="/fellows/2012-program-and-timeline/" class="more">The Program</a></h3>
