@@ -20,13 +20,11 @@ get_header(); ?>
 	<!--featured -->	  
 	<div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
 		<div class="callout" style="width: 400px; padding: 50px 15px 105px 10px; float: left;">
-			<h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 40px; letter-spacing: -.05em; text-align: left;">The CfA Fellowship</h1>
-			<p style="text-align: left; padding-left: 3px;padding-top: 0px;margin-top: 0px;">Code for America partners with innovative city leaders, looking for a different way of doing things. Your city could be next:</p>
-			<a href="/cities/" data-bitly-type="bitly_hover_card"><img src="http://codeforamerica.org/wp-content/uploads/2012/10/more.png" alt="Learn More" class="left"></a>
-			<a href="/cities/apply" data-bitly-type="bitly_hover_card" style=""><img src="http://codeforamerica.org/wp-content/uploads/2012/03/cities-apply.png" alt="Apply Now" class="left"></a>
+			<h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 40px; letter-spacing: -.05em; text-align: left;">A Year of Code</h1>
+			<p style="text-align: left; padding-left: 3px;padding-top: 0px;margin-top: 0px;">So many people came together to help government work better last year. Take a look at our 2012 annual report.</p>
 		</div>
 		<div id="map" style="width: 500px; height: 260px; float: left; padding-top: 10px;">
-			<iframe src="http://player.vimeo.com/video/60125263" width="500" height="260" style="border: none" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+          <img src="<?php bloginfo('template_directory'); ?>/images/annualreport.png" />
 		</div>
 	</div>
 </div>	
