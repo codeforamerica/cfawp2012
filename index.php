@@ -20,12 +20,9 @@ get_header(); ?>
 	<!--featured -->	  
 	<div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
 		<div class="callout" style="width: 400px; padding: 50px 15px 105px 10px; float: left;">
-			<h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 40px; letter-spacing: -.05em; text-align: left;">A Year of Code</h1>
-			<p style="text-align: left; padding-left: 3px;padding-top: 0px;margin-top: 0px;">So many people came together to help government work better last year. Take a look at our 2012 annual report.</p>
-		</div>
-		<div id="map" style="width: 500px; height: 260px; float: left; padding-top: 10px;">
-          <img src="<?php bloginfo('template_directory'); ?>/images/annualreport.png" />
-		</div>
+
+          <a href="http://annual.codeforamerica.org"><img style="width:" src="<?php bloginfo('template_directory'); ?>/images/annualreport.png" /></a>
+
 	</div>
 </div>	
 <div class="wrap clearfix" id="whos">
