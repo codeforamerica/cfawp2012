@@ -19,11 +19,8 @@ get_header(); ?>
 
 	<!--featured -->	  
 	<div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
-		<div class="callout" style="width: 400px; padding: 50px 15px 105px 10px; float: left;">
-
           <a href="http://annual.codeforamerica.org"><img style="width:" src="<?php bloginfo('template_directory'); ?>/images/annualreport.png" /></a>
-
-	</div>
+  </div>
 </div>	
 <div class="wrap clearfix" id="whos">
 	<h3>Who’s Got Our Back?</h3>
