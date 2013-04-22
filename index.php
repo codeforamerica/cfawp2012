@@ -18,8 +18,8 @@ get_header(); ?>
 <div class="wrap-b">
 
 	<!--featured -->	  
-	<div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
-          <a href="http://annual.codeforamerica.org"><img style="width:" src="<?php bloginfo('template_directory'); ?>/images/annualreport.png" /></a>
+	<div id="featured" style="width: 935px; margin: 0 auto; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
+          <a href="http://codeforamerica.org/accelerator"><img style="width:" src="<?php bloginfo('template_directory'); ?>/images/accelerator_cfa_homepage.png" /></a>
   </div>
 </div>	
 <div class="wrap clearfix" id="whos">
