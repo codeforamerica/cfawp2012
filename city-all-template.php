@@ -49,7 +49,7 @@ get_header(); ?>
     </div>
     <div class="quote right-col">
       <p><img src="<?php bloginfo( 'template_url' ); ?>/images/quotes.png" alt="quotation marks" /> From Code for America we thought we’d just get some cool apps for our constituents, but we got so much more; new relationships in City Hall, new connections to the community, a platform for further innovation, and yes, even some great applications.</p>
-      <h4>Nigel Jacobs<br/>City of Boston</h4>
+      <h4>Nigel Jacob<br/>City of Boston</h4>
     </div>
     <div class="clearfix"></div>
 
