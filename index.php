@@ -19,7 +19,7 @@ get_header(); ?>
 
 	<!--featured -->	  
 	<div id="featured" style="width: 935px; margin: 0 auto; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
-          <a href="http://codeforamerica.org/apply"><img style="width:" src="<?php bloginfo('template_directory'); ?>/images/fellowship_cfa_homepage.png" /></a>
+          <a href="http://codeforamerica.org/apply"><img style="width:" src="<?php bloginfo('template_directory'); ?>/images/fellowship_cfa_homepage2.png" /></a>
   </div>
 </div>	
 <div class="wrap clearfix" id="whos">
