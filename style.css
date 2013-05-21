@@ -2727,6 +2727,11 @@ background-position: 0 0;
 /* Apps template by Adam Becker */
 
 
+.page-template-apps-template-php a:hover {
+  color: #409DD6;
+  text-decoration: none;
+}
+
 .page-template-apps-template-php .header {
   text-transform: uppercase;
   font-weight: bold;
@@ -2783,6 +2788,12 @@ background-position: 0 0;
   color: #333;
   padding: 12px 22px;
   position: relative;
+  transition: all 0.15s linear;
+}
+
+.page-template-apps-template-php .project-category-links a:hover {
+  background-color: #ce3235;
+  color: #fff;
 }
 
 .page-template-apps-template-php .project-category-links a.active {
@@ -2850,6 +2861,12 @@ background-position: 0 0;
   box-sizing: border-box;
   border-radius: 4px;
   text-align: center;
+  transition: all 0.15s linear;
+}
+
+.page-template-apps-template-php .app.featured .get-this-app:hover {
+  background: #A62628;
+  text-decoration: none;
 }
 
 .page-template-apps-template-php .app .program-name {
@@ -2861,10 +2878,16 @@ background-position: 0 0;
   margin-top: -5px;
 }
 
+.page-template-apps-template-php .app.featured .get-this-app-wrapper {
+  padding: 10px 0;
+}
+
+.page-template-apps-template-php .app .get-this-app-wrapper {
+  margin-top: 15px;
+}
+
 .page-template-apps-template-php .app .get-this-app {
   font-weight: bold;
-  display: block;
-  margin-top: 15px;
 }
 
 .page-template-apps-template-php .app .featured-app {

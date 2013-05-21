@@ -67,9 +67,11 @@ get_header(); ?>
               <div class="program-name">
                 Accelerator
               </div>
-              <a class="get-this-app" href="#">
-                Get this app &amp; learn more &rarr;
-              </a>
+              <div class="get-this-app-wrapper">
+                <a class="get-this-app" href="#">
+                  Get this app &amp; learn more &rarr;
+                </a>
+              </div>
             </div>
           </div>
         </div>
