@@ -71,7 +71,7 @@ get_header(); ?>
              >
           <div class="app-inner">
             <div class="featured-app">Featured App</div>
-            <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'large')[0] ?>" />
+            <img src="<?php $img_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full'); echo $img_url[0] ?>" />
             <div class='app-info'>
               <p class="description">
                 <?php echo $post->post_excerpt; ?>

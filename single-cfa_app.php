@@ -32,7 +32,7 @@ get_header(); ?>
     <?php if ($post_custom['app-overview'][0]): ?>
       <div class="sidebar-section overview">
         <div class="sidebar-section-header">Overview</div>
-        <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'full')[0] ?>" />
+        <img src="<?php $img_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full'); echo $img_url[0] ?>" />
         <p><?php echo $post_custom['app-overview'][0] ?></p>
         <a href="<?php echo $post_custom['app-url'][0] ?>"><?php echo $post_custom['app-url'][0] ?></a>
       </div>
