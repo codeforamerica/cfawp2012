@@ -9,7 +9,7 @@ get_header(); ?>
 
     <div class="actions">
       <?php previous_post_link('%link', '&larr; Prev app'); ?>
-      <a href="<?php echo get_permalink() ?>">[] All Apps</a>
+      <a href="<?php echo site_url() ?>/apps/">[] All Apps</a>
       <?php next_post_link('%link', 'Next app &rarr;'); ?>
     </div>
   </div>
@@ -27,12 +27,14 @@ get_header(); ?>
       <a href="<?php echo get_post_custom($post->ID)['app-url'][0] ?>">Get This App Now &rarr;</a>
     </div>
 
-    <div class="sidebar-section overview">
-      <div class="sidebar-section-header">Overview</div>
-      <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'full')[0] ?>" />
-      <p><?php echo get_post_custom($post->ID)['app-overview'][0] ?></p>
-      <a href="<?php echo get_post_custom($post->ID)['app-url'][0] ?>"><?php echo get_post_custom($post->ID)['app-url'][0] ?></a>
-    </div>
+    <?php if (get_post_custom($post->ID)['app-overview'][0]): ?>
+      <div class="sidebar-section overview">
+        <div class="sidebar-section-header">Overview</div>
+        <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'full')[0] ?>" />
+        <p><?php echo get_post_custom($post->ID)['app-overview'][0] ?></p>
+        <a href="<?php echo get_post_custom($post->ID)['app-url'][0] ?>"><?php echo get_post_custom($post->ID)['app-url'][0] ?></a>
+      </div>
+    <?php endif; ?>
 
     <?php if (get_post_custom($post->ID)['app-source-url'][0]): ?>
       <div class="sidebar-section get-the-code">

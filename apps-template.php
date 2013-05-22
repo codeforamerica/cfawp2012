@@ -58,7 +58,7 @@ get_header(); ?>
 
         <div class="app <?php if (get_post_custom($post->ID)['app-featured']){ ?>featured<?php } ?>"
              style="display: none;"
-             data-date="<?php echo rand(0,1000); ?>"
+             data-date="<?php echo get_post_time('U', true); ?>"
              data-content="<?php echo strip_tags($post->post_content); ?>"
              data-name="<?php echo $post->post_title ?>"
              <?php if (get_post_custom($post->ID)['app-municipalities']){ ?>data-municipalities="true" <?php } ?>
@@ -74,10 +74,12 @@ get_header(); ?>
               <p class="description">
                 <?php echo $post->post_excerpt; ?>
               </p>
-              <div class="reuse-stats">
-                <span class="reuse-icon">R</span>
-                Reused in 5 cities
-              </div>
+              <?php if (get_post_custom($post->ID)['app-reuse-count']): ?>
+                <div class="reuse-stats">
+                  <span class="reuse-icon">R</span>
+                  Reused in <?php echo get_post_custom($post->ID)['app-reuse-count'][0]; ?> cities
+                </div>
+              <?php endif; ?>
               <div class="get-this-app-wrapper">
                 <a class="get-this-app" href="<?php echo get_permalink() ?>">
                   Get this app &amp; learn more &rarr;
@@ -117,13 +119,14 @@ $(function(){
       if (sortBy == 'name') {
         return $(a).data('name').toLowerCase() > $(b).data('name').toLowerCase() ? 1 : -1;
       } else if (sortBy == 'date') {
-        return parseInt($(a).data('date')) > parseInt($(b).data('date')) ? 1 : -1;
+        return parseInt($(a).data('date')) < parseInt($(b).data('date')) ? 1 : -1;
       }
 
     }).appendTo('.apps');
   }
 
   $("[data-filter]").click(function(e){
+    $(".search-input-wrapper input").val('')
     $selectedFilter = $(this);
     $("[data-filter]").removeClass("active");
     $(this).addClass('active');
@@ -152,9 +155,9 @@ $(function(){
     $("[data-filter].active").removeClass('active');
 
     var apps = $(".app").filter(function(){
-      return $(this).text().match(filter) ||
-             $(this).data('content').match(filter) ||
-             $(this).data('name').match(filter);
+      return $(this).text().match(new RegExp(filter, 'i')) ||
+             $(this).data('content').match(new RegExp(filter, 'i')) ||
+             $(this).data('name').match(new RegExp(filter, 'i'));
     });
 
     showApps(apps);
