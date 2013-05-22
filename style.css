@@ -2910,3 +2910,89 @@ background-position: 0 0;
 .page-template-apps-template-php .app .description {
   font-size: 15px;
 }
+
+/* app single */
+
+.single-cfa_app .header {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  font-size: 22px;
+  border-bottom: 4px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.single-cfa_app .left-column {
+  width: 625px;
+  float: left;
+}
+
+.single-cfa_app .right-column {
+  margin-left: 625px;
+  margin-top: 25px;
+}
+
+.single-cfa_app .excerpt {
+  font-style: italic;
+}
+
+.single-cfa_app .get-this-app {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.single-cfa_app .get-this-app > div {
+  color: #000;
+  font-weight: bold;
+}
+
+.single-cfa_app .get-this-app > a {
+  padding: 10px;
+  display: inline-block;
+  background-color: #359ed8;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.single-cfa_app .sidebar-section {
+  margin-bottom: 30px;
+}
+
+.single-cfa_app .sidebar-section-header {
+  font-weight: bold;
+  border-bottom: 1px dotted #999;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 15px;
+  padding-bottom: 3px;
+  margin-bottom: 7px;
+}
+
+.single-cfa_app .overview > img {
+  width: 100%;
+}
+
+.single-cfa_app .overview > a {
+  font-weight: bold;
+}
+
+.single-cfa_app .get-the-code .datum {
+  margin-top: 10px;
+}
+
+.single-cfa_app .header .actions {
+  float: right;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.single-cfa_app .header .actions a {
+  color: #222;
+  margin-left: 20px;
+  font-weight: normal;
+}

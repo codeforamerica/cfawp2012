@@ -52,7 +52,7 @@ get_header(); ?>
     <div class="apps" id="apps-page">
 
       <?php
-      $args = array( 'post_type' => 'cfa_project', 'posts_per_page' => 40, 'orderby' => 'date' );
+      $args = array( 'post_type' => 'cfa_app', 'posts_per_page' => 40, 'orderby' => 'date' );
       $loop = new WP_Query( $args );
       while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
