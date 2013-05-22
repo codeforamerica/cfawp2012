@@ -56,16 +56,18 @@ get_header(); ?>
       $loop = new WP_Query( $args );
       while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-        <div class="app <?php if (get_post_custom($post->ID)['app-featured']){ ?>featured<?php } ?>"
+      <?php $post_custom = get_post_custom($post->ID); ?>
+
+        <div class="app <?php if ($post_custom['app-featured']){ ?>featured<?php } ?>"
              style="display: none;"
              data-date="<?php echo get_post_time('U', true); ?>"
              data-content="<?php echo strip_tags($post->post_content); ?>"
              data-name="<?php echo $post->post_title ?>"
-             <?php if (get_post_custom($post->ID)['app-municipalities']){ ?>data-municipalities="true" <?php } ?>
-             <?php if (get_post_custom($post->ID)['app-fellowship']){ ?>data-fellowship="true" <?php } ?>
-             <?php if (get_post_custom($post->ID)['app-citizens']){ ?>data-citizens="true" <?php } ?>
-             <?php if (get_post_custom($post->ID)['app-resources']){ ?>data-resources="true" <?php } ?>
-             <?php if (get_post_custom($post->ID)['app-projects']){ ?>data-projects="true" <?php } ?>
+             <?php if ($post_custom['app-municipalities']){ ?>data-municipalities="true" <?php } ?>
+             <?php if ($post_custom['app-fellowship']){ ?>data-fellowship="true" <?php } ?>
+             <?php if ($post_custom['app-citizens']){ ?>data-citizens="true" <?php } ?>
+             <?php if ($post_custom['app-resources']){ ?>data-resources="true" <?php } ?>
+             <?php if ($post_custom['app-projects']){ ?>data-projects="true" <?php } ?>
              >
           <div class="app-inner">
             <div class="featured-app">Featured App</div>
@@ -74,10 +76,10 @@ get_header(); ?>
               <p class="description">
                 <?php echo $post->post_excerpt; ?>
               </p>
-              <?php if (get_post_custom($post->ID)['app-reuse-count']): ?>
+              <?php if ($post_custom['app-reuse-count']): ?>
                 <div class="reuse-stats">
                   <span class="reuse-icon">R</span>
-                  Reused in <?php echo get_post_custom($post->ID)['app-reuse-count'][0]; ?> cities
+                  Reused in <?php echo $post_custom['app-reuse-count'][0]; ?> cities
                 </div>
               <?php endif; ?>
               <div class="get-this-app-wrapper">
