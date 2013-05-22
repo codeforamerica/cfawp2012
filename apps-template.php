@@ -154,10 +154,12 @@ $(function(){
 
     $("[data-filter].active").removeClass('active');
 
+    var regexp = new RegExp(filter, 'i');
+
     var apps = $(".app").filter(function(){
-      return $(this).text().match(new RegExp(filter, 'i')) ||
-             $(this).data('content').match(new RegExp(filter, 'i')) ||
-             $(this).data('name').match(new RegExp(filter, 'i'));
+      return $(this).text().match(regexp) ||
+             $(this).data('content').match(regexp) ||
+             $(this).data('name').match(regexp);
     });
 
     showApps(apps);
