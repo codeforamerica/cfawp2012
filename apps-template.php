@@ -22,62 +22,148 @@ get_header(); ?>
       Our apps are the result of dozens of conversations with city staff and community members. Together, in partnership with the city, our fellows figure out what they need to best serve their community. We build apps that make life easier. If you think any of them would be useful in your city, <a href="#">let us know</a>.
     </p>
 
-    <span class="search-input-wrapper">
+    <form class="search-input-wrapper">
       <input type="text" placeholder="Search for an app or project" />
       <span class="search-icon">S</span>
-    </span>
+    </form>
 
     <ul class="project-category-links">
       <li>
-        <a href="#" class="active">Apps for Local Municipalities</a>
+        <a data-filter="municipalities">Apps for Local Municipalities</a>
       </li>
       <li>
-        <a href="#">Other Fellowship Projects</a>
+        <a data-filter="fellowship">Other Fellowship Projects</a>
       </li>
       <li>
-        <a href="#">Apps for Citizens and Urban Planners</a>
+        <a data-filter="citizens">Apps for Citizens and Urban Planners</a>
       </li>
       <li>
-        <a href="#">Resources</a>
+        <a data-filter="resources">Resources</a>
       </li>
       <li>
-        <a href="#">Projects</a>
+        <a data-filter="projects">Projects</a>
       </li>
     </ul>
 
     <div class="sort-by">
-      Sort by <a href="#">Most Recent</a> | <a href="#" class="active">A - Z</a>
+      Sort by <a data-sort="date">Most Recent</a> | <a data-sort="name" class="active">A - Z</a>
     </div>
 
-    <div class="apps">
+    <div class="apps" id="apps-page">
 
-      <?php for ($i = 1; $i <= 9; $i++) { ?>
-        <div class="app <?php if ($i==1){ ?>featured<?php } ?>">
+      <?php
+      $args = array( 'post_type' => 'cfa_project', 'posts_per_page' => 40, 'orderby' => 'date' );
+      $loop = new WP_Query( $args );
+      while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
+        <div class="app <?php if (get_post_custom($post->ID)['app-featured']){ ?>featured<?php } ?>"
+             style="display: none;"
+             data-date="<?php echo rand(0,1000); ?>"
+             data-content="<?php echo strip_tags($post->post_content); ?>"
+             data-name="<?php echo $post->post_title ?>"
+             <?php if (get_post_custom($post->ID)['app-municipalities']){ ?>data-municipalities="true" <?php } ?>
+             <?php if (get_post_custom($post->ID)['app-fellowship']){ ?>data-fellowship="true" <?php } ?>
+             <?php if (get_post_custom($post->ID)['app-citizens']){ ?>data-citizens="true" <?php } ?>
+             <?php if (get_post_custom($post->ID)['app-resources']){ ?>data-resources="true" <?php } ?>
+             <?php if (get_post_custom($post->ID)['app-projects']){ ?>data-projects="true" <?php } ?>
+             >
           <div class="app-inner">
             <div class="featured-app">Featured App</div>
-            <img src="http://placehold.it/300x150/ffffff" />
+            <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'large')[0] ?>" />
             <div class='app-info'>
               <p class="description">
-                Adopt-a-hydrant allows citizens to claim responsibility for shoveling out fire hydrants after heavy snowfall.
+                <?php echo $post->post_excerpt; ?>
               </p>
               <div class="reuse-stats">
                 <span class="reuse-icon">R</span>
                 Reused in 5 cities
               </div>
-              <div class="program-name">
-                Accelerator
-              </div>
               <div class="get-this-app-wrapper">
-                <a class="get-this-app" href="#">
+                <a class="get-this-app" href="<?php echo get_permalink() ?>">
                   Get this app &amp; learn more &rarr;
                 </a>
               </div>
             </div>
           </div>
         </div>
-      <?php } ?>
+
+
+
+      <?php endwhile; ?>
     </div>
   </div>
 </div>
+
+<script>
+$(function(){
+
+  jQuery.fn.sort = function() {
+    return this.pushStack( [].sort.apply( this, arguments ), []);
+  };
+
+  var $selectedFilter;
+
+  var showApps = function($apps) {
+    $(".app").hide();
+    $apps.show();
+  }
+
+  var sortApps = function() {
+    var sortBy = $("[data-sort].active").data('sort');
+
+    $('.apps .app').sort(function(a, b){
+      if ($(a).data('featured')) return 1;
+
+      if (sortBy == 'name') {
+        return $(a).data('name').toLowerCase() > $(b).data('name').toLowerCase() ? 1 : -1;
+      } else if (sortBy == 'date') {
+        return parseInt($(a).data('date')) > parseInt($(b).data('date')) ? 1 : -1;
+      }
+
+    }).appendTo('.apps');
+  }
+
+  $("[data-filter]").click(function(e){
+    $selectedFilter = $(this);
+    $("[data-filter]").removeClass("active");
+    $(this).addClass('active');
+    var filterName = $(this).data('filter');
+
+    showApps($(".app[data-"+filterName+"]"))
+  });
+
+  $("[data-sort]").click(function(){
+    $("[data-sort]").removeClass('active');
+    $(this).addClass('active');
+    sortApps();
+  });
+
+  $(".search-input-wrapper").submit(function(e){
+    e.preventDefault();
+  });
+
+  $(".search-input-wrapper input").keyup(function(){
+    var filter = $(this).val();
+
+    if (filter == "") {
+      return $selectedFilter.click();
+    }
+
+    $("[data-filter].active").removeClass('active');
+
+    var apps = $(".app").filter(function(){
+      return $(this).text().match(filter) ||
+             $(this).data('content').match(filter) ||
+             $(this).data('name').match(filter);
+    });
+
+    showApps(apps);
+  });
+
+  sortApps();
+  $("[data-filter]").eq(0).click()
+});
+</script>
+
 
 <?php get_footer(); ?>

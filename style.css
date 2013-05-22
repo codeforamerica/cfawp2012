@@ -2727,6 +2727,10 @@ background-position: 0 0;
 /* Apps template by Adam Becker */
 
 
+.page-template-apps-template-php a {
+  cursor: pointer;
+}
+
 .page-template-apps-template-php a:hover {
   color: #409DD6;
   text-decoration: none;
@@ -2849,10 +2853,6 @@ background-position: 0 0;
   display: block;
 }
 
-.page-template-apps-template-php .app.featured .program-name {
-  display: none;
-}
-
 .page-template-apps-template-php .app.featured .get-this-app {
   background: #ce3234;
   color: #fff;
@@ -2867,15 +2867,6 @@ background-position: 0 0;
 .page-template-apps-template-php .app.featured .get-this-app:hover {
   background: #A62628;
   text-decoration: none;
-}
-
-.page-template-apps-template-php .app .program-name {
-  background-color: #e5e5e5;
-  display: inline-block;
-  padding: 3px 6px;
-  font-size: 12px;
-  border-radius: 2px;
-  margin-top: -5px;
 }
 
 .page-template-apps-template-php .app.featured .get-this-app-wrapper {
