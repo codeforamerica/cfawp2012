@@ -217,7 +217,7 @@ function my_save_extra_profile_fields( $user_id ) {
 	/* Copy and paste this line for additional fields. Make sure to change 'twitter' to the field ID. */
 	update_usermeta( $user_id, 'oneline', $_POST['oneline'] );
 	update_usermeta( $user_id, 'twitter', $_POST['twitter'] );
-	
+
 }
 
 if ( ! function_exists( 'twentyten_admin_header_style' ) ) :
@@ -504,7 +504,7 @@ function excerpt($limit) {
     $excerpt = implode(" ",$excerpt).'...';
   } else {
     $excerpt = implode(" ",$excerpt);
-  }	
+  }
   $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
   return $excerpt;
 }
@@ -549,11 +549,11 @@ add_action('save_post', 'myplugin_save_postdata');
 
 /* Adds a box to the main column on the Post and Page edit screens */
 function myplugin_add_custom_box() {
-    add_meta_box( 'myplugin_sectionid', __( 'My Post Section Title', 'myplugin_textdomain' ), 
+    add_meta_box( 'myplugin_sectionid', __( 'My Post Section Title', 'myplugin_textdomain' ),
                 'myplugin_inner_custom_box', 'post' );
-    add_meta_box( 'myplugin_sectionid', __( 'My Post Section Title', 'myplugin_textdomain' ), 
+    add_meta_box( 'myplugin_sectionid', __( 'My Post Section Title', 'myplugin_textdomain' ),
                 'myplugin_inner_custom_box', 'page' );
-    add_meta_box( 'myplugin_sectionid', __( 'Take Action Link', 'myplugin_textdomain' ), 
+    add_meta_box( 'myplugin_sectionid', __( 'Take Action Link', 'myplugin_textdomain' ),
                  'myplugin_inner_custom_box', 'cfa_project' );
 
 }
@@ -581,10 +581,10 @@ function myplugin_save_postdata( $post_id ) {
 
   // verify if this is an auto save routine. If it is our form has not been submitted, so we dont want
   // to do anything
-  if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE ) 
+  if ( defined('DOING_AUTOSAVE') && DOING_AUTOSAVE )
     return $post_id;
 
-  
+
   // Check permissions
   if ( 'page' == $_POST['post_type'] ) {
     if ( !current_user_can( 'edit_page', $post_id ) )
@@ -598,8 +598,8 @@ function myplugin_save_postdata( $post_id ) {
 
   $mydata = $_POST['myplugin_new_field'];
 
-  // Do something with $mydata 
-  // probably using add_post_meta(), update_post_meta(), or 
+  // Do something with $mydata
+  // probably using add_post_meta(), update_post_meta(), or
   // a custom table (see Further Reading section below)
 
    return $mydata;
@@ -611,6 +611,18 @@ function create_post_type() {
 			'labels' => array(
 				'name' => __( 'Projects' ),
 				'singular_name' => __( 'Projects' )
+			),
+			'public' => true,
+            'rewrite' => false,
+            'capability_type' => 'post',
+            'supports' => array('title','editor','author', 'excerpt', 'custom-fields', 'thumbnail',)
+		)
+	);
+	register_post_type( 'cfa_app',
+		array(
+			'labels' => array(
+				'name' => __( 'Apps' ),
+				'singular_name' => __( 'Apps' )
 			),
 			'public' => true,
             'rewrite' => false,

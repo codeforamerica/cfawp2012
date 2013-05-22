@@ -403,7 +403,7 @@ height: 75px;}
     margin-left: 2px;
 	float: left;
 	position: relative;
-	z-index: 1000;	
+	z-index: 1000;
 top: 60px;}
 
 
@@ -515,7 +515,7 @@ h3 {
     padding-bottom: 10px;
     border-bottom: 3px solid #ccc;
     text-transform: uppercase;
-    
+
 }
 
 .entry-content p {
@@ -540,13 +540,13 @@ h3 {
 
 #maincontent a {
 	text-decoration: none;
-	
+
 }
 
 #maincontent a:hover {
 	color: #409DD6;
 	text-decoration: none;
-	
+
 }
 
 
@@ -643,15 +643,15 @@ h2.lh {
 
 
 .bio {
-    padding-left: 100px; 
-    position: relative; 
+    padding-left: 100px;
+    position: relative;
     margin-bottom: 25px;
     border-bottom: 1px solid #CCC;
     padding-bottom: 10px;
     font-size: 13px;
     line-height: 22px;
     }
-    
+
 .bio img {position: absolute; top: 6px; left: 0;}
 
 .right-col {
@@ -1021,8 +1021,8 @@ code {
 		font-size: 14pt;
 		line-height: 1.6em;
 	}
-	
-	
+
+
 	.entry-title {
 		font-size: 21pt;
 	}
@@ -1395,14 +1395,14 @@ height: 90px;
   			  opacity: 1;
   			  filter:alpha(opacity=100);
   			  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* IE8 */
-			
+
 }
 
 #video-gallery .thumbs li.ui-tabs-selected a {
     filter: alpha(opacity=100);
     -moz-opacity: 1;
     opacity: 1;
-    
+
 }
 
 
@@ -1459,7 +1459,7 @@ border: none;}
      }
 
  ui-tabs-selected a { color: #222 }
-      
+
 
 /*   Cities Page   */
 
@@ -1625,7 +1625,7 @@ a.more:hover {
   margin-top: 30px;
 }
 
-#cities .quote.right-col p, #cities .quote h4 { 
+#cities .quote.right-col p, #cities .quote h4 {
   font-size: 1.54em;
   line-height: 1.4em;
 }
@@ -2127,7 +2127,7 @@ a.more:hover {
   margin-top: 7px;
   font-family: Oswald, Helvetica Neue, Helvetica, Arial;
   letter-spacing: -.05em;
-  
+
 }
 
 #maincontent #cfa-blog p {
@@ -2440,7 +2440,7 @@ margin-bottom: 10px;
 
 #team-donors .team li img {
   margin-top: 19px;
-  
+
 }
 
 #team-donors .right-col h3 {
@@ -2703,13 +2703,13 @@ background-position: 0 0;
 }
 
 #programs {
-  width: 100%; 
+  width: 100%;
   display: block;
 }
 
 .program {
-  width: 270px; 
-  float: left; 
+  width: 270px;
+  float: left;
   padding: 0 20px 20px 20px;
 }
 
@@ -2717,9 +2717,282 @@ background-position: 0 0;
   padding: 0 20px 0 115px;
 }
 #maincontent h2.program-title {
-  font-family: Oswald; 
-  font-size: 22px; 
-  font-weight: normal; 
-  text-transform: uppercase; 
+  font-family: Oswald;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
   color: #000000;
+}
+
+/* Apps template by Adam Becker */
+
+
+.page-template-apps-template-php a {
+  cursor: pointer;
+}
+
+.page-template-apps-template-php a:hover {
+  color: #409DD6;
+  text-decoration: none;
+}
+
+.page-template-apps-template-php .header {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  font-size: 22px;
+  border-bottom: 4px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.page-template-apps-template-php .page-description {
+  float: left;
+  width: 600px;
+}
+
+.page-template-apps-template-php .project-category-links {
+  clear: both;
+}
+
+.page-template-apps-template-php .search-input-wrapper {
+  position: relative;
+  float: right;
+}
+
+.page-template-apps-template-php .search-input-wrapper input {
+  border: 2px solid #ebebeb;
+  background: #fff;
+  width: 300px;
+  margin-top: 40px;
+  padding: 5px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.page-template-apps-template-php .search-input-wrapper .search-icon {
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+}
+
+
+.page-template-apps-template-php .project-category-links {
+  border-top: 1px dotted #999;
+  padding-top: 11px;
+  padding-bottom: 60px;
+}
+
+.page-template-apps-template-php .project-category-links li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.page-template-apps-template-php .project-category-links a {
+  color: #333;
+  padding: 12px 22px;
+  position: relative;
+  transition: all 0.15s linear;
+}
+
+.page-template-apps-template-php .project-category-links a:hover {
+  background-color: #ce3235;
+  color: #fff;
+}
+
+.page-template-apps-template-php .project-category-links a.active {
+  background-color: #ce3235;
+  color: #fff;
+}
+
+.page-template-apps-template-php .project-category-links a.active:after {
+  content: ' ';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ce3235;
+}
+
+.page-template-apps-template-php .sort-by {
+  clear: both;
+}
+
+.page-template-apps-template-php .sort-by a.active {
+  font-weight: bold;
+}
+
+.page-template-apps-template-php .apps {
+  margin-top: 20px;
+  margin-left: -10px;
+  margin-right: -20px;
+}
+
+.page-template-apps-template-php .app {
+  display: inline-block;
+  width: 300px;
+  margin: 0 8px;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+.page-template-apps-template-php .app.featured .app-inner {
+  background: #e3f1f9;
+  padding: 15px 20px;
+}
+
+.page-template-apps-template-php .app.featured .featured-app {
+  display: block;
+}
+
+.page-template-apps-template-php .app.featured .reuse-stats {
+  display: block;
+}
+
+.page-template-apps-template-php .app.featured .get-this-app {
+  background: #ce3234;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.15s linear;
+}
+
+.page-template-apps-template-php .app.featured .get-this-app:hover {
+  background: #A62628;
+  text-decoration: none;
+}
+
+.page-template-apps-template-php .app.featured .get-this-app-wrapper {
+  padding: 10px 0;
+}
+
+.page-template-apps-template-php .app .get-this-app-wrapper {
+  margin-top: 15px;
+}
+
+.page-template-apps-template-php .app .get-this-app {
+  font-weight: bold;
+}
+
+.page-template-apps-template-php .app .featured-app {
+  display: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 3px;
+  font-size: 15px;
+}
+
+.page-template-apps-template-php .app-info {
+  padding: 3px;
+}
+
+
+.page-template-apps-template-php .app .reuse-stats {
+  display: none;
+  font-weight: bold;
+  color: #222;
+}
+
+.page-template-apps-template-php .app img {
+  border: 3px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.page-template-apps-template-php .app .description {
+  font-size: 15px;
+}
+
+/* app single */
+
+.single-cfa_app .header {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+  font-size: 22px;
+  border-bottom: 4px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.single-cfa_app .left-column {
+  width: 625px;
+  float: left;
+}
+
+.single-cfa_app .right-column {
+  margin-left: 625px;
+  margin-top: 25px;
+}
+
+.single-cfa_app .excerpt {
+  font-style: italic;
+}
+
+.single-cfa_app .get-this-app {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.single-cfa_app .get-this-app > div {
+  color: #000;
+  font-weight: bold;
+}
+
+.single-cfa_app .get-this-app > a {
+  padding: 10px;
+  display: inline-block;
+  background-color: #359ed8;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.single-cfa_app .sidebar-section {
+  margin-bottom: 30px;
+}
+
+.single-cfa_app .sidebar-section-header {
+  font-weight: bold;
+  border-bottom: 1px dotted #999;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 15px;
+  padding-bottom: 3px;
+  margin-bottom: 7px;
+}
+
+.single-cfa_app .overview > img {
+  width: 100%;
+}
+
+.single-cfa_app .overview > a {
+  font-weight: bold;
+}
+
+.single-cfa_app .get-the-code .datum {
+  margin-top: 10px;
+}
+
+.single-cfa_app .header .actions {
+  float: right;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.single-cfa_app .header .actions a {
+  color: #222;
+  margin-left: 20px;
+  font-weight: normal;
 }
