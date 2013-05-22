@@ -3,6 +3,8 @@ get_header(); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
+<?php $post_custom = get_post_custom($post->ID); ?>
+
 <div class="wrap clearfix"  id="inner">
   <div class="header">
     <?php the_title(); ?>
@@ -24,41 +26,41 @@ get_header(); ?>
   <div class="right-column">
     <div class="sidebar-section get-this-app">
       <div>Want this app in your city?</div>
-      <a href="<?php echo get_post_custom($post->ID)['app-url'][0] ?>">Get This App Now &rarr;</a>
+      <a href="<?php echo $post_custom['app-url'][0] ?>">Get This App Now &rarr;</a>
     </div>
 
-    <?php if (get_post_custom($post->ID)['app-overview'][0]): ?>
+    <?php if ($post_custom['app-overview'][0]): ?>
       <div class="sidebar-section overview">
         <div class="sidebar-section-header">Overview</div>
         <img src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'full')[0] ?>" />
-        <p><?php echo get_post_custom($post->ID)['app-overview'][0] ?></p>
-        <a href="<?php echo get_post_custom($post->ID)['app-url'][0] ?>"><?php echo get_post_custom($post->ID)['app-url'][0] ?></a>
+        <p><?php echo $post_custom['app-overview'][0] ?></p>
+        <a href="<?php echo $post_custom['app-url'][0] ?>"><?php echo $post_custom['app-url'][0] ?></a>
       </div>
     <?php endif; ?>
 
-    <?php if (get_post_custom($post->ID)['app-source-url'][0]): ?>
+    <?php if ($post_custom['app-source-url'][0]): ?>
       <div class="sidebar-section get-the-code">
         <div class="sidebar-section-header">Get the code</div>
-        <a href="<?php echo get_post_custom($post->ID)['app-source-url'][0] ?>"><?php echo get_post_custom($post->ID)['app-source-url'][0] ?></a>
+        <a href="<?php echo $post_custom['app-source-url'][0] ?>"><?php echo $post_custom['app-source-url'][0] ?></a>
 
-        <?php if (get_post_custom($post->ID)['app-technical-difficulty'][0]): ?>
+        <?php if ($post_custom['app-technical-difficulty'][0]): ?>
           <div class="datum">
-            <strong>Technical difficulty: </strong> <?php echo get_post_custom($post->ID)['app-technical-difficulty'][0] ?> out of 5
+            <strong>Technical difficulty: </strong> <?php echo $post_custom['app-technical-difficulty'][0] ?> out of 5
           </div>
         <?php endif; ?>
 
-        <?php if (get_post_custom($post->ID)['app-language'][0]): ?>
+        <?php if ($post_custom['app-language'][0]): ?>
           <div class="datum">
-            <strong>Written in: </strong> <?php echo get_post_custom($post->ID)['app-language'][0] ?>
+            <strong>Written in: </strong> <?php echo $post_custom['app-language'][0] ?>
           </div>
         <?php endif; ?>
       </div>
     <?php endif; ?>
 
-    <?php if (get_post_custom($post->ID)['app-deployed-in'][0]): ?>
+    <?php if ($post_custom['app-deployed-in'][0]): ?>
       <div class="sidebar-section deployed-in">
         <div class="sidebar-section-header">Deployed In</div>
-        <p><?php echo get_post_custom($post->ID)['app-deployed-in'][0] ?></p>
+        <p><?php echo $post_custom['app-deployed-in'][0] ?></p>
       </div>
     <?php endif; ?>
 
