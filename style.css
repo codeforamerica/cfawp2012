@@ -2771,8 +2771,8 @@ background-position: 0 0;
 
 .page-template-apps-template-php .search-input-wrapper .search-icon {
   position: absolute;
-  bottom: 13px;
-  right: 13px;
+  bottom: 11px;
+  right: 11px;
 }
 
 
@@ -2995,4 +2995,29 @@ background-position: 0 0;
   color: #222;
   margin-left: 20px;
   font-weight: normal;
+}
+
+/* apps icons */
+
+.reuse-icon {
+  background: url('images/apps-sprite.png') no-repeat -28px -4px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+}
+
+.search-icon {
+  background: url('images/apps-sprite.png') no-repeat -3px -2px;
+  width: 21px;
+  height: 22px;
+  display: inline-block;
+}
+
+.apps-grid-icon {
+  background: url('images/apps-sprite.png') no-repeat -35px -26px;
+  width: 18px;
+  height: 17px;
+  display: inline-block;
+  margin-bottom: -4px;
+  margin-right: 3px;
 }

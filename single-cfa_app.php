@@ -11,7 +11,7 @@ get_header(); ?>
 
     <div class="actions">
       <?php previous_post_link('%link', '&larr; Prev app'); ?>
-      <a href="<?php echo site_url() ?>/apps/">[] All Apps</a>
+      <a href="<?php echo site_url() ?>/apps/"><span class="apps-grid-icon"></span> All Apps</a>
       <?php next_post_link('%link', 'Next app &rarr;'); ?>
     </div>
   </div>

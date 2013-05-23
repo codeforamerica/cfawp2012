@@ -24,7 +24,7 @@ get_header(); ?>
 
     <form class="search-input-wrapper">
       <input type="text" placeholder="Search for an app or project" />
-      <span class="search-icon">S</span>
+      <span class="search-icon"></span>
     </form>
 
     <ul class="project-category-links">
@@ -78,7 +78,7 @@ get_header(); ?>
               </p>
               <?php if ($post_custom['app-reuse-count']): ?>
                 <div class="reuse-stats">
-                  <span class="reuse-icon">R</span>
+                  <span class="reuse-icon"></span>
                   Reused in <?php echo $post_custom['app-reuse-count'][0]; ?> cities
                 </div>
               <?php endif; ?>
