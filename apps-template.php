@@ -79,7 +79,7 @@ get_header(); ?>
               <?php if ($post_custom['app-reuse-count']): ?>
                 <div class="reuse-stats">
                   <span class="reuse-icon"></span>
-                  Reused in <?php echo $post_custom['app-reuse-count'][0]; ?> cities
+                  Reused in <?php echo sprintf(_n('1 city', '%s cities', $post_custom['app-reuse-count'][0]), $post_custom['app-reuse-count'][0]); ?>
                 </div>
               <?php endif; ?>
               <div class="get-this-app-wrapper">
