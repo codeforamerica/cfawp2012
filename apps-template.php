@@ -116,7 +116,7 @@ $(function(){
     var sortBy = $("[data-sort].active").data('sort');
 
     $('.apps .app').sort(function(a, b){
-      if ($(a).data('featured')) return 1;
+      if ($(a).hasClass('featured')) return 1;
 
       if (sortBy == 'name') {
         return $(a).data('name').toLowerCase() > $(b).data('name').toLowerCase() ? 1 : -1;
