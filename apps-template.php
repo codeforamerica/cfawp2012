@@ -115,16 +115,25 @@ $(function(){
   var sortApps = function() {
     var sortBy = $("[data-sort].active").data('sort');
 
-    $('.apps .app').sort(function(a, b){
-      if ($(a).hasClass('featured')) return 1;
+    var apps = $(".apps .app").remove();
 
-      if (sortBy == 'name') {
-        return $(a).data('name').toLowerCase() > $(b).data('name').toLowerCase() ? 1 : -1;
-      } else if (sortBy == 'date') {
-        return parseInt($(a).data('date')) < parseInt($(b).data('date')) ? 1 : -1;
+    apps.sort(function(a, b){
+      var direction = 0;
+
+      if ($(a).hasClass('featured')) direction--;
+      if ($(b).hasClass('featured')) direction++;
+
+      if (direction == 0) {
+        if (sortBy == 'name') {
+          direction = direction + $(a).data('name').toLowerCase() > $(b).data('name').toLowerCase() ? 1 : -1;
+        } else if (sortBy == 'date') {
+          direction = direction + parseInt($(a).data('date')) < parseInt($(b).data('date')) ? 1 : -1;
+        }
       }
 
-    }).appendTo('.apps');
+      return direction > 0 ? 1 : -1;
+
+    }).appendTo($(".apps"));
   }
 
   $("[data-filter]").click(function(e){
