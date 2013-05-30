@@ -54,8 +54,8 @@ get_header(); ?>
         
 		<h3>board of directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
 		<ul class="clearfix">
-			<li class="first"><a href="/author/jen" rel="tooltip2" title="Jennifer Pahlka"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jen.jpg" alt="Jennifer Pahlka" /></a></li>
-		<li>	<a href="/who-we-are/#toreilly" rel="tooltip2" title="Tim O'Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/toreilly.jpg" alt="Staff name" /></a></li>
+			<li class="first"><a href="/author/jen" rel="tooltip2" title="Jennifer Pahlka"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/jenniferpahlka.jpg" width="80px" height="80px" alt="Jennifer Pahlka" /></a></li>
+		<li>	<a href="/who-we-are/#toreilly" rel="tooltip2" title="Tim O'Reilly"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/timoreilly.jpg" width="80px" height="80px" alt="Staff name" /></a></li>
 		<li>	<a href="/who-we-are/#jlilly" rel="tooltip2" title="John Lilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jlilly.jpg" alt="Staff name" /></a></li>
 		<li>	<a href="/who-we-are/#sdonohue" rel="tooltip2" title="Stacy Donohue"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/sdonohue.png" alt="Stacy Donohue" /></a></li>
 		<li>	<a href="/who-we-are/#dthorman" rel="tooltip2" title="Damian Thorman"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dthorman.png" alt="Staff name" /></a></li>
