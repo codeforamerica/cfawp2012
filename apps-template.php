@@ -29,19 +29,19 @@ get_header(); ?>
 
     <ul class="project-category-links">
       <li>
-        <a data-filter="municipalities">Apps for Local Municipalities</a>
+        <a data-filter="services">Local Services</a>
       </li>
       <li>
-        <a data-filter="fellowship">Other Fellowship Projects</a>
+        <a data-filter="operations">City Operations</a>
       </li>
       <li>
-        <a data-filter="citizens">Apps for Citizens and Urban Planners</a>
+        <a data-filter="policy">Policy</a>
       </li>
       <li>
-        <a data-filter="resources">Resources</a>
+        <a data-filter="startups">Civic Startups</a>
       </li>
       <li>
-        <a data-filter="projects">Projects</a>
+        <a data-filter="other">Other</a>
       </li>
     </ul>
 
@@ -63,11 +63,11 @@ get_header(); ?>
              data-date="<?php echo get_post_time('U', true); ?>"
              data-content="<?php echo strip_tags($post->post_content); ?>"
              data-name="<?php echo $post->post_title ?>"
-             <?php if ($post_custom['app-municipalities']){ ?>data-municipalities="true" <?php } ?>
-             <?php if ($post_custom['app-fellowship']){ ?>data-fellowship="true" <?php } ?>
-             <?php if ($post_custom['app-citizens']){ ?>data-citizens="true" <?php } ?>
-             <?php if ($post_custom['app-resources']){ ?>data-resources="true" <?php } ?>
-             <?php if ($post_custom['app-projects']){ ?>data-projects="true" <?php } ?>
+             <?php if ($post_custom['app-services']){ ?>data-services="true" <?php } ?>
+             <?php if ($post_custom['app-operations']){ ?>data-operations="true" <?php } ?>
+             <?php if ($post_custom['app-policy']){ ?>data-policy="true" <?php } ?>
+             <?php if ($post_custom['app-startups']){ ?>data-startups="true" <?php } ?>
+             <?php if ($post_custom['app-other']){ ?>data-other="true" <?php } ?>
              >
           <div class="app-inner">
             <div class="featured-app">Featured App</div>
