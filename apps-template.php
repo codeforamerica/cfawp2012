@@ -29,13 +29,13 @@ get_header(); ?>
 
     <ul class="project-category-links">
       <li>
-        <a data-filter="services">Local Services</a>
+        <a data-filter="services">City Service Apps</a>
       </li>
       <li>
-        <a data-filter="operations">City Operations</a>
+        <a data-filter="engagement">Citizen Engagement Apps</a>
       </li>
       <li>
-        <a data-filter="policy">Policy</a>
+        <a data-filter="policy">Policy Projects</a>
       </li>
       <li>
         <a data-filter="startups">Civic Startups</a>
@@ -64,7 +64,7 @@ get_header(); ?>
              data-content="<?php echo strip_tags($post->post_content); ?>"
              data-name="<?php echo $post->post_title ?>"
              <?php if ($post_custom['app-services']){ ?>data-services="true" <?php } ?>
-             <?php if ($post_custom['app-operations']){ ?>data-operations="true" <?php } ?>
+             <?php if ($post_custom['app-engagement']){ ?>data-engagement="true" <?php } ?>
              <?php if ($post_custom['app-policy']){ ?>data-policy="true" <?php } ?>
              <?php if ($post_custom['app-startups']){ ?>data-startups="true" <?php } ?>
              <?php if ($post_custom['app-other']){ ?>data-other="true" <?php } ?>
