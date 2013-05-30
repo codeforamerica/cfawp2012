@@ -70,14 +70,29 @@ get_header(); ?>
 			<li><a href="/author/mreilly"  rel="tooltip1" title="Meghan Reilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/meghan.png" alt="Staff name" /></a></li>
 			<li><a href="/author/kevin" rel="tooltip1" title="Kevin Curry"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/kcurry.jpg" alt="Kevin Curry" /></a></li>
 			<li><a href="/who-we-are/#rboug" rel="tooltip1" title="Ron Bouganim"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/rboug.png" alt="Staff name" /></a></li>
-			<li><a href="/author/lr" rel="tooltip1" title="Lauren Reid"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/lauren.jpg" alt="Lauren Reid" /></a></li>
+			<li><a href="/who-we-are/#mmigurski" rel="tooltip1" title="Michal Migursky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mmigurski.jpg" alt="Staff name" /></a></li>
 			
-			<li class="first"><a href="http://codeforamerica.org/author/lauren/" rel="tooltip1" title="Lauren Dyson"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ldyson.jpeg" width="80px" alt="Staff name" /></a></li>
+			
+			<li class="first"><a href="/author/lr" rel="tooltip1" title="Lauren Reid"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/lauren.jpg" alt="Lauren Reid" /></a></li>
+			<li><a href="http://codeforamerica.org/author/lauren/" rel="tooltip1" title="Lauren Dyson"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ldyson.jpeg" width="80px" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#michael" rel="tooltip1"  title="Michael Santus"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/michael.jpg" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#ashley" rel="tooltip1" title="Ashley Meyers"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ashley.jpg" width="80px" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#alex" rel="tooltip1" title="Alex Tran"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/2012-09-10_AlexTran_8914sq-150x150.jpg" width="80px" alt="Staff name" /></a></li>
+			
+			<li class="first"><a href="/who-we-are/#wowen" rel="tooltip1" title="Wendy Owen"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Wendy_bio_pic_RESIZED-150x150.jpg" width="80px" height="80px" alt="Wendy Owen" /></a></li>
+			<li><a href="/who-we-are/#nhidalgo" rel="tooltip1" title="Noel Hidalgo"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Noel_Hidalgo-150x150.jpg" width="80px" height="80px" alt="Noel Hidalgo" /></a></li>
+			<li><a href="/who-we-are/#hyoung" rel="tooltip1" title="Hannah Young"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/HannahPic-150x150.jpg" width="80px" height="80px" alt="Hannah Young" /></a></li>
+			<li><a href="/who-we-are/#mthompson" rel="tooltip1" title="Mick Thompson"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Mick.jpg" width="80px" height="80px" alt="Mick Thompson" /></a></li>
+			<li><a href="/who-we-are/#akittiyachavalit" rel="tooltip1" title="Angel Kittiyachavalit"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Angel.jpg" width="80px" height="80px" alt="Angel Kittiyachavalit" /></a></li>
+			<li><a href="/who-we-are/#hdynak" rel="tooltip1" title="Hadley Dynak"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Hadley-Dynak-head-shot-150x150.jpg" width="80px" height="80px" alt="Hadley Dynak" /></a></li>
+			
+			
+			<li class="first"><a href="/who-we-are/#cbracy" rel="tooltip1" title="Catherine Bracy"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/2013-01-29_OpenHouse__Bracy1061-300x300.jpg" width="80px" height="80px" alt="Catherine Bracy" /></a></li>
+			<li><a href="/who-we-are/#drood" rel="tooltip1" title="Dharmishta Rood"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/n2524850_37545904_4740.square-150x150.jpg" width="80px" height="80px" alt="Dharmishta Rood" /></a></li>
+			<li><a href="/who-we-are/#doshiro" rel="tooltip1" title="Dana Oshiro"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/dana_headshot1-150x150.jpg" width="80px" height="80px" alt="Dana Oshiro" /></a></li>
 			<li><a href="/who-we-are/#clementine" rel="tooltip1" title="Clementine Breslin"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/ClemBreslin.jpg" width="80px" alt="Staff name" /></a></li>
+			
 			
 		</ul>
 
@@ -90,9 +105,8 @@ get_header(); ?>
 				<li><a href="/who-we-are/#agreenfield" rel="tooltip3" title="Adam Greenfield"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/agreenfield.jpg" alt="Staff name" /></li>
 				<li><a href="/who-we-are/#pcorbett" rel="tooltip3" title="Peter Corbett"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/pcorbett.jpg" alt="Staff name" /></a></li>
 				<!--<li class="first"><a href="/who-we-are/#clawson" rel="tooltip3" title="Carolyn Lawson"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/clawson.jpg" alt="Staff name" /></a></li>-->
-				<li><a href="/who-we-are/#mmigurski" rel="tooltip3" title="Michal Migursky"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/mmigurski.jpg" alt="Staff name" /></a></li>
-				<li><a href="/who-we-are/#bcerveny" rel="tooltip3" title="Ben Cerveny"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bcerveny.jpg" alt="Staff name" /></a></li>
-				<li class="last"><a href="/who-we-are/#david" rel="tooltip3"  title="David Eaves"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/david.jpg" alt="Staff name" /></a></li>
+				<li class="last"><a href="/who-we-are/#bcerveny" rel="tooltip3" title="Ben Cerveny"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bcerveny.jpg" alt="Staff name" /></a></li>
+				<li class="first"><a href="/who-we-are/#david" rel="tooltip3"  title="David Eaves"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/david.jpg" alt="Staff name" /></a></li>
   			
 				<li><a href="/who-we-are/#arasiej" rel="tooltip3" title="Andrew Rasiej"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/arasiej.jpg" alt="Staff name" /></a></li>
 
