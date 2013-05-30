@@ -29,7 +29,7 @@ get_header(); ?>
 
     <ul class="project-category-links">
       <li>
-        <a data-filter="services">City Service Apps</a>
+        <a data-filter="services">Local Service Apps</a>
       </li>
       <li>
         <a data-filter="engagement">Citizen Engagement Apps</a>
