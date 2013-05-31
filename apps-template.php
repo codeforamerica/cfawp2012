@@ -71,7 +71,9 @@ get_header(); ?>
              >
           <div class="app-inner">
             <div class="featured-app">Featured App</div>
-            <img src="<?php $img_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full'); echo $img_url[0] ?>" />
+            <a href="<?php echo get_permalink() ?>">
+              <img src="<?php $img_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full'); echo $img_url[0] ?>" />
+            </a>
             <div class='app-info'>
               <p class="description">
                 <?php echo $post->post_excerpt; ?>
@@ -125,9 +127,9 @@ $(function(){
 
       if (direction == 0) {
         if (sortBy == 'name') {
-          direction = direction + $(a).data('name').toLowerCase() > $(b).data('name').toLowerCase() ? 1 : -1;
+          direction = direction + ($(a).data('name').toLowerCase() > $(b).data('name').toLowerCase() ? 1 : -1);
         } else if (sortBy == 'date') {
-          direction = direction + parseInt($(a).data('date')) < parseInt($(b).data('date')) ? 1 : -1;
+          direction = direction + (parseInt($(a).data('date')) < parseInt($(b).data('date')) ? 1 : -1);
         }
       }
 
