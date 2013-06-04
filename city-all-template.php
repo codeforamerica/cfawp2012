@@ -25,8 +25,7 @@ get_header(); ?>
 
     <div id="participating">
       <p>We are actively seeking local governments who want to engage with our fellowship program in 2014. As many of you know, the Code for America Fellowship is a year long program focused on civic collaboration and innovation. But don’t take our word for it. Find out what past partners have to say about the program. </p>
-      <p><a class="button" href="http://codeforamerica.org/cities/apply-now/">Apply Now<img class="arrow" src="<?php bloginfo( 'template_url' ); ?>/images/arrow_white.png" alt="arrow" /></a></p>
-      <p><strong>Applications due March 31, 2013</strong></p>
+      <p><strong>We are no longer accepting applications from municipal governments for the 2014 Fellowship. The application for the 2015 Fellowship will open in January 2014.</strong></p>
     </div>
 	<div id="video" style="width: 600px; height: 325px"><iframe src="http://player.vimeo.com/video/60125263" width="600" height="325" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
   </div>
@@ -109,7 +108,6 @@ get_header(); ?>
           <th>New Class of Fellows Begin Program</th>
         </tr>
       </table>
-      <p><a class="button" href="http://codeforamerica.org/cities/apply-now/">Apply Now<img class="arrow" src="<?php bloginfo( 'template_url' ); ?>/images/arrow_white.png" alt="arrow" /></a></p>
     </div>
 
     <div class="right-col seals">
