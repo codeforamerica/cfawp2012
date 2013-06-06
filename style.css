@@ -165,6 +165,24 @@ text-shadow: #999 1px 1px 1px;
   font-size: 1.25em;
    font-weight: normal;
 }
+#header .newsletter{ 
+  text-align:right;
+  padding-top:5px;
+}
+#header .newsletter input{
+  background:#fff;
+  border:solid 1px #ccc;
+  padding:0px 2px;
+  margin:4px;
+  width:165px;
+} 
+#header .newsletter button{
+  color:#fff;
+  background:#cb2a3c;
+  padding:0px 10px;
+  border-radius:3px;
+  font-weight:bold;
+} 
 #social {
   float: right;
   margin-top: 15px;
@@ -219,6 +237,9 @@ text-shadow: #999 1px 1px 1px;
   padding-right: 3px;
   background: url(images/nav-li-bg.gif) top right no-repeat;
 }
+#nav li:last-of-type{ 
+  background:none;
+} 
 #nav li.current_page_item {
   padding-left: 0;
 }
@@ -1543,6 +1564,25 @@ border: none;}
   margin-bottom: 5px;
   text-transform: uppercase;
 }
+#cities-issues ul.dates{ 
+  background:none;
+  padding-top:0px;
+}
+#cities-issues ul.dates a{
+  color:#cb2a3c;
+  text-transform:none;
+} 
+#cities-issues ul.dates li{ 
+  background:none;
+  padding:0px 0px 7px 0px;
+}
+#cities-issues ul.dates li div{ 
+  font-weight:bold;
+  width:100px;
+  float:left;
+  font-size:1.2em;
+}
+
 
 #ideas {
   padding-top: 15px;

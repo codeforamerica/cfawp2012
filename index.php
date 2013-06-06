@@ -30,12 +30,23 @@ get_header(); ?>
 			<li><a href="http://www.knightfoundation.org"       title="Knight Foundation"     ><img src="<?php bloginfo('template_directory'); ?>/images/logos/knight-logo.png"      alt="Knight Foundation"     ></a></li>
 			<li><a href="http://www.omidyar.com/"               title="Omidyar Foundation"    ><img src="<?php bloginfo('template_directory'); ?>/images/logos/on-logo.png"          alt="Omidyar Foundation"    ></a></li>
 			<li><a href="http://www.google.com"                 title="Google"                ><img src="<?php bloginfo('template_directory'); ?>/images/logos/google-logo.png"      alt="Google"                ></a></li>
-			<li><a href="http://www.esri.com"                   title="ESRI"                  ><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"        alt="ESRI"                  ></a></li>
-			<li><a href="http://www.rockefellerfoundation.org/" title="Rockefeller Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/rockefeller-logo.png" alt="Rockefeller Foundation"></a></li>
-			<li><a href="http://www.bluehost.com"               title="Bluehost"              ><img src="<?php bloginfo('template_directory'); ?>/images/logos/bluehost.jpg"         alt="Bluehost"              ></a></li>
+            <li><a href="http://www.bluehost.com"               title="Bluehost"              ><img src="<?php bloginfo('template_directory'); ?>/images/logos/bluehost.jpg"         alt="Bluehost"              ></a></li>			
+            <li><a href="http://www.arnoldfoundation.org"       title="Arnold Foundation"     ><img src="<?php bloginfo('template_directory'); ?>/images/logos/laurajohnarnoldfoundation.jpg"        alt="Arnold Foundation"></a></li>
+            <li><a href="http://www.kauffman.org"               title="Kauffman"              ><img src="<?php bloginfo('template_directory'); ?>/images/logos/ewingmarionkauffman.jpg"         alt="Kauffman"              ></a></li>
+            <li><a href="http://brfny.org/"                     title="Blue Ridge Foundation" ><img src="<?php bloginfo('template_directory'); ?>/images/logos/blueridgefoundation.jpg"         alt="Blue Ridge Foundation" ></a></li>
+            <li><a href="http://downtownproject.com/" title="Downtown Project/Vegas Tech Fund" ><img src="<?php bloginfo('template_directory'); ?>/images/logos/downtownproject.jpg" alt="Downtown Project/Vegas Tech Fund" ></a></li>
+
+			<li><a href="http://www.accela.com/"                 title="Accela"                ><img src="<?php bloginfo('template_directory'); ?>/images/logos/accela.jpg"      alt="Accela"                ></a></li>
+
+            <li><a href="http://www.esri.com"                   title="ESRI"                  ><img src="<?php bloginfo('template_directory'); ?>/images/logos/esri-logo.png"        alt="ESRI"                  ></a></li>
+            <li><a href="http://www.emc.com/"                   title="EMC"                  ><img src="<?php bloginfo('template_directory'); ?>/images/logos/emc.jpg"        alt="EMC"                  ></a></li>
+
+			
 			<li><a href="http://www.oreillymedia.com"           title="O'Reilly Media"        ><img src="<?php bloginfo('template_directory'); ?>/images/logos/oreilly-logo.png"     alt="O'Reilly Media"        ></a></li>
-			<li><a href="http://www.sunlightfoundation.com"     title="Sunlight Foundation"   ><img src="<?php bloginfo('template_directory'); ?>/images/logos/sunlight-logo.jpg"    alt="Sunlight Foundation"   ></a></li>
-			<li><a href="http://www.jointconcepts.com"          title="Joint Concepts"        ><img src="<?php bloginfo('template_directory'); ?>/images/logos/jc-logo.png"          alt="Joint Concepts"        ></a></li>
+
+			<li><a href="http://www.hewlett.org/"     title="Hewlett Foundation"   ><img src="<?php bloginfo('template_directory'); ?>/images/logos/hewlettfoundation.jpg"    alt="Hewlett Foundation"   ></a></li>
+			<li><a href="http://www.venturesfoundation.org/" title="Philanthropic Ventures Foundation"><img src="<?php bloginfo('template_directory'); ?>/images/logos/philanthropicventures.jpg" alt="Philanthropic Ventures Foundation"></a></li>
+			<li><a href="http://www.chcf.org/" title="California Healthcare Foundation"   ><img src="<?php bloginfo('template_directory'); ?>/images/logos/californiahealthcare.jpg"    alt="California Healthcare Foundation"   ></a></li>
 			<li><a href="/donors"                               title="More"                  ><img src="<?php bloginfo('template_directory'); ?>/images/logos/more.png"             alt="More"                  ></a></li>
 		</ul>
 	</div>
@@ -46,16 +57,13 @@ get_header(); ?>
 		<!--Helping Cities Solve Common Issues -->
 		<div id="cities-issues" class="home-tile right-col" style="background: none;">				
 			<div id="wp-widget">
-				<h2>Code for America:<br>‘A Peace Corps for Geeks’</h2>
-				<p style="margin-top: 3px;">CfA is working to change the way cities work through technology and public service. You can give a year, a few months, or just a few minutes, but you can make a difference.</p> 
+              <h2>Key Dates:</h2>
+  <ul class="dates">
+  <li><div>Jul 31</div> Deadline for <a href="/fellowship">Fellowship</a></li>
+  <li><div>Oct 15-17</div> <a href="http://cfasummit.org">CfA Summit</a></li>
+  <li><div>Nov (TBA)</div> Accelerator Demo Day</li>
+  </ul>
 				<ul>
-					<li>
-						<a href="/get-involved/">Sign up to get involved</a>
-						<form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="newsletter" class="clearfix">
-							<input type="text" value="Email" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-							<button type="submit" class="like-btn">Send</button> 
-						</form>
-					</li>
 					<li><a href="http://codeforamerica.org/apply">Apply for the Fellowship</a></li>
 					<li><a href="http://brigade.codeforamerica.org">Join the Brigade</a></li>
 					<li><a href="/about">Learn More</a></li>
