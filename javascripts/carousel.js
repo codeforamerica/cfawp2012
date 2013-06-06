@@ -2,9 +2,9 @@ $(function() {
 	var step = 1; 
 	var current = 0; 
 	var maximum = $('#mycarousel ul li').size(); 
-	var visible = 5; 
+	var visible = 4.5; 
 	var speed = 100; 
-	var liSize = 135;
+	var liSize = 150;
 	var carousel_height = 75;
 
 	var ulSize = liSize * maximum;   
