@@ -57,16 +57,13 @@ get_header(); ?>
 		<!--Helping Cities Solve Common Issues -->
 		<div id="cities-issues" class="home-tile right-col" style="background: none;">				
 			<div id="wp-widget">
-				<h2>Code for America:<br>‘A Peace Corps for Geeks’</h2>
-				<p style="margin-top: 3px;">CfA is working to change the way cities work through technology and public service. You can give a year, a few months, or just a few minutes, but you can make a difference.</p> 
+              <h2>Key Dates:</h2>
+  <ul class="dates">
+  <li><div>Jul 31</div> Deadline for <a href="/fellowship">Fellowship</a></li>
+  <li><div>Oct 15-17</div> <a href="http://cfasummit.org">CfA Summit</a></li>
+  <li><div>Nov (TBA)</div> Accelerator Demo Day</li>
+  </ul>
 				<ul>
-					<li>
-						<a href="/get-involved/">Sign up to get involved</a>
-						<form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" id="newsletter" class="clearfix">
-							<input type="text" value="Email" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-							<button type="submit" class="like-btn">Send</button> 
-						</form>
-					</li>
 					<li><a href="http://codeforamerica.org/apply">Apply for the Fellowship</a></li>
 					<li><a href="http://brigade.codeforamerica.org">Join the Brigade</a></li>
 					<li><a href="/about">Learn More</a></li>

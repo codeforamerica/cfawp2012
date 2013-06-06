@@ -155,10 +155,14 @@ $(document).ready(function() {
 		<li><a href="http://www.twitter.com/codeforamerica" id="tw">Twitter</a></li>
 		<li><a href="mailto:info@codeforamerica.org" id="mail">E-mail</a></li>
 	</ul>
+    <!-- Get Involved -->
+      <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" class="newsletter">
+        <input type="text" value="Enter your email for updates" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+        <button type="submit" class="newsletter-btn">Go</button> 
+      </form>
 	<!--Navigation -->
 	<div id="nav-wrap">
 		<?php wp_nav_menu( array('menu'=> 'cfa_main', 'menu_id' => 'nav', 'container' => 'ul',  ) ); ?>
-		<a href="/get-involved/" id="donate" class="like-btn">Donate</a>
 	</div>
 </div>
 	

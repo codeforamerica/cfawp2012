@@ -489,6 +489,11 @@ opacity: 1;
    font-weight: bold;
    text-shadow: -3px 2px 3px #d9d9d9;
 }
+#cities-issues ul.dates li{ 
+  list-style:none;
+  color:#ff0000;
+}
+
 #cfa-blog h2 {
   position: relative;
   padding-left: 31px;
