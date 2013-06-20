@@ -24,8 +24,12 @@ get_header(); ?>
     </div>
 
     <div id="participating">
-      <p>We are actively seeking local governments who want to engage with our fellowship program in 2014. As many of you know, the Code for America Fellowship is a year long program focused on civic collaboration and innovation. But don’t take our word for it. Find out what past partners have to say about the program. </p>
-      <p><strong>We are no longer accepting applications from municipal governments for the 2014 Fellowship. The application for the 2015 Fellowship will open in January 2014.</strong></p>
+      <p>The Code for America Fellowship is a year long program focused on civic collaboration and innovation. But don’t take our word for it. Find out what past partners have to say about the program. </p>
+      <p><strong>The 2015 Fellowship application will open in January 2014.</strong><br><br>
+      
+      For more info email <a href="mailto:luke@codeforamerica.org">luke[at}codeforamerica.org</a> or <a href="http://cfasummit.org/apply/">apply to join us</a> at our Oct 15-17 Summit in San Francisco. </p>
+      
+    
     </div>
 	<div id="video" style="width: 600px; height: 325px"><iframe src="http://player.vimeo.com/video/60125263" width="600" height="325" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
   </div>
