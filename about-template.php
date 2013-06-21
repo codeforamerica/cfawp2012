@@ -19,9 +19,9 @@ get_header(); ?>
 	<div class="wrap clearfix">
 		<div id="mission">
 			<h2>OUR MISSION</h2>
-			<p>Code for America envisions a government that works by the people, for the people, in the 21st century.</p>
+			<p style="font-size: 200%">Code for America envisions a government that works by the people, for the people, in the 21st century.</p>
 		</div>
-      <iframe src="http://embed.ted.com/talks/jennifer_pahlka_coding_a_better_government.html" width="420" height="236" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	
+      <iframe src="http://embed.ted.com/talks/jennifer_pahlka_coding_a_better_government.html" width="560" height="315" style="margin: 20px 0 0 20px; float: right;" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	
 	</div>
 </div>
 <div class="wrap clearfix" id="whh">
