@@ -19,9 +19,9 @@ get_header(); ?>
 	<div class="wrap clearfix">
 		<div id="mission">
 			<h2>OUR MISSION</h2>
-			<p>Code for America helps governments work better for everyone with the people and the power of the web. Through our <a href="/fellows">Fellowship</a>, <a href="/accelerator">Accelerator</a>, and <a href="/brigade">Brigade</a>, we're building a network of cities, citizens, community groups, and startups, all equally committed to reimagining government for the 21st century.</p>
+			<p>Code for America envisions a government that can work by the people, for the people, in the 21st century.  We help cities transform through open and effective use of data and information, meaningful public engagement and architectures of participation that scale to meet the changing needs of communities. The CfA network demonstrates that efficient, transparent, and responsive government is possible when we the people offer not just our voices, but also our hands.</p>
 		</div>
-        <?php include 'fellow_carousel.php'; ?>		
+      <iframe src="http://embed.ted.com/talks/jennifer_pahlka_coding_a_better_government.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	
 	</div>
 </div>
 <div class="wrap clearfix" id="whh">
