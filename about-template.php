@@ -40,7 +40,7 @@ get_header(); ?>
 	</div>
 	<div class="box">
 			<h3>21st Century Government</h3>
-			<p>Post-Katrina the City of New Orleans had 35,000 abandoned properties and no restoration tracking system. Original estimates made this a 3-year multimillion dollar project. In months, a CfA <a href="http://codeforamerica.org/fellows">fellows team</a> launched <a href="http://codeforamerica.org/?cfa_app=blightstatus">BlightStatus</a> offering residents up-to-date property info and saving the city millions. 
+			<p>In 2012, the City of New Orleans had 35,000 abandoned properties and no restoration tracking system. Original estimates made this a 3-year multimillion dollar project. In months, a CfA <a href="http://codeforamerica.org/fellows">fellows team</a> launched <a href="http://codeforamerica.org/?cfa_app=blightstatus">BlightStatus</a> offering residents up-to-date property info and saving the city millions. 
 </p>
 			<p align="right"><a href="/cities" class="more">Bring CfA to Your City</a></p> 
 			
