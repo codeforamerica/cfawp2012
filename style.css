@@ -682,12 +682,11 @@ h2.lh {
 }
 
 #inner .right-col {
-  padding-top: 28px;
+  padding-top: 5px;
 }
 .right-col ul {
   margin-top: 10px;
   padding-top: 10px;
-  background: url(images/horizontal-dots.gif) 0 0 repeat-x;
 }
 
 
@@ -3064,4 +3063,14 @@ background-position: 0 0;
 
 .flexslider {
   margin: 20px 20px 0 0 !important;
+}
+.btn.apply{ 
+  padding:10px;
+  background:#3a9ed7;
+  border-radius:5px;
+  color:#fff;
+  text-transform:uppercase;
+  width:230px;
+  text-align:center;
+
 }
