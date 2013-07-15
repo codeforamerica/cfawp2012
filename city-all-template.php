@@ -25,9 +25,11 @@ get_header(); ?>
 
     <div id="participating">
       <p>The Code for America Fellowship is a year long program focused on civic collaboration and innovation. But don’t take our word for it. Find out what past partners have to say about the program. </p>
-      <p><strong>The 2015 Fellowship application will open in January 2014.</strong><br><br>
+      <p><strong>The 2015 Fellowship application will open in January 2014. For more info email <a href="mailto:luke@codeforamerica.org">luke[at}codeforamerica.org</a>.</strong><br><br>
       
-      For more info email <a href="mailto:luke@codeforamerica.org">luke[at}codeforamerica.org</a> or <a href="http://cfasummit.org/apply/">apply to join us</a> at our Oct 15-17 Summit in San Francisco. </p>
+  <h2>Connect</h2>
+ <ul><li><a href="http://cfasummit.org/register/">Register</a> for our Oct 15-17 City Summit in San Francisco.</li>
+ <li>Join the <a href="https://codeforamerica.wufoo.com/forms/x7p4s5/">Municipal Innovation Discussion</a></li></ul></p>
       
     
     </div>
