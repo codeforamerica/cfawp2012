@@ -29,6 +29,6 @@ get_header(); ?>
 
   </div>
 <div class="right-col">
-<a href="/fellows/apply/"><div class="btn apply">Apply for the fellowship &raquo;</div></a>
-<?php get_sidebar(); ?>
+<?php  if ( ! dynamic_sidebar( 'fellowship-widget-area' ) ) : ?>
+<?php endif; // end primary widget area ?>
 <?php get_footer(); ?>
