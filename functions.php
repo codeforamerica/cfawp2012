@@ -412,6 +412,16 @@ function twentyten_widgets_init() {
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
+    // widght on fellowship pages only
+	register_sidebar( array(
+		'name' => __( 'Fellowship Widget Area', 'twentyten' ),
+		'id' => 'fellowship-widget-area',
+		'description' => __( 'The fellowship widget area', 'twentyten' ),
+		'before_widget' => '<div style="margin-bottom: 15px;">',
+		'after_widget' => '</div>',
+		'before_title' => '',
+		'after_title' => '',
+	) );
 
 	// Area 3, located in the footer. Empty by default.
 	register_sidebar( array(
