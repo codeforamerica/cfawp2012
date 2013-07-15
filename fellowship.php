@@ -29,6 +29,6 @@ get_header(); ?>
 
   </div>
 <div class="right-col">
-<div class="btn apply">Apply for the fellowship &raquo;</div>
+<a href="/fellows/apply/"><div class="btn apply">Apply for the fellowship &raquo;</div></a>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
