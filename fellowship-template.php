@@ -17,7 +17,7 @@ get_header(); ?>
 <div class="wrap clearfix">
   <div id="mission">
     <h2>OUR FELLOWSHIP</h2>
-    <p>Through Code for America's fellowship program, passionate web developers, designers, and entrepreneurs collaborate with municipal leaders to leverage the power of the internet -- to make government better, more efficient for us all. In doing so, fellows develop new skills, create a broad network of civic and tech leaders, and most of all, have an impact.</p>
+    <p>Through Code for Americas fellowship program, passionate web developers, designers, and entrepreneurs collaborate with municipal leaders to leverage the power of the internet -- to make government better, more efficient for us all. In doing so, fellows develop new skills, create a broad network of civic and tech leaders, and most of all, have an impact.</p>
   </div>
   <?php include 'fellow_carousel.php'; ?>
 
@@ -27,6 +27,7 @@ get_header(); ?>
   <div id="maincontent">
     <h2 class="ttl">Apply for the Fellowship. Deadline is July 31. <a href="/apply" class="red-btn"><span>Apply Now +</span></a></h2>
 <p><iframe src="http://player.vimeo.com/video/44537196" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </p>
+
 <p>The Code for America fellowship is an 11-month program where developers, designers, UX/UI researchers and project managers work alongside city staff to produce open-source <a href=”http://codeforamerica.org/apps”>apps</a> and improve the citizen experience. Fellows reside in San Francisco for the bulk of their training and travel to their host cities in February to interview community stakeholders, collaborate with city staff and test their applications. They receive a stipend of $35,000 USD, a $500 professional development budget, travel expenses and health care benefits.</p>
   <div class="box">
       <h3 class="ttl">Who Are We looking For? <a href="/fellows/2012-program-and-timeline/" class="more">The Program</a></h3>
@@ -50,6 +51,7 @@ get_header(); ?>
       <li><strong class="number">3</strong> <strong>Connections.</strong> Working closely with other talented individuals, you will develop lasting relationships in a fast-paced, startup atmosphere.</li>
       <li><strong class="number">4</strong> <strong>A Labor of Love.</strong> You’ll not only accomplish a lot and make the world a better place, you’ll have a lot of fun working with other passionate people. To borrow a line from the Peace Corps, it will be the toughest job you’ll ever love.</li>
     </ul> </div>
+</div>
   <div class="right-col">
     <div class="testimonial-wrap">
       <div class="testimonial-content">
