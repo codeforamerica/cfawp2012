@@ -84,14 +84,14 @@ get_header(); ?>
 			<li><a href="/who-we-are/#jack" rel="tooltip1" title="Jack Madans"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jack.jpg" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#alex" rel="tooltip1" title="Alex Tran"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/2012-09-10_AlexTran_8914sq-150x150.jpg" width="80px" alt="Staff name" /></a></li>
 			
-			<li class="first"><a href="/who-we-are/#wowen" rel="tooltip1" title="Wendy Owen"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Wendy_bio_pic_RESIZED-150x150.jpg" width="80px" height="80px" alt="Wendy Owen" /></a></li>
+			<li class="first"><a href="/who-we-are/#charrell" rel="tooltip1" title="Cyd Harrell"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/cydharrell.jpg" width="80px" height="80px" alt="Cyd Harrell" /></a></li>
 			<li><a href="/who-we-are/#lnorris" rel="tooltip1" title="Luke Norris"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/lnorris.png" alt="Staff name" /></a></li>
 			<li><a href="/who-we-are/#hyoung" rel="tooltip1" title="Hannah Young"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/HannahPic-150x150.jpg" width="80px" height="80px" alt="Hannah Young" /></a></li>
 			<li><a href="/who-we-are/#mthompson" rel="tooltip1" title="Mick Thompson"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Mick.jpg" width="80px" height="80px" alt="Mick Thompson" /></a></li>
 			<li><a href="/who-we-are/#akittiyachavalit" rel="tooltip1" title="Angel Kittiyachavalit"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Angel.jpg" width="80px" height="80px" alt="Angel Kittiyachavalit" /></a></li>
 			<li><a href="/who-we-are/#hdynak" rel="tooltip1" title="Hadley Dynak"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Hadley-Dynak-head-shot-150x150.jpg" width="80px" height="80px" alt="Hadley Dynak" /></a></li>
 			
-			
+	
 			<li class="first"><a href="/who-we-are/#cbracy" rel="tooltip1" title="Catherine Bracy"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/2013-01-29_OpenHouse__Bracy1061-300x300.jpg" width="80px" height="80px" alt="Catherine Bracy" /></a></li>
 			<li><a href="/who-we-are/#nhidalgo" rel="tooltip1" title="Noel Hidalgo"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/Noel_Hidalgo-150x150.jpg" width="80px" height="80px" alt="Noel Hidalgo" /></a></li>
 			<li><a href="/who-we-are/#drood" rel="tooltip1" title="Dharmishta Rood"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/n2524850_37545904_4740.square-150x150.jpg" width="80px" height="80px" alt="Dharmishta Rood" /></a></li>
@@ -155,7 +155,7 @@ get_header(); ?>
 <!--In the press -->
 <div class="wrap" id="press">
 			<div class="ttl">In the press <a href="/press" class="more">view more articles</a></div>
-			<h2><a href="http://www.govtech.com/e-government/Oakland-Calif-Launches-Website-for-Answer-Seekers.html">Oakland Launches Website for Answer Seekers</a><h2>
+			<h2><a href="http://www.govtech.com/e-government/Oakland-Calif-Launches-Website-for-Answer-Seekers.html">Oakland Launches Website for Answer Seekers</a></h2>
 			<p class="date-cat"><em>Government Technology, June 14, 2013</em></p>
 			<p><img src="/wp-content/themes/cfawp2012/images/govtech-logo.gif" width="200px" align="right">The site is modeled after Honolulu Answers a website with the same question-driven functionality that was developed by 2013 Code for America fellows in Honolulu. OpenOakland took the concept of Honolulu Answers and modified it to serve Oakland.</p>
 			
