@@ -1,5 +1,4 @@
 
-
 <?php
 /**
  * The template for displaying all pages.
@@ -44,9 +43,7 @@ get_header(); ?>
 		   <input type="text" value="Email"  type="email" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> 
 		  </form>
 		</li>
-		<li><a href="http://action.codeforamerica.org/page/share/cfa">Spread the Word</a></li>
-		<li><a href="http://action.codeforamerica.org/page/s/2011-signup">Contribute some code</a></li>
-		<li><a href="/cities/citizen-action-center">Contact Your City</a></li>
+		<li><a href="http://github.com/codeforamerica">Contribute some code</a></li>
 		<li><a href="/donate" class="active">Donate</a></li>
 	</ul>
   </div></div>
