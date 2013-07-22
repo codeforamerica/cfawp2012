@@ -1,5 +1,4 @@
 
-
 <?php
 /**
  * The template for displaying all pages.
@@ -44,8 +43,7 @@ get_header(); ?>
 		  </form>
 		</li>
 		<li><a href="http://codeforamerica.org/fellows/apply">Apply for the Fellowship</a></li>
-		<li><a href="http://action.codeforamerica.org/page/s/2011-signup">Contribute some code</a></li>
-		<li><a href="/cities/citizen-action-center">Contact Your City</a></li>
+		<li><a href="http://github.com/codeforamerica">Contribute some code</a></li>
 		<li><a href="/donate" class="active">Donate</a></li>
 	</ul>
   </div></div>
