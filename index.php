@@ -20,7 +20,7 @@ get_header(); ?>
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 50px 15px 105px 10px; float: left;">
-	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 40px; letter-spacing: -.05em; text-align: left;">Be a Code for America Fellow</h1>
+	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; letter-spacing: -.05em; text-align: left;">Be a Code for America Fellow</h1>
 			<p style="text-align: left; padding-left: 3px;padding-top: 0px;margin-top: 0px;">Deadline July 31.</p>
             <a href="/fellows/apply/"><div class="btn apply red">Apply Today »</div></a>
 		</div>
