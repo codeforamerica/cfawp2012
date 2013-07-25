@@ -25,7 +25,7 @@ get_header(); ?>
             <a href="/fellows/apply/"><div class="btn apply red">Apply Today </div></a>
 		</div>
 		<div id="map" style="width: 500px; height: 281px; float: left; padding-top: 10px;">
-            <iframe width="500" height="281" src="//www.youtube.com/embed/hVw-JiDmfj0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="500" height="281" src="//www.youtube.com/embed/hVw-JiDmfj0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
   </div>
