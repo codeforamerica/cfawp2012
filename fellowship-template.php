@@ -26,9 +26,9 @@ get_header(); ?>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
     <h2 class="ttl">Apply for the Fellowship. Deadline is July 31. <a href="/apply" class="red-btn"><span>Apply Now +</span></a></h2>
-<p style="text-align:center"><iframe src="http://player.vimeo.com/video/44537196" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </p>
+<p style="text-align:center"><iframe src="http://player.vimeo.com/video/44537196" width="600" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </p>
 
-<p>The Code for America fellowship is an 11-month program where developers, designers, UX/UI researchers and project managers work alongside city staff to produce open-source <a href=”http://codeforamerica.org/apps”>apps</a> and improve the citizen experience. Fellows reside in San Francisco for the bulk of their training and travel to their host cities in February to interview community stakeholders, collaborate with city staff and test their applications. They receive a stipend of $35,000 USD, a $500 professional development budget, travel expenses and health care benefits.</p>
+<p>The Code for America Fellowship is an 11-month program where developers, designers, researchers, and product managers work with city staff to produce open-source <a href=”http://codeforamerica.org/apps”>web apps</a> to improve city services and the community. Fellows work out of the San Francisco office for the bulk of the year -- traveling to their assigned partner cities for the month February and various times throughout the year to meet with community members and city staff, and test their apps. Fellows receive $35,000 USD, professional development opportunities, and healthcare benefits.</p>
   <div class="box">
       <h3 class="ttl">Who Are We looking For? <a href="/fellows/2012-program-and-timeline/" class="more">The Program</a></h3>
       <ul id="what" class="clearfix">
