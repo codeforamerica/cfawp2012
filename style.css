@@ -3074,3 +3074,13 @@ background-position: 0 0;
   text-align:center;
 
 }
+.btn.apply.red{ 
+  padding:12px;
+  font-size:22px;
+  background:#cb2a3c;
+  border-radius:5px;
+  color:#fff;
+  text-transform:uppercase;
+  width:180px;
+  text-align:center;
+}
