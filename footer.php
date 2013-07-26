@@ -22,7 +22,7 @@
 			<li><h4><a href="/about">About</a></h4>
 				<ul>
 					<li><a href="/who-we-are">Who We Are</a></li>
-					<li><a href="/what-we-do">What We Do</a></li>
+					<li><a href="/programs">Programs</a></li>
 					<li><a href="/donors">Donors</a></li>
 					<li><a href="/press">Press</a></li>
 				</ul>
@@ -47,15 +47,6 @@
 					<li><a href="/2013-partners/south-bend">South Bend, IN</a></li>
 					<li><a href="/2013-partners/summit-county">Summit County, OH</a></li>
 				</ul>
-			</li>
-			<li><h4><a href="/issues">Issues</a></h4>
-				<ul>
-					<li><a href="/issues/openness">Openness</a></li>
-					<li><a href="/issues/participation">Participation</a></li>
-					<li><a href="/issues/education">Education</a></li>
-					<li><a href="/issues/efficiency">Efficiency</a></li>
-				</ul>
-			</li>
 			<li><h4><a href="/donate">Donate</a></h4>
 				<ul>
 					<li><a href="/donate">Financial Contributions</a></li>
