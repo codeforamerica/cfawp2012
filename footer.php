@@ -29,7 +29,7 @@
 			</li>
 			<li><h4><a href="/fellows">Fellows</a></h4>
 				<ul>
-					<li><a href="/fellows/201-program-timeline">Timeline</a></li>
+					<li><a href="/fellowship-program-timeline/">Timeline</a></li>
 					<li><a href="/fellows/fellow-selection">Process</a></li>
 					<li><a href="/fellows/apply">Apply</a></li>
 				</ul>
