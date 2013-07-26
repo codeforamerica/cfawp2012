@@ -27,7 +27,7 @@ get_header(); ?>
     <h2 class="ttl">Apply for the Fellowship. Deadline is July 31. <a href="/apply" class="red-btn"><span>Apply Now +</span></a></h2>
 <p style="text-align:center"><iframe src="http://player.vimeo.com/video/44537196" width="600" height="340" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </p>
 
-<p>The Code for America Fellowship is an 11-month program where developers, designers, researchers, and product managers work with city staff to produce open-source <a href=”http://codeforamerica.org/apps”>web apps</a> to improve city services and the community. Fellows work out of the San Francisco office for the bulk of the year -- traveling to their assigned partner cities for the month February and various times throughout the year to meet with community members and city staff, and test their apps. Fellows receive $35,000 USD, professional development opportunities, and healthcare benefits.</p>
+<p>The Code for America Fellowship is an 11-month program where developers, designers, researchers, and product managers work with city staff to produce open-source <a href="/apps">web apps</a> to improve city services and the community. Fellows work out of the San Francisco office for the bulk of the year -- traveling to their assigned partner cities for the month February and various times throughout the year to meet with community members and city staff, and test their apps. Fellows receive $35,000 USD, professional development opportunities, and healthcare benefits.</p>
   <div class="box">
       <h3 class="ttl">Who Are We looking For? <a href="/fellows/2012-program-and-timeline/" class="more">The Program</a></h3>
       <ul id="what" class="clearfix">
@@ -36,7 +36,7 @@ get_header(); ?>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows3.jpg" alt="" /></li>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows5.jpg" alt="" /></li>
       </ul>
-      <p>The average fellow in <a href=”http://codeforamerica.org/2013-fellows/”>this year’s class</a> is 30-years-old with some previous work experience and an interest in helping communities. Fellows from across the country come together from a variety of development, design, research and project management backgrounds. Code for America is committed to a diverse fellowship class. Minorities and women are encouraged to apply.</div>
+      <p>The average fellow in <a href="/2013-fellows/">this year’s class</a> is 30-years-old with some previous work experience and an interest in helping communities. Fellows from across the country come together from a variety of development, design, research and project management backgrounds. Code for America is committed to a diverse fellowship class. Minorities and women are encouraged to apply.</div>
     <div class="box">
       <h3 class="ttl">The application Process <a href="/fellows/fellow-selection/" class="more">Read More</a></h3>
       <p>To apply, prospective fellows must submit examples of previous relevant work, along with short explanations their interest, goals, and background. The 2014 Fellowship begins in January 2014. The application cycle for 2014 is open now through <strong>July 31, 2013</strong>. <a href="http://codeforamerica.org/fellows/apply">Apply Today</a>.</p>
