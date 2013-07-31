@@ -77,7 +77,7 @@ get_header(); ?>
           <th>Applicant Interviews<span>&raquo;</span></th>
         </tr>
         <tr class="odd">
-          <td>09/01/13</td>
+          <td>09/20/13</td>
           <th>Applicants Notified of Selection <span>&raquo;</span></th>
         </tr>
 		 <tr class="odd">
