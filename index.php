@@ -20,9 +20,8 @@ get_header(); ?>
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 50px 15px 105px 10px; float: left;">
-	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Be a Code for America Fellow</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Deadline July 31.</p>
-            <a href="/fellows/apply/"><div class="btn apply red">Apply Today </div></a>
+	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Fellows Selected Soon</h1>
+			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">In the meantime, Code for America by contributing to a <a href="https://github.com/codeforamerica">an existing app</a>, connecting with your <a href="http://brigade.codeforamerica.org/brigades">local Brigade</a> and attending an <a href="http://brigade.codeforamerica.org/pages/events">upcoming event or hackathon</a>.</p>
 		</div>
 		<div id="map" style="width: 500px; height: 281px; float: left; padding-top: 10px;">
             <iframe width="500" height="281" src="//www.youtube.com/embed/hVw-JiDmfj0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -67,7 +66,6 @@ get_header(); ?>
 			<div id="wp-widget">
               <h2>Key Dates:</h2>
   <ul class="dates">
-  <li><div>Jul 31</div> Deadline for <a href="/fellowship">Fellowship</a></li>
   <li><div>Oct 15-17</div> <a href="http://cfasummit.org">CfA Summit</a></li>
   <li><div>Nov (TBA)</div> Accelerator Demo Day</li>
   </ul>
