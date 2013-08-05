@@ -23,7 +23,7 @@ get_header(); ?>
 	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet the Incubator Companies</h1>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">These three teams scaled from Fellowship project to civic tech startup. Check out their <a href="/category/incubator/">progress</a> or <a href="/incubator/">learn more about the program</a>.</p>
 		</div>
-		<div class="incubatorheader" style="float:right; width: 500px; padding: 150px 5px 5px 5px;"> <img src="<?php bloginfo('template_directory'); ?>/images/incubator_heroimg.jpg"></div>
+		<div class="incubatorheader" style="float:right; width: 500px; padding: 115px 5px 5px 5px;"> <img src="<?php bloginfo('template_directory'); ?>/images/incubator_heroimg.jpg"></div>
 </div>
 	</div>
   </div>
