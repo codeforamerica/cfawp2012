@@ -58,12 +58,12 @@ get_header(); ?>
 		<h3>board of directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
 		<ul class="clearfix">
 			<li class="first"><a href="/author/jen" rel="tooltip2" title="Jennifer Pahlka"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/jenniferpahlka.jpg" width="80px" height="80px" alt="Jennifer Pahlka" /></a></li>
-			<li><a href="/who-we-are/#jlilly" rel="tooltip2" title="John Lilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jlilly.jpg" alt="Staff name" /></a></li>
+			<li><a href="/who-we-are/#jlilly" rel="tooltip2" title="John Lilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jlilly.jpg" alt="John Lilly" /></a></li>
   		<li><a href="/who-we-are/#sdonohue" rel="tooltip2" title="Stacy Donohue"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/sdonohue.png" alt="Stacy Donohue" /></a></li>
-  		<li><a href="/who-we-are/#toreilly" rel="tooltip2" title="Tim O'Reilly"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/timoreilly.jpg" width="80px" height="80px" alt="Staff name" /></a></li>
-  		<li><a href="/who-we-are/#dthorman" rel="tooltip2" title="Damian Thorman"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/dthorman.png" alt="Staff name" /></a></li>
-  		<li>	<a href="/who-we-are/#njacob" rel="tooltip2" title="Nigel Jacob"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/njacob.png" alt="Staff name" /></a></li>
-  		<li class="first">	<a href="/who-we-are/#eries" rel="tooltip2" title="Eric Ries"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/eries.png" alt="Staff name" /></a></li>
+  		<li><a href="/who-we-are/#toreilly" rel="tooltip2" title="Tim O'Reilly"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/timoreilly.jpg" width="80px" height="80px" alt="Tim O'Reilly" /></a></li>
+  		<li><a href="/who-we-are/#sbrown" rel="tooltip2" title="Shona Brown"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/sbrown.jpg" width="80px" height="80px" alt="Shona Brown" /></a></li>
+  		<li>	<a href="/who-we-are/#njacob" rel="tooltip2" title="Nigel Jacob"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/njacob.png" alt="Nigel Jacob" /></a></li>
+  		<li class="first">	<a href="/who-we-are/#eries" rel="tooltip2" title="Eric Ries"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/eries.png" alt="Eric Ries" /></a></li>
 		</ul>
 		
 		<h3>STAFF <span style="color: #999; margin-left: 10px;"><span id="tip1"></span></span></h3>
