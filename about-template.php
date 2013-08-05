@@ -33,7 +33,7 @@ get_header(); ?>
 	</div>
 	<div class="box">
 		<h3>Our Impact</h3>
-		<p>Code for America builds low-risk setting for innovation, by helping governments build new <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.cityofboston.gov%2Fnewurbanmechanics%2F&sa=D&sntz=1&usg=AFQjCNGN5RoG3a_u5HUOP5FFIVLT4NkyeA">departments</a>, <a href="http://technical.ly/philly/2011/08/11/adel-ebeid-meet-the-new-cto-of-the-city-of-philadelphia/ ">positions</a>, and practices including open government policies and liberating datasets. Code for America engages citizens in building <a href="http://codeforamerica.org/apps">apps</a>, <a href="http://brigade.codeforamerica.org/">sharing knowledge</a>, and <a href="http://codeforamerica.org/2012/07/12/a-city-partnership-extraordinaire/">workshops</a>. In the civic tech marketplace, we support <a href="http://codeforamerica.org/accelerator">civic startups</a>, <a href="http://codeforamerica.org/fellows">public/private collaborations</a>, and <a href="http://codeforamerica.org/2013/05/07/towards-a-procurement-strategy/">open procurement</a>.
+		<p>Code for America believes that in order to improve government, we need to improve citizenship. We help cities create 21st century interfaces to government that are simple, beautiful and easy to use. By deploying technologies that make it easy for you to participate and engage in improving your city, we are building trust and changing the conversation between citizens and government. 
 </p>
 		<p align="right"><a href="http://annual.codeforamerica.org" class="more">Our Annual Report</a></p> 
 		
