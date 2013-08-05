@@ -21,9 +21,9 @@ get_header(); ?>
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 50px 15px 105px 10px; float: left;">
 	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet the Incubator Companies</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">These three teams scaled from Fellowship project to civic tech startup. Check out their <a href="http://codeforamerica.org/category/incubator/">progress</a> or <a href="http://codeforamerica.org/incubator-2/">learn more about the program</a>.</p>
+			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">These three teams scaled from Fellowship project to civic tech startup. Check out their <a href="/category/incubator/">progress</a> or <a href="/incubator/">learn more about the program</a>.</p>
 		</div>
-		<div class="incubatorheader" style="width: 450px; padding: 5px 5px 5px 5px;"> <img src="<?php bloginfo('template_directory'); ?>/images/incubator_heroimg.jpg"></div>
+		<div class="incubatorheader" style="float:right; width: 500px; padding: 150px 5px 5px 5px;"> <img src="<?php bloginfo('template_directory'); ?>/images/incubator_heroimg.jpg"></div>
 </div>
 	</div>
   </div>
