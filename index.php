@@ -20,12 +20,11 @@ get_header(); ?>
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 50px 15px 105px 10px; float: left;">
-	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Thanks for Applying</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">In the meantime, code for America by contributing to <a href="https://github.com/codeforamerica">an existing app</a>, connecting with your <a href="http://brigade.codeforamerica.org/brigades">local Brigade</a>, or attending an <a href="http://brigade.codeforamerica.org/pages/events">event</a>.</p>
+	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet the Incubator Companies</h1>
+			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">These three teams scaled from Fellowship project to civic tech startup. Check out their <a href="/category/incubator/">progress</a> or <a href="/incubator/">learn more about the program</a>.</p>
 		</div>
-		<div id="map" style="width: 500px; height: 281px; float: left; padding-top: 10px;">
-            <iframe width="500" height="281" src="//www.youtube.com/embed/hVw-JiDmfj0?showinfo=0" frameborder="0" allowfullscreen></iframe>
-		</div>
+		<div class="incubatorheader" style="float:right; width: 500px; padding: 115px 5px 5px 5px;"> <img src="<?php bloginfo('template_directory'); ?>/images/incubator_heroimg.jpg"></div>
+</div>
 	</div>
   </div>
 </div>	
