@@ -30,8 +30,8 @@ a:hover {
 }
 
 p {
-  line-height: 1.4em;
-  font-size: 1em;
+  line-height: 20px;
+  font-size: 14px;
 }
 
 ul, ol, dl, dt, dd {
@@ -2330,7 +2330,12 @@ margin-bottom: 10px;
 }
 
 #mission p {
-  font-size: 1.17em;
+  margin-top: 0px;
+}
+
+#mission p.missionstatement {
+  font-size: 24px;
+  line-height: 29px;
 }
 
 #fellows {
