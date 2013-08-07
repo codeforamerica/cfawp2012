@@ -2707,15 +2707,18 @@ margin-bottom: 10px;
 
 #dates th {
   width: 170px;
+  font-weight: normal;
+  padding: 5px;
 }
 
 #dates h4 {
   line-height: 24px;
-  background: #cb283a url(images/dates-ttl-bg.gif) 70px 7px no-repeat;
   margin: 10px 0 1px;
-  color: #fff;
+  color: #000;
   font-size: 1.29em;
-  padding-left: 105px;
+  color: #000;
+  margin-bottom: 13px;
+  border-bottom: 1px dotted;
 }
 #issues {margin-top: 10px;}
 #issues div {padding: 10px 15px;}

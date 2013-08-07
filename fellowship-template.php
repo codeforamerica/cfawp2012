@@ -70,46 +70,46 @@ get_header(); ?>
       <table border="0" cellspacing="0" cellpadding="0">
 		<tr  class="odd">
           <td>07/31/13</td>
-          <th><a href="http://codeforamerica.org/fellows/apply">Application Deadline</a> <span>&raquo;</span></th>
+          <th><a href="http://codeforamerica.org/fellows/apply">Application Deadline</a></th>
         </tr>
 		<tr>
           <td>07/31/13 - 08/30/13</td>
-          <th>Applicant Interviews<span>&raquo;</span></th>
+          <th>Applicant Interviews</th>
         </tr>
         <tr class="odd">
           <td>09/20/13</td>
-          <th>Applicants Notified of Selection <span>&raquo;</span></th>
+          <th>Applicants Notified of Selection</th>
         </tr>
 		 <tr class="odd">
 	          <td>10/13</td>
-	          <th>2014 Fellows<br>Announced Publicly <span>&raquo;</span></th>
+	          <th>2014 Fellows<br>Announced Publicly</th>
 	        </tr>
        	<tr>
           <td>01/14</td>
-          <th>2014 Fellowship Starts <span>&raquo;</span></th>
+          <th>2014 Fellowship Starts</th>
         </tr>
       </table>
       <h4>2013 Fellows</h4>
       <table border="0" cellspacing="0" cellpadding="0">
         <tr class="odd">
           <td style="width:110px">01/13</td>
-          <th>Orientation/Training&nbsp;<span>&raquo;</span></th>
+          <th>Orientation/Training</th>
         </tr>
         <tr>
           <td>02/13</td>
-          <th>City Tour <span>&raquo;</span></th>
+          <th>City Tour</th>
         </tr>
         <tr class="odd">
           <td>03/13 - 09/13</td>
-          <th>Development w/ ongoing training & mentoring <span>&raquo;</span></th>
+          <th>Development w/ ongoing training & mentoring</th>
         </tr>
 		  <tr>
 	          <td>10/13</td>
-	          <th><a href="http://cfasummit.org/">CfA Summit</a> <span>&raquo;</span></th>
+	          <th><a href="http://cfasummit.org/">CfA Summit</a></th>
 	        </tr>
 			<tr class="odd">
 	          <td>10/13 - 11/13</td>
-	          <th>Hand-off to city<span>&raquo;</span></th>
+	          <th>Hand-off to city</th>
 	        </tr>
       </table>
     </div>
