@@ -12,7 +12,7 @@
 ?>
 	</div><!-- #main -->
 
- <!--   ==============   FOOTER   ==============   -->
+ <!--   ============== FOOTER ==============   -->
   <div id="footer" >
   	<div class="wrap">
 	<h4 id="logo-f"><a href="http://codeforamerica.org" class="like-btn">Code for America</a></h4>
