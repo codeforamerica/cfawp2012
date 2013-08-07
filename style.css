@@ -578,13 +578,12 @@ font-size: ;
 
 #maincontent .ttl {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
   position: relative;
   padding: 0 95px 5px 0;
-  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
 }
 
 a.red-btn {
