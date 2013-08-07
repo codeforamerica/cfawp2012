@@ -116,5 +116,13 @@ var _sf_async_config={uid:20661,domain:"codeforamerica.org"};
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'72c27113-3bfc-4c68-a34e-b85a85d478db'});</script>
 <!-- Ethnio Activation Code -->
 <script type="text/javascript" language="javascript" src="//ethn.io/remotes/20160" async="true" charset="utf-8"> </script>
+<!--<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/helium.js"></script>
+<script type="text/javascript">
+    window.addEventListener('load', function(){
+
+        helium.init();
+
+    }, false);
+</script>-->
 </body>
 </html>

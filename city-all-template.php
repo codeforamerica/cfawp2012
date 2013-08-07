@@ -19,8 +19,8 @@ get_header(); ?>
   <!--PARTICIPATING CITIES -->
   <div id="participating-wrap" class="clearfix">
 
-    <div class="ttl fullcolumn">
-      Bring CfA to your city
+    <div class="fullcolumn">
+      <h1>Bring CfA to your city</h1>
     </div>
 
     <div id="participating">

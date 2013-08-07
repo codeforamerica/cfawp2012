@@ -13,22 +13,26 @@ html, body{
 }
 
 body {
-  color: #666;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #555;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1.2em;
   text-shadow: none;
 }
 
 a {
   color: #cb2a3c;
+  font-weight: bold;
 	text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
+  color: #409DD6;
 }
 
-p {line-height: 1.4em; font-size: 14px;}
+p {
+  line-height: 1.4em;
+  font-size: 1em;
+}
 
 ul, ol, dl, dt, dd {
   list-style: none;
@@ -44,10 +48,27 @@ div.entry-content ul {
 h1, h2, h3, h4, h5, h6, form, fieldset {
   margin: 0;
   padding: 0;
+  color: #000;
 }
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2.2em;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.21em;
+  margin-bottom: 15px;
+}
+
 fieldset {
   border: none;
 }
+
 input, select, textarea, button {
   font: normal 1em Arial, Helvetica, sans-serif;
   border: none;
@@ -512,7 +533,7 @@ font-size: ;
   width: 940px;
 }
 
-#maincontent h1{
+/*#maincontent h1{
   font-size: 1.71em;
   color: #4ca3d9;
   margin-top: 20px;
@@ -520,28 +541,13 @@ font-size: ;
 #maincontent h2 {
   font-size: 1.29em;
   color: #4ca3d9;
-}
-#maincontent h3 {
-  font-size: 1em;
-  color: #4ca3d9;
-
-}
-
-h3 {
-  color: #4ca3d9;
-
-}
+}*/
 
 .single-post #maincontent h3, .page-template-default h3 {
     padding-bottom: 10px;
     border-bottom: 3px solid #ccc;
     text-transform: uppercase;
 
-}
-
-.entry-content p {
-	line-height: 22px;
-	font-size: 13px;
 }
 
 .entry-content li {
@@ -567,12 +573,11 @@ h3 {
 #maincontent a:hover {
 	color: #409DD6;
 	text-decoration: none;
-
 }
 
 
 #maincontent .ttl {
-/*  font-size: 1.71em; */
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: #000;
   text-transform: uppercase;
@@ -603,16 +608,15 @@ a.red-btn span {
 }
 #maincontent .ttl a.red-btn span {
   font-size: 12px;
-  font-family: Helvetica Neue, Helvetic, Arial;
+  font-family: Helvetica, Arial, sans-serif;
   letter-spacing: 0;
 }
 
 .single-post #maincontent .ttl {
-    font-family: Oswald, Helvetica Neue, Helvetic, Arial;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 40px;
     letter-spacing: -.05em;
     background: none;
-    border-bottom: 4px solid #ccc;
 }
 
 #maincontent img.avatar {
@@ -1493,7 +1497,7 @@ border: none;}
 
 #cities .ttl {
   color: #000;
-  font-family: Oswald, Helvetica Neue, Helvetic, Arial;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 40px;
   letter-spacing: -.05em;
   background: none;
@@ -2755,13 +2759,14 @@ background-position: 0 0;
 #civcoms {
   padding: 0 20px 0 115px;
 }
-#maincontent h2.program-title {
+
+/*#maincontent h2.program-title {
   font-family: Oswald;
   font-size: 22px;
   font-weight: normal;
   text-transform: uppercase;
   color: #000000;
-}
+}*/
 
 /* Apps template by Adam Becker */
 
