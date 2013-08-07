@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.21em;
+  font-size: 17px;
   margin-bottom: 15px;
 }
 
@@ -583,7 +583,7 @@ font-size: ;
   text-transform: uppercase;
   font-weight: bold;
   position: relative;
-  padding: 0 95px 5px 0;
+  padding: 0px 95px 0px 0px;
 }
 
 a.red-btn {
@@ -782,17 +782,22 @@ padding-left: 10px;
 #footer li:first-child {
   margin-left: 0;
 }
-#footer li h4 {
-  font-size: 1.17em;
-  text-transform: uppercase;
-}
 #footer li a {
   color: #666;
   text-decoration: none;
+  font-weight: normal;
+  font-size: 12px;
+  font-style: normal;
 }
 #footer li a:hover {
   color: #cb2a3c;
 }
+#footer li h4 a {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 
 
 #footer li li {
