@@ -56,7 +56,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 26px;
   padding-bottom: 10px;
 }
 
@@ -2785,13 +2785,12 @@ background-position: 0 0;
   font-weight: bold;
   color: #000;
   font-size: 22px;
-  border-bottom: 4px solid #ccc;
-  padding-bottom: 10px;
 }
 
 .page-template-apps-template-php .page-description {
   float: left;
   width: 600px;
+  margin-top: 0px;
 }
 
 .page-template-apps-template-php .project-category-links {
