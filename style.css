@@ -317,7 +317,20 @@ li#menu-item-4 a, li#menu-item-2489 a {
 }
 /*   ============   Home Page   ============   */
 
+.callout h1 {
+  font-family: 'Oswald', Helvetica;
+  text-transform: uppercase;
+  color: black;
+  font-size: 46px;
+  line-height: 50px;
+  padding-bottom: 10px;
+  text-align: left;
+}
 
+.callout p {
+  font-size: 18px;
+  line-height: 24px;
+}
 
 #signup {
   margin: 0 auto;
