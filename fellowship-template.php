@@ -24,7 +24,7 @@ get_header(); ?>
 <div class="wrap" id="dots"></div>
 <div class="wrap clearfix" id="fellows-wrap">
   <div id="maincontent">
-    <h2 class="ttl">Apply for the Fellowship. Deadline is July 31. <a href="/apply" class="red-btn"><span>Apply Now +</span></a></h2>
+    <h2 class="ttl">Apply for the Fellowship. Deadline is July 31.</h2>
 <p style="text-align:center"><iframe src="http://player.vimeo.com/video/71280045" width="600" height="340" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </p>
 
 <p>The Code for America Fellowship is an 11-month program where developers, designers, researchers, and product managers work with city staff to produce open-source <a href="/apps">web apps</a> to improve city services and the community. Fellows work out of the San Francisco office for the bulk of the year -- traveling to their assigned partner cities for the month February and various times throughout the year to meet with community members and city staff, and test their apps. Fellows receive $35,000 USD, professional development opportunities, and healthcare benefits.</p>

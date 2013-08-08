@@ -614,28 +614,6 @@ opacity: 1;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
 }
 
-a.red-btn {
-  height: 19px;
-  padding-left: 5px;
-  background: url(images/red-btn-bg.gif) 0 0 no-repeat;
-  text-decoration: none;
-}
-a.red-btn span {
-  line-height: 19px;
-  padding-right: 5px;
-  display: inline-block;
-  background: url(images/red-btn-bg.gif) 100% 0 no-repeat;
-  color: #fff;
-
-}
-#maincontent .ttl a.red-btn {
-  position: absolute;
-  top: 5px;
-  right: 0;
-}
-#maincontent .ttl a.red-btn span {
-  font-size: .5em;
-}
 #maincontent img {
   border: 1px solid #e1e1e1;
 }

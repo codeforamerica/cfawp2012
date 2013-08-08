@@ -27,7 +27,7 @@ get_header(); ?>
             } 
             ?>-->
 
-					 <div class="ttl"><?php the_title(); ?><a href="#" class="red-btn"><span class="st_sharethis_custom">Share This</a></span></div>
+					 <div class="ttl"><?php the_title(); ?></div>
 
 					<div class="entry-meta" style="margin-top: 10px;">
 					<small>	<?php twentyten_posted_on(); ?> <?php twentyten_posted_in(); ?></small>

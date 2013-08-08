@@ -672,33 +672,6 @@ input, select, textarea, button {
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
 }
 
-a.red-btn {
-  height: 19px;
-  padding-left: 5px;
-  background: url(images/red-btn-bg.gif) 0 0 no-repeat;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a.red-btn span {
-  line-height: 19px;
-  padding-right: 5px;
-  display: inline-block;
-  background: url(images/red-btn-bg.gif) 100% 0 no-repeat;
-  color: #fff;
-  font-weight: bold;
-}
-
-#maincontent .ttl a.red-btn {
-  position: absolute;
-  top: 5px;
-  right: 0;
-}
-
-#maincontent .ttl a.red-btn span {
-  font-size: .5em;
-}
-
 #maincontent img {
   border: 1px solid #e1e1e1;
 }
@@ -1112,11 +1085,6 @@ a.more:hover {
 
 #cities-detail .wrap .right-col p.date {
   margin-top: 0;
-}
-
-#cities-detail .wrap .right-col a.red-btn {
-  font-size: .86em;
-  margin-bottom: 25px;
 }
 
 
@@ -1627,14 +1595,6 @@ a.more:hover {
   font-size: 1.21em;
   padding-bottom: 10px;
   margin-bottom: 15px;
-}
-
-#fellows-wrap .ttl a.red-btn {
-  top: 0;
-}
-
-#fellows-wrap .ttl a.red-btn span {
-  font-size: .71em;
 }
 
 #fellows-wrap #why {

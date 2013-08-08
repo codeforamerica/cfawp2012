@@ -90,8 +90,6 @@ get_header(); ?>
 	  <p class="date"><?php the_date(); ?><br />
 		  <a href="#">by <?php the_author(); ?></a></p>
 		<p><?php the_excerpt(); ?></p>
-		<a href="#" class="red-btn left"><span class="st_sharethis_custom">SHARE THIS +</span></a>
-		<a href="<?php the_permalink(); ?>/#comments" class="red-btn right"><span>COMMENTS</span></a>
 		<?php endwhile; ?>
 		
 	</div>

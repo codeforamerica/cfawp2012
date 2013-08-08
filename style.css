@@ -582,31 +582,6 @@ h3 {
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
 }
 
-a.red-btn {
-  height: 19px;
-  padding-left: 5px;
-  background: url(images/red-btn-bg.gif) 0 0 no-repeat;
-  text-decoration: none;
-}
-a.red-btn span {
-  line-height: 19px;
-  padding-right: 5px;
-  display: block;
-  background: url(images/red-btn-bg.gif) 100% 0 no-repeat;
-  color: #fff;
-
-}
-#maincontent .ttl a.red-btn {
-  position: absolute;
-  top: 5px;
-  right: 0;
-}
-#maincontent .ttl a.red-btn span {
-  font-size: 12px;
-  font-family: Helvetica Neue, Helvetic, Arial;
-  letter-spacing: 0;
-}
-
 .single-post #maincontent .ttl {
     font-family: Oswald, Helvetica Neue, Helvetic, Arial;
     font-size: 40px;
@@ -2023,11 +1998,6 @@ a.more:hover {
   margin-top: 0;
 }
 
-#cities-detail .wrap .right-col a.red-btn {
-  font-size: .86em;
-  margin-bottom: 25px;
-}
-
 
 
 /*   Get Involved Page    */
@@ -2545,14 +2515,6 @@ margin-bottom: 10px;
   font-size: 1.21em;
   padding-bottom: 10px;
   margin-bottom: 15px;
-}
-
-#fellows-wrap .ttl a.red-btn {
-  top: 0;
-}
-
-#fellows-wrap .ttl a.red-btn span {
-  font-size: .71em;
 }
 
 #fellows-wrap #why {
