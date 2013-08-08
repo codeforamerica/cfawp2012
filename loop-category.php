@@ -53,11 +53,7 @@
 			<div class="post"><?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 105 ) ); ?>
 			<?php the_excerpt(); ?>
             <ul>
-            	<li>Share: <span class="st_sharethis"></span>
-                </a>
-                </li>
             	<li><?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( 'Comment (1)', 'twentyten' ), __( 'Comments (%)', 'twentyten' ), 'comments' ); ?></li>
-            	<li class="right"><a class="more" href="<?php the_permalink(); ?>">Read More</a></li>
             </ul>
             </div>
         </div>

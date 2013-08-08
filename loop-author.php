@@ -61,9 +61,7 @@
 				?> " >
 			<?php the_excerpt(); ?>
             <ul>
-<li>Share: <a href="#" class="like-btn" id="mail-b">E-mail</a> <a href="#" class="like-btn" id="rss-b">RSS</a> <a href="#" class="like-btn" id="fb-b">Facebook</a> <a href="#" class="like-btn" id="tw-b">Twitter</a></li>
             	<li><?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( 'Comment (1)', 'twentyten' ), __( 'Comments (%)', 'twentyten' ), 'comments' ); ?></li>
-            	<li class="right"><a class="more" href="<?php the_permalink(); ?>">Read More</a></li>
             </ul>
             </div>
         </div>
