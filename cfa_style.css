@@ -126,38 +126,6 @@ input, select, textarea, button {
   font-size: 1.25em;
    font-weight: normal;
 }
-#social {
-  float: right;
-  margin-top: 15px;
-}
-#social li {
-  float: left;
-  margin-left: 5px;
-}
-#social li a {
-  display: block;
-  outline: none;
-  text-indent: -999em;
-  width: 41px;
-  height: 40px;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
-#social li a#rss {
-  background-image: url(images/rss-icon.png);
-}
-#social li a#fb {
-  background-image: url(images/fb-icon.png);
-}
-#social li a#yt {
-  background-image: url(images/yt-icon.png);
-}
-#social li a#tw {
-  background-image: url(images/tw-icon.png);
-}
-#social li a#mail {
-  background-image: url(images/mail-icon.png);
-}
 #nav-wrap {
   clear: both;
   padding-top: 28px;

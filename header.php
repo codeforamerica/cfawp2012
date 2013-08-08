@@ -147,14 +147,6 @@ $(document).ready(function() {
 	<div id="tag-line">
 		<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png" alt="A new kind of public service – By the People, For the People, For the 21st Century">
 	</div>
-	<!--Social Links -->
-	<ul id="social">
-		<li><a href="http://codeforamerica.org/feed/" id="rss">RSS</a></li>
-		<li><a href="http://www.facebook.com/codeforamerica" id="fb">Facebook</a></li>
-		<li><a href="http://www.github.com/codeforamerica" id="gh">GitHub</a></li>
-		<li><a href="http://www.twitter.com/codeforamerica" id="tw">Twitter</a></li>
-		<li><a href="mailto:info@codeforamerica.org" id="mail">E-mail</a></li>
-	</ul>
     <!-- Get Involved -->
       <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" class="newsletter">
         <input type="text" value="Enter your email for updates" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
