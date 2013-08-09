@@ -19,7 +19,7 @@ get_header(); ?>
     <div class="header">Our Apps and Projects</div>
 
     <p class="page-description">
-      Our apps are the result of dozens of conversations with city staff and community members. Together, in partnership with the city, our fellows figure out what they need to best serve their community. We build apps that make life easier. If you think any of them would be useful in your city, <a href="#">let us know</a>.
+      Our apps are the result of dozens of conversations with city staff and community members. Together, in partnership with the city, our fellows figure out what they need to best serve their community. We build apps that make life easier. For a list of more civic apps check out <a href="http://commons.codeforamerica.org/">CfA Commons</a>.
     </p>
 
     <form class="search-input-wrapper">
