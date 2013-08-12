@@ -19,7 +19,7 @@ get_header(); ?>
 
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
-      <div class="callout" style="width: 400px; padding: 50px 15px 105px 10px; float: left;">
+      <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
 	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet the Accelerator Companies</h1>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Our five accelerator companies have landed in CfA's San Francisco headquarters. Learn more about the <a href="/category/accelerator/">companies</a> or <a href="/accelerator-2/">learn more about the program</a>.</p>
 		</div>
