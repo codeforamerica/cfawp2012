@@ -77,20 +77,20 @@ get_header(); ?>
 		</div>
   	<!--CfA Blog -->
   	<div id="cfa-blog" class="home-tile">
-  		<h2>CfA Blog <a href="http://c4a.me/feed/" class="like-btn">RSS</a></h2>
+  		<h2>CfA Blog <!-- <a href="http://c4a.me/feed/" class="like-btn">RSS</a> --></h2>
 
   		<?php query_posts('showposts=2&tag__not_in=61'); ?>		  
 
   		<ul>
   		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   			<li>
-  				<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?> <strong>»</strong></a></h3>
+  				<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
   				<p><?php echo excerpt(12); ?></p>
   			</li>
   		<?php endwhile; endif; ?>
   		</ul>
 
-  		<a href="/code-for-america-blog/" class="btn">Go to Blog</a>
+  		<a href="/code-for-america-blog/" class="more">Go to Blog</a>
   	</div>
   	<!--Featured App -->
   	<div id="featured-app" class="home-tile right-col">

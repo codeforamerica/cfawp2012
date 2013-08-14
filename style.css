@@ -13,25 +13,24 @@ html, body{
 }
 
 body {
-  color: #555;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
+  color: #252525;
+  font-family: "Whitney", Trebuchet, sans-serif;
+  font-size: 17px;
   text-shadow: none;
 }
 
 a {
-  color: #cb2a3c;
-  font-weight: bold;
+  color: #439ed6;
 	text-decoration: none;
 }
 
 a:hover {
-  color: #409DD6;
+  text-decoration: underline;
 }
 
 p {
-  line-height: 20px;
-  font-size: 14px;
+  font-size: 17px;
+  line-height: 26px;
 }
 
 ul, ol, dl, dt, dd {
@@ -51,18 +50,22 @@ h1, h2, h3, h4, h5, h6, form, fieldset {
   color: #000;
 }
 
-h1, h2 {
-  text-transform: uppercase;
-}
-
 h1 {
-  font-size: 26px;
+  font-size: 46px;
   padding-bottom: 10px;
 }
 
 h2 {
-  font-size: 17px;
+  font-size: 33px;
   margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 fieldset {
@@ -269,7 +272,7 @@ text-shadow: #999 1px 1px 1px;
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 17px;
   font-weight: bold;
   letter-spacing: 1px;
 text-shadow: #ccc 1px 1px 1px;
@@ -285,23 +288,28 @@ text-shadow: #ccc 1px 1px 1px;
 #nav ul {
   position: absolute;
   left: 0;
-  top: 27px;
+  top: 24px;
 }
 #nav ul li {
+  background: none;
   float: left;
   padding: 0;
-  background: url(images/arrow.png) no-repeat 100% 0%;
   margin-right: 15px;
-padding-right: 15px;
+  padding-right: 15px;
 }
 #nav ul li a {
   text-transform: none;
-  font-size: 1.08em;
-   color: #409dd6;
-   padding: 0;
-   font-weight: normal;
-   letter-spacing: normal;
+  color: #409dd6;
+  font-size: 15px;
+  padding: 0;
+  font-weight: normal;
+  letter-spacing: normal;
 }
+
+#nav ul li a:hover {
+  text-decoration: underline;
+}
+
 #nav ul li a span {
   color: #cb283a;
 }
@@ -474,7 +482,6 @@ top: 60px;}
 
 #cfa-blog h2 {
   position: relative;
-  padding-left: 31px;
 }
 
 #cfa-blog h2 a.like-btn {
@@ -589,7 +596,7 @@ font-size: ;
 }
 
 
-#maincontent .ttl {
+/*#maincontent .ttl {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 26px;
   color: #000;
@@ -598,7 +605,7 @@ font-size: ;
   position: relative;
   padding: 0px 95px 0px 0px;
 }
-
+*/
 a.red-btn {
   height: 19px;
   padding-left: 5px;
@@ -712,16 +719,15 @@ h2.lh {
   background: url(images/bullet-red-arrow.gif) 2px 3px no-repeat;
 }
 .right-col li a {
-  color: #707070;
+  color: #252525;
   text-transform: uppercase;
-  font-weight: bold;
   text-decoration: none;
 }
 .right-col li a.active {
   color: #cb2a3c;
 }
 .right-col li a:hover {
-  color: #cb2a3c;
+  text-decoration: underline;
 }
 .right-col li a.active:hover {
   color: #000;
@@ -1328,7 +1334,7 @@ h3#reply-title {
   text-transform: uppercase;
   color: #000;
   font-size: 1.50em;
-  min-height: 50px;
+  min-height: 30px;
 }
 
 .home-tile h3 {
@@ -1656,6 +1662,7 @@ a.more {
   background: url(images/bullet-red-arrow.gif) 0 3px no-repeat;
   text-decoration: none;
   color: #707070;
+  text-transform: uppercase;
 }
 
 a.more:hover {
@@ -2432,18 +2439,11 @@ margin-bottom: 10px;
   float: left;
   width: 300px;
   margin-left: 20px;
-  font-size: 1.17em;
   padding-top: 10px;
 }
 
 #whh .box:first-child {
   margin-left: 0;
-}
-
-#whh .box h3 {
-  text-transform: uppercase;
-  color: #000;
-  font-size: 1.21em;
 }
 
 #whh .box p {
@@ -2563,12 +2563,10 @@ margin-bottom: 10px;
 }
 
 #fellows-wrap {
-  font-size: 1.17em;
   background: url(images/vertical-dot.gif) 640px 0 repeat-y;
 }
 
 #fellows-wrap .ttl {
-  font-size: 1.21em;
   padding-bottom: 10px;
   margin-bottom: 15px;
 }
@@ -2697,14 +2695,6 @@ margin-bottom: 10px;
   padding-top: 50px;
 }
 
-#dates h3 {
-  font-size: 1.29em;
-  color: #000;
-  text-transform: uppercase;
-  padding: 2px 0 2px 33px;
-  background: url(images/dates-to-keep-icon.gif) 0 0 no-repeat;
-}
-
 #dates th {
   width: 170px;
   font-weight: normal;
@@ -2712,10 +2702,8 @@ margin-bottom: 10px;
 }
 
 #dates h4 {
-  line-height: 24px;
   margin: 10px 0 1px;
   color: #000;
-  font-size: 1.29em;
   color: #000;
   margin-bottom: 13px;
   border-bottom: 1px dotted;
