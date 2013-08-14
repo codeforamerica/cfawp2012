@@ -2482,7 +2482,14 @@ margin-bottom: 10px;
 
 #team-donors .team li img {
   margin-top: 19px;
+}
 
+#team-donors .team h3 {
+  margin-top: 15px;
+}
+
+#team-donors .team h3.first {
+  margin-top: 0px;
 }
 
 #team-donors .right-col table {
