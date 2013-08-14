@@ -28,7 +28,7 @@ get_header(); ?>
 
 <p>The Code for America Fellowship is an 11-month program where developers, designers, researchers, and product managers work with city staff to produce open-source <a href="/apps">web apps</a> to improve city services and the community. Fellows work out of the San Francisco office for the bulk of the year -- traveling to their assigned partner cities for the month February and various times throughout the year to meet with community members and city staff, and test their apps. Fellows receive $35,000 USD, professional development opportunities, and healthcare benefits.</p>
   <div class="box">
-      <h2 class="ttl">Who Are We looking For? <a href="/fellows/2012-program-and-timeline/" class="more">The Program</a></h2>
+      <h2 class="ttl">Who Are We looking For?</h2>
       <ul id="what" class="clearfix">
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows1.jpg" alt="" /></li>
         <li><img src="<?php bloginfo( 'template_url' ); ?>/images/fellows2.jpg" alt="" /></li>
@@ -37,11 +37,11 @@ get_header(); ?>
       </ul>
       <p>The average fellow in <a href="/2013-fellows/">this year’s class</a> is 30-years-old with some previous work experience and an interest in helping communities. Fellows from across the country come together from a variety of development, design, research and project management backgrounds. Code for America is committed to a diverse fellowship class. Minorities and women are encouraged to apply.</div>
     <div class="box">
-      <h2 class="ttl">The application Process <a href="/fellows/fellow-selection/" class="more">Read More</a></h2>
+      <h2 class="ttl">The application Process</h2>
       <p>To apply, prospective fellows must submit examples of previous relevant work, along with short explanations their interest, goals, and background. The 2014 Fellowship begins in January 2014. The application cycle for 2014 is open now through <strong>July 31, 2013</strong>. <a href="http://codeforamerica.org/fellows/apply">Apply Today</a>.</p>
     </div>
     <div class="box">
-      <h2 class="ttl">The Training <a href="/fellows/institute/" class="more">Read More</a></h2>
+      <h2 class="ttl">The Training</h2>
 <p>	During the 11-month program, fellows not only work together to help cities innovate, but also receive the training and support to be positioned as a leader in business, public service, or both:</p>
     <ul id="why">
       <li><strong class="number">1</strong> <strong>Civic Tech Training.</strong> You will start with a crash course in municipal government and gain a practical understanding of the vital intersection of politics and technology.</li>
