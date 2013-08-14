@@ -19,7 +19,7 @@ get_header(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 				<div class="entry-content" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				    <div class="ttl"><?php the_title(); ?> <a href="#" class="red-btn"><span class="st_sharethis_custom">Share This +</span></a></div>
+				    <div class="ttl"><h1><?php the_title(); ?></h1><a href="#" class="red-btn"><span class="st_sharethis_custom">Share This +</span></a></div>
 
 				
 						<?php the_content(); ?>
