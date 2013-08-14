@@ -61,7 +61,15 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 24px;
+}
+
+h3 a {
+  color: #252525;
+}
+
+h3 a:hover {
+  color: #439ed6;
 }
 
 h4 {
@@ -1650,12 +1658,13 @@ a.more {
   padding-left: 21px;
   background: url(images/bullet-red-arrow.gif) 0 3px no-repeat;
   text-decoration: none;
-  color: #707070;
+  color: #252525;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 a.more:hover {
-  color: #cb2a3c;
+  color: #439ed6;
 }
 
 #cities #maincontent h3 a.more {
@@ -1978,23 +1987,19 @@ a.more:hover {
   position: absolute;
   top: 3px;
   right: 0;
-  font-size: .82em;
 }
 
-#press h2 {
-  color: #000;
-  text-transform: uppercase;
-  font-size: 1em;
+#press h3 {
   margin-top: 25px;
 }
 
-#press h2.first {
+#press h3.first {
   margin-top: 0;
 }
 
 #press p {
-  padding: 0;
-  margin: 20px 0 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 #press p.date-cat, #cities-detail .wrap .right-col p.date, p.date  {
@@ -2009,7 +2014,6 @@ a.more:hover {
 }
 
 #cities-detail .wrap .right-col .ttl {
-  text-transform: uppercase;
   color: #000;
   font-size: 1.21em;
   font-weight: bold;
@@ -2440,11 +2444,6 @@ margin-bottom: 10px;
   padding: 5px 0 15px;
 }
 
-#whh .box a.more {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 #team-donors {
   margin-top: 20px;
   background: url(images/vertical-dot.gif) 620px 0 repeat-y;
@@ -2509,22 +2508,11 @@ margin-bottom: 10px;
   vertical-align: top;
 }
 
-.wrap-t #press {
-  font-size: 1.17em;
-}
-
 .wrap-t #press .ttl {
   position: relative;
-  font-size: 1.21em;
-  color: #000;
-  text-transform: uppercase;
-  font-weight: bold;
   margin: 10px 0;
 }
 
-.wrap-t #press .ttl a.more {
-  font-size: .82em;
-}
 
 
 
