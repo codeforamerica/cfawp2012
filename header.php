@@ -13,16 +13,6 @@
 <head>
 	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<script type="text/javascript">
-  var _kmq = _kmq || [];
-  function _kms(u){
-    setTimeout(function(){
-      var s = document.createElement('script'); var f = document.getElementsByTagName('script')[0]; s.type = 'text/javascript'; s.async = true;
-      s.src = u; f.parentNode.insertBefore(s, f);
-    }, 1);
-  }
-  _kms('//i.kissmetrics.com/i.js');_kms('//doug1izaerwt3.cloudfront.net/b10955655811d1d8f1ae89b90b11d99540d5db32.1.js');
-</script>
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
