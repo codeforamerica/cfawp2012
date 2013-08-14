@@ -147,11 +147,6 @@ $(document).ready(function() {
 	<div id="tag-line">
 		<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png" alt="A new kind of public service – By the People, For the People, For the 21st Century">
 	</div>
-    <!-- Get Involved -->
-      <form name="signup" action="http://action.codeforamerica.org/page/signup/cfa-email" method="post" class="newsletter">
-        <input type="text" value="Enter your email for updates" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-        <button type="submit" class="newsletter-btn">Go</button> 
-      </form>
 	<!--Navigation -->
 	<div id="nav-wrap">
 		<?php wp_nav_menu( array('menu'=> 'cfa_main', 'menu_id' => 'nav', 'container' => 'ul',  ) ); ?>
