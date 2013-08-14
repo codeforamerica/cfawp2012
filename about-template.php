@@ -52,10 +52,10 @@ get_header(); ?>
 <div class="wrap-t">
 <div class="wrap clearfix" id="team-donors">
   <div id="maincontent">
-	<h2 class="ttl">meet our team</h2>    
+	<h2 class="ttl">Meet Our Team</h2>    
     <div class="team">
         
-		<h3>board of directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
+		<h3>Board of Directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
 		<ul class="clearfix">
 			<li class="first"><a href="/author/jen" rel="tooltip2" title="Jennifer Pahlka"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/jenniferpahlka.jpg" width="80px" height="80px" alt="Jennifer Pahlka" /></a></li>
 			<li><a href="/who-we-are/#jlilly" rel="tooltip2" title="John Lilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jlilly.jpg" alt="John Lilly" /></a></li>

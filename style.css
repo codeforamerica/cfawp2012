@@ -2460,12 +2460,6 @@ margin-bottom: 10px;
   padding: 0;
 }
 
-#team-donors .team h3 {
-  color: #000;
-  text-transform: uppercase;
-  font-size: 1em;
-}
-
 #team-donors .team ul {
   padding: 0 0 5px;
   margin: 0 -14px;
@@ -2497,30 +2491,21 @@ margin-bottom: 10px;
 
 }
 
-#team-donors .right-col h3 {
-  font-size: 1.50em;
-  color: #000;
-  text-transform: uppercase;
-  margin: -3px 0 5px;
-  padding: 3px 0 3px 33px;
-  background: url(images/donors-ttl.png) 0 0 no-repeat;
-}
-
 #team-donors .right-col table {
   width: 300px;
 }
 
 #team-donors .right-col th {
-  padding: 9px;
+  padding: 9px 9px 9px 0px;
   width: 225px;
   text-align: left;
   vertical-align: top;
+  font-weight: 400;
 }
 
 #team-donors .right-col td {
   padding: 9px;
   text-align: right;
-  font-weight: bold;
   vertical-align: top;
 }
 
