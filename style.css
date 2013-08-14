@@ -1665,6 +1665,7 @@ a.more {
 
 a.more:hover {
   color: #439ed6;
+  text-decoration: underline;
 }
 
 #cities #maincontent h3 a.more {
