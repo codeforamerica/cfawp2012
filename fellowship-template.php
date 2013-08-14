@@ -16,7 +16,7 @@ get_header(); ?>
 <div class="wrap clearfix">
   <div id="mission">
     <h1>Our Fellowship</h1>
-    <p>Through Code for America's fellowship program, passionate web developers, designers, and entrepreneurs collaborate with municipal leaders to leverage the power of the internet -- to make government better, more efficient for us all. In doing so, fellows develop new skills, create a broad network of civic and tech leaders, and most of all, have an impact.</p>
+    <p class="page-description">Through Code for America's fellowship program, passionate web developers, designers, and entrepreneurs collaborate with municipal leaders to leverage the power of the internet -- to make government better, more efficient for us all. In doing so, fellows develop new skills, create a broad network of civic and tech leaders, and most of all, have an impact.</p>
   </div>
   <?php include 'fellow_carousel.php'; ?>
 

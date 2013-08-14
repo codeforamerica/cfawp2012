@@ -33,6 +33,10 @@ p {
   line-height: 26px;
 }
 
+p.page-description {
+  font-size: 20px;
+}
+
 ul, ol, dl, dt, dd {
   list-style: none;
   margin: 0;
@@ -550,7 +554,6 @@ font-size: ;
 
 #inner {
   padding-top: 20px;
-  font-size: 1.17em;
 }
 #maincontent {
   float: left;
