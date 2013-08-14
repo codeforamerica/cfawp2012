@@ -39,6 +39,7 @@ get_header(); ?>
 	  </ul>
     </div>
   </div>
+  <?php endwhile; ?>
   <div class="wrap clearfix"></div>
 </div>
 
