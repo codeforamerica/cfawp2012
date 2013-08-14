@@ -5,7 +5,6 @@ at http://www.vhg-design.com
 ===============
 */
 html, body{
-  background: #FFFFFF url(images/bg.gif) 0 0 repeat-x;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -775,7 +774,7 @@ padding-left: 10px;
 
 #footer {
   clear: both;
-  background: #ebebeb url(images/footer-bg.gif) 0 100% repeat-x;
+  background: #ebebeb;
   margin-top: 50px;
   padding: 20px 0 45px;
 }
