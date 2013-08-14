@@ -581,11 +581,6 @@ font-size: ;
 
 }
 
-.entry-content li {
-    	line-height: 22px;
-    	font-size: 13px;
-}
-
 .entry-content ul {
     padding-bottom: 0px;
 }
@@ -2751,7 +2746,7 @@ background-position: 0 0;
 
 .page-template-apps-template-php a:hover {
   color: #409DD6;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .page-template-apps-template-php .header {
@@ -2813,12 +2808,13 @@ background-position: 0 0;
 }
 
 .page-template-apps-template-php .project-category-links a:hover {
-  background-color: #ce3235;
+  background-color: #439ed6;
   color: #fff;
+  text-decoration: none;
 }
 
 .page-template-apps-template-php .project-category-links a.active {
-  background-color: #ce3235;
+  background-color: #439ed6;
   color: #fff;
 }
 
@@ -2832,7 +2828,7 @@ background-position: 0 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #ce3235;
+  border-top: 10px solid #439ed6;
 }
 
 .page-template-apps-template-php .sort-by {
@@ -2858,7 +2854,7 @@ background-position: 0 0;
 }
 
 .page-template-apps-template-php .app.featured .app-inner {
-  background: #e3f1f9;
+  background: rgba(235,235,235,1);
   padding: 15px 20px;
 }
 
@@ -2871,7 +2867,8 @@ background-position: 0 0;
 }
 
 .page-template-apps-template-php .app.featured .get-this-app {
-  background: #ce3234;
+  background: #439ed6;
+  font-weight: 500;
   color: #fff;
   width: 100%;
   padding: 10px;
@@ -2882,7 +2879,7 @@ background-position: 0 0;
 }
 
 .page-template-apps-template-php .app.featured .get-this-app:hover {
-  background: #A62628;
+  background: #348EC1;
   text-decoration: none;
 }
 
@@ -2892,10 +2889,6 @@ background-position: 0 0;
 
 .page-template-apps-template-php .app .get-this-app-wrapper {
   margin-top: 15px;
-}
-
-.page-template-apps-template-php .app .get-this-app {
-  font-weight: bold;
 }
 
 .page-template-apps-template-php .app .featured-app {
@@ -2922,10 +2915,6 @@ background-position: 0 0;
   border: 3px solid #ccc;
   width: 100%;
   box-sizing: border-box;
-}
-
-.page-template-apps-template-php .app .description {
-  font-size: 15px;
 }
 
 /* app single */
