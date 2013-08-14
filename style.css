@@ -51,12 +51,12 @@ h1, h2, h3, h4, h5, h6, form, fieldset {
 }
 
 h1 {
-  font-size: 46px;
+  font-size: 43px;
   padding-bottom: 10px;
 }
 
 h2 {
-  font-size: 33px;
+  font-size: 30px;
   margin-bottom: 15px;
 }
 
@@ -583,17 +583,6 @@ font-size: ;
     font-weight: bold;
 }
 
-
-
-#maincontent a {
-	text-decoration: none;
-
-}
-
-#maincontent a:hover {
-	color: #409DD6;
-	text-decoration: none;
-}
 
 
 /*#maincontent .ttl {
