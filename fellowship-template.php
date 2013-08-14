@@ -37,7 +37,7 @@ get_header(); ?>
       </ul>
       <p>The average fellow in <a href="/2013-fellows/">this year’s class</a> is 30-years-old with some previous work experience and an interest in helping communities. Fellows from across the country come together from a variety of development, design, research and project management backgrounds. Code for America is committed to a diverse fellowship class. Minorities and women are encouraged to apply.</div>
     <div class="box">
-      <h2 class="ttl">The application Process</h2>
+      <h2 class="ttl">The Application Process</h2>
       <p>To apply, prospective fellows must submit examples of previous relevant work, along with short explanations their interest, goals, and background. The 2014 Fellowship begins in January 2014. The application cycle for 2014 is open now through <strong>July 31, 2013</strong>. <a href="http://codeforamerica.org/fellows/apply">Apply Today</a>.</p>
     </div>
     <div class="box">
