@@ -3046,11 +3046,11 @@ background-position: 0 0;
 .btn.apply{ 
   padding:10px;
   background:#3a9ed7;
-  border-radius:5px;
+  border-radius:4px;
   color:#fff;
-  text-transform:uppercase;
   width:230px;
   text-align:center;
+  font-weight: 500;
 }
 
 .btn.apply:hover,
