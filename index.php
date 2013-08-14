@@ -23,8 +23,11 @@ get_header(); ?>
 	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet Five Companies Improving Government</h1>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Our five accelerator companies have landed in CfA's San Francisco headquarters. Learn more about the <a href="/category/accelerator/">companies</a> or <a href="/accelerator-2/">learn more about the program</a>.</p>
 		</div>
+
 		<div class="acceleratorheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <img src="<?php bloginfo('template_directory'); ?>/images/2013_accelerator_companies.png"></div>
+
 </div>
+<div class="clearfix"></div>
 	</div>
   </div>
 </div>	
