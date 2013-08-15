@@ -35,13 +35,7 @@ get_header(); ?>
         <a data-filter="engagement">Citizen Engagement Apps</a>
       </li>
       <li>
-        <a data-filter="policy">Policy Projects</a>
-      </li>
-      <li>
         <a data-filter="startups">Accelerator Startups</a>
-      </li>
-      <li>
-        <a data-filter="other">Other</a>
       </li>
     </ul>
 
