@@ -447,11 +447,9 @@ text-shadow: #CCC 1px 1px 1px;
 }
 
 #whos h3 {
- float: left;
- width: 150px;
-  text-transform: uppercase;
+  float: left;
+  width: 150px;
   color: #000;
-  font-size: 2em;
   margin-top: 10px;
 }
 
@@ -483,14 +481,13 @@ top: 60px;}
 
 
 #fellows .next {
-    padding: 0px 0px 0px 0px;
-    margin-right: 2px;
+  padding: 0px 0px 0px 0px;
+  margin-right: 2px;
 	float: right;
 	position: relative;
 	z-index: 1000;
-top: 60px;}
-
-
+  top: 60px;
+}
 
 #cfa-blog h2 {
   position: relative;
@@ -505,27 +502,18 @@ top: 60px;}
   background: url(images/rss-icon.gif) 0 0 no-repeat;
 }
 
-#cfa-blog li {
-  padding-left: 22px;
-  background: url(images/new-post-icon.gif) 0 0 no-repeat;
+#cfa-blog li h4 {
+  width: 300px;
 }
 
-#cfa-blog li h3 {
-  font-size: 1em;
-  width: 275px;
+#cfa-blog li h4 a {
+  color: #252525;
 }
 
-#cfa-blog li h3 a {
-  text-transform: uppercase;
-  color: #666666;
-  text-decoration: none;
+#cfa-blog li h4 a:hover {
+  color: #439ed6;
 }
-#cfa-blog li h3 a strong {
-  color: #cb283a;
-}
-#cfa-blog li h3 a:hover {
-  color: #cb2a3c;
-}
+
 #cfa-blog li p {
   margin: 0;
   padding: 10px 0 12px;
@@ -1321,7 +1309,6 @@ h3#reply-title {
 }
 
 .home-tile p {
-  font-size: 13px;
   margin: 0 0 8px;
   padding:0;
 }
@@ -1331,15 +1318,11 @@ h3#reply-title {
 }
 
 .home-tile h2 {
-  text-transform: uppercase;
-  color: #000;
-  font-size: 1.50em;
   min-height: 30px;
 }
 
-.home-tile h3 {
-  font-size: 1em;
-  text-transform: uppercase;
+.home-tile h3,
+.home-tile h4 {
   padding-bottom: 5px;
   width: 200px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
