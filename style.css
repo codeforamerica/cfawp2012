@@ -94,6 +94,10 @@ input, select, textarea, button {
   font-size: 1.00em;
 }
 
+form {
+  font-size: 12px;
+}
+
 blockquote {
 	border-left: 5px #CCC solid;
 	padding-left: 10px;
@@ -338,17 +342,14 @@ li#menu-item-4 a, li#menu-item-2489 a {
 /*   ============   Home Page   ============   */
 
 .callout h1 {
-  font-family: 'Oswald', Helvetica;
-  text-transform: uppercase;
-  color: black;
-  font-size: 46px;
+  font-size: 50px;
   line-height: 50px;
   padding-bottom: 10px;
   text-align: left;
 }
 
 .callout p {
-  font-size: 18px;
+  font-size: 20 px;
   line-height: 24px;
 }
 

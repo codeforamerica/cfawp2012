@@ -19,9 +19,9 @@ get_header(); ?>
 
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
-      <div class="callout" style="width: 400px; padding: 50px 15px 105px 10px; float: left;">
+      <div class="callout" style="width: 400px; float: left;">
 	    <h1>Meet the Incubator Companies</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">These three teams scaled from Fellowship project to civic tech startup. Check out their <a href="/category/incubator/">progress</a> or <a href="/incubator">learn more about the program</a>.</p>
+			<p style="text-align: left; padding-left: 3px; padding-top: 0px; margin-top: 0px;">These three teams scaled from Fellowship project to civic tech startup. Check out their <a href="/category/incubator/">progress</a> or <a href="/incubator">learn more about the program</a>.</p>
 		</div>
 		<div class="incubatorheader" style="float:right; width: 500px; padding: 115px 5px 5px 5px;"> <img src="<?php bloginfo('template_directory'); ?>/images/incubator_heroimg.jpg"></div>
 </div>
@@ -84,7 +84,7 @@ get_header(); ?>
   		<ul>
   		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   			<li>
-  				<h4><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
+  				<h><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
   				<p><?php echo excerpt(12); ?></p>
   			</li>
   		<?php endwhile; endif; ?>
