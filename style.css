@@ -103,6 +103,11 @@ blockquote {
 	padding-left: 10px;
 }
 
+.textwidget a:hover {
+  text-decoration: none;
+}
+
+
 img.alignleft  { float: left; height: auto; margin: 5px 15px 5px 0; }
 img.alignright  { float: right; height: auto; margin: 5px 0 5px 15px; }
 img.aligncenter  { text-align: center; margin-bottom:15px;}
