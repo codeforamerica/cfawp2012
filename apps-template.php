@@ -86,7 +86,7 @@ get_header(); ?>
               <?php endif; ?>
               <div class="get-this-app-wrapper">
                 <a class="get-this-app" href="<?php echo get_permalink() ?>">
-                  Get this app &amp; learn more &rarr;
+                  Get this app &amp; learn more
                 </a>
               </div>
             </div>
