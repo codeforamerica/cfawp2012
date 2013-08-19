@@ -800,12 +800,15 @@ padding-left: 10px;
   color: #666;
   text-decoration: none;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
 }
+
 #footer li a:hover {
-  color: #cb2a3c;
+  color: #439ed6;
+  text-decoration: underline;
 }
+
 #footer li h4 a {
   font-size: 14px;
   text-transform: uppercase;
@@ -958,14 +961,7 @@ padding-left: 10px;
 	margin-left: 1.3em;
 	padding: 0;
 }
-#primary {
-}
-#secondary {
-}
 
-/* Footer widget areas */
-#footer-widget-area {
-}
 
 
 /* =Footer
