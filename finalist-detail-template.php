@@ -26,8 +26,8 @@ get_header(); ?>
   	  <div id="get-involved">
   	  <ul>
 		  <li><a href="https://codeforamerica.wufoo.com/forms/x7p4s5/">Join the Muni Innovation List</a></li>
-		  <li><a href="http://codeforamerica.org/apps">Browse the Apps</a></li>
-		  <li><a href="http://codeforamerica.org/cities/fellowship">Learn About the Fellowship</a></li>
+		  <li><a href="/apps">Browse the Apps</a></li>
+		  <li><a href="/cities/fellowship">Learn About the Fellowship</a></li>
 		  <li><a href="http://cfasummit.org/">Attend the Summit</a></li>
 	    </ul>
       </div>
