@@ -1,4 +1,3 @@
-
 <?php
 /**
  * The template for displaying all pages.
@@ -25,18 +24,11 @@ get_header(); ?>
     <div class="right-col">
       <!--Get involved now -->
   	  <div id="get-involved">
-		<h3>Get involved now</h3>
-		<img src="<?php bloginfo( 'template_url' ); ?>/images/get-involved-rc.jpg" alt="Get involved now" />
-	  </div>
-	    <ul>
-		  <li><a href="#">Sign up for updates</a>
-    	   <form name="signup" action="http://action.codeforamerica.org/page/signup/<?php $emailform="emailform"; echo get_post_meta($post->ID, $emailform, true); ?>" method="post" id="newsletter" class="clearfix">
-		   <input type="text" value="Email"  type="email" id="email" name="email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" /><button type="submit" class="like-btn">Send</button> 
-		   </form>
-		  </li>
-		  <li><a href="http://codeforamerica.org/fellows/apply">Apply for the Fellowship</a></li>
-		  <li><a href="http://github.com/codeforamerica">Contribute some code</a></li>
-		  <li><a href="/donate" class="active">Donate</a></li>
+  	  <ul>
+		  <li><a href="https://codeforamerica.wufoo.com/forms/x7p4s5/">Join the Muni Innovation List</a></li>
+		  <li><a href="/apps">Browse the Apps</a></li>
+		  <li><a href="/cities/fellowship">Learn About the Fellowship</a></li>
+		  <li><a href="http://cfasummit.org/">Attend the Summit</a></li>
 	    </ul>
       </div>
     </div>
