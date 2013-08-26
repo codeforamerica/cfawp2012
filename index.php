@@ -20,11 +20,11 @@ get_header(); ?>
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
-	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet Five Companies Improving Government</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Our five accelerator companies have landed in CfA's San Francisco headquarters. Learn more about the <a href="/category/accelerator/">companies</a> or <a href="/accelerator-2/">learn more about the program</a>.</p>
+	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet Streetmix</h1>
+			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Streetmix helps citizens and organizers design better communities on a street-by-street basis. To see how this team is building meaningful civic dialogue, check out their <a href="/2013/08/07/full-speed-ahead-on-streetmix/">launch post</a> or visit <a href="http://streetmix.net">streetmix.net</a>.</p>
 		</div>
 
-		<div class="acceleratorheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <img src="<?php bloginfo('template_directory'); ?>/images/2013_accelerator_companies.png"></div>
+		<div class="streetmixheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/2013/08/07/full-speed-ahead-on-streetmix/"><img src="/wp-content/uploads/2013/08/streetmix.jpg"></a></div>
 
 </div>
 <div class="clearfix"></div>
