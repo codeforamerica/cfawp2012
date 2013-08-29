@@ -22,25 +22,32 @@ get_header(); ?>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec nunc id est accumsan semper eu nec turpis. Sed eleifend est massa, sed consequat lectus tincidunt ac.
         </p>
         
-        <form class="sign-up">
+        <script src="/wp-content/themes/cfawp2012/cities-wufoo-signup.js" type="application/javascript"></script>
+
+        <form class="sign-up" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://codeforamerica.wufoo.com/forms/x7p4s5/#public">
             <p>
-                Your Name<br>
-                <input type="text">
+                <label for="Field4">Your Name</label><br>
+                <input type="text" id="Field4" name="Field4">
             </p>
             <p>
-                Your Title<br>
-                <input type="text">
+                <label for="Field17">Your Title</label><br>
+                <input type="text" id="Field17" name="Field17">
             </p>
             <p>
-                City, State<br>
-                <input type="text">
+                <label for="Field5">Your Organization</label><br>
+                <input type="text" id="Field5" name="Field5">
             </p>
             <p>
-                Your Email<br>
-                <input type="text">
+                <label for="Field15">City, State</label><br>
+                <input type="text" id="Field15" name="Field15">
+            </p>
+            <p>
+                <label for="Field3">Your Email</label><br>
+                <input type="text" id="Field3" name="Field3">
             </p>
             <p>
                 <button>Join</button>
+                <input type="hidden" id="idstamp" name="idstamp" value="sh5/MTRGERiNsV54IXogmRj5IrbhkUDhfGHwlVPFPss=">
             </p>
         </form>
         

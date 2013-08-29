@@ -3106,6 +3106,7 @@ background-position: 0 0;
     .city-pages form.sign-up
     {
         width: 280px;
+        margin-bottom: 20px;
         float: right;
     }
     
@@ -3124,6 +3125,9 @@ background-position: 0 0;
     
     .city-pages form.sign-up button
     {
+        color: white;
         background-color: #39d;
-        width: 100px;
+        font-size: 14px;
+        cursor: pointer;
+        width: 80px;
     }
