@@ -19,7 +19,7 @@ get_header(); ?>
         <?php /* the_content(); */ ?>
         
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec nunc id est accumsan semper eu nec turpis. Sed eleifend est massa, sed consequat lectus tincidunt ac.
+            Across America, government employees are accelerating city innovation by sharing their best ideas, collaborating with local civic hackers, and enlisting elite technologists for a year of service.
         </p>
         
         <script src="/wp-content/themes/cfawp2012/cities-wufoo-signup.js" type="application/javascript"></script>
@@ -51,30 +51,48 @@ get_header(); ?>
             </p>
         </form>
         
-        <h3>Join The Municipal Innovation Conversation</h3>
+        <h3>Join the Conversation</h3>
         
-        <p style="width: 620px;">
-            Ut tortor erat, fermentum dignissim nisl vitae, rutrum tincidunt risus. Aliquam hendrerit consectetur pulvinar. Vestibulum nec nibh convallis erat volutpat suscipit nec eget dolor.
+        <p>
+            Over 200 local officials, startups and NGOs discuss data standards, current events and civic tech on a focused, moderated email list. Titles of some active members include:
         </p>
         
-        <h3>Ready To Level Up?</h3>
-        
-        <p style="width: 620px;">
-            Aenean augue odio, aliquet vel luctus ac, lobortis nec leo. Curabitur pellentesque lectus vel porta blandit. Nullam bibendum, arcu vitae hendrerit blandit, elit nibh aliquet leo, et malesuada ligula nibh eu tellus. Proin in euismod eros. In suscipit mi sed sapien auctor, vitae iaculis nisl tristique. Morbi porttitor venenatis volutpat. Quisque luctus orci nec risus semper, at ornare lectus eleifend. Ut rhoncus est purus, imperdiet ullamcorper sem dictum eget. Etiam convallis lectus purus, a volutpat metus laoreet vulputate. Sed pellentesque iaculis metus vitae varius. Vestibulum dignissim ipsum ut tempor molestie.
+        <p>
+            Chief Innovation Officer, City of KC, Missouri
+            <br>
+            Deputy Chief of Staff, City of Houston
+            <br>
+            Director of Research and Technology, Urban Strategies Council
         </p>
         
-        <hr style="clear: both">
+        <h3>Ready to Level Up?</h3>
+        
+        <p>
+            Code for America's Peer Network helps you innovate by providing targeted training, hands-on support and early access to new technology. Recent trainings include <a href="/07-11-2013-jared/">user interface engineering</a> and <a href="/05-13-201/">broadband policy</a>.
+        </p>
+        
+        <p>
+            <a href="#">Request an invite</a>.
+        </p>
+        
+        <hr>
         
         <div class="picture-and-text">
         
             <div class="picture">
-                <img src="http://placekitten.com/300/165">
+                <img src="/wp-content/themes/cfawp2012/images/build-capacity.jpg">
             </div>
             
-            <h4>Duis a pharetra mi</h4>
+            <h4>Build capacity in your community.</h4>
             
             <p>
-                Morbi congue viverra felis nec luctus. Duis diam mi, sodales eu lacinia accumsan, fermentum ut sem. Nunc ut felis eros. Duis a porta mi. Cras suscipit neque nec lorem feugiat imperdiet sit amet ac dui. Quisque rutrum a justo ac adipiscing.
+                Volunteer researchers, designers, developers and city officials are building better civic technology and <a href="/apps">deploying apps</a> in more than 40 cities. See who’s hacking near you or check out an event in your city. 
+            </p>
+
+            <p>
+                <a href="http://brigade.codeforamerica.org/brigades">Brigades</a>
+                <br>
+                <a href="http://brigade.codeforamerica.org/pages/events">Events</a>
             </p>
         
         </div>
@@ -82,16 +100,39 @@ get_header(); ?>
         <div class="picture-and-text">
         
             <div class="picture">
-                <img src="http://placekitten.com/300/165">
+                <img src="/wp-content/themes/cfawp2012/images/bring-coders-designers.jpg">
             </div>
             
-            <h4>Phasellus ultricies scelerisque est</h4>
+            <h4>Bring top coders, designers and researchers to your city.</h4>
             
             <p>
-                Quis pellentesque neque. Curabitur eu accumsan purus. Nullam aliquet viverra varius. Donec faucibus velit dui, quis luctus sem porta eget. Nunc vulputate, leo vel suscipit congue, odio diam imperdiet velit, vel vehicula magna velit sed nibh.
-                Quis pellentesque neque. Curabitur eu accumsan purus. Nullam aliquet viverra varius. Donec faucibus velit dui, quis luctus sem porta eget. Nunc vulputate, leo vel suscipit congue, odio diam imperdiet velit, vel vehicula magna velit sed nibh.
-                Quis pellentesque neque. Curabitur eu accumsan purus. Nullam aliquet viverra varius. Donec faucibus velit dui, quis luctus sem porta eget. Nunc vulputate, leo vel suscipit congue, odio diam imperdiet velit, vel vehicula magna velit sed nibh.
-                Quis pellentesque neque. Curabitur eu accumsan purus. Nullam aliquet viverra varius. Donec faucibus velit dui, quis luctus sem porta eget. Nunc vulputate, leo vel suscipit congue, odio diam imperdiet velit, vel vehicula magna velit sed nibh.
+                Code for America’s Fellowship is a one-year program where cutting-edge developers, designers and researchers are embedded in US cities to solve civic problems using technology. Cities who’ve worked with us have built apps that support citizen engagement, criminal justice and public health. Contact <a href="mailto:luke@codeforamerica.org">luke@codeforamerica.org</a> to find out more or visit our <a href="/cities/fellowship">FAQ</a>.
+            </p>
+
+            <p>
+                <a href="/city-current/">Current Cities</a>
+                <br>
+                <a href="/apps">The Apps</a>
+            </p>
+        
+        </div>
+        
+        <div class="picture-and-text">
+        
+            <div class="picture">
+                <img src="/wp-content/themes/cfawp2012/images/join-standards.jpg">
+            </div>
+            
+            <h4>Join our data standards collaborations.</h4>
+            
+            <p>
+                Releasing data in standard format makes it easy for developers to create useful applications for citizens. Together with city officials, we’re developing <a href="/civic-data-standards/">standards</a> that anyone can adopt for critical categories of data like restaurant and house inspections. Pledge to release your data:
+            </p>
+
+            <p>
+                <a href="http://housefacts.me/">House Facts</a>
+                <br>
+                <a href="http://foodinspectiondata.us/">LIVES</a>
             </p>
         
         </div>
