@@ -19,7 +19,7 @@ get_header(); ?>
     <div class="header">Our Apps and Projects</div>
 
     <p class="page-description">
-      Our apps are the result of dozens of conversations with city staff and community members. Together, in partnership with the city, our fellows figure out what they need to best serve their community. We build apps that make life easier. For a list of more civic apps check out <a href="http://commons.codeforamerica.org/">CfA Commons</a>.
+      Our apps are the result of dozens of conversations with government officials, community groups and city residents. We build apps that make life easier. For a list of more civic apps check out <a href="http://commons.codeforamerica.org/">CfA Commons</a>.
     </p>
 
     <form class="search-input-wrapper">
@@ -35,7 +35,7 @@ get_header(); ?>
         <a data-filter="engagement">Citizen Engagement Apps</a>
       </li>
       <li>
-        <a data-filter="startups">Accelerator Startups</a>
+        <a data-filter="paid">Paid Apps</a>
       </li>
     </ul>
 
@@ -59,8 +59,7 @@ get_header(); ?>
              data-name="<?php echo $post->post_title ?>"
              <?php if ($post_custom['app-services']){ ?>data-services="true" <?php } ?>
              <?php if ($post_custom['app-engagement']){ ?>data-engagement="true" <?php } ?>
-             <?php if ($post_custom['app-policy']){ ?>data-policy="true" <?php } ?>
-             <?php if ($post_custom['app-startups']){ ?>data-startups="true" <?php } ?>
+             <?php if ($post_custom['app-paid']){ ?>data-paid="true" <?php } ?>
              <?php if ($post_custom['app-other']){ ?>data-other="true" <?php } ?>
              >
           <div class="app-inner">
