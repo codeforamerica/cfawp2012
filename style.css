@@ -3010,3 +3010,120 @@ background-position: 0 0;
   width:180px;
   text-align:center;
 }
+
+.city-pages
+{
+}
+    
+    .city-pages hr
+    {
+        margin: 20px 0;
+        border-width: 1px 0 0 0;
+        border-color: silver;
+        border-style: dotted;
+    }
+    
+    .city-pages h3
+    {
+        font-size: 1.4em;
+        margin: 20px 0 0 0;
+    }
+    
+    .city-pages h4,
+    .city-pages h5
+    {
+        font-size: 1.3em;
+        margin: 10px 0;
+    }
+    
+    .city-pages p
+    {
+        width: 620px;
+        margin: 10px 0;
+    }
+    
+    .city-pages .picture-and-text
+    {
+        clear: both;
+        padding-top: 20px;
+    }
+    
+    .city-pages .picture-and-text .picture
+    {
+        width: 320px;
+        float: left;
+        clear: left;
+    }
+    
+    .city-pages .picture-and-text h4
+    {
+        margin-top: 0;
+        clear: right;
+    }
+    
+    .city-pages .picture-and-text p
+    {
+        margin-left: 320px;
+    }
+    
+    .city-pages .text-and-picture
+    {
+        clear: both;
+        padding-top: 20px;
+    }
+    
+    .city-pages .text-and-picture .picture
+    {
+        width: 300px;
+        float: right;
+        clear: left;
+    }
+    
+    .city-pages .text-and-picture .picture p
+    {
+        width: 300px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .city-pages .text-and-picture h4,
+    .city-pages .text-and-picture p
+    {
+        margin-top: 0;
+    }
+    
+    .city-pages .text-and-picture 5
+    {
+        clear: left;
+    }
+    
+    .city-pages .text-and-picture .link-block
+    {
+        width: 320px;
+        float: left;
+    }
+    
+    .city-pages form.sign-up
+    {
+        width: 280px;
+        float: right;
+    }
+    
+    .city-pages form.sign-up p
+    {
+        font-size: 12px;
+    }
+    
+    .city-pages form.sign-up input
+    {
+        font-size: 14px;
+        line-height: 16px;
+        width: 260px;
+        padding: 10px;
+    }
+    
+    .city-pages form.sign-up button
+    {
+        background-color: #39d;
+        width: 100px;
+    }
