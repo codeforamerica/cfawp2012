@@ -3127,13 +3127,14 @@ background-position: 0 0;
     .city-pages form.sign-up p
     {
         font-size: 12px;
+        width: 260px;
     }
     
     .city-pages form.sign-up input
     {
         font-size: 14px;
         line-height: 16px;
-        width: 260px;
+        width: 100%;
         padding: 10px;
     }
     
