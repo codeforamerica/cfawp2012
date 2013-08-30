@@ -108,47 +108,23 @@ get_header(); ?>
 	
   </div>
   <div class="right-col">
-	<h3>Current Donors</h3>
-	<table border="0" cellspacing="0" cellpadding="0">
-	<tr class="odd">
-	 <th>Google</th>
-	 <td>$1,500,000</td>
-	</tr>
-	<tr>
-    <th>Omidyar Network</th>
-    <td>$1,000,000</td>
-  </tr>
-  <tr class="odd">
-    <th>Knight Foundation</th>
-    <td>$750,000</td>
-  </tr>
-  <tr>
-    <th>Bluehost</th>
-    <td>$250,000</td>
-  </tr>
-  <tr class="odd">
-      <th>Kauffman Foundation</th>
-      <td>$135,000</td>
-    </tr>
- <tr>
-    <th>ESRI</th>
-    <td>$100,000</td>
-  </tr>
-<tr class="odd">
-    <th>O'Reilly Media</th>
-    <td>$100,000</td>
-  </tr>
-<tr>
-    <th>Kaphan Foundation</th>
-    <td>$50,000</td>
-  </tr>
-  <tr class="odd">
-    <th>O’Reilly Foundation</th>
-    <td>$50,000</td>
-  </tr>
-</table>
-<p align="right"><a href="/donors" class="more"><strong>MORE</strong></a></p>
-
+    <h3>Our Donors</h3>
+    <p><a href="http://www.knightfoundation.org">Knight Foundation</a></p>
+    <p><a href="http://www.omidyar.com/">Omidyar Foundation</a></p>
+    <p><a href="http://www.google.com">Google</a></p>
+    <p><a href="http://www.bluehost.com">Bluehost</a></p>			
+    <p><a href="http://www.arnoldfoundation.org">Arnold Foundation</a></p>
+    <p><a href="http://www.kauffman.org">Kauffman</a></p>
+    <p><a href="http://brfny.org/">Blue Ridge Foundation</a></p>
+    <p><a href="http://downtownproject.com/">Downtown Project/Vegas Tech Fund</a></p>
+    <p><a href="http://www.accela.com/">Accela</a></p>
+    <p><a href="http://www.esri.com">ESRI</a></p>
+    <p><a href="http://www.emc.com/">EMC</a></p>
+    <p><a href="http://www.oreillymedia.com">O'Reilly Media</a></p>
+    <p><a href="http://www.hewlett.org/">Hewlett Foundation</a></p>
+    <p><a href="http://www.venturesfoundation.org/">Philanthropic Ventures Foundation</a></p>
+    <p><a href="http://www.chcf.org/">California Healthcare Foundation</a></p>
+    <p><a href="/donors" title="More">More…</a></p>
   </div>
   
 </div>

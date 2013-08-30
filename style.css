@@ -2421,8 +2421,7 @@ margin-bottom: 10px;
   color: #000;
   text-transform: uppercase;
   margin: -3px 0 5px;
-  padding: 3px 0 3px 33px;
-  background: url(images/donors-ttl.png) 0 0 no-repeat;
+  padding: 3px 0;
 }
 
 #team-donors .right-col table {
