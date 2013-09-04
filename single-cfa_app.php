@@ -25,7 +25,7 @@ get_header(); ?>
 
   <div class="right-column">
     <div class="sidebar-section get-this-app">
-      <div>Want An App?</div>
+      <div>Want This App?</div>
       <a href="https://codeforamerica.wufoo.com/forms/app-inquiry-form/">Contact Us</a>
     </div>
 
@@ -57,10 +57,10 @@ get_header(); ?>
       </div>
     <?php endif; ?>
 
-    <?php if ($post_custom['app-deployed-in'][0]): ?>
-      <div class="sidebar-section deployed-in">
-        <div class="sidebar-section-header">First Deployed By</div>
-        <p><?php echo $post_custom['app-deployed-in'][0] ?></p>
+    <?php if ($post_custom['app-created-by'][0]): ?>
+      <div class="sidebar-section created-by">
+        <div class="sidebar-section-header">Created By</div>
+        <p><?php echo $post_custom['app-created-by'][0] ?></p>
       </div>
     <?php endif; ?>
 
