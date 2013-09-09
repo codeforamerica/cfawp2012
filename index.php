@@ -20,11 +20,11 @@ get_header(); ?>
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
-	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet Streetmix</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;"><a href="/2013/08/07/full-speed-ahead-on-streetmix/">Streetmix</a> helps citizens and organizers design better communities on a street-by-street basis. To see how this team is building meaningful civic dialogue, check out their <a href="/2013/08/07/full-speed-ahead-on-streetmix/">launch post</a> or visit <a href="http://streetmix.net">streetmix.net</a>.</p>
+	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Coming Soon: Beyond Transparency</h1>
+			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Through open data policies, open data catalogs and new positions like "Chief Data Officers", local governments are finding ways to innovate, engage citizens and improve communities. "Beyond Transparency: Open Data and the Future of Civic Innovation" is a collection of stories from some of the country's most inspiring civic tech leaders. Interested? Check out <a href="/beyond-transparency/">codeforamerica.org/beyond-transparency</a>.</p>
 		</div>
 
-		<div class="streetmixheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/2013/08/07/full-speed-ahead-on-streetmix/"><img src="/wp-content/themes/cfawp2012/images/streetmix.jpg"></a></div>
+		<div class="streetmixheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/beyond-transparency/"><img src="/wp-content/uploads/2013/09/bookheader.jpg"></a></div>
 
 </div>
 <div class="clearfix"></div>
