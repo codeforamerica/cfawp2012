@@ -24,7 +24,7 @@ get_header(); ?>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Through open data policies, open data catalogs and new positions like "Chief Data Officers", local governments are finding ways to innovate, engage citizens and improve communities. "Beyond Transparency: Open Data and the Future of Civic Innovation" is a collection of stories from some of the country's most inspiring civic tech leaders. Interested? Check out <a href="/beyond-transparency/">codeforamerica.org/beyond-transparency</a>.</p>
 		</div>
 
-		<div class="streetmixheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/beyond-transparency/"><img src="/wp-content/uploads/2013/09/bookheader.jpg"></a></div>
+		<div class="streetmixheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/beyond-transparency/"><img src="/wp-content/themes/cfawp2012/images/bookheader.png"></a></div>
 
 </div>
 <div class="clearfix"></div>
