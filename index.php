@@ -21,7 +21,7 @@ get_header(); ?>
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
 	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Beyond Transparency</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Through open data policies, open data catalogs and new positions like chief data officer, local governments are innovating and improving communities. "Beyond Transparency: Open Data and the Future of Civic Innovation" is a collection of stories from some of the country's most inspiring civic tech leaders. Interested? Check out the <a href="/beyond-transparency/">upcoming book launch</a>.</p>
+			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">"Beyond Transparency: Open Data and the Future of Civic Innovation" is a collection of stories from some of the country's most inspiring civic tech leaders. Interested? Check out the <a href="/beyond-transparency/">upcoming book launch</a>.</p>
 		</div>
 
 		<div class="streetmixheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/beyond-transparency/"><img src="/wp-content/uploads/2013/09/bookheader_2.jpg"></a></div>
