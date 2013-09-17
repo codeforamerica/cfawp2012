@@ -24,7 +24,7 @@ get_header(); ?>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Across the world, civic hackers are remixing and reusing apps, promoting openness and solving local problems. Join us. <a href="/2013/09/17/brigade-captains">Meet the new Brigade captains</a> or check out our <a href="/category/brigade/">tools and resources</a> to start your own group.</p>
 		</div>
 
-		<div class="streetmixheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/2013/09/17/brigade-captains"><img src="/wp-content/uploads/2013/09/brigadecapt.jpg"></a></div>
+		<div class="streetmixheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/2013/09/17/brigade-captains"><img src="/wp-content/themes/cfawp2012/images/brigadecapt.jpg"></a></div>
 
 </div>
 <div class="clearfix"></div>
