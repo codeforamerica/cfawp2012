@@ -20,11 +20,11 @@ get_header(); ?>
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
-	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Spotlight on the Brigade</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Across the world, civic hackers are remixing and reusing apps, promoting openness and solving local problems. Join us. <a href="/2013/09/17/brigade-captains">Meet the new Brigade captains</a> or check out our <a href="http://brigade.codeforamerica.org/organize">tools and resources</a> to start your own group.</p>
+	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Ideation Nation</h1>
+			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">How would you improve your community using technology? <a href="http://ideationnation.mindmixer.com/">Let us know.</a></p>
 		</div>
 
-		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="http://brigade.codeforamerica.org/"><img src="/wp-content/themes/cfawp2012/images/brigadecapt.jpg"></a></div>
+		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="http://ideationnation.mindmixer.com/"><img src="/wp-content/themes/cfawp2012/images/CodeforAmerica_index.jpg"></a></div>
 
 </div>
 <div class="clearfix"></div>
