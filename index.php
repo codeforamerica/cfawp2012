@@ -24,7 +24,7 @@ get_header(); ?>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Former Chief Data Officer of the City of Chicago and Code for America present <a href="http://www.codeforamerica.org/2013/10/14/beyondtransparency_launch/">Beyond Transparency: Open Data and the Future of Civic Innovation</a> -- an anthology of essays about open civic data. <a href="http://beyondtransparency.org/">Download it today</a>.</p>
 		</div>
 
-		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="http://beyondtransparency.org"><img src="/wp-content/themes/cfawp2012/images/beyondtransparency_img/"></a></div>
+		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="http://beyondtransparency.org"><img src="/wp-content/themes/cfawp2012/images/beyondtransparency_img.jpg"></a></div>
 
 </div>
 <div class="clearfix"></div>
