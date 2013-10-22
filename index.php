@@ -20,11 +20,11 @@ get_header(); ?>
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
-	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Welcome Class of 2014</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Code for America is happy to announce the <a href="http://www.codeforamerica.org/cities/2014-cities/">government partners</a> and <a href="http://www.codeforamerica.org/fellows/2014-fellows/">fellows</a> for the 2014 fellowship program. Check out the entire class via our <a href="http://codeforamerica.org/2014">launch post</a>.</p>
+	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Beyond Transparency Book Launch</h1>
+			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Former Chief Data Officer of the City of Chicago and Code for America present <a href="http://www.codeforamerica.org/2013/10/14/beyondtransparency_launch/">Beyond Transparency: Open Data and the Future of Civic Innovation</a> -- an anthology of essays about open civic data. <a href="http://beyondtransparency.org/">Download it today</a>.</p>
 		</div>
 
-		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="http://www.codeforamerica.org/2014"><img src="/wp-content/themes/cfawp2012/images/2014cities/fellowshipcities_homepageimage.jpg"></a></div>
+		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="http://beyondtransparency.org"><img src="/wp-content/themes/cfawp2012/images/beyondtransparency_img/"></a></div>
 
 </div>
 <div class="clearfix"></div>
