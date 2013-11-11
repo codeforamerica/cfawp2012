@@ -16,7 +16,7 @@ get_header(); ?>
 <div class="wrap clearfix" id="inner">
   <div id="apps-page" class="fullcolumn" style="width: 940px;" >
 
-    <div class="header">Our Apps and Projects</div>
+    <h1>Our Apps and Projects</h1>
 
     <p class="page-description">
       Our fellowship, accelerator and incubator apps are the product of hundreds of community interviews. In partnership with our government partners, fellows and startup founders figure out how to best serve citizens. For a list of more civic apps check out <a href="http://commons.codeforamerica.org/">CfA Commons</a>.
@@ -83,7 +83,7 @@ get_header(); ?>
               <?php endif; ?>
               <div class="get-this-app-wrapper">
                 <a class="get-this-app" href="<?php echo get_permalink() ?>">
-                  Get this app &amp; learn more &rarr;
+                  Get this app &amp; learn more
                 </a>
               </div>
             </div>

@@ -19,9 +19,11 @@ get_header(); ?>
 
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
-      <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
-	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">CfA Summit Highlights</h1>
+
+      <div class="callout" style="width: 400px; float: left;">
+	    <h1>CfA Summit Highlights</h1>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">The 2013 Code for America Summit is officially over, but the conversation doesn't have to end here. Watch the <a href="http://www.youtube.com/playlist?list=PL65XgbSILalV-wInUiERrhjweMlJkukMd">event presentations</a> and start turning your ideas into actions. Check out our <a href="/cities/">government programs</a>.</p>
+
 		</div>
 
 		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="http://www.youtube.com/playlist?list=PL65XgbSILalV-wInUiERrhjweMlJkukMd"><img src="/wp-content/themes/cfawp2012/images/summit_video_header.jpg"></a></div>
@@ -80,20 +82,20 @@ get_header(); ?>
 		</div>
   	<!--CfA Blog -->
   	<div id="cfa-blog" class="home-tile">
-  		<h2>CfA Blog <a href="http://c4a.me/feed/" class="like-btn">RSS</a></h2>
+  		<h2>CfA Blog <!-- <a href="http://c4a.me/feed/" class="like-btn">RSS</a> --></h2>
 
   		<?php query_posts('showposts=2&tag__not_in=61'); ?>		  
 
   		<ul>
   		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   			<li>
-  				<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?> <strong>»</strong></a></h3>
+  				<h><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
   				<p><?php echo excerpt(12); ?></p>
   			</li>
   		<?php endwhile; endif; ?>
   		</ul>
 
-  		<a href="/code-for-america-blog/" class="btn">Go to Blog</a>
+  		<a href="/code-for-america-blog/" class="more">Go to Blog</a>
   	</div>
   	<!--Featured App -->
   	<div id="featured-app" class="home-tile right-col">

@@ -115,5 +115,13 @@ var _sf_async_config={uid:20661,domain:"codeforamerica.org"};
 </script>
 <!-- Ethnio Activation Code -->
 <script type="text/javascript" language="javascript" src="//ethn.io/remotes/20160" async="true" charset="utf-8"> </script>
+<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/javascripts/helium.js"></script>
+<script type="text/javascript">
+    window.addEventListener('load', function(){
+
+        helium.init();
+
+    }, false);
+</script>
 </body>
 </html>

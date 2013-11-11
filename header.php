@@ -137,7 +137,6 @@ $(document).ready(function() {
 	<div id="tag-line">
 		<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png" alt="A new kind of public service – By the People, For the People, For the 21st Century">
 	</div>
-	<!--Navigation -->
 	<div id="nav-wrap">
 		<?php wp_nav_menu( array('menu'=> 'cfa_main', 'menu_id' => 'nav', 'container' => 'ul',  ) ); ?>
 	</div>

@@ -5,7 +5,6 @@ at http://www.vhg-design.com
 ===============
 */
 html, body{
-  background: #FFFFFF url(images/bg.gif) 0 0 repeat-x;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -13,22 +12,29 @@ html, body{
 }
 
 body {
-  color: #666;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
+  color: #252525;
+  font-family: "Whitney", Trebuchet, sans-serif;
+  font-size: 17px;
   text-shadow: none;
 }
 
 a {
-  color: #cb2a3c;
+  color: #439ed6;
 	text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-p {line-height: 1.4em; font-size: 14px;}
+p {
+  font-size: 17px;
+  line-height: 26px;
+}
+
+p.page-description {
+  font-size: 20px;
+}
 
 ul, ol, dl, dt, dd {
   list-style: none;
@@ -44,10 +50,43 @@ div.entry-content ul {
 h1, h2, h3, h4, h5, h6, form, fieldset {
   margin: 0;
   padding: 0;
+  color: #000;
 }
+
+h1 {
+  font-size: 43px;
+  line-height: 47px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  line-height: 34px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h2 a, h3 a {
+  color: #252525;
+}
+
+h2 a:hover, 
+h3 a:hover {
+  color: #439ed6;
+}
+
+h4 {
+  font-size: 20px;
+}
+
 fieldset {
   border: none;
 }
+
 input, select, textarea, button {
   font: normal 1em Arial, Helvetica, sans-serif;
   border: none;
@@ -58,9 +97,17 @@ input, select, textarea, button {
   font-size: 1.00em;
 }
 
+form.newsletter{
+  font-size: 12px;
+}
+
 blockquote {
 	border-left: 5px #CCC solid;
 	padding-left: 10px;
+}
+
+.textwidget a:hover {
+  text-decoration: none;
 }
 
 img.alignleft  { float: left; height: auto; margin: 5px 15px 5px 0; }
@@ -213,10 +260,9 @@ text-shadow: #999 1px 1px 1px;
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 17px;
   font-weight: bold;
   letter-spacing: 1px;
-text-shadow: #ccc 1px 1px 1px;
 }
 #nav li.first a {
   padding-left: 0;
@@ -229,23 +275,28 @@ text-shadow: #ccc 1px 1px 1px;
 #nav ul {
   position: absolute;
   left: 0;
-  top: 27px;
+  top: 24px;
 }
 #nav ul li {
+  background: none;
   float: left;
   padding: 0;
-  background: url(images/arrow.png) no-repeat 100% 0%;
   margin-right: 15px;
-padding-right: 15px;
+  padding-right: 15px;
 }
 #nav ul li a {
   text-transform: none;
-  font-size: 1.08em;
-   color: #409dd6;
-   padding: 0;
-   font-weight: normal;
-   letter-spacing: normal;
+  color: #409dd6;
+  font-size: 15px;
+  padding: 0;
+  font-weight: normal;
+  letter-spacing: normal;
 }
+
+#nav ul li a:hover {
+  text-decoration: underline;
+}
+
 #nav ul li a span {
   color: #cb283a;
 }
@@ -261,7 +312,17 @@ li#menu-item-4 a, li#menu-item-2489 a {
 }
 /*   ============   Home Page   ============   */
 
+.callout h1 {
+  font-size: 50px;
+  line-height: 50px;
+  padding-bottom: 10px;
+  text-align: left;
+}
 
+.callout p {
+  font-size: 20 px;
+  line-height: 24px;
+}
 
 #signup {
   margin: 0 auto;
@@ -358,11 +419,9 @@ text-shadow: #CCC 1px 1px 1px;
 }
 
 #whos h3 {
- float: left;
- width: 150px;
-  text-transform: uppercase;
+  float: left;
+  width: 150px;
   color: #000;
-  font-size: 2em;
   margin-top: 10px;
 }
 
@@ -394,18 +453,16 @@ top: 60px;}
 
 
 #fellows .next {
-    padding: 0px 0px 0px 0px;
-    margin-right: 2px;
+  padding: 0px 0px 0px 0px;
+  margin-right: 2px;
 	float: right;
 	position: relative;
 	z-index: 1000;
-top: 60px;}
-
-
+  top: 60px;
+}
 
 #cfa-blog h2 {
   position: relative;
-  padding-left: 31px;
 }
 
 #cfa-blog h2 a.like-btn {
@@ -417,27 +474,18 @@ top: 60px;}
   background: url(images/rss-icon.gif) 0 0 no-repeat;
 }
 
-#cfa-blog li {
-  padding-left: 22px;
-  background: url(images/new-post-icon.gif) 0 0 no-repeat;
+#cfa-blog li h4 {
+  width: 300px;
 }
 
-#cfa-blog li h3 {
-  font-size: 1em;
-  width: 275px;
+#cfa-blog li h4 a {
+  color: #252525;
 }
 
-#cfa-blog li h3 a {
-  text-transform: uppercase;
-  color: #666666;
-  text-decoration: none;
+#cfa-blog li h4 a:hover {
+  color: #439ed6;
 }
-#cfa-blog li h3 a strong {
-  color: #cb283a;
-}
-#cfa-blog li h3 a:hover {
-  color: #cb2a3c;
-}
+
 #cfa-blog li p {
   margin: 0;
   padding: 10px 0 12px;
@@ -466,7 +514,6 @@ font-size: ;
 
 #inner {
   padding-top: 20px;
-  font-size: 1.17em;
 }
 #maincontent {
   float: left;
@@ -477,7 +524,7 @@ font-size: ;
   width: 940px;
 }
 
-#maincontent h1{
+/*#maincontent h1{
   font-size: 1.71em;
   color: #4ca3d9;
   margin-top: 20px;
@@ -485,74 +532,38 @@ font-size: ;
 #maincontent h2 {
   font-size: 1.29em;
   color: #4ca3d9;
-}
-#maincontent h3 {
-  font-size: 1em;
-  color: #4ca3d9;
-
-}
-
-h3 {
-  color: #4ca3d9;
-
-}
+}*/
 
 .single-post #maincontent h3, .page-template-default h3 {
     padding-bottom: 10px;
     border-bottom: 3px solid #ccc;
-    text-transform: uppercase;
-
-}
-
-.entry-content p {
-	line-height: 22px;
-	font-size: 13px;
-}
-
-.entry-content li {
-    	line-height: 22px;
-    	font-size: 13px;
 }
 
 .entry-content ul {
     padding-bottom: 0px;
 }
 
-.entry-content a {
-    font-weight: bold;
-}
 
 
 
-#maincontent a {
-	text-decoration: none;
-
-}
-
-#maincontent a:hover {
-	color: #409DD6;
-	text-decoration: none;
-
-}
-
-
-#maincontent .ttl {
-/*  font-size: 1.71em; */
-  font-size: 24px;
+/*#maincontent .ttl {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 26px;
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
   position: relative;
-  padding: 0 95px 5px 0;
-  background: url(images/horizontal-dots.gif) 0 100% repeat-x;
+  padding: 0px 95px 0px 0px;
 }
+*/
 
 .single-post #maincontent .ttl {
-    font-family: Oswald, Helvetica Neue, Helvetic, Arial;
-    font-size: 40px;
-    letter-spacing: -.05em;
-    background: none;
-    border-bottom: 4px solid #ccc;
+  font-size: 43px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  background: none;
+  line-height: 47px;
 }
 
 #maincontent img.avatar {
@@ -602,18 +613,28 @@ h2.lh {
    line-height: 22px;
 }
 
+.name{
+  font-size: 20px;
+}
+
+.team {
+  margin-bottom: 10px;
+}
 
 .bio {
-    padding-left: 100px;
-    position: relative;
-    margin-bottom: 25px;
-    border-bottom: 1px solid #CCC;
-    padding-bottom: 10px;
-    font-size: 13px;
-    line-height: 22px;
-    }
+  padding-left: 164px;
+  position: relative;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 25px;
 
-.bio img {position: absolute; top: 6px; left: 0;}
+}
+
+.bio img {
+  position: absolute;
+  top: 6px; =
+  left: 0;
+}
 
 .right-col {
   width: 300px;
@@ -636,23 +657,20 @@ h2.lh {
   background: url(images/bullet-red-arrow.gif) 2px 3px no-repeat;
 }
 .right-col li a {
-  color: #707070;
+  color: #252525;
   text-transform: uppercase;
-  font-weight: bold;
   text-decoration: none;
 }
 .right-col li a.active {
-  color: #cb2a3c;
+  color: #439ed6;
 }
 .right-col li a:hover {
-  color: #cb2a3c;
+  color: #439ed6;
+  text-decoration: underline;
 }
-.right-col li a.active:hover {
-  color: #000;
-}
+
 .right-col #get-involved h3, h3.widget-title {
  text-transform: uppercase;
- color: #000000;
  font-size: 1.21em;
  display: inline-block;
  padding-right: 17px;
@@ -692,7 +710,7 @@ padding-left: 10px;
 
 #footer {
   clear: both;
-  background: #ebebeb url(images/footer-bg.gif) 0 100% repeat-x;
+  background: #ebebeb;
   margin-top: 50px;
   padding: 20px 0 45px;
 }
@@ -719,17 +737,25 @@ padding-left: 10px;
 #footer li:first-child {
   margin-left: 0;
 }
-#footer li h4 {
-  font-size: 1.17em;
-  text-transform: uppercase;
-}
 #footer li a {
   color: #666;
   text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  font-style: normal;
 }
+
 #footer li a:hover {
-  color: #cb2a3c;
+  color: #439ed6;
+  text-decoration: underline;
 }
+
+#footer li h4 a {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 
 
 #footer li li {
@@ -876,14 +902,7 @@ padding-left: 10px;
 	margin-left: 1.3em;
 	padding: 0;
 }
-#primary {
-}
-#secondary {
-}
 
-/* Footer widget areas */
-#footer-widget-area {
-}
 
 
 /* =Footer
@@ -1234,7 +1253,6 @@ h3#reply-title {
 }
 
 .home-tile p {
-  font-size: 13px;
   margin: 0 0 8px;
   padding:0;
 }
@@ -1244,15 +1262,11 @@ h3#reply-title {
 }
 
 .home-tile h2 {
-  text-transform: uppercase;
-  color: #000;
-  font-size: 1.50em;
-  min-height: 50px;
+  min-height: 30px;
 }
 
-.home-tile h3 {
-  font-size: 1em;
-  text-transform: uppercase;
+.home-tile h3,
+.home-tile h4 {
   padding-bottom: 5px;
   width: 200px;
   background: url(images/horizontal-dots.gif) 0 100% repeat-x;
@@ -1433,7 +1447,7 @@ border: none;}
 
 #cities .ttl {
   color: #000;
-  font-family: Oswald, Helvetica Neue, Helvetic, Arial;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 40px;
   letter-spacing: -.05em;
   background: none;
@@ -1574,11 +1588,14 @@ a.more {
   padding-left: 21px;
   background: url(images/bullet-red-arrow.gif) 0 3px no-repeat;
   text-decoration: none;
-  color: #707070;
+  color: #252525;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 a.more:hover {
-  color: #cb2a3c;
+  color: #439ed6;
+  text-decoration: underline;
 }
 
 #cities #maincontent h3 a.more {
@@ -1900,23 +1917,19 @@ a.more:hover {
   position: absolute;
   top: 3px;
   right: 0;
-  font-size: .82em;
 }
 
-#press h2 {
-  color: #000;
-  text-transform: uppercase;
-  font-size: 1em;
+#press h3 {
   margin-top: 25px;
 }
 
-#press h2.first {
+#press h3.first {
   margin-top: 0;
 }
 
 #press p {
-  padding: 0;
-  margin: 20px 0 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 #press p.date-cat, #cities-detail .wrap .right-col p.date, p.date  {
@@ -1931,7 +1944,6 @@ a.more:hover {
 }
 
 #cities-detail .wrap .right-col .ttl {
-  text-transform: uppercase;
   color: #000;
   font-size: 1.21em;
   font-weight: bold;
@@ -2082,31 +2094,6 @@ a.more:hover {
   background: url(images/rss-icon.gif) 0 0 no-repeat;
 }
 
-#maincontent #cfa-blog .ttl a.more {
-  position: absolute;
-  top: 3px;
-  right: 0;
-  text-transform: uppercase;
-  font-size: 0.76em;
-}
-
-#maincontent #cfa-blog h2, #cfa-blog h2 a {
-  font-size: 32px;
-  clear: both;
-  text-transform: uppercase;
-  color: #000;
-  padding: 0;
-  min-height: 10px;
-  margin-top: 7px;
-  font-family: Oswald, Helvetica Neue, Helvetica, Arial;
-  letter-spacing: -.05em;
-
-}
-
-#maincontent #cfa-blog p {
-  font-size: .8em;
-line-height: 1.6em;
-}
 
 #maincontent #cfa-blog .post {
 display: block;
@@ -2117,7 +2104,6 @@ display: block;
     clear: both;
     margin-bottom: 65px;
 	display: block;
-
 }
 
 #maincontent #cfa-blog img.attachment-thumbnail {
@@ -2136,11 +2122,8 @@ margin-bottom: 10px;
   float: left;
   padding: 0;
   background: transparent;
-  line-height: 29px;
-  font-weight: bold;
-  color: #cb283a;
   margin-right: 28px;
-  font-size: .8em;
+  font-size: 14px;
 }
 
 #maincontent #cfa-blog li.right {
@@ -2173,10 +2156,6 @@ margin-bottom: 10px;
 
 #maincontent #cfa-blog li a#share-b {
   background-image: url(images/sharethis.gif);
-}
-
-#maincontent #cfa-blog li a {
-  color: #cb283a;
 }
 
 #maincontent #cfa-blog li a.comments {
@@ -2260,21 +2239,23 @@ margin-bottom: 10px;
 }
 
 #mission p {
-  font-size: 1.17em;
+  margin-top: 0px;
+}
+
+#mission p.missionstatement {
+  font-size: 24px;
+  line-height: 29px;
 }
 
 #fellows {
   float: right;
   width: 600px;
-  margin-top: 20px;
+  margin-top: 37px;
   padding-left: 20px;
   background: url(/images/vertical-dot.gif) 0 0 repeat-y;
 }
 
 #fellows h3 {
-  font-size: 1.42em;
-  text-transform: uppercase;
-  color: #000;
   position: relative;
 }
 
@@ -2340,7 +2321,6 @@ margin-bottom: 10px;
   float: left;
   width: 300px;
   margin-left: 20px;
-  font-size: 1.17em;
   padding-top: 10px;
 }
 
@@ -2348,20 +2328,9 @@ margin-bottom: 10px;
   margin-left: 0;
 }
 
-#whh .box h3 {
-  text-transform: uppercase;
-  color: #000;
-  font-size: 1.21em;
-}
-
 #whh .box p {
   margin: 0;
   padding: 5px 0 15px;
-}
-
-#whh .box a.more {
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 #team-donors {
@@ -2371,18 +2340,6 @@ margin-bottom: 10px;
 
 #team-donors #maincontent {
   width: 600px;
-}
-
-#team-donors .ttl {
-  background: transparent;
-  margin-bottom: 10px;
-  padding: 0;
-}
-
-#team-donors .team h3 {
-  color: #000;
-  text-transform: uppercase;
-  font-size: 1em;
 }
 
 #team-donors .team ul {
@@ -2397,7 +2354,7 @@ margin-bottom: 10px;
   height: 118px;
   text-align: center;
   padding: 0;
-  background: url(images/team-pic-bg.png) 50% 0;
+  background: none;
   margin-top: -4px;
 }
 
@@ -2413,7 +2370,10 @@ margin-bottom: 10px;
 
 #team-donors .team li img {
   margin-top: 19px;
+}
 
+#team-donors .team h3 {
+  margin-top: 15px;
 }
 
 #team-donors .right-col h3 {
@@ -2429,35 +2389,24 @@ margin-bottom: 10px;
 }
 
 #team-donors .right-col th {
-  padding: 9px;
+  padding: 9px 9px 9px 0px;
   width: 225px;
   text-align: left;
   vertical-align: top;
+  font-weight: 400;
 }
 
 #team-donors .right-col td {
   padding: 9px;
   text-align: right;
-  font-weight: bold;
   vertical-align: top;
-}
-
-.wrap-t #press {
-  font-size: 1.17em;
 }
 
 .wrap-t #press .ttl {
   position: relative;
-  font-size: 1.21em;
-  color: #000;
-  text-transform: uppercase;
-  font-weight: bold;
   margin: 10px 0;
 }
 
-.wrap-t #press .ttl a.more {
-  font-size: .82em;
-}
 
 
 
@@ -2470,12 +2419,10 @@ margin-bottom: 10px;
 }
 
 #fellows-wrap {
-  font-size: 1.17em;
   background: url(images/vertical-dot.gif) 640px 0 repeat-y;
 }
 
 #fellows-wrap .ttl {
-  font-size: 1.21em;
   padding-bottom: 10px;
   margin-bottom: 15px;
 }
@@ -2552,15 +2499,12 @@ margin-bottom: 10px;
 }
 
 .testimonial-wrap {
-  background: #cccccc url(images/white-gif-4x4.gif) 0 0 no-repeat;
   padding: 0 0 4px 4px;
 }
 
 .testimonial-content {
-  background: #e1e1e1;
+  background: #ececec;
   margin: -4px -4px 0 0;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  color: #000;
   padding: 15px 15px 15px 116px;
   min-height: 90px;
   position: relative;
@@ -2574,16 +2518,15 @@ margin-bottom: 10px;
 }
 
 .testimonial-content p {
-  color: #cb283a;
   margin: 0;
   padding: 5px 0 0;
+  line-height: 19px;
 }
 
 .testimonial-content p .position {
-  text-transform: uppercase;
-  font: normal 0.71em Arial, Helvetica, sans-serif;
-  color: #000;
   display: block;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .testimonial-content img {
@@ -2596,25 +2539,18 @@ margin-bottom: 10px;
   padding-top: 50px;
 }
 
-#dates h3 {
-  font-size: 1.29em;
-  color: #000;
-  text-transform: uppercase;
-  padding: 2px 0 2px 33px;
-  background: url(images/dates-to-keep-icon.gif) 0 0 no-repeat;
-}
-
 #dates th {
   width: 170px;
+  font-weight: normal;
+  padding: 5px;
 }
 
 #dates h4 {
-  line-height: 24px;
-  background: #cb283a url(images/dates-ttl-bg.gif) 70px 7px no-repeat;
   margin: 10px 0 1px;
-  color: #fff;
-  font-size: 1.29em;
-  padding-left: 105px;
+  color: #000;
+  color: #000;
+  margin-bottom: 13px;
+  border-bottom: 1px dotted;
 }
 #issues {margin-top: 10px;}
 #issues div {padding: 10px 15px;}
@@ -2680,13 +2616,14 @@ background-position: 0 0;
 #civcoms {
   padding: 0 20px 0 115px;
 }
-#maincontent h2.program-title {
+
+/*#maincontent h2.program-title {
   font-family: Oswald;
   font-size: 22px;
   font-weight: normal;
   text-transform: uppercase;
   color: #000000;
-}
+}*/
 
 /* Apps template by Adam Becker */
 
@@ -2697,7 +2634,7 @@ background-position: 0 0;
 
 .page-template-apps-template-php a:hover {
   color: #409DD6;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .page-template-apps-template-php .header {
@@ -2705,13 +2642,12 @@ background-position: 0 0;
   font-weight: bold;
   color: #000;
   font-size: 22px;
-  border-bottom: 4px solid #ccc;
-  padding-bottom: 10px;
 }
 
 .page-template-apps-template-php .page-description {
   float: left;
   width: 600px;
+  margin-top: 0px;
 }
 
 .page-template-apps-template-php .project-category-links {
@@ -2760,12 +2696,13 @@ background-position: 0 0;
 }
 
 .page-template-apps-template-php .project-category-links a:hover {
-  background-color: #ce3235;
+  background-color: #439ed6;
   color: #fff;
+  text-decoration: none;
 }
 
 .page-template-apps-template-php .project-category-links a.active {
-  background-color: #ce3235;
+  background-color: #439ed6;
   color: #fff;
 }
 
@@ -2779,7 +2716,7 @@ background-position: 0 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #ce3235;
+  border-top: 10px solid #439ed6;
 }
 
 .page-template-apps-template-php .sort-by {
@@ -2805,7 +2742,7 @@ background-position: 0 0;
 }
 
 .page-template-apps-template-php .app.featured .app-inner {
-  background: #e3f1f9;
+  background: rgba(235,235,235,1);
   padding: 15px 20px;
 }
 
@@ -2818,7 +2755,8 @@ background-position: 0 0;
 }
 
 .page-template-apps-template-php .app.featured .get-this-app {
-  background: #ce3234;
+  background: #439ed6;
+  font-weight: 500;
   color: #fff;
   width: 100%;
   padding: 10px;
@@ -2829,7 +2767,7 @@ background-position: 0 0;
 }
 
 .page-template-apps-template-php .app.featured .get-this-app:hover {
-  background: #A62628;
+  background: #348EC1;
   text-decoration: none;
 }
 
@@ -2839,10 +2777,6 @@ background-position: 0 0;
 
 .page-template-apps-template-php .app .get-this-app-wrapper {
   margin-top: 15px;
-}
-
-.page-template-apps-template-php .app .get-this-app {
-  font-weight: bold;
 }
 
 .page-template-apps-template-php .app .featured-app {
@@ -2869,10 +2803,6 @@ background-position: 0 0;
   border: 3px solid #ccc;
   width: 100%;
   box-sizing: border-box;
-}
-
-.page-template-apps-template-php .app .description {
-  font-size: 15px;
 }
 
 /* app single */
@@ -2989,16 +2919,22 @@ background-position: 0 0;
 .flexslider {
   margin: 20px 20px 0 0 !important;
 }
+
 .btn.apply{ 
   padding:10px;
   background:#3a9ed7;
-  border-radius:5px;
+  border-radius:4px;
   color:#fff;
-  text-transform:uppercase;
   width:230px;
   text-align:center;
-
+  font-weight: 500;
 }
+
+.btn.apply:hover,
+.single-cfa_app .get-this-app > a:hover {
+  background: #348ec1;
+}
+
 .btn.apply.red{ 
   padding:24px;
   font-size:22px;

@@ -18,8 +18,8 @@ get_header(); ?>
 <div class="wrap-b">
 	<div class="wrap clearfix">
 		<div id="mission">
-			<h2>OUR MISSION</h2>
-			<p style="font-size: 200%">Code for America envisions a government that works by the people, for the people, in the 21st century.</p>
+			<h1>Our Mission</h1>
+			<p class="missionstatement">Code for America envisions a government that works by the people, for the people, in the 21st century.</p>
 		</div>
       <iframe src="http://embed.ted.com/talks/jennifer_pahlka_coding_a_better_government.html" width="560" height="315" style="margin: 20px 0 0 20px; float: right;" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>	
 	</div>
@@ -52,10 +52,10 @@ get_header(); ?>
 <div class="wrap-t">
 <div class="wrap clearfix" id="team-donors">
   <div id="maincontent">
-	<h2 class="ttl">meet our team</h2>    
+	<h2 class="ttl">Meet Our Team</h2>    
     <div class="team">
         
-		<h3>board of directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
+		<h3>Board of Directors <span style="color: #999; margin-left: 10px;"><span id="tip2"></span></span></h3>
 		<ul class="clearfix">
 			<li class="first"><a href="/author/jen" rel="tooltip2" title="Jennifer Pahlka"><img src="http://codeforamerica.org/wp-content/uploads/2011/03/jenniferpahlka.jpg" width="80px" height="80px" alt="Jennifer Pahlka" /></a></li>
 			<li><a href="/who-we-are/#jlilly" rel="tooltip2" title="John Lilly"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/jlilly.jpg" alt="John Lilly" /></a></li>
@@ -66,7 +66,7 @@ get_header(); ?>
   		<li class="first">	<a href="/who-we-are/#eries" rel="tooltip2" title="Eric Ries"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/eries.png" alt="Eric Ries" /></a></li>
 		</ul>
 		
-		<h3>STAFF <span style="color: #999; margin-left: 10px;"><span id="tip1"></span></span></h3>
+		<h3>Staff<span style="color: #999; margin-left: 10px;"><span id="tip1"></span></span></h3>
 		<ul class="clearfix">
 			
 			<li class="first"><a href="/who-we-are/#bob" rel="tooltip1" title="Bob Sofman"><img src="<?php bloginfo( 'template_url' ); ?>/images/staff/bob.jpg" alt="Bob Sofman" /></a></li>
@@ -102,7 +102,7 @@ get_header(); ?>
 		</ul>
 
 
-		<p align="right" style="margin-top: -3px;"><a href="/jobs" class="more"><strong>JOB OPPORTUNITIES</strong></a></p>
+		<p align="right" style="margin-top: -3px;"><a href="/jobs" class="more">JOB OPPORTUNITIES</a></p>
 		
 	</div>
 	
@@ -130,21 +130,20 @@ get_header(); ?>
 </div>
 <!--In the press -->
 <div class="wrap" id="press">
-			<div class="ttl">In the press <a href="/press" class="more">view more articles</a></div>
-			<h2><a href="http://www.govtech.com/e-government/Oakland-Calif-Launches-Website-for-Answer-Seekers.html">Oakland Launches Website for Answer Seekers</a></h2>
+			<div class="ttl"><h2>In The Press</h2><a href="/press" class="more">view more articles</a></div>
+			<h3><a href="http://www.govtech.com/e-government/Oakland-Calif-Launches-Website-for-Answer-Seekers.html">Oakland Launches Website for Answer Seekers</a></h3>
 			<p class="date-cat"><em>Government Technology, June 14, 2013</em></p>
 			<p><img src="/wp-content/themes/cfawp2012/images/govtech-logo.gif" width="200px" align="right">The site is modeled after Honolulu Answers a website with the same question-driven functionality that was developed by 2013 Code for America fellows in Honolulu. OpenOakland took the concept of Honolulu Answers and modified it to serve Oakland.</p>
 			
 		
 			
-			<h2><a href="http://www.npr.org/2013/05/28/186861864/how-apps-help-kansas-city-work-better">How Code for America's Apps Benefit Kansas City</a></h2>
-			<p class="date-cat"><em>NPR, May 28, 2013</eM</p>
-			<p><img src="http://codeforamerica.org/wp-content/uploads/2013/06/npr.jpg" align="right">Code for America, a new nonprofit out of San Francisco, is building apps to make cities work better for citizens. One of its apps often cuts down the normal time it would take to find something — for example, property research in the treasurer's office.
-</p>
+			<h3><a href="http://www.npr.org/2013/05/28/186861864/how-apps-help-kansas-city-work-better">How Code for America's Apps Benefit Kansas City</a></h3>
+			<p class="date-cat"><em>NPR, May 28, 2013</em></p>
+			<p><img src="http://codeforamerica.org/wp-content/uploads/2013/06/npr.jpg" align="right">Code for America, a new nonprofit out of San Francisco, is building apps to make cities work better for citizens. One of its apps often cuts down the normal time it would take to find something — for example, property research in the treasurer's office.</p>
 			
 	
 
-		<h2><a href="http://www.pbs.org/newshour/bb/science/jan-june13/code_05-20.html">Coding Skills Combine with Civic Consciousness to Improve Government</a></h2>
+		<h3><a href="http://www.pbs.org/newshour/bb/science/jan-june13/code_05-20.html">Coding Skills Combine with Civic Consciousness to Improve Government</a></h3>
 				<p class="date-cat"><em>PBS News Hour, May 20, 2013</em></p>
 				<p><img src="http://codeforamerica.org/wp-content/uploads/2013/06/pbsnewshour.jpg" align="right">Talking about government and computer programming most likely doesn’t evoke the feeling of “fun” for most Americans. But a group of Web geeks and technology leaders is trying to change that with a new nonprofit project, Code for America, which aims to import the efficiency of the Web into government infrastructures.</p>
 			
