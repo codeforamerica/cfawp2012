@@ -21,7 +21,43 @@ get_header(); ?>
         <h3>Citizens have the power to help their cities.</h3>
         
         <p>
-            We’re collaborating with New York - Philadelphia - Boston - Seattle - San Francisco - DC - Oakland - Chicago - Detroit - Austin -  San Diego - Lexington - Denver - Maine - Arlington -Twin Cities - San Diego - Sacramento - Hampton Roads - Honolulu - Grand Rapids - International -  more
+            We’re collaborating with
+            <a href="http://www.meetup.com/betanyc/">New York</a>,
+            <a href="http://www.meetup.com/Code-for-America-Philly">Philadelphia</a>,
+            <a href="http://www.meetup.com/Code-for-Boston/">Boston</a>,
+            <a href="http://codeforseattle.org/">Seattle</a>,
+            <a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">San Francisco</a>,
+            <a href="http://codefordc.org/">DC</a>,
+            <a href="http://openoakland.org/">Oakland</a>,
+            <a href="http://opengovhacknight.org/">Chicago</a>,
+            <a href="https://www.facebook.com/CodeForDetroit">Detroit</a>,
+            <a href="http://www.open-austin.org/">Austin</a>,
+            <a href="http://codeforsandiego.org/">San Diego</a>,
+            <a href="http://www.meetup.com/cfabrigade/Lexington-KY/">Lexington</a>,
+            <a href="http://www.meetup.com/Colorado-Code-for-Communities/">Denver</a>,
+            <a href="https://www.facebook.com/code4maine">Maine</a>,
+            <a href="http://www.meetup.com/Arlington-Code-Shop/">Arlington</a>,
+            <a href="http://www.meetup.com/cfabrigade/Twin-Cities/">Twin Cities</a>,
+            <a href="http://www.meetup.com/cfabrigade/Open-San-Diego/">San Diego</a>,
+            <a href="http://www.meetup.com/cfabrigade/Sacramento-CA/">Sacramento</a>,
+            <a href="http://codeforhouston.com/">Houston</a>,
+            <a href="http://codeforhamptonroads.org/">Hampton Roads</a>,
+            <a href="http://www.opentwincities.org/">Minneapolis</a>,
+            <a href="https://plus.google.com/communities/116866725555175272325">Honolulu</a>,
+            <a href="http://friendlycode.org/">Grand Rapids</a>,
+            <a href="http://www.meetup.com/Code-for-Asheville/">Asheville</a>,
+            <a href="http://www.meetup.com/Triangle-Code-for-America/">Durham</a>,
+            <a href="http://www.meetup.com/Triangle-Code-for-America/">Cary</a>,
+            <a href="http://codeforbtv.org/">Burlington</a>,
+            <a href="http://www.meetup.com/cfabrigade/Salt-Lake-City-UT/">Salt Lake City</a>,
+            <a href="http://codefortulsa.org/">Tulsa</a>,
+            <a href="http://www.meetup.com/cfabrigade/Anchorage-AK/">Anchorage</a>,
+            <a href="http://codeformiami.org/">Miami</a>,
+            <a href="http://www.codeforamerica.org/cities/lasvegas/">Las Vegas</a>,
+            <a href="http://sbdatajam-zvents.eventbrite.com/">South Bend</a>,
+            <a href="http://www.meetup.com/KCBrigade/">Kansas City</a>,
+            <a href="http://www.codeforamerica.org/international/">International</a>,
+            and <a href="http://brigade.codeforamerica.org/brigades">more</a>.
         </p>
         
         <div class="geek-of-the-week">
@@ -48,7 +84,7 @@ get_header(); ?>
             </p>
         </div>
 
-        <h3>What's Happening</h3>
+        <h3>What’s Happening</h3>
         
         <ul>
             <li>Nov 19: <a href="">Bike Hack NYU Rudin</a> <a href="" class="additional">more events</a></li>
