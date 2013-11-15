@@ -18,9 +18,33 @@ get_header(); ?>
         <h2><?php the_title(); ?></h2>
         <?php /* the_content(); */ ?>
         
+        <div class="geek-of-the-week">
+            <h3>Why I Code for America</h3>
+        
+            <p>
+                <img alt="" src="http://codeforamerica.org/wp-content/uploads/2012/10/Richa_Agarwal_Headshot-150x150.jpg" width="150" height="150">
+            </p>
+        
+            <p>
+                <a href="http://www.codeforamerica.org/2013/11/06/richa-agarwal-why-im-coding-for-america/">Richa Agarwal</a>
+                <br>
+                2013 Fellow
+            </p>
+        
+            <p>
+                Co-creator of
+                <br>
+                <a href="http://records.oaklandnet.com/">RecordTrac</a>
+            </p>
+        
+            <p>
+                <a href="http://www.codeforamerica.org/category/codingforamerica/">More civic hackers</a>
+            </p>
+        </div>
+
         <h3>Citizens have the power to help their cities.</h3>
         
-        <p>
+        <p class="collaboratrix">
             We’re collaborating with
             <a href="http://www.meetup.com/betanyc/">New York</a>,
             <a href="http://www.meetup.com/Code-for-America-Philly">Philadelphia</a>,
@@ -60,38 +84,29 @@ get_header(); ?>
             and <a href="http://brigade.codeforamerica.org/brigades">more</a>.
         </p>
         
-        <div class="geek-of-the-week">
-            <h3>Why I Code for America</h3>
-        
-            <p>
-                <img alt="" src="http://codeforamerica.org/wp-content/uploads/2012/10/Richa_Agarwal_Headshot-150x150.jpg" width="150" height="150">
-            </p>
-        
-            <p>
-                <a href="http://www.codeforamerica.org/2013/11/06/richa-agarwal-why-im-coding-for-america/">Richa Agarwal</a>
-                <br>
-                2013 Fellow
-            </p>
-        
-            <p>
-                Co-creator of
-                <br>
-                <a href="http://records.oaklandnet.com/">RecordTrac</a>
-            </p>
-        
-            <p>
-                <a href="http://www.codeforamerica.org/category/codingforamerica/">More civic hackers</a>
-            </p>
-        </div>
-
         <h3>What’s Happening</h3>
         
         <ul>
-            <li>Nov 19: <a href="">Bike Hack NYU Rudin</a> (<a href="">more events</a>)</li>
-            <li>Hack request: <a href="">Add SMS to Ohana API</a> (<a href="">more hack requests</a>)</li>
-            <li>Feb 22-24: <a href="">Code Across America</a> (<a href="">more national projects</a>)</li>
-            <li>Video: <a href="">Civic Engagement & Design</a> (<a href="">more CfA videos</a>)</li>
-            <li><a href="">Publish and Curate Open Data</a> (<a href="">more organizing</a>)</li>
+            <li>
+                Nov 19: <a href="">Bike Hack NYU Rudin</a>
+                (<a href="http://brigade.codeforamerica.org/pages/events">more events</a>)
+            </li>
+            <li>
+                Hack request: <a href="">Add SMS to Ohana API</a>
+                (<a href="https://github.com/codeforamerica/hack-requests">more hack requests</a>)
+            </li>
+            <li>
+                Feb 22-24: <a href="">Code Across America</a>
+                (<a href="http://www.hackforchange.org/challenges">more national projects</a>)
+            </li>
+            <li>
+                Video: <a href="">Civic Engagement &amp; Design</a>
+                (<a href="http://www.youtube.com/playlist?list=PL65XgbSILalV-wInUiERrhjweMlJkukMd">more CfA videos</a>)
+            </li>
+            <li>
+                <a href="">Publish and Curate Open Data</a>
+                (<a href="http://brigade.codeforamerica.org/pages/tools">more organizing</a>)
+            </li>
         </ul>
         
         <hr>
@@ -142,7 +157,7 @@ get_header(); ?>
             <h4>Fellowship: Ready to spend a year in civic service?</h4>
             
             <p>
-                Code for America’s Fellowship is a one-year paid fellowship program where cutting-edge developers, designers and urbanists are embedded in US cities to solve civic problems using technology. Fellows in past years have built apps that support citizen engagement, criminal justice and public health. Applications for the 2015 Fellowship will open in March 2014. Find out more.
+                Code for America’s Fellowship is a one-year paid fellowship program where cutting-edge developers, designers and urbanists are embedded in US cities to solve civic problems using technology. Fellows in past years have built apps that support citizen engagement, criminal justice and public health. Applications for the 2015 Fellowship will open in March 2014. <a href="http://www.codeforamerica.org/fellows/">Find out more</a>.
             </p>
 
             <p>
