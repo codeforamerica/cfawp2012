@@ -87,11 +87,11 @@ get_header(); ?>
         <h3>What’s Happening</h3>
         
         <ul>
-            <li>Nov 19: <a href="">Bike Hack NYU Rudin</a> <a href="" class="additional">more events</a></li>
-            <li>Hack request: <a href="">Add SMS to Ohana API</a> <a href="" class="additional">more hack requests</a></li>
-            <li>Feb 22-24: <a href="">Code Across America</a> <a href="" class="additional">more national projects</a></li>
-            <li>Video: <a href="">Civic Engagement & Design</a> <a href="" class="additional">more CfA videos</a></li>
-            <li><a href="">Publish and Curate Open Data</a> <a href="" class="additional">more organizing</a></li>
+            <li>Nov 19: <a href="">Bike Hack NYU Rudin</a> (<a href="">more events</a>)</li>
+            <li>Hack request: <a href="">Add SMS to Ohana API</a> (<a href="">more hack requests</a>)</li>
+            <li>Feb 22-24: <a href="">Code Across America</a> (<a href="">more national projects</a>)</li>
+            <li>Video: <a href="">Civic Engagement & Design</a> (<a href="">more CfA videos</a>)</li>
+            <li><a href="">Publish and Curate Open Data</a> (<a href="">more organizing</a>)</li>
         </ul>
         
         <hr>
@@ -136,7 +136,7 @@ get_header(); ?>
         <div class="picture-and-text">
         
             <div class="picture">
-                <img src="http://placekitten.com/g/300/154">
+                <img src="http://www.codeforamerica.org/wp-content/uploads/2010/06/class_photosml.jpg" alt="">
             </div>
             
             <h4>Fellowship: Ready to spend a year in civic service?</h4>
@@ -156,7 +156,7 @@ get_header(); ?>
         <div class="picture-and-text">
         
             <div class="picture">
-                <img src="http://placekitten.com/g/300/154">
+                <img src="http://www.codeforamerica.org/wp-content/uploads/2013/08/Screen-Shot-2013-08-13-at-12.36.32-PM-300x202.png" alt="">
             </div>
             
             <h4>Civic Startups: Are you a founder? Government needs options.</h4>
