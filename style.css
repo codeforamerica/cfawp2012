@@ -28,7 +28,7 @@ a:hover {
   text-decoration: none;
 }
 
-p {line-height: 1.4em; font-size: 14px;}
+p, .geeks-page ul li {line-height: 1.4em; font-size: 14px;}
 
 ul, ol, dl, dt, dd {
   list-style: none;
@@ -3164,4 +3164,22 @@ background-position: 0 0;
         font-size: 14px;
         cursor: pointer;
         width: 80px;
+    }
+    
+    .geeks-page table.kinds-of-geek
+    {
+        width: 960px;
+        border-collapse: collapse;
+    }
+    
+        .geeks-page table.kinds-of-geek tr td
+        {
+            width: 300px;
+            vertical-align: top;
+            padding-right: 20px;
+        }
+    
+    .geeks-page ul li
+    {
+        margin-top: 1em;
     }

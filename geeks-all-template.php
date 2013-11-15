@@ -50,7 +50,6 @@ get_header(); ?>
 
         <h3>What's Happening</h3>
         
-
         <ul>
             <li>Nov 19: <a href="">Bike Hack NYU Rudin</a> <a href="" class="additional">more events</a></li>
             <li>Hack request: <a href="">Add SMS to Ohana API</a> <a href="" class="additional">more hack requests</a></li>
@@ -61,22 +60,59 @@ get_header(); ?>
         
         <hr>
         
+        <table class="kinds-of-geek">
+            <tr>
+                <td>
+                    <h3>Software Developers</h3>
+                    
+                    <ul>
+                        <li>Get in <a href="https://github.com/codeforamerica">our code</a> and hack.</li>
+                        <li>Deploy and build apps in your city. Join a local <a href="http://brigade.codeforamerica.org/">CfA Brigade</a>.</li>
+                        <li>Guide and advise fellows and civic startups. <a href="http://codeforamerica.org/mentor">Become a Mentor</a>.</li>
+                        <li>Learn about <a href="http://beyondtransparency.org/">open data and the civic tech ecosystem</a>.</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Designers</h3>
+                    
+                    <ul>
+                        <li>Design great citizen experiences, join a local <a href="http://brigade.codeforamerica.org/">CfA Brigade</a>.</li>
+                        <li><a href="http://www.codeforamerica.org/mentor/">Mentor UX and graphic designers</a> in our fellowship and accelerator programs.</li>
+                        <li>Level up on citizen-centered design.</li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Organizers</h3>
+                    
+                    <ul>
+                        <li>Release more open data.</li>
+                        <li>Organize a <a href="https://docs.google.com/a/codeforamerica.org/document/d/16CSiN809nNUksFYiQIpxzxHEhPZRAa_WpGA4DZ9upmc/edit#heading=h.7p1k5dwapvgf">civic write-a-thon</a>.</li>
+                        <li>Test the latest <a href="http://www.codeforamerica.org/apps/">civic tech applications</a>.</li>
+                        <li>Persuade your local government to enlist the <a href="http://www.codeforamerica.org/fellows/">fellows</a>.</li>
+                        <li>Learn about <a href="http://beyondtransparency.org/">government transparency and open data practices</a>.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+        <hr>
+        
         <div class="picture-and-text">
         
             <div class="picture">
-                <img src="/wp-content/themes/cfawp2012/images/build-capacity.jpg">
+                <img src="http://placekitten.com/g/300/154">
             </div>
             
-            <h4>Build capacity in your community.</h4>
+            <h4>Fellowship: Ready to spend a year in civic service?</h4>
             
             <p>
-                Volunteer researchers, designers, developers and city officials are building better civic technology and <a href="/apps">deploying apps</a> in more than 40 cities. See who’s hacking near you or check out an event in your city. 
+                Code for America’s Fellowship is a one-year paid fellowship program where cutting-edge developers, designers and urbanists are embedded in US cities to solve civic problems using technology. Fellows in past years have built apps that support citizen engagement, criminal justice and public health. Applications for the 2015 Fellowship will open in March 2014. Find out more.
             </p>
 
             <p>
-                <a href="http://brigade.codeforamerica.org/brigades">Brigades</a>
-                <br>
-                <a href="http://brigade.codeforamerica.org/pages/events">Events</a>
+                <a href="http://www.codeforamerica.org/fellows/2013-fellows/">Current fellows</a>
+                &amp;
+                <a href="http://www.codeforamerica.org/fellows/alumni-fellows/">alumni fellows</a>.
             </p>
         
         </div>
@@ -84,39 +120,17 @@ get_header(); ?>
         <div class="picture-and-text">
         
             <div class="picture">
-                <img src="/wp-content/themes/cfawp2012/images/bring-coders-designers.jpg">
+                <img src="http://placekitten.com/g/300/154">
             </div>
             
-            <h4>Bring top coders, designers and researchers to your city.</h4>
+            <h4>Civic Startups: Are you a founder? Government needs options.</h4>
             
             <p>
-                Code for America’s Fellowship is a one-year program where cutting-edge developers, designers and researchers are embedded in US cities to solve civic problems using technology. Cities who’ve worked with us have built apps that support citizen engagement, criminal justice and public health. Contact <a href="mailto:luke@codeforamerica.org">luke@codeforamerica.org</a> to find out more or visit our <a href="/cities/fellowship">FAQ</a>.
+                Code for America’s Accelerator is an annual 4-month program bringing funding, support, and mentorship to early-stage technology businesses that serve local governments.
             </p>
 
             <p>
-                <a href="/city-current/">Current Cities</a>
-                <br>
-                <a href="/apps">The Apps</a>
-            </p>
-        
-        </div>
-        
-        <div class="picture-and-text">
-        
-            <div class="picture">
-                <img src="/wp-content/themes/cfawp2012/images/join-standards.jpg">
-            </div>
-            
-            <h4>Join our data standards collaborations.</h4>
-            
-            <p>
-                Releasing data in standard format makes it easy for developers to create useful applications for citizens. Together with city officials, we’re developing <a href="/civic-data-standards/">standards</a> that anyone can adopt for critical categories of data like restaurant and house inspections. Pledge to release your data:
-            </p>
-
-            <p>
-                <a href="http://housefacts.me/">House Facts</a>
-                <br>
-                <a href="http://foodinspectiondata.us/">LIVES</a>
+                <a href="http://codeforamerica.org/accelerator/">Find out more</a>.
             </p>
         
         </div>
