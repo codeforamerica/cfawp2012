@@ -128,8 +128,8 @@ get_header(); ?>
                     
                     <ul>
                         <li>Design great citizen experiences, join a local <a href="http://brigade.codeforamerica.org/">CfA Brigade</a>.</li>
-                        <li><a href="http://www.codeforamerica.org/mentor/">Mentor UX and graphic designers</a> in our fellowship and accelerator programs.</li>
-                        <li>Level up on citizen-centered design.</li>
+                        <li><a href="http://www.codeforamerica.org/mentor/">Mentor UX and graphic designers</a> in our <a href="http://www.codeforamerica.org/fellows/">fellowship</a> and <a href="http://codeforamerica.org/accelerator/">accelerator</a> programs.</li>
+                        <li>Learn how to redesign government. Watch Mike Bracken’s <a href="http://www.youtube.com/watch?v=3bK9B8_0FDQ">CfA Summit presentation</a> or this <a href="http://www.youtube.com/watch?v=teIlbfF2SE0&amp;list=PL65XgbSILalV-wInUiERrhjweMlJkukMd&amp;index=56">redesigning government panel</a>.</li>
                     </ul>
                 </td>
                 <td>
