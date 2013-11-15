@@ -120,6 +120,7 @@ $(document).ready(function() {
 	wp_enqueue_script( 'comment-reply' );
 	wp_head();
 ?>
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6435252/646022/css/fonts.css" />
 
 
 
