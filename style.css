@@ -3010,11 +3010,13 @@ background-position: 0 0;
   text-align:center;
 }
 
-.city-pages
+.city-pages,
+.geeks-page
 {
 }
     
-    .city-pages h2
+    .city-pages h2,
+    .geeks-page h2
     {
     	font-size: 2em;
     	margin-top: 20px;
@@ -3022,12 +3024,14 @@ background-position: 0 0;
     	color: black;
     }
     
-    .city-pages a
+    .city-pages a,
+    .geeks-page a
     {
         text-decoration: underline;
     }
         
-    .city-pages hr
+    .city-pages hr,
+    .geeks-page hr
     {
         clear: both;
         margin: 20px 0;
@@ -3036,63 +3040,74 @@ background-position: 0 0;
         border-style: dotted;
     }
     
-    .city-pages h3
+    .city-pages h3,
+    .geeks-page h3
     {
         font-size: 1.4em;
         margin: 20px 0 0 0;
     }
     
     .city-pages h4,
-    .city-pages h5
+    .city-pages h5,
+    .geeks-page h4,
+    .geeks-page h5
     {
         font-size: 1.3em;
         margin: 10px 0;
     }
     
-    .city-pages p
+    .city-pages p,
+    .geeks-page p
     {
         width: 620px;
         margin: 10px 0;
     }
     
-    .city-pages .picture-and-text
+    .city-pages .picture-and-text,
+    .geeks-page .picture-and-text
     {
         clear: both;
         padding-top: 20px;
     }
     
-    .city-pages .picture-and-text .picture
+    .city-pages .picture-and-text .picture,
+    .geeks-page .picture-and-text .picture
     {
         width: 320px;
         float: left;
         clear: left;
     }
     
-    .city-pages .picture-and-text h4
+    .city-pages .picture-and-text h4,
+    .geeks-page .picture-and-text h4
     {
         margin-top: 0;
         clear: right;
     }
     
-    .city-pages .picture-and-text p
+    .city-pages .picture-and-text p,
+    .geeks-page .picture-and-text p
     {
         margin-left: 320px;
     }
     
-    .city-pages .text-and-picture
+    .city-pages .text-and-picture,
+    .geeks-page .text-and-picture
     {
         clear: both;
         padding-top: 20px;
     }
     
-    .city-pages .text-and-picture .picture
+    .city-pages .text-and-picture .picture,
+    .geeks-page .text-and-picture .picture
     {
         width: 300px;
         float: right;
         clear: left;
     }
     
-    .city-pages .text-and-picture .picture p
+    .city-pages .text-and-picture .picture p,
+    .geeks-page .text-and-picture .picture p
     {
         width: 300px;
         font-size: 12px;
@@ -3100,23 +3115,28 @@ background-position: 0 0;
     }
     
     .city-pages .text-and-picture h4,
-    .city-pages .text-and-picture p
+    .city-pages .text-and-picture p,
+    .geeks-page .text-and-picture h4,
+    .geeks-page .text-and-picture p
     {
         margin-top: 0;
     }
     
-    .city-pages .text-and-picture h5
+    .city-pages .text-and-picture h5,
+    .geeks-page .text-and-picture h5
     {
         clear: left;
     }
     
-    .city-pages .text-and-picture .link-block
+    .city-pages .text-and-picture .link-block,
+    .geeks-page .text-and-picture .link-block
     {
         width: 320px;
         float: left;
     }
     
-    .city-pages form.sign-up
+    .city-pages form.sign-up,
+    .geeks-page div.geek-of-the-week
     {
         width: 280px;
         margin-bottom: 20px;
