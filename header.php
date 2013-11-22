@@ -135,7 +135,7 @@ $(document).ready(function() {
 	<a href="/" class="like-btn" id="logo">Code for America</a>
 	<!--Tag line -->
 	<div id="tag-line">
-		<img src="<?php bloginfo('template_directory'); ?>/images/headers/header.png" alt="A new kind of public service – By the People, For the People, For the 21st Century">
+		<a href="/donate"><img src="<?php bloginfo('template_directory'); ?>/images/headers/annual_campain_2013_banner.png" alt="Let's do even more in 2014. Support CfA's Annual Compaign today: Donate."></a>
 	</div>
 	<!--Navigation -->
 	<div id="nav-wrap">
