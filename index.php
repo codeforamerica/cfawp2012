@@ -66,10 +66,11 @@ get_header(); ?>
 		<!--Helping Cities Solve Common Issues -->
 		<div id="cities-issues" class="home-tile right-col" style="background: none;">				
 			<div id="wp-widget">
-              <h2>Key Dates:</h2>
+              <h2>Featured Press: </h2>
   <ul class="dates">
-  <li><div>Oct 15-17</div> <a href="http://cfasummit.org">CfA Summit</a></li>
-  <li><div>Nov (TBA)</div> Accelerator Demo Day</li>
+  <li><div><a href="http://www.sfgate.com/technology/article/Brigades-helps-communities-build-better-websites-4908253.php">SF Chron</a>: The Brigades</li>
+  <li><div><a href="http://www.latimes.com/local/columnone/la-me-c1-code-for-america-20130826-dto,0,400145.htmlstory#axzz2lPQM2mlL">LA Times</a>: Civic-Minded Hackers</li>
+   <li><div><a href="http://content.time.com/time/magazine/article/0,9171,2140202-1,00.html">Time Magazine</a>: Geek Peace Corps</li>
   </ul>
 				<ul>
 					<li><a href="http://codeforamerica.org/apply">Apply for the Fellowship</a></li>
