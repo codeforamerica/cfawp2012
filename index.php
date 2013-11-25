@@ -21,7 +21,7 @@ get_header(); ?>
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
 	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">By the people,<br>for the people</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">This year Code for America helped people find flu shots, select the right school for their kids, start businesses, and stay enrolled in food assistance services. Together we’re building better communities—and with your support, we can do even more in 2014.</p>
+			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">This year Code for America helped people select the right school for their kids, start businesses, find flu shots, and stay enrolled in food assistance services. Together we’re building better communities—and with your support, we can do even more in 2014.</p>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;"><a href="/donate" style="background-color: #fed90b; color: black; padding: 10px 25px; border-radius: 4px; text-transform: uppercase; font-weight: bold;">Give Today</a></p>
 		</div>
 
