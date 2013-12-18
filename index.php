@@ -82,7 +82,7 @@ get_header(); ?>
 		</div>
   	<!--CfA Blog -->
   	<div id="cfa-blog" class="home-tile">
-  		<h2>CfA Blog <a href="http://c4a.me/feed/" class="like-btn">RSS</a></h2>
+  		<h2>CfA Blog <a href="http://codeforamerica.org/feed/" class="like-btn">RSS</a></h2>
 
   		<?php query_posts('showposts=2&tag__not_in=61'); ?>		  
 
