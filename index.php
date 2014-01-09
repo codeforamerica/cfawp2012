@@ -25,7 +25,7 @@ get_header(); ?>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;"></p>
 		</div>
 
-		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/geeks/fellows/2014-fellows"><img src="/images/fellows_day.jpg"></a></div>
+		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/geeks/2014-fellows/"><img src="/images/fellows_day.jpg"></a></div>
 
 </div>
 <div class="clearfix"></div>
