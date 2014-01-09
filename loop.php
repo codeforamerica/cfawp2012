@@ -111,7 +111,7 @@
 		<?php else : ?>
 			<div class="entry-content">
 				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
-			</div><!-- .entry-content -->
+			</div><!-- .entry-content -->	
 		<?php endif; ?>
 
 			<div class="entry-utility">

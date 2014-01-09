@@ -11,64 +11,76 @@
  */
 ?>
 	</div><!-- #main -->
+<div class="global-footer" id="global-footer">
+  
+  <div class="layout-breve layout-tight">
+  
+    <div class="search-global">
+      <input type="search" placeholder="Search" />
+    </div>
+  
+    <nav class="nav-footer">
+      <ul>
+        <li class="nav-tier1"><a class="nav-heading" href="#">Home</a></li>
+        <li class="nav-tier1"><a class="nav-heading" href="#">About</a>
+          <ul class="nav-tier2">
+            <li><a href="#">Who we are</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Donors</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </li>
+        <li class="nav-tier1"><a class="nav-heading" href="#">Fellows</a>
+          <ul class="nav-tier2">
+            <li><a href="#">Timeline</a></li>
+            <li><a href="#">Process</a></li>
+            <li><a href="#">Apply</a></li>
+          </ul>
+        </li>
+        <li class="nav-tier1"><a class="nav-heading" href="/cities">Governments</a>
+          <ul class="nav-tier2">
+            <li><a href="/cities/atlanta">Atlanta, GA</a></li>
+            <li><a href="/cities/charlotte">Charlotte, NC</a></li>
+            <li><a href="/cities/chattanooga">Chattanooga, TN</a></li>
+            <li><a href="/cities/denver">Denver, CO</a></li>
+            <li><a href="/cities/lexington">Lexington, KY</a></li>
+            <li><a href="/cities/longbeach">Long Beach, CA</a></li>
+            <li><a href="/cities/mesa">Mesa, AZ</a></li>
+            <li><a href="/cities/rhodeisland">Rhode Island</a></li>
+            <li><a href="/cities/sanantonio">San Antonio, TX</a></li>
+            <li><a href="/cities/sanjuan">San Juan, PR</a></li>
+          </ul>
+        </li>
+        <li class="nav-tier1"><a class="nav-heading" href="#">Donate</a>
+          <ul class="nav-tier2">
+            <li><a href="#">Financial Contributions</a></li>
+            <li><a href="#">In-Kind Donations</a></li>
+          </ul>
+        </li>
+        <li class="nav-tier1"><a class="nav-heading" href="#">Social</a>
+          <ul class="nav-tier2">
+            <li><a href="https://www.facebook.com/codeforamerica" class="icon-facebook">Facebook</a></li>
+            <li><a href="https://twitter.com/codeforamerica" class="icon-twitter">Twitter</a></li>
+            <li><a href="http://www.youtube.com/user/CodeforAmerica" class="icon-youtube">YouTube</a></li>
+            <li><a href="https://github.com/codeforamerica" class="icon-github2">GitHub</a></li>
+            <li><a href="http://codeforamerica.tumblr.com/" class="icon-tumblr">Tumblr</a></li>
+            <li><a href="http://www.flickr.com/photos/codeforamerica" class="icon-flickr">Flickr</a></li>
+            <li><a href="http://www.codeforamerica.org/feed/" class="icon-feed">RSS</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
- <!-- ============== FOOTER ============== -->
-  <div id="footer" >
-  	<div class="wrap">
-	<h4 id="logo-f"><a href="http://codeforamerica.org" class="like-btn">Code for America</a></h4>
-		<ul>
-			<li><h4><a href="/">Home</a></h4>
-			</li>
-			<li><h4><a href="/about">About</a></h4>
-				<ul>
-					<li><a href="/who-we-are">Who We Are</a></li>
-					<li><a href="/programs">Programs</a></li>
-					<li><a href="/donors">Donors</a></li>
-					<li><a href="/press">Press</a></li>
-				</ul>
-			</li>
-			<li><h4><a href="/fellows">Fellows</a></h4>
-				<ul>
-					<li><a href="/fellowship-program-timeline/">Timeline</a></li>
-					<li><a href="/fellows/fellow-selection">Process</a></li>
-					<li><a href="/fellows/apply">Apply</a></li>
-				</ul>
-			</li>
-			<li><h4><a href="/cities">2013 Cities</a></h4>
-				<ul>
-					<li><a href="/2013-partners/kansas-city">Kansas City, MO</a></li>
-					<li><a href="/2013-partners/kansas-city">Kansas City, KS</a></li>
-					<li><a href="/2013-partners/las-vegas">Las Vegas, NV</a></li>
-					<li><a href="/2013-partners/louisville">Louisville, KY</a></li>
-					<li><a href="/2013-partners/new-york-city">New York City, NY</a></li>
-					<li><a href="/2013-partners/oakland">Oakland, CA</a></li>
-					<li><a href="/2013-partners/san-francisco">San Francisco, CA</a></li>
-					<li><a href="/2013-partners/san-mateo-county">San Mateo County, CA</a></li>
-					<li><a href="/2013-partners/south-bend">South Bend, IN</a></li>
-					<li><a href="/2013-partners/summit-county">Summit County, OH</a></li>
-				</ul>
-			<li><h4><a href="/donate">Donate</a></h4>
-				<ul>
-					<li><a href="/donate">Financial Contributions</a></li>
-					<li><a href="/supplies">In-Kind Donations</a></li>
-				</ul>
-			</li>
-			<li><h4><a href="#">Social</a></h4>
-				<ul>
-					<li><a href="http://facebook.com/codeforamerica">Facebook</a></li>
-					<li><a href="http://twitter.com/codeforamerica">Twitter</a></li>
-					<li><a href="http://www.youtube.com/user/CodeforAmerica">YouTube</a></li>
-					<li><a href="/feed">RSS</a></li>
-                                        <li><a href="https://github.com/codeforamerica">GitHub</a></li>
-				</ul>
-			</li>
-			<li><h4><a href="#">Search</a></h4><form role="search" method="get" id="searchform" action="/">
-		<input type="text" value="..." name="s" id="s" style="border: 1px dotted #ccc; font-weight: bold; padding-left: 2px; width: 140px;" onfocus="if (this.value == '...') {this.value = '';}" onblur="if (this.value == '') {this.value = '...';}">
-						</form></li>
-		</ul>
-		<p id="copyr"><small>Code for America Labs, Inc is a non-partisan, non-political 501(c)(3) organization. Content is licensed through <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a>.<br></small></p>
-	</div>
-	<?php
+<div class="global-foot">
+  <div class="layout-tight layout-breve">
+    <div class="global-foot-content">
+      <img class="global-foot-logo" src="/assets/logo-inversed.png" />
+      <small>Code for America Labs, Inc is a non-partisan, non-political 501(c)(3) organization. Content is licensed through Creative Commons.</small>
+    </div>
+  </div>
+  <?php
 		/* Always have wp_footer() just before the closing </body>
 		 * tag of your theme, or you will break many plugins, which
 		 * generally use this hook to reference JavaScript files.
@@ -76,8 +88,14 @@
 
 		wp_footer();
 	?>
-  </div>
+</div>
+
   <!--   ==============   END FOOTER   ==============   -->
+
+
+</section><!-- ending content wrapper -->
+</main>
+</div>
 
 <script type="text/javascript">
 
