@@ -26,10 +26,6 @@ get_header(); ?>
            
             } 
             ?>-->
-<!--<header class="post-header isolate">
-                    <h2 class="post-title">Why I'm mentoring for America, by Zachary Townsend</h2>
-                    <time class="post-date insulate text-whisper" datetime="2013-11-13 00:00:00 +0000">November 1st 2013</time>
-                </header>-->
 					<header class="post-header isolate">
 						<h2 class="post-title"><?php the_title(); ?></h2>
 					</header>
@@ -81,5 +77,6 @@ get_header(); ?>
 <?php endwhile; // end of the loop. ?>
 <br />		
 
-<?php get_sidebar(); ?>
+</div>
+</div>
 <?php get_footer(); ?>
