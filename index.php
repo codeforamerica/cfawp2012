@@ -24,7 +24,7 @@ get_header(); ?>
 			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Code for America's fellows have come from far and wide to train for their upcoming residencies. To learn more about the fellows <a href="/geeks/2014-fellows">check out their bios</a> or meet them at Code for America's Jan 30 <a href="http://www.eventbrite.com/e/code-for-america-open-house-tickets-10056165261">open house</a>.</p>
 		</div>
 
-		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/geeks//2014-fellows"><img src="<?php bloginfo('template_directory'); ?>/images/fellows_first_day.jpg"></a></div>
+		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/geeks/2014-fellows"><img src="<?php bloginfo('template_directory'); ?>/images/fellows_first_day.jpg"></a></div>
 
 </div>
 <div class="clearfix"></div>
