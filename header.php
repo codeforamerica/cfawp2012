@@ -178,5 +178,21 @@ $(document).ready(function() {
   </a>
   <p class="skip-to-nav"><a href="#global-footer">Menu</a></p>
 
+  <nav class="nav-global-secondary">
+    <ul>
+      <li class="nav-tier1 nav-has-children">
+        <a href="/about">About</a>
+      </li>
+      <li class="nav-tier1 nav-has-children">
+        <a href="/cities">Governments</a>
+      </li>
+      <li class="nav-tier1 nav-has-children">
+        <a href="/geeks">Citizens</a>   
+      </li>
+      <li class="nav-tier1">
+        <a href="/apps">Apps</a>
+      </li>
+      <li><a href="/donate" class="button">Support Our Work</a></li>
+    </ul>
  
 </div>
