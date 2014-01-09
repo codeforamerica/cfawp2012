@@ -121,25 +121,62 @@ $(document).ready(function() {
 	wp_head();
 ?>
 
-
-
+	<!-- new CSS and stuff that'll need new paths added -->
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6435252/678502/css/fonts.css" />
+    <link rel="stylesheet" href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/main.css">
+    <link rel="stylesheet" href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/layout.css" media="all and (min-width: 40em)">
+    <link href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/prism.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
 
 
 
 <body <?php body_class(); ?>>
 
-<!--   ==============   HEADER   ==============   -->
-<div id="header" class="wrap">
-<!--Logo -->
-	<a href="/" class="like-btn" id="logo">Code for America</a>
-	<!--Tag line -->
-	<div id="tag-line">
-		<a href="/donate"><img src="<?php bloginfo('template_directory'); ?>/images/headers/annual_campain_2013_banner.png" alt="Let's do even more in 2014. Support CfA's Annual Compaign today: Donate."></a>
-	</div>
-	<!--Navigation -->
-	<div id="nav-wrap">
-		<?php wp_nav_menu( array('menu'=> 'cfa_main', 'menu_id' => 'nav', 'container' => 'ul',  ) ); ?>
-	</div>
+
+
+
+<nav class="nav-global-primary">
+  <ul class="layout-breve layout-tight">
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/library">Library</a></li>
+    <li>
+      <form class="search-global" id="search-global">
+          <input type="search" id="search-global-input" class="search-global-input" autocomplete="off" placeholder="Search" name="search-global" />
+          <!-- consider applying autofocus="autofocus" to input -->
+          <button class="search-global-submit" id="search-global-submit" value="Search" type="submit" name="search-global">Search</button>
+      </form>
+    </li>
+  </ul>
+</nav>
+
+<div class="masthead masthead-l">
+  <div class="masthead-hero">
+    <div class="masthead-image" 
+      {% if page.masthead-image %}
+      style="background-image: url('{{ page.masthead-image }}')" 
+      {% endif %}>
+    </div>
+  </div>
+  <header class="layout-semibreve masthead-header">
+    <nav class="nav-breadcrumbs">
+	  <ul>
+	    <li><a href="/">Home</a></li>
+	  
+	        <li><a href="/blog">Blog</a></li>
+	 
+	  </ul>
+	</nav>
+
+    <h1 class="page-title" >Blog</h1>
+  </header>
 </div>
-	
+
+<div class="global-header">  
+  <a href="/home" class="global-header-logo">
+      <img src="/assets/logo.png" />
+  </a>
+  <p class="skip-to-nav"><a href="#global-footer">Menu</a></p>
+
+ 
+</div>
