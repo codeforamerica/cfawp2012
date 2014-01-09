@@ -88,7 +88,7 @@
 
 		wp_footer();
 	?>
-</div>
+</div><!-- end semi-breve-->
 
   <!--   ==============   END FOOTER   ==============   -->
 

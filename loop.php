@@ -147,12 +147,23 @@
 	<?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
 
 <?php endwhile; // End the loop. Whew. ?>
+<!-- <nav class="nav-articles">
+    <ul>
+        <li><a href="#" rel="prev">Previous</a></li>
+        <li><a class="icon-grid" href="#">All articles</a></li>
+        <li><a href="#" rel="next">Next</a></li>
+    </ul>
+</nav> -->
+<!--.nav-articles-->
 
 <?php /* Display navigation to next/previous pages when applicable */ ?>
 <?php if (  $wp_query->max_num_pages > 1 ) : ?>
-				<div id="nav-below" class="navigation">
-					<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></div>
-					<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></div>
-				</div><!-- #nav-below -->
+				<nav class="nav-articles">
+					<ul>
+						<li class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></li>
+						<li><a class="icon-grid" href="#">All articles</a></li>
+						<li class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></li>
+					</ul>
+				</nav><!-- #nav-below -->
 <?php endif; ?>
 </div></div>

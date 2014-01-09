@@ -14,18 +14,6 @@ get_header(); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-<!--	<?php
-            if ( in_category('CfA Labs') ) {
-           echo "<div class='ttl' style='margin-bottom: 15px;'>	<img style='border: none;' src='http://codeforamerica.org/wp-content/uploads/2011/04/CfA_Labs.jpg'></div>"; }
-           
-           else {
-               
-               echo "<div class='ttl' style='margin-bottom: 15px;'>	<img style='border: none;' src='http://codeforamerica.org/wp-content/uploads/2010/12/BloggingForAmerica.jpg'></div>"; 
-               
-           
-           
-            } 
-            ?>-->
 					<header class="post-header isolate">
 						<h2 class="post-title"><?php the_title(); ?></h2>
 						<time class="post-date insulate text-whisper"><?php twentyten_posted_on(); ?></time>
@@ -58,21 +46,24 @@ get_header(); ?>
 	                        </div>
 	                        
 	                        <div class="post-categories">
-	                            <h2 class="text-quiet layout-tight">Filed under STUFF</h2>
-	                            <?php twentyten_posted_in(); ?>
-	                            <!--ul class="list-no-bullets link-invert text-whisper">
-	                                <li><a href="#">Accelerator</a></li>
-	                                <li><a href="#">Commentary</a></li>
-	                                <li><a href="#">Guest Post</a></li>
-	                                <li><a href="#">Mentor</a></li>
-	                            </ul-->
+	                            <h2 class="text-quiet layout-tight">Filed under</h2>
+	                            
+	                            <ul class="list-no-bullets link-invert text-whisper">
+	                            	<?php twentyten_posted_in(); ?>
+	                            </ul>
 	                        </div>
 	                        
                     	</div><!-- .post-author -->
-
+                    	<!-- <nav class="nav-articles">
+							    <ul>
+							        <li><a href="#" rel="prev">Previous</a></li>
+							        <li><a class="icon-grid" href="#">All articles</a></li>
+							        <li><a href="#" rel="next">Next</a></li>
+							    </ul>
+							</nav> -->
 						<div id="nav-below" class="navigation" style="margin-bottom: 25px; min-height: 30px;">
-							<div class="nav-previous" style="width: 250px;"><?php previous_post_link( '%link', '<span class="btn">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
-							<div class="nav-next"  style="width: 250px; text-align: right;"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
+							<div class="nav-previous"><?php previous_post_link( '%link', '<span class="btn">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
+							<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
 						</div>
 					
 				</div>

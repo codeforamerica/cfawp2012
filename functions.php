@@ -553,16 +553,16 @@ function twentyten_posted_in() {
 	// Retrieves tag list of current post, separated by commas.
 	$tag_list = get_the_tag_list( '', ', ' );
 	if ( $tag_list ) {
-		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a>', 'twentyten' );
+		$posted_in = __( '<a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a>', 'twentyten' );
 	} elseif ( is_object_in_taxonomy( get_post_type(), 'category' ) ) {
-		$posted_in = __( 'in <a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a>', 'twentyten' );
+		$posted_in = __( '<a href="%3$s" title="Permalink to %4$s" rel="bookmark">%1$s</a>', 'twentyten' );
 	} else {
 		$posted_in = __( 'Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'twentyten' );
 	}
 	// Prints the string, replacing the placeholders.
 	printf(
 		$posted_in,
-		get_the_category_list( ', ' ),
+		get_the_category_list( '' ),
 		$tag_list,
 		get_permalink(),
 		the_title_attribute( 'echo=0' )
