@@ -44,8 +44,20 @@ query_posts( $queryargs . '&paged=' . $page); ?>
 									<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
 							</div><!-- #secondary .widget-area -->
 						<?php endif; ?>
-				
+				 	
 				
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
+<!--  <body>
+    <div class="js-container">
+      {% include nav.html %}
+      <main role="main">
+        {{ content }}
+        
+        {% include global-footer.html %}
+      </main>
+    </div>
+    <script src="/script/global.js"></script>
+  </body>-->
+

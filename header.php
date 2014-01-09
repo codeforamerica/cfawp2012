@@ -127,72 +127,77 @@ $(document).ready(function() {
     <link rel="stylesheet" href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/layout.css" media="all and (min-width: 40em)">
     <link href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/prism.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  
 </head>
 
-
+<!--  <body>
+    <div class="js-container">
+      {% include nav.html %}
+      <main role="main">
+        {{ content }}
+        
+        {% include global-footer.html %}
+      </main>
+    </div>
+    <script src="/script/global.js"></script>
+  </body>-->
 
 <body <?php body_class(); ?>>
-
-
-
-
-<nav class="nav-global-primary">
-  <ul class="layout-breve layout-tight">
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/library">Library</a></li>
-    <li>
-      <form class="search-global" id="search-global">
-          <input type="search" id="search-global-input" class="search-global-input" autocomplete="off" placeholder="Search" name="search-global" />
-          <!-- consider applying autofocus="autofocus" to input -->
-          <button class="search-global-submit" id="search-global-submit" value="Search" type="submit" name="search-global">Search</button>
-      </form>
-    </li>
-  </ul>
-</nav>
-
-<div class="masthead masthead-l">
-  <div class="masthead-hero">
-    <div class="masthead-image" 
-      {% if page.masthead-image %}
-      style="background-image: url('{{ page.masthead-image }}')" 
-      {% endif %}>
-    </div>
-  </div>
-  <header class="layout-semibreve masthead-header">
-    <nav class="nav-breadcrumbs">
-	  <ul>
-	    <li><a href="/">Home</a></li>
-	  
-	        <li><a href="/blog">Blog</a></li>
-	 
+	<div class="js-container">
+	<nav class="nav-global-primary"><!-- global nav-->
+	  <ul class="layout-breve layout-tight">
+	    <li><a href="/blog">Blog</a></li>
+	    <li><a href="/library">Library</a></li>
+	    <li>
+	      <form class="search-global" id="search-global">
+	          <input type="search" id="search-global-input" class="search-global-input" autocomplete="off" placeholder="Search" name="search-global" />
+	          <!-- consider applying autofocus="autofocus" to input -->
+	          <button class="search-global-submit" id="search-global-submit" value="Search" type="submit" name="search-global">Search</button>
+	      </form>
+	    </li>
 	  </ul>
 	</nav>
 
-    <h1 class="page-title" >Blog</h1>
-  </header>
-</div>
+	<div class="masthead masthead-s">
+	  <div class="masthead-hero">
+	    <div class="masthead-image">
+	    </div>
+	  </div>
+	  <header class="layout-semibreve masthead-header">
+	    <nav class="nav-breadcrumbs">
+		  <ul>
+		    <li><a href="/">Home</a></li>
+		  
+		        <li><a href="/blog">Blog</a></li>
+		 
+		  </ul>
+		</nav>
 
-<div class="global-header">  
-  <a href="/home" class="global-header-logo">
-      <img src="/assets/logo.png" />
-  </a>
-  <p class="skip-to-nav"><a href="#global-footer">Menu</a></p>
+	    <h1 class="page-title" >Blogging for America</h1>
+	  </header>
+	</div>
 
-  <nav class="nav-global-secondary">
-    <ul>
-      <li class="nav-tier1 nav-has-children">
-        <a href="/about">About</a>
-      </li>
-      <li class="nav-tier1 nav-has-children">
-        <a href="/cities">Governments</a>
-      </li>
-      <li class="nav-tier1 nav-has-children">
-        <a href="/geeks">Citizens</a>   
-      </li>
-      <li class="nav-tier1">
-        <a href="/apps">Apps</a>
-      </li>
-      <li><a href="/donate" class="button">Support Our Work</a></li>
-    </ul>
- 
-</div>
+	<div class="global-header">  
+	  <a href="/home" class="global-header-logo">
+	      <img src="/assets/logo.png" />
+	  </a>
+	  <p class="skip-to-nav"><a href="#global-footer">Menu</a></p>
+
+	  <nav class="nav-global-secondary">
+	    <ul>
+	      <li class="nav-tier1 nav-has-children">
+	        <a href="/about">About</a>
+	      </li>
+	      <li class="nav-tier1 nav-has-children">
+	        <a href="/cities">Governments</a>
+	      </li>
+	      <li class="nav-tier1 nav-has-children">
+	        <a href="/geeks">Citizens</a>   
+	      </li>
+	      <li class="nav-tier1">
+	        <a href="/apps">Apps</a>
+	      </li>
+	      <li><a href="/donate" class="button">Support Our Work</a></li>
+	    </ul>
+	 
+	</div>
