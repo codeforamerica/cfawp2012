@@ -490,30 +490,7 @@ if ( ! function_exists( 'twentyten_posted_on' ) ) :
  *
  * @since Twenty Ten 1.0
  */
-/**
-*<div class="post-author layout-minor">
-*                        <h2 class="text-whisper layout-tight">Written by</h2>
-*                        <div class="h-card">
-*                            <h3 class="p-name profile-name text-prominent">Zachary Townsend</h3>
-*                            <img class="u-photo profile-photo" src="/_media/images/avatar-zachary-townsend.jpg" />
-*                        </div>
-*                        
-*                        <div class="p-note profile-note">
-*                            <p>I have spent most of my professional life working to understand and improve the efficiencies and effectiveness of governments.</p>
-*                        </div>
-*                        
-*                        <div class="post-categories">
-*                            <h2 class="text-quiet layout-tight">Filed under</h2>
-*                            <ul class="list-no-bullets link-invert text-whisper">
-*                                <li><a href="#">Accelerator</a></li>
-*                                <li><a href="#">Commentary</a></li>
-*                                <li><a href="#">Guest Post</a></li>
-*                                <li><a href="#">Mentor</a></li>
-*                            </ul>
-*                        </div>
-*                        
-*                    </div><!-- .post-author -->
-*/
+
 function twentyten_posted_on() {
 	printf( __( '<span class="%1$s">Posted on</span> %2$s <span class="meta-sep">by</span> %3$s', 'twentyten' ),
 		'meta-prep meta-prep-author',
