@@ -122,7 +122,7 @@ $(document).ready(function() {
 ?>
 
 	<!-- new CSS and stuff that'll need new paths added -->
-    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6435252/646022/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6435252/678502/css/fonts.css" />
     <link rel="stylesheet" href="http://alpha.codeforamerica.org/style/css/main.css">
     <link rel="stylesheet" href="http://alpha.codeforamerica.org/style/css/layout.css" media="all and (min-width: 40em)">
     <link href="http://alpha.codeforamerica.org/style/css/prism.css" rel="stylesheet" />
