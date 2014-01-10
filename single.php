@@ -34,26 +34,25 @@ get_header(); ?>
 							<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 						</div><!-- .entry-utility --><!-- .entry-content -->
 					</div>
-						 <div class="post-author layout-minor"><!-- start author gubbins -->
-	                        <h2 class="text-whisper layout-tight">Written by</h2>
-	                        <div class="h-card">
-	                            <h3 class="p-name profile-name text-prominent">Zachary Townsend</h3>
-	                            <img class="u-photo profile-photo" src="/_media/images/avatar-zachary-townsend.jpg" />
-	                        </div>
+					<div class="post-author layout-minor"><!-- start author gubbins -->
+	                    <h2 class="text-whisper layout-tight">Written by</h2>
+	                    <div class="h-card">
+	                    	<h3 class="p-name profile-name text-prominent">Zachary Townsend</h3>
+	                        <img class="u-photo profile-photo" src="/_media/images/avatar-zachary-townsend.jpg" />
+	                    </div>
 	                        
-	                        <div class="p-note profile-note">
-	                            <p>I have spent most of my professional life working to understand and improve the efficiencies and effectiveness of governments.</p>
-	                        </div>
+	                   	<div class="p-note profile-note">
+	                        <p>I have spent most of my professional life working to understand and improve the efficiencies and effectiveness of governments.</p>
+	                    </div>
 	                        
-	                        <div class="post-categories">
-	                            <h2 class="text-quiet layout-tight">Filed under</h2>
-	                            
+	                    <div class="post-categories">
+	                        <h2 class="text-quiet layout-tight">Filed under</h2>
 	                            <ul class="list-no-bullets link-invert text-whisper">
 	                            	<?php twentyten_posted_in(); ?>
 	                            </ul>
 	                        </div>
 	                        
-                    	</div><!-- .post-author -->
+                    </div><!-- .post-author -->
                     	<!-- <nav class="nav-articles">
 							    <ul>
 							        <li><a href="#" rel="prev">Previous</a></li>
@@ -61,10 +60,10 @@ get_header(); ?>
 							        <li><a href="#" rel="next">Next</a></li>
 							    </ul>
 							</nav> -->
-						<div id="nav-below" class="navigation" style="margin-bottom: 25px; min-height: 30px;">
-							<div class="nav-previous"><?php previous_post_link( '%link', '<span class="btn">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
-							<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
-						</div>
+					<div id="nav-below" class="navigation" style="margin-bottom: 25px; min-height: 30px;">
+						<div class="nav-previous"><?php previous_post_link( '%link', '<span class="btn">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
+						<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
+					</div>
 					
 				</div>
 

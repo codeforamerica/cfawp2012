@@ -126,23 +126,40 @@
 
 	<?php else : ?>
 	
-		
-			<div id="post" class="loop-post">
-			 	<h2 class=""><div style="float: right; margin-left: 10px;">  <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 40 ) ); ?></div><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-					<p class="date"><?php twentyten_posted_on(); ?>  <?php twentyten_posted_in(); ?></p>
-			<div style="float: left; margin-bottom: 30px;"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_post_thumbnail('thumbnail'); ?></div>	<div class="post" style="<?php 
-					if (has_post_thumbnail()) {
-					echo 'margin-left: 180px';
-					 };
-						?> " ></a>
-					<?php the_excerpt('',FALSE,''); ?>
-		            <ul>
-		            	<li><?php comments_popup_link( __( 'Comment', 'twentyten' ), __( 'Comment (1)', 'twentyten' ), __( 'Comments (%)', 'twentyten' ), 'comments' ); ?></li>
-		            </ul>
-		        </div>
-		</div><!-- #post-## -->
+		<div class="post-content layout-major">
+			<div class="entry-content">
+				<div id="post" class="loop-post">
+					<header class="post-header isolate">
+						<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+						<time class="post-date insulate text-whisper"><?php twentyten_posted_on(); ?></time>
+					</header>
+				 	
+				 	<?php the_excerpt('',FALSE,''); ?>
+						
+					
+				</div><!-- #post-## -->
+			</div>
+		</div>
 
-		<?php comments_template( '', true ); ?>
+
+		<div class="post-author layout-minor"><!-- start author gubbins -->
+	        <h2 class="text-whisper layout-tight">Written by</h2>
+	        <div class="h-card">
+	            <h3 class="p-name profile-name text-prominent">Zachary Townsend</h3>
+	            <img class="u-photo profile-photo" src="/_media/images/avatar-zachary-townsend.jpg" />
+	        </div>
+	                        
+	        <div class="p-note profile-note">
+	            <p>I have spent most of my professional life working to understand and improve the efficiencies and effectiveness of governments.</p>
+	        </div>
+	                        
+	        <div class="post-categories">
+	            <h2 class="text-quiet layout-tight">Filed under</h2>
+	            <ul class="list-no-bullets link-invert text-whisper">
+	            	<?php twentyten_posted_in(); ?>
+	            </ul>
+	        </div>
+	    </div><!-- .post-author -->
 
 	<?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
 

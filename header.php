@@ -149,18 +149,6 @@ $(document).ready(function() {
   	</style>
 </head>
 
-<!--  <body>
-    <div class="js-container">
-      {% include nav.html %}
-      <main role="main">
-        {{ content }}
-        
-        {% include global-footer.html %}
-      </main>
-    </div>
-    <script src="/script/global.js"></script>
-  </body>-->
-
 <body <?php body_class(); ?>>
 	<div class="js-container">
 	<nav class="nav-global-primary"><!-- global nav-->
