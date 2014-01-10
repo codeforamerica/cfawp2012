@@ -125,36 +125,35 @@
 <?php /* How to display all other posts. */ ?>
 
 	<?php else : ?>
-	
-		<div class="post-content layout-major">
-			<div class="entry-content">
-				<div id="post" class="loop-post">
-					<header class="post-header isolate">
-						<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-						<time class="post-date insulate text-whisper"><?php twentyten_posted_on(); ?></time>
-					</header>
-					<?php the_excerpt('',FALSE,''); ?>
-					
-				</div><!-- #post-## -->
+		<article>
+			<header class="post-header isolate">
+				<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+
+			</header>
+			<div class="post-content layout-major">
+				<div class="entry-content">
+					<div id="post" class="loop-post post-body">
+						
+						<?php the_excerpt('',FALSE,''); ?>
+						
+					</div><!-- #post-## -->
+				</div>
 			</div>
-		</div>
 
 
-		<div class="post-author layout-minor"><!-- start author gubbins -->
-	        <h2 class="text-whisper layout-tight">Written by</h2>
-	        <div class="h-card">
-	            <h3 class="p-name profile-name text-prominent">Zachary Townsend</h3>
-	        </div>
-	       
-	                        
-	        <div class="post-categories">
-	            <h2 class="text-quiet layout-tight">Filed under</h2>
-	            <ul class="list-no-bullets link-invert text-whisper">
-	            	<?php twentyten_posted_in(); ?>
-	            </ul>
-	        </div>
-	    </div><!-- .post-author -->
+			<div class="post-author layout-minor"><!-- start author gubbins -->
+		        
+		                        
+		        <div class="post-categories">
+		        	<time class="post-date insulate text-whisper"><?php twentyten_posted_on(); ?></time>
+		            <h2 class="text-quiet layout-tight">Filed under</h2>
+		            <ul class="list-no-bullets link-invert text-whisper">
 
+		            	<?php twentyten_posted_in(); ?>
+		            </ul>
+		        </div>
+		    </div><!-- .post-author -->
+	   </article>
 	<?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
 
 <?php endwhile; // End the loop. Whew. ?>

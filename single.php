@@ -60,10 +60,12 @@ get_header(); ?>
 							        <li><a href="#" rel="next">Next</a></li>
 							    </ul>
 							</nav> -->
-					<div id="nav-below" class="navigation" style="margin-bottom: 25px; min-height: 30px;">
-						<div class="nav-previous"><?php previous_post_link( '%link', '<span class="btn">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></div>
-						<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
-					</div>
+					<nav id="nav-below" class="navigation" style="margin-bottom: 25px; min-height: 30px;">
+						<ul>
+						<li class="nav-previous" rel="prev"><?php previous_post_link( '%link', '<span class="btn">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></li>
+						<li class="nav-next" rel="next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></li>
+						</ul>
+					</nav>
 					
 				</div>
 
