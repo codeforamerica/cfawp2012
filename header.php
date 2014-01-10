@@ -129,20 +129,6 @@ $(document).ready(function() {
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   	<!-- some overwrites to the design just for the blog-->
   	<style>
-	  	.masthead::before {
-			position: absolute;
-			left: 0px;
-			top: 0px;
-			background-position: 50% 50%;
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-image: url('<?php bloginfo( 'template_url' ); ?>/images/masthead-3.jpg');
-			content: '';
-			max-width: none;
-			width: 100%;
-			min-height: 400px;
-			z-index: 1;
-		}
 		.masthead::before {
 			position: absolute;
 			left: 0px;
