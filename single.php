@@ -37,12 +37,12 @@ get_header(); ?>
 					<div class="post-author layout-minor"><!-- start author gubbins -->
 	                    <h2 class="text-whisper layout-tight">Written by</h2>
 	                    <div class="h-card">
-	                    	<h3 class="p-name profile-name text-prominent">Zachary Townsend</h3>
+	                    	<h3 class="p-name profile-name text-prominent"><?php echo get_the_author() ?></h3>
 	                        <img class="u-photo profile-photo" src="/_media/images/avatar-zachary-townsend.jpg" />
 	                    </div>
 	                        
 	                   	<div class="p-note profile-note">
-	                        <p>I have spent most of my professional life working to understand and improve the efficiencies and effectiveness of governments.</p>
+	                   		<p><?php echo the_author_description(); ?></p>
 	                    </div>
 	                        
 	                    <div class="post-categories">
