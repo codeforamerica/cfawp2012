@@ -128,7 +128,8 @@ $(document).ready(function() {
     <link href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/prism.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   	<!-- some overwrites to the design just for the blog-->
-  	<styled		.masthead::before {
+  	<style>
+		.masthead::before {
 			position: absolute;
 			left: 0px;
 			top: 0px;
@@ -191,7 +192,7 @@ $(document).ready(function() {
 		  </ul>
 		</nav>
 
-	    <h1 class="page-title" >Blogging for America</h1>
+	    <h1 class="page-title">Blogging for America</h1>
 	  </header>
 	</div>
 
@@ -220,7 +221,7 @@ $(document).ready(function() {
 	 
 	</div>
 
-<!-- start content wrapper (ends in footer) -->
-<main role="main">
-	<section>
-		<div class="layout-semibreve">
+	<!-- start content wrapper (ends in footer) -->
+	<main role="main">
+		<section>
+			<div class="layout-semibreve">
