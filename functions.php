@@ -314,6 +314,22 @@ function twentyten_custom_excerpt_more( $output ) {
 }
 add_filter( 'get_the_excerpt', 'twentyten_custom_excerpt_more' );
 
+
+/* New the_excerpt because I have no clue what's going on */
+// Replaces the excerpt "more" text by a link
+function new_excerpt_more($more) {
+    global $post;
+	return '... <a class="moretag" href="'. get_permalink($post->ID) . '">Continue reading</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+function child_theme_setup() {
+	// override parent theme's 'more' text for excerpts
+	remove_filter( 'excerpt_more', 'twentyeleven_auto_excerpt_more' ); 
+	remove_filter( 'get_the_excerpt', 'twentyeleven_custom_excerpt_more' );
+}
+add_action( 'after_setup_theme', 'child_theme_setup' );
+
 /**
  * Remove inline styles printed when the gallery shortcode is used.
  *
