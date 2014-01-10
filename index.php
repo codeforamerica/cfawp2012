@@ -40,14 +40,6 @@ query_posts( $queryargs . '&paged=' . $page); ?>
 					
 				</div><br>
 				
-					<?php
-						// A second sidebar for widgets, just because.
-						if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
-
-							<div id="secondary" class="widget-area" role="complementary">
-									<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
-							</div><!-- #secondary .widget-area -->
-						<?php endif; ?>
 				 	
 
 			</div>
