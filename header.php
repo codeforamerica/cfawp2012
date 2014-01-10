@@ -127,7 +127,13 @@ $(document).ready(function() {
     <link rel="stylesheet" href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/layout.css" media="all and (min-width: 40em)">
     <link href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/prism.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  
+  	<!-- some overwrites to the design just for the blog-->
+  	<style>
+  		.masthead-s{
+			background-color:red !important;
+		  	background-image: url('<?php bloginfo( 'template_url' ); ?>/images/masthead-3.jpg');
+  		}
+  	</style>
 </head>
 
 <!--  <body>
@@ -179,7 +185,7 @@ $(document).ready(function() {
 
 	<div class="global-header">  
 	  <a href="/home" class="global-header-logo">
-	      <img src="/assets/logo.png" />
+	      <img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" />
 	  </a>
 	  <p class="skip-to-nav"><a href="#global-footer">Menu</a></p>
 
