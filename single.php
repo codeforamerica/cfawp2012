@@ -16,7 +16,7 @@ get_header(); ?>
 
 					<header class="post-header isolate">
 						<h2 class="post-title"><?php the_title(); ?></h2>
-						<time class="post-date insulate text-whisper"><?php twentyten_posted_on(); ?></time>
+						<time class="post-date insulate text-whisper"><?php the_date(); ?></time>
 					</header>
 
 					
