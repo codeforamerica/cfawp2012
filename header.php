@@ -146,6 +146,13 @@ $(document).ready(function() {
   		.masthead-s{
 		  	background-image: url('<?php bloginfo( 'template_url' ); ?>/images/masthead-3.jpg');
   		}
+  		.h-card .avatar{
+			width: 60px;
+			height: 60px;
+			float: left;
+			margin: 0.5em 0.8em 0px 0px;
+  		}
+
   	</style>
 </head>
 

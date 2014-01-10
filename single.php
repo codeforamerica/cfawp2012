@@ -38,7 +38,7 @@ get_header(); ?>
 	                    <h2 class="text-whisper layout-tight">Written by</h2>
 	                    <div class="h-card">
 	                    	<h3 class="p-name profile-name text-prominent"><?php echo get_the_author() ?></h3>
-	                        <img class="u-photo profile-photo" src="/_media/images/avatar-zachary-townsend.jpg" />
+	                        <?php echo get_avatar( $comment, 60 ); ?>
 	                    </div>
 	                        
 	                   	<div class="p-note profile-note">
@@ -75,21 +75,6 @@ get_header(); ?>
 <div class="right-col">
 
 
-
-<?php if ( get_the_author_meta( 'description' ) ) : // If a user has filled out their description, show a bio on their entries  ?>
-				
-					
-					<div class="testimonial-wrap">
-				      <div class="testimonial-content"> <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 90 ) ); ?>
-				        <p><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?></a> <span class="position"><?php the_author_meta( 'nickname' ); ?></span></p>
-				<p style="font-size: .8em; color: #666;">	
-						
-								<?php the_author_meta( 'oneline' ); ?>
-									<br>	<a href="http://twitter.com/<?php the_author_meta( 'twitter' ); ?>"><?php the_author_meta( 'twitter' ); ?></a> | <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php printf( __( 'Bio & Posts <span class="meta-nav">&rarr;</span>', 'twentyten' ), get_the_author() ); ?></a>	
-															</p>
-				         </div>
-				    </div>
-<?php endif; ?>
 
 				
 
