@@ -123,13 +123,12 @@ $(document).ready(function() {
 
 	<!-- new CSS and stuff that'll need new paths added -->
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6435252/678502/css/fonts.css" />
-    <link rel="stylesheet" href="http://alpha.codeforamerica.org/style/css/main.css">
-    <link rel="stylesheet" href="http://alpha.codeforamerica.org/style/css/layout.css" media="all and (min-width: 40em)">
-    <link href="http://alpha.codeforamerica.org/style/css/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/main.css">
+    <link rel="stylesheet" href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/layout.css" media="all and (min-width: 40em)">
+    <link href="https://jekit.codeforamerica.org/codeforamerica/codeforamerica.org/static-site/style/css/prism.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   	<!-- some overwrites to the design just for the blog-->
-  	<style>
-		.masthead::before {
+  	<styled		.masthead::before {
 			position: absolute;
 			left: 0px;
 			top: 0px;
@@ -144,7 +143,6 @@ $(document).ready(function() {
 			z-index: 1;
 		}	
   		.masthead-s{
-			background-color:red !important;
 		  	background-image: url('<?php bloginfo( 'template_url' ); ?>/images/masthead-3.jpg');
   		}
   	</style>
