@@ -29,20 +29,7 @@ query_posts( $queryargs . '&paged=' . $page); ?>
 				get_template_part( 'loop' );
 				?>
 		</div><!-- #container -->
-	    <div class="right-col">
-				<div class="testimonial-wrap">
-				    
-				
-					<div class="testimonial-content" style="min-height: 70px; padding-left: 16px;">
-						<p>About This Blog</a> <span class="position"><?php echo $blogtitle ;?></span></p>
-						<p style="font-size: .8em; color: #666;"><?php echo $blogdesc ;?></p>
-					</div>
-					
-				</div><br>
-				
-				 	
-
-			</div>
+	   
 		</div>
 
 <?php get_footer(); ?>
