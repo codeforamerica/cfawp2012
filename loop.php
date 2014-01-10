@@ -133,9 +133,7 @@
 						<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 						<time class="post-date insulate text-whisper"><?php twentyten_posted_on(); ?></time>
 					</header>
-				 	
-				 	<?php the_excerpt('',FALSE,''); ?>
-						
+					<?php the_excerpt('',FALSE,''); ?>
 					
 				</div><!-- #post-## -->
 			</div>
@@ -146,12 +144,8 @@
 	        <h2 class="text-whisper layout-tight">Written by</h2>
 	        <div class="h-card">
 	            <h3 class="p-name profile-name text-prominent">Zachary Townsend</h3>
-	            <img class="u-photo profile-photo" src="/_media/images/avatar-zachary-townsend.jpg" />
 	        </div>
-	                        
-	        <div class="p-note profile-note">
-	            <p>I have spent most of my professional life working to understand and improve the efficiencies and effectiveness of governments.</p>
-	        </div>
+	       
 	                        
 	        <div class="post-categories">
 	            <h2 class="text-quiet layout-tight">Filed under</h2>
