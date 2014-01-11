@@ -21,7 +21,7 @@ get_header(); ?>
 
 					
 
-					<div class="post-body">
+				<div class="post-body">
                 
                     <div class="post-content layout-major">
 						<div class="entry-content">
@@ -52,35 +52,21 @@ get_header(); ?>
 	                            </ul>
 	                        </div>
 	                        
-                    </div><!-- .post-author -->
-                    	<!-- <nav class="nav-articles">
-							    <ul>
-							        <li><a href="#" rel="prev">Previous</a></li>
-							        <li><a class="icon-grid" href="#">All articles</a></li>
-							        <li><a href="#" rel="next">Next</a></li>
-							    </ul>
-							</nav> -->
-					<nav id="nav-below" class="navigation" style="margin-bottom: 25px; min-height: 30px;">
-						<ul>
-						<li class="nav-previous" rel="prev"><?php previous_post_link( '%link', '<span class="btn">' . _x( '&larr;', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></li>
-						<li class="nav-next" rel="next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></li>
-						</ul>
-					</nav>
-					
-				</div>
+       				</div>
+				</div><!-- end post body -->
+	</div><!-- end main content -->
 
-</div>
-
-
-<div class="right-col">
-
-
-
-				
-
+	
 <?php endwhile; // end of the loop. ?>
-<br />		
+	
+	<!-- post nav -->
+	<nav id="nav-below" class="nav-articles" style="clear:both; background-color:#fff; padding-top:2em;">
+		<ul>
+			<li class="nav-previous" rel="prev"><?php previous_post_link( '%link', '<span class="btn">' . _x( '', 'Previous post link', 'twentyten' ) . '</span> %title' ); ?></li>
+			<li><a class="icon-grid" href="/blog">All articles</a></li>
+			<li class="nav-next" rel="next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '', 'Next post link', 'twentyten' ) . '</span>' ); ?></li>
+		</ul>
+	</nav>
 
-</div>
-</div>
+</div><!-- end inner -->
 <?php get_footer(); ?>
