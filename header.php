@@ -156,6 +156,11 @@ $(document).ready(function() {
   		#cfa-blog .post-title a:visited{
   			color:#000;
   		}
+  		#cfa-blog article{
+  			margin-bottom:3em;
+  			clear:both;
+  			overflow:auto;
+  		}
 
   	</style>
 </head>
