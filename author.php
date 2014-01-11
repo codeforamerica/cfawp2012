@@ -1,4 +1,4 @@
-<?php
+	<?php
 /**
  * The template for displaying Author Archive pages.
  *
@@ -25,13 +25,15 @@ get_header(); ?>
 		the_post();
 ?>
 
-<div class="ttl"><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?><span style="color: #999; font-size: 14px; margin-left: 15px;"><?php the_author_meta( 'nickname' ); ?></span></div>
+		<header class="post-header isolate">
+			<h2><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?><span style="color: #999; font-size: 14px; margin-left: 15px;"><?php the_author_meta( 'nickname' ); ?></h2>
+			<div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
+  				<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 120 ) ); ?>
+  			</div>
+  					
+  		</header>
 
-  		<div style="min-height: 150px;">	<span style="font-size: 1em; line-height: 1.6em;"><p><div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
-  								 <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 120 ) ); ?>
-  							</div><?php the_author_meta( 'description' ); ?>	</p>
-  								</span>
-  					</div>	
+  		<p><?php the_author_meta( 'description' ); ?></p>
 <?php
 	/* Since we called the_post() above, we need to
 	 * rewind the loop back to the beginning that way
@@ -47,8 +49,6 @@ get_header(); ?>
 ?>
 
       </div>
-    <div class="right-col">
-
-</div>
+    
 </div>
     <?php get_footer(); ?>
