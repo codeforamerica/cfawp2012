@@ -152,6 +152,10 @@ $(document).ready(function() {
 			float: left;
 			margin: 0.5em 0.8em 0px 0px;
   		}
+  		#cfa-blog .post-title a:link,
+  		#cfa-blog .post-title a:visited{
+  			color:#000;
+  		}
 
   	</style>
 </head>
