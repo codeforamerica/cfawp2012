@@ -93,7 +93,7 @@
 
 			<div class="entry-utility">
 				<a href="<?php echo get_term_link( _x('gallery', 'gallery category slug', 'twentyten'), 'category' ); ?>" title="<?php esc_attr_e( 'View posts in the Gallery category', 'twentyten' ); ?>"><?php _e( 'More Galleries', 'twentyten' ); ?></a>
-				<span class="meta-sep">|</span>
+				<span class="meta-sep">| SEPERATOR</span>
 				<span class="comments-link"><?php comments_popup_link( __( 'Comment', 'twentyten' ), __( '1 Comment', 'twentyten' ), __( '% Comments', 'twentyten' ) ); ?></span>
 				<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
 			</div><!-- .entry-utility -->
@@ -127,13 +127,12 @@
 	<?php else : ?>
 		<article>
 			<header class="post-header isolate">
-				<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+				<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a>IN ELSE LOOP</h2>
 
 			</header>
 			<div class="post-content layout-major">
 				<div class="entry-content">
 					<div id="post" class="loop-post post-body">
-						
 						<?php the_excerpt('',FALSE,''); ?>
 						
 					</div><!-- #post-## -->

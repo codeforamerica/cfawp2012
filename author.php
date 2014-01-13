@@ -9,7 +9,7 @@
 
 get_header(); ?>
     <div class="wrap clearfix" id="inner">
-      <div id="maincontent">
+    	<div id="maincontent">
 
 
 
@@ -26,8 +26,8 @@ get_header(); ?>
 ?>
 
 		<header class="post-header isolate">
-			<h2><?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?><span style="color: #999; font-size: 14px; margin-left: 15px;"><?php the_author_meta( 'nickname' ); ?></h2>
-			<div id="author-avatar" style="float: left; margin: 0 5px 0px 0;">
+			<h2>Posts by <?php printf( esc_attr__( '%s', 'twentyten' ), get_the_author() ); ?></h2>
+			<div id="author-avatar" style="float: left;  margin: 0.5em 0.8em 0px 0px;">
   				<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 120 ) ); ?>
   			</div>
   					
@@ -48,7 +48,9 @@ get_header(); ?>
 	 get_template_part( 'loop', 'author' );
 ?>
 
-      </div>
+    	</div>
     
-</div>
-    <?php get_footer(); ?>
+	</div>
+
+
+<?php get_footer(); ?>

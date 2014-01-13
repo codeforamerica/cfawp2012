@@ -15,7 +15,7 @@ get_header(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 					<header class="post-header isolate">
-						<h2 class="post-title"><?php the_title(); ?></h2>
+						<h2 class="post-title"><?php the_title(); ?>SINGLE</h2>
 						<time class="post-date insulate text-whisper"><?php the_date(); ?></time>
 					</header>
 

@@ -27,8 +27,5 @@ get_header(); ?>
 <?php endif; ?>
 			
 		</div>
-		<div class="right-col">
-	    
-
-<?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

@@ -48,7 +48,7 @@
 	 */ ?>
 <?php while ( have_posts() ) : the_post(); ?>
 	<div id="post" class="loop-post">
-	    <h2 class=""><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+	    <h2 class=""> <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 			<p class="date"><?php twentyten_posted_on(); ?>
 			<div class="post"><?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentyten_author_bio_avatar_size', 105 ) ); ?>
 			<?php the_excerpt(); ?>

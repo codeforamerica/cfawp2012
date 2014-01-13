@@ -57,10 +57,6 @@ get_header(); ?>
 ?>
 
       </div>
-    <div class="right-col">
-
- 
-
-    <?php get_sidebar(); ?>
+  </div>
     <?php get_footer(); ?>
 
