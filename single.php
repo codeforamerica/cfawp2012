@@ -15,7 +15,7 @@ get_header(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 					<header class="post-header isolate">
-						<h2 class="post-title"><?php the_title(); ?>SINGLE</h2>
+						<h2 class="post-title"><?php the_title(); ?></h2>
 						<time class="post-date insulate text-whisper"><?php the_date(); ?></time>
 					</header>
 
@@ -44,15 +44,13 @@ get_header(); ?>
 	                   	<div class="p-note profile-note">
 	                   		<p><?php echo the_author_description(); ?></p>
 	                    </div>
-	                        
-	                    
-	                        
-       				</div>
-       				<div class="post-categories">
-	                    <h2 class="text-quiet layout-tight">Filed under</h2>
-	                    <ul class="list-no-bullets link-invert text-whisper">
-	                        <?php twentyten_posted_in(); ?>
-	                    </ul>
+	                    <div class="post-categories">
+	                    	<h2 class="text-quiet layout-tight">Filed under</h2>
+		                   	<ul class="list-no-bullets link-invert text-whisper">
+		                    	<?php twentyten_posted_in(); ?>
+		                   	</ul>
+       					</div>
+       				
 	                </div>
 				</div><!-- end post body -->
 	</div><!-- end main content -->
