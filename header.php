@@ -163,7 +163,9 @@ $(document).ready(function() {
   			clear:both;
   			overflow:auto;
   		}
-
+  		.nav-articles{
+  			background-color:#fff;
+  		}
   	</style>
 </head>
 

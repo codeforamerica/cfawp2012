@@ -170,7 +170,7 @@
 				<nav class="nav-articles">
 					<ul>
 						<li class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></li>
-						<li><a class="icon-grid" href="#">All articles</a></li>
+						<li><a class="icon-grid" href="/blog">All articles</a></li>
 						<li class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></li>
 					</ul>
 				</nav><!-- #nav-below -->
