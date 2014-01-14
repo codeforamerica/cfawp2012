@@ -45,14 +45,15 @@ get_header(); ?>
 	                   		<p><?php echo the_author_description(); ?></p>
 	                    </div>
 	                        
-	                    <div class="post-categories">
-	                        <h2 class="text-quiet layout-tight">Filed under</h2>
-	                            <ul class="list-no-bullets link-invert text-whisper">
-	                            	<?php twentyten_posted_in(); ?>
-	                            </ul>
-	                        </div>
+	                    
 	                        
        				</div>
+       				<div class="post-categories">
+	                    <h2 class="text-quiet layout-tight">Filed under</h2>
+	                    <ul class="list-no-bullets link-invert text-whisper">
+	                        <?php twentyten_posted_in(); ?>
+	                    </ul>
+	                </div>
 				</div><!-- end post body -->
 	</div><!-- end main content -->
 

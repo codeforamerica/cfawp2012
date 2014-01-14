@@ -153,7 +153,9 @@ $(document).ready(function() {
 			margin: 0.5em 0.8em 0px 0px;
   		}
   		#cfa-blog .post-title a:link,
-  		#cfa-blog .post-title a:visited{
+  		#cfa-blog .post-title a:visited,
+  		h3 a:link,
+  		h3 a:visited{
   			color:#000;
   		}
   		#cfa-blog article{

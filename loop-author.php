@@ -19,8 +19,7 @@
  */
 ?>
 
-<div class="ttl" style="font-size: 16px;">Posts by 
-<?php the_author_meta( 'first_name' ); ?></div>
+
 <div id="posts">
 <div id="cfa-blog" class="wrap">
 
@@ -50,31 +49,43 @@
 	 * Without further ado, the loop:
 	 */ ?>
 <?php while ( have_posts() ) : the_post(); ?>
-	<div id="post" class="loop-post">
-	 	<h2 class=""><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-			<p class="date"><?php twentyten_posted_on(); ?></p>
-	<div style="float: left; margin-bottom: 30px;"><?php the_post_thumbnail('thumbnail'); ?></div>	<div class="post" style="
-	<?php 
-			if (has_post_thumbnail()) {
-			echo 'margin-left: 180px';
-			 };
-				?> " >
-			<?php the_excerpt(); ?>
-            <ul>
-            	<li><?php comments_popup_link( __( 'Leave a comment', 'twentyten' ), __( 'Comment (1)', 'twentyten' ), __( 'Comments (%)', 'twentyten' ), 'comments' ); ?></li>
-            </ul>
+	<div class="post-body">
+		<article>
+        <div class="post-content layout-major">
+			<div class="entry-content">
+	 			<h3><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+	 			
+				<div style="float: left; margin-bottom: 30px;"><?php the_post_thumbnail('thumbnail'); ?></div>	
+
+				<?php the_excerpt(); ?>
+            
             </div>
         </div>
+        <div class="post-author layout-minor">
+        <div class="post-categories">
+        	<time>Posted on <?php the_date(); ?></time> 
+	        <h2 class="text-quiet layout-tight">Filed under</h2>
+	        <ul class="list-no-bullets link-invert text-whisper">
+	        	<?php twentyten_posted_in(); ?>
+	        </ul>  
+
+	    </div>
+		</div>
+        </article>
+    </div>
 <?php endwhile; // End the loop. Whew. ?>
 
 
 
 <?php /* Display navigation to next/previous pages when applicable */ ?>
 <?php if (  $wp_query->max_num_pages > 1 ) : ?>
-				<div id="nav-below" class="navigation">
-					<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></div>
-					<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></div>
-				</div><!-- #nav-below -->
+				<nav class="nav-articles">
+					<ul>
+						<li class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></li>
+						<li><a class="icon-grid" href="#">All articles</a></li>
+						<li class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></li>
+					</ul>
+				</nav><!-- #nav-below -->
 <?php endif; ?>
 </div>
 </div>
