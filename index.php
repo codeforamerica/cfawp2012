@@ -25,7 +25,7 @@ get_header(); ?>
 		</div>
 
 		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> 
-		<iframe src="//player.vimeo.com/video/80316046?title=0&amp;byline=0&amp;portrait=0" width="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<iframe src="//player.vimeo.com/video/80316046?title=0&amp;byline=0&amp;portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 
 </div>
