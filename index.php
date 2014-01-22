@@ -21,10 +21,12 @@ get_header(); ?>
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
 	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet the Fellows</h1>
-			<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Code for America's fellows have come from far and wide to train for their upcoming residencies. To learn more about the fellows <a href="/geeks/2014-fellows">check out their bios</a> or meet them at Code for America's Jan 30 <a href="http://www.eventbrite.com/e/code-for-america-open-house-tickets-10056165261">open house</a>.</p>
+						<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Code for America’s Fellowship applications are officially open to local governments. Past teams have tackled issues like hunger, criminal justice and economic development. For details on how you can create a successful application, check out the <a href="/city_applications/">blog post</a>. Enlist the fellows and <a href="/cities/fellowship-apply/">apply today</a>. </p>
 		</div>
 
-		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> <a href="/geeks/2014-fellows"><img src="<?php bloginfo('template_directory'); ?>/images/fellows_first_day.jpg"></a></div>
+		<div class="brigadeheader" style="float:right; width: 500px; padding: 5px 5px 5px 5px;"> 
+		<iframe src="//player.vimeo.com/video/80316046?title=0&amp;byline=0&amp;portrait=0" width="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
 
 </div>
 <div class="clearfix"></div>
