@@ -20,7 +20,7 @@ get_header(); ?>
 	<!--featured -->	  
     <div id="featured" style="width: 935px; margin: 0 auto; height: 290px; background: url() no-repeat bottom;padding: 20px 0px; clear: both;">
       <div class="callout" style="width: 400px; padding: 25px 15px 25px 10px; float: left;">
-	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Meet the Fellows</h1>
+	    <h1 style="font-family: 'Oswald', Helvetica; text-transform: uppercase; color: black; font-size: 46px; line-height:50px; padding-bottom:10px; text-align: left;">Local Governments: Apply Now</h1>
 						<p style="text-align: left; font-size:18px; padding-left: 3px; padding-top: 0px; margin-top: 0px;">Code for America’s Fellowship applications are officially open to local governments. Past teams have tackled issues like hunger, criminal justice and economic development. For details on how you can create a successful application, check out the <a href="/city_applications/">blog post</a>. Enlist the fellows and <a href="/cities/fellowship-apply/">apply today</a>. </p>
 		</div>
 
