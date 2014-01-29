@@ -15,28 +15,29 @@
   
   <div class="layout-breve layout-tight">
   
-    <div class="search-global">
-      <input type="search" placeholder="Search" />
-    </div>
+    <form class="search-global" action="https://www.google.com/search" method="get">
+        <input type="search" autocomplete="off" placeholder="Search" name="q">
+        <input name="as_sitesearch" value="www.codeforamerica.org" type="hidden">
+    </form>
   
-    <nav class="nav-footer">
+    <nav class="nav-footer" role="navigation">
       <ul>
-        <li class="nav-tier1"><a class="nav-heading" href="#">Home</a></li>
-        <li class="nav-tier1"><a class="nav-heading" href="#">About</a>
+        <li class="nav-tier1"><a class="nav-heading" href="/">Home</a></li>
+        <li class="nav-tier1"><a class="nav-heading" href="/about">About</a>
           <ul class="nav-tier2">
-            <li><a href="#">Who we are</a></li>
-            <li><a href="#">Programs</a></li>
-            <li><a href="#">Donors</a></li>
-            <li><a href="#">Press</a></li>
+            <li><a href="/about/fellowship">Fellowship</a></li>
+            <li><a href="/about/brigade">Brigade</a></li>
+            <li><a href="/about/startups">Civic Startups</a></li>
+            <li><a href="/about/peernetwork">Peer Network</a></li>
+            <li><a href="/about/international">International</a></li>
+            <li><a href="/about/team">Team</a></li>
+            <li><a href="/supporters">Supporters</a></li>
+            <li><a href="/press">Press</a></li>
+            <li><a href="/jobs">Jobs</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </li>
-        <li class="nav-tier1"><a class="nav-heading" href="#">Fellows</a>
-          <ul class="nav-tier2">
-            <li><a href="#">Timeline</a></li>
-            <li><a href="#">Process</a></li>
-            <li><a href="#">Apply</a></li>
-          </ul>
-        </li>
+      
         <li class="nav-tier1"><a class="nav-heading" href="/cities">Governments</a>
           <ul class="nav-tier2">
             <li><a href="/cities/atlanta">Atlanta, GA</a></li>
@@ -49,15 +50,36 @@
             <li><a href="/cities/rhodeisland">Rhode Island</a></li>
             <li><a href="/cities/sanantonio">San Antonio, TX</a></li>
             <li><a href="/cities/sanjuan">San Juan, PR</a></li>
+            <li><a href="/cities/alumni">Alumni Partners</a></li>
+            <li><a href="/about/peernetwork">Peer Network</a></li>
+            <li><a href="/cities/data-standards-faq">Data Standards</a></li>
           </ul>
         </li>
-        <li class="nav-tier1"><a class="nav-heading" href="#">Donate</a>
+          <li class="nav-tier1"><a class="nav-heading" href="/geeks">Citizens</a>
           <ul class="nav-tier2">
-            <li><a href="#">Financial Contributions</a></li>
-            <li><a href="#">In-Kind Donations</a></li>
+            <li><a href="/geeks/our-geeks">Our Geeks</a></li>
+            <li><a href="https://github.com/codeforamerica">Our Code</a></li>
+            <li><a href="/geeks/our-startups">Our Startups</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="https://github.com/codeforamerica/hack-requests">Requests</a></li>
           </ul>
         </li>
-        <li class="nav-tier1"><a class="nav-heading" href="#">Social</a>
+           
+          <li class="nav-tier1"><a class="nav-heading" href="/apps">Apps</a>
+          <ul class="nav-tier2">
+            <li><a href="/apps/local-service.html#nav-tabs">Local Service</a></li>
+            <li><a href="/apps/citizen-engagement.html#nav-tabs">Citizen Engagement</a></li>
+            <li><a href="/apps/free.html#nav-tabs">Free Apps</a></li>
+            <li><a href="/apps/paid.html#nav-tabs">Paid Apps</a></li>
+          </ul>
+        </li>
+        <li class="nav-tier1"><a class="nav-heading" href="/donate">Donate</a>
+          <ul class="nav-tier2">
+            <li><a href="/donate/form">Financial Contributions</a></li>
+            <li><a href="/donate/inkind">In-Kind Donations</a></li>
+          </ul>
+        </li>
+        <li class="nav-tier1"><a class="nav-heading">Social</a>
           <ul class="nav-tier2">
             <li><a href="https://www.facebook.com/codeforamerica" class="icon-facebook">Facebook</a></li>
             <li><a href="https://twitter.com/codeforamerica" class="icon-twitter">Twitter</a></li>
