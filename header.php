@@ -206,7 +206,7 @@ $(document).ready(function() {
 
 	<div class="global-header">  
 	  <a href="/" class="global-header-logo">
-	      <img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png" />
+	      <img src="<?php bloginfo( 'template_url' ); ?>/images/logo.gif" />
 	  </a>
 	  <p class="skip-to-nav"><a href="#global-footer">Menu</a></p>
 
