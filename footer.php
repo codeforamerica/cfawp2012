@@ -133,6 +133,7 @@
   })();
 
 </script>
+<!--
 <script type="text/javascript">
 var _sf_async_config={uid:20661,domain:"codeforamerica.org"};
 (function(){
@@ -152,6 +153,7 @@ var _sf_async_config={uid:20661,domain:"codeforamerica.org"};
 })();
 
 </script>
+-->
 <!-- Ethnio Activation Code -->
 <script type="text/javascript" language="javascript" src="//ethn.io/remotes/20160" async="true" charset="utf-8"> </script>
 <script src="http://style.codeforamerica.org/script/global.js"></script>
