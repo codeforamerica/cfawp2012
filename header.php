@@ -224,7 +224,7 @@ $(document).ready(function() {
 	      <li class="nav-tier1">
 	        <a href="/apps">Apps</a>
 	      </li>
-	      <li><a href="/donate" class="button">Donate</a></li>
+	      <li><a href="/support-us" class="button">Donate</a></li>
 	    </ul>
 	 
 	</div>
