@@ -157,6 +157,6 @@ var _sf_async_config={uid:20661,domain:"codeforamerica.org"};
 -->
 <!-- Ethnio Activation Code -->
 <script type="text/javascript" language="javascript" src="//ethn.io/remotes/20160" async="true" charset="utf-8"> </script>
-<script src="http://style.codeforamerica.org/script/global.js"></script>
+<script src="http://style.codeforamerica.org/1/script/global.js"></script>
 </body>
 </html>
