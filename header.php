@@ -123,9 +123,9 @@ $(document).ready(function() {
 
 	<!-- new CSS and stuff that'll need new paths added -->
     <link rel="stylesheet" type="text/css" href="//cloud.webtype.com/css/944a7551-9b08-4f0a-8767-e0f83db4a16b.css" />
-    <link rel="stylesheet" href="http://style.codeforamerica.org/1/style/css/main.css">
-    <link rel="stylesheet" href="http://style.codeforamerica.org/1/style/css/layout.css" media="all and (min-width: 40em)">
-    <link href="http://style.codeforamerica.org/1/style/css/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://style.codeforamerica.org/style/css/main.css">
+    <link rel="stylesheet" href="http://style.codeforamerica.org/style/css/layout.css" media="all and (min-width: 40em)">
+    <link href="http://style.codeforamerica.org/style/css/prism.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   	<!-- some overwrites to the design just for the blog-->
   	<style>
