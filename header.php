@@ -222,7 +222,7 @@ $(document).ready(function() {
 	        <a href="/geeks">Citizens</a>   
 	      </li>
 	      <li class="nav-tier1">
-	        <a href="/apps">Apps</a>
+	        <a href="/our-work">Our Work</a>
 	      </li>
 	      <li><a href="/support-us" class="button">Donate</a></li>
 	    </ul>
