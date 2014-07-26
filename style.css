@@ -1,0 +1,308 @@
+/**
+ * Theme Name: cfa-wp
+ * Theme URI: http://style.codeforamerica.org/_site/blog/
+ * Author: Code For America
+ * Author URI:
+ * Description: Theme created for Code For America.
+ * Version: 0.0.1
+ * Text Domain: Code For America
+ */
+
+
+/* reverse layout floats */
+.layout-major {
+	float: left;
+}
+.layout-minor {
+	float: right;
+}
+@media only screen and (max-width : 40em) {
+	.layout-minor {
+		display: none;
+	}
+}
+
+/* sticky post fix */
+.post.sticky {
+	position: relative;
+}
+
+/* float classes */
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+
+/* header */
+.page-header .page-title span {
+	color: #d1153d;
+}
+.global-header {
+	margin-bottom: 0;
+}
+
+/* blog roll */
+.post-preview .post-header {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 10px;
+}
+.post-preview .post-header .entry-title {
+	margin-bottom: 0;
+}
+.post-preview .post-header .entry-title a {
+	color: #000;
+}
+.post-preview .post-header .entry-title a:hover {
+	border-bottom: none;
+}
+.post-preview .text-whisper.info {
+	margin-bottom: 0;
+}
+.post-preview .post-date {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-size: 0.75rem;
+	font-family: "Interstate", "Gotham A", "Gotham B", "Open Sans Regular", "Verdana", "Helvetica", "Arial";
+	font-weight: 600;
+}
+.post-preview .post-author {
+	padding-left: 0;
+}
+.post-preview .post-author a {
+	color: #999595;
+}
+.post-preview .post-author a:hover {
+	border-bottom: none;
+}
+.post-preview .post-image {
+	float: left;
+	margin-right: 15px;
+}
+.post-preview .post-content > p:first-child:first-letter {
+	float: none;
+	font-size: 1.0625rem;
+	line-height: 1.6875rem;
+	padding: 0;
+	font-family: "Interstate", "Gotham A", "Gotham B", "Open Sans Regular", "Verdana", "Helvetica", "Arial";
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: normal;
+}
+.post-preview .post-content a.more-link {
+	color: #999595;
+}
+.post-preview .post-content a.more-link:hover {
+	border-bottom: none;
+}
+.post-preview .filed {
+	font-weight: 600;
+	color: #999595;
+	font-size: 12px;
+	vertical-align: top;
+}
+.post-preview .filed ul{
+	float: none;
+	display: inline-block;
+	width: auto;
+	font-size: 12px;
+}
+.post-preview .filed ul li {
+	display: block;
+	line-height: 12px;
+	float: left;
+}
+.post-preview .filed ul li a {
+	color: #d1153d;
+	margin-right: 5px;
+	font-size: 12px;
+	line-height: 15px;
+}
+.post-preview .post-body {
+	margin-top: 10px;
+}
+
+/* post single */
+.post-single {
+	margin-bottom: 40px;
+}
+.post-single .post-header {
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 10px;
+}
+.post-single .post-header .entry-title {
+	margin-bottom: 0;
+}
+.post-single .post-share,
+.post-single .post-date {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-size: 0.75rem;
+	font-family: "Interstate", "Gotham A", "Gotham B", "Open Sans Regular", "Verdana", "Helvetica", "Arial";
+	font-weight: 600;
+	color: #999595;
+}
+.post-single .post-share,
+.post-single .post-author a {
+	margin-left: 20px;
+	padding-left: 20px;
+	border-left: 1px solid #999595;
+	line-height: 1rem;
+}
+.post-single .post-share a {
+	color: #999595;
+	font-size: 1.25em;
+}
+.post-single .post-share a:before {
+	margin-right: 0;
+}
+.post-single .post-share a:first-child {
+	margin-left: 15px;
+}
+.post-single .post-share a:hover {
+	border-bottom: none;
+}
+.post-single .post-share .share-button {
+	margin-left: 20px;
+	display: inline-block;
+	width: 90px;
+	position: relative;
+	top: 5px;
+}
+.post-single .post-author {
+	padding-left: 0;
+}
+.post-single .post-author a {
+	color: #999595;
+}
+.post-single .post-author a:hover {
+	border-bottom: none;
+}
+.post-single .post-content > p:first-child:first-letter {
+	float: left;
+	font-size: 1.0625rem;
+	line-height: 1.6875rem;
+	padding: 0;
+	font-family: "Interstate", "Gotham A", "Gotham B", "Open Sans Regular", "Verdana", "Helvetica", "Arial";
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: normal;
+}
+.post-single .filed {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.post-single .filed ul{
+	float: none;
+	display: inline-block;
+	width: auto;
+}
+.post-single .filed ul li {
+	display: inline-block;
+}
+.post-single .filed ul li a {
+	color: #d1153d;
+}
+.post-single .post-footer .comments {
+	width: 100%;
+	padding-top : 30px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid;
+	border-color: #e5e5e5;
+	border-color: rgba(229, 229, 229, 0.8);
+	clear: both;
+}
+
+/* author information */
+.author-info {
+	float: left;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid;
+	border-color: #e5e5e5;
+	border-color: rgba(229, 229, 229, 0.8);
+}
+.author-info img {
+	float: left;
+}
+.author-info .contact-info {
+	margin-left: 10px;
+	float: left;
+	color: #329ed5;
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1.8rem;
+	font-family: "Freight Text", "Sentinel SSm A", "Sentinel SSm B", "Georgia", Times, sans-serif;
+}
+.author-info .contact-info span {
+	font-size: 1rem;
+}
+.author-info .description {
+	margin-top: 10px;
+	clear: both;
+	float:left;
+}
+.author-info .description-full {
+	float:left;
+}
+.author {
+	margin: 10px 0;
+}
+.author img {
+	float: left;
+	margin-right: 15px;
+}
+
+/* filed under */
+.filed {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.filed ul li a {
+	color: #d43451 !important;
+	line-height: 1.5rem;
+}
+
+ul.side-list {
+	width: 100%;
+	margin-bottom: 15px;
+	float: left;
+}
+ul.side-list li {
+	background: none;
+	padding-left: 15px;
+	width: 100%;
+	display: block;
+	float: left;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid;
+	border-color: #e5e5e5;
+	border-color: rgba(229, 229, 229, 0.8);
+}
+ul.side-list li:first-child {
+	background-color: #d1153d;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+ul.side-list li:last-child {
+	border-bottom: none;
+}
+ul.side-list li a {
+	color: #000;
+}
+ul.side-list li a:hover {
+	border-bottom: none;
+}
+ul.side-list.blue li:first-child {
+	background-color: #349fd5;
