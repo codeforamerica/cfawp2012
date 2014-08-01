@@ -22,6 +22,11 @@
 	}
 }
 
+/* aratar */
+.avatar {
+  border-radius: 50%;
+}
+
 /* sticky post fix */
 .post.sticky {
 	position: relative;

@@ -27,3 +27,6 @@
 
 #### 2014.07.14
 - Single post page - Iff no use twitter name => no link
+
+#### 2014.08.01
+- Avatar images to be circles
