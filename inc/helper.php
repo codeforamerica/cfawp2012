@@ -103,7 +103,7 @@ function recent_catigories() {
 }
 
 function recent_bloggers() {
-	// get 5 latest posts, display the categories used on those posts (most recent categories)
+	// Get the last 10 posts and display the bloggers names with links to their pages
 	global $post;
 	$blogger = array();
 	$displayed = array();
