@@ -9,7 +9,7 @@
 		<?php $thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'square', false); ?>
 		<?php if (isset($thumbnail[0]) && $thumbnail[0] != null) : ?>
 			<div class="post-image">
-				<?php echo '<img class="img-responsive" src="'.$thumbnail[0].'" width="137" height="137" itemprop="image" alt="'.$post->post_title.'" />'; ?>
+				<?php echo '<img class="img-responsive img-circle" src="'.$thumbnail[0].'" width="137" height="137" itemprop="image" alt="'.$post->post_title.'" />'; ?>
 			</div>
 		<?php else : ?>
 			<div class="post-image">

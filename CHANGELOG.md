@@ -30,3 +30,6 @@
 
 #### 2014.08.01
 - Avatar images to be circles
+
+#### 2014.08.06
+- blog-roll images circle
