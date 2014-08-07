@@ -35,3 +35,6 @@
 - blog-roll images circle
 - Revert circle image for blog-roll
 - If no blog-roll image exists, remove image from layout
+
+#### 2014.08.07
+- Add article nav on blog-roll

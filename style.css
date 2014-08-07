@@ -130,6 +130,13 @@
 .post-preview .post-body {
 	margin-top: 10px;
 }
+.nav-articles {
+	background-color: transparent !important;
+	clear: both;
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
 
 /* post single */
 .post-single {

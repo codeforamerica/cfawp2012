@@ -27,6 +27,16 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 
+				<?php if (  $wp_query->max_num_pages > 1 ) : ?>
+					<nav class="nav-articles">
+						<ul>
+							<li class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></li>
+							<li><a class="icon-grid" href="/blog">All articles</a></li>
+							<li class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></li>
+						</ul>
+					</nav><!-- #nav-below -->
+				<?php endif; ?>
+
 			<?php else : ?>
 
 				<?php get_template_part( 'content', 'none' ); ?>
