@@ -15,10 +15,10 @@ get_header(); ?>
 
 	<div class="layout-semibreve">
 		<div class="layout-minor">
-		<form class="search-global" id="search-global" role="search" method="GET">
-			<input type="search" id="search-global-input" class="search-global-input" autocomplete="off" placeholder="Search" name="s">
+		<form class="search-global" id="search-global" role="search" method="GET" style="white-space: nowrap; margin-bottom: 15px">
+			<input type="search" id="search-global-input" class="search-global-input" autocomplete="off" placeholder="Search Blog" name="s">
 			<!-- consider applying autofocus="autofocus" to input -->
-			<button class="search-global-submit" id="search-global-submit" value="Search" type="submit">Search</button>
+			<input type="submit" value="Go">
 		</form>
 		<?php recent_catigories() ?>
 		<?php recent_bloggers() ?>
