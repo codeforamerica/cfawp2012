@@ -43,7 +43,9 @@ get_header(); ?>
 						</div><!-- .post-body -->
 						<div class="post-footer">
 							<div class="comments">
-								Questions? Comments? Hit us up @codeforamerica.
+								<div class="layout-centered">
+									<p><strong class="h5">Questions? Comments?</strong> <a class="button button-prominent insulate-sides" href="http://twitter.com/codeforamerica">Hit us up at <strong class="icon-twitter2">@codeforamerica</strong></a></p>
+								</div>
 							</div>
 						</div>
 					</article><!-- .post -->

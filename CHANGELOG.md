@@ -38,3 +38,4 @@
 
 #### 2014.08.07
 - Add article nav on blog-roll
+- comment link styled
