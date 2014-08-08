@@ -15,6 +15,11 @@ get_header(); ?>
 
 	<div class="layout-semibreve">
 		<div class="layout-minor">
+		<form class="search-global" id="search-global" role="search" method="GET">
+			<input type="search" id="search-global-input" class="search-global-input" autocomplete="off" placeholder="Search" name="s">
+			<!-- consider applying autofocus="autofocus" to input -->
+			<button class="search-global-submit" id="search-global-submit" value="Search" type="submit">Search</button>
+		</form>
 		<?php recent_catigories() ?>
 		<?php recent_bloggers() ?>
 		</div>
