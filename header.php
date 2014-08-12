@@ -40,7 +40,7 @@
 		</div>
 		<div class="global-header">
 
-			<a href="../home/" class="global-header-logo">
+			<a href="/" class="global-header-logo">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/global/logo.png">
 			</a>
 
