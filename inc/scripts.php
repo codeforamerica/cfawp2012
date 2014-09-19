@@ -6,9 +6,9 @@ function inti_scripts()
 {
 	// Register styles
 	wp_register_style( 'webtype', '//cloud.webtype.com/css/944a7551-9b08-4f0a-8767-e0f83db4a16b.css' );
-	wp_register_style( 'main', 'http://style.codeforamerica.org/1/style/css/main.css' );
-	wp_register_style( 'layout', 'http://style.codeforamerica.org/1/style/css/layout.css', array(), false, 'all and (min-width: 40em)' );
-	wp_register_style( 'prism', 'http://style.codeforamerica.org/1/style/css/prism.css' );
+	wp_register_style( 'main', 'http://style.codeforamerica.org/style/css/main.css' );
+	wp_register_style( 'layout', 'http://style.codeforamerica.org/style/css/layout.css', array(), false, 'all and (min-width: 40em)' );
+	wp_register_style( 'prism', 'http://style.codeforamerica.org/style/css/prism.css' );
 	wp_register_style( 'style', get_stylesheet_uri() );
 
 

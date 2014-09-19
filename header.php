@@ -3,7 +3,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/global/favicon.ico" />
-		<link rel="apple-touch-icon-precomposed" href="http://style.codeforamerica.org/1/style/favicons/60x60/flag-red.png"/>
+		<link rel="apple-touch-icon-precomposed" href="http://style.codeforamerica.org/style/favicons/60x60/flag-red.png"/>
 		<title><?php wp_title( '-', true, 'right' ); ?></title>
 		<?php wp_head(); ?>
 	</head>
