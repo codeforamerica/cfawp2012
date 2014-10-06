@@ -275,8 +275,11 @@
 	font-weight: 600;
 	text-transform: uppercase;
 }
+.filed ul {
+	margin-top: 6px;
+}
 .filed ul li a {
-	color: #d43451 !important;
+	color: #999595 !important;
 	line-height: 1.5rem;
 }
 
