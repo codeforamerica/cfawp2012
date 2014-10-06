@@ -88,6 +88,7 @@
 	float: left;
 	margin-right: 15px;
 }
+/*
 .post-preview .post-content > p:first-child:first-letter {
 	float: none;
 	font-size: 1.0625rem;
@@ -98,6 +99,7 @@
 	font-style: normal;
 	letter-spacing: normal;
 }
+*/
 .post-preview .post-content a.more-link:hover {
 	border-bottom: none;
 }
@@ -194,6 +196,7 @@
 .post-single .post-author a:hover {
 	border-bottom: none;
 }
+/*
 .post-single .post-content > p:first-child:first-letter {
 	float: left;
 	font-size: 1.0625rem;
@@ -204,6 +207,7 @@
 	font-style: normal;
 	letter-spacing: normal;
 }
+*/
 .post-single .filed {
 	font-weight: 600;
 	text-transform: uppercase;
