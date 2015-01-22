@@ -322,3 +322,14 @@ ul.side-list li a:hover {
 }
 ul.side-list.blue li:first-child {
 	background-color: #349fd5;
+}
+
+/* Photo caption style
+   (Inherited from Code for America pattern library class .note) */
+
+p.wp-caption-text {
+	color: #999595;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 22px;
+}
