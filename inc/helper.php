@@ -37,6 +37,55 @@ if ( ! function_exists( 'post_time_author' ) ) :
 	}
 endif;
 
+if ( ! function_exists( 'post_metadata' ) ) :
+	/**
+	 * Prints HTML with open graph/post metadata information. Outline harvested from codeforamerica.org/_includes/meta-header.html
+	 */
+	function post_metadata() {
+		// pull out content we'll need for custom metadata
+		$metadata_description = strip_tags(get_the_excerpt($post->ID));
+		$metadata_title = get_the_title($post->ID);
+		$metadata_author_twitter = get_the_author_meta('twitter');
+		$metadata_image = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'square', false);
+		$metadata_url = get_the_permalink($post->ID);
+
+		// for non-article pages, we'll just use the static global metadata from codeforamerica.org
+		$metadata_global = file_get_contents('http://www.codeforamerica.org/fragments/global-metadata.html');
+
+		if (is_single()) {
+			// serve custom metadata based on the post
+			echo '<!-- Basic Metadata -->';
+			echo '<meta name="description" content="' . $metadata_description . '">';
+			echo '<!-- Schema.org markup for Google+ -->';
+			echo '<meta itemprop="name" content="Code for America">';
+			echo '<meta itemprop="description" content="' . $metadata_description . '">';
+			echo '<meta itemprop="image" content="' . $metadata_image . '">';
+			echo '<!-- Twitter Card data -->';
+			echo '<meta name="twitter:card" content="summary_large_image">';
+			echo '<meta name="twitter:site" content="@codeforamerica">';
+			echo '<meta name="twitter:title" content="' . $metadata_title . '">';
+			echo '<meta name="twitter:description" content="' . $metadata_description . '"> ';
+			echo '<meta name="twitter:creator" content="' . $metadata_author_twitter . '"> ';
+			echo '<meta name="twitter:image:src" content="' . $metadata_image . '">';
+			echo '<!-- Open Graph data -->';
+			echo '<meta property="og:title" content="' . $metadata_title . '">';
+			echo '<meta property="og:type" content="article">';
+			echo '<meta property="og:url" content="' . $metadata_url . '">';
+			echo '<meta property="og:image" content="' . $metadata_image . '">';
+			echo '<meta property="og:description" content="' . $metadata_description . '">';
+			echo '<meta property="og:site_name" content="Code for America">';
+			echo '<!-- End Metadata -->';
+		}
+		else {
+			// serve the static global metadata from codeforamerica.org
+			echo '<!-- Global Metadata -->';
+			echo $metadata_global;
+			echo '<!-- End Global Metadata -->'
+		}
+
+	}
+endif;
+
 if ( ! function_exists( 'posted_in' ) ) :
 	/**
 	 * Prints HTML with meta information for the current post (category, tags and permalink).
