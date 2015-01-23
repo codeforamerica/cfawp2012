@@ -5,7 +5,7 @@
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/global/favicon.ico" />
 		<link rel="apple-touch-icon-precomposed" href="http://style.codeforamerica.org/style/favicons/60x60/flag-red.png"/>
 		<title><?php wp_title( '-', true, 'right' ); ?></title>
-		<?php post_metadata() ?>
+		<?php post_metadata($post) ?>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
