@@ -45,7 +45,7 @@ endif;
 * @param - $post - object/int - the ID or object of the post to get the excerpt of
 * @param - $length - int - the length of the excerpt in characters, defaults to 137 (3 dots shy of 140)
 */
-if ( ! function_exists( 'post_metadata' ) ) :
+if ( ! function_exists( 'get_the_excerpt_by_id' ) ) {
 	function get_the_excerpt_by_id($post, $length = 137) {
 
 		if(is_int($post)) {
@@ -68,9 +68,9 @@ if ( ! function_exists( 'post_metadata' ) ) :
 
 		return $the_excerpt;
 	}
-endif;
+}
 
-if ( ! function_exists( 'post_metadata' ) ) :
+if ( ! function_exists( 'post_metadata' ) ) {
 	/**
 	 * Prints HTML with open graph/post metadata information. Outline harvested from codeforamerica.org/_includes/meta-header.html
 	 */
@@ -79,35 +79,64 @@ if ( ! function_exists( 'post_metadata' ) ) :
 		$metadata_description = get_the_excerpt_by_id($post);
 		$metadata_title = get_the_title($post->ID);
 		$metadata_author_twitter = get_the_author_meta('twitter', $post->post_author);
-		$metadata_image = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'square', false);
+		$metadata_image = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large', false);
+		$metadata_image_src = $metadata_image[0];
+		//$metadata_image = get_the_post_thumbnail();
 		$metadata_url = get_the_permalink($post->ID);
 
 		// for non-article pages, we'll just use the static global metadata from codeforamerica.org
 		$metadata_global = file_get_contents('http://www.codeforamerica.org/fragments/global-metadata.html');
 
+		// for single posts/items, build the metadata string
+		$metadata_format = <<<EOT
+
+		<!-- Basic Metadata -->
+		<meta name="description" content="%s">
+		<!-- Schema.org markup for Google+ -->
+		<meta itemprop="name" content="Code for America">
+		<meta itemprop="description" content="%s">
+		<meta itemprop="image" content="%s">
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@codeforamerica">
+		<meta name="twitter:title" content="%s">
+		<meta name="twitter:description" content="%s">
+		<meta name="twitter:creator" content="%s">
+		<meta name="twitter:image:src" content="%s">
+		<!-- Open Graph data -->
+		<meta property="og:title" content="%s">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="%s">
+		<meta property="og:image" content="%s">
+		<meta property="og:description" content="%s">
+		<meta property="og:site_name" content="Code for America">
+		<!-- End Metadata -->
+EOT;
+
+		$metadata_single = sprintf(
+			$metadata_format,
+			htmlspecialchars($metadata_description),
+
+			// Schema.org things
+			htmlspecialchars($metadata_description),
+			htmlspecialchars($metadata_image_src),
+
+			// Twitter things
+			htmlspecialchars($metadata_title),
+			htmlspecialchars($metadata_description),
+			htmlspecialchars($metadata_author_twitter),
+			htmlspecialchars($metadata_image_src),
+
+			// Open Graph things
+			htmlspecialchars($metadata_title),
+			htmlspecialchars($metadata_url),
+			htmlspecialchars($metadata_image_src),
+			htmlspecialchars($metadata_description)
+			);
+
 		if (is_single()) {
 			// serve custom metadata based on the post
-			echo '<!-- Basic Metadata -->';
-			echo '<meta name="description" content="' . $metadata_description . '">';
-			echo '<!-- Schema.org markup for Google+ -->';
-			echo '<meta itemprop="name" content="Code for America">';
-			echo '<meta itemprop="description" content="' . $metadata_description . '">';
-			echo '<meta itemprop="image" content="' . $metadata_image . '">';
-			echo '<!-- Twitter Card data -->';
-			echo '<meta name="twitter:card" content="summary_large_image">';
-			echo '<meta name="twitter:site" content="@codeforamerica">';
-			echo '<meta name="twitter:title" content="' . $metadata_title . '">';
-			echo '<meta name="twitter:description" content="' . $metadata_description . '"> ';
-			echo '<meta name="twitter:creator" content="' . $metadata_author_twitter . '"> ';
-			echo '<meta name="twitter:image:src" content="' . $metadata_image . '">';
-			echo '<!-- Open Graph data -->';
-			echo '<meta property="og:title" content="' . $metadata_title . '">';
-			echo '<meta property="og:type" content="article">';
-			echo '<meta property="og:url" content="' . $metadata_url . '">';
-			echo '<meta property="og:image" content="' . $metadata_image . '">';
-			echo '<meta property="og:description" content="' . $metadata_description . '">';
-			echo '<meta property="og:site_name" content="Code for America">';
-			echo '<!-- End Metadata -->';
+			echo $metadata_single;
 		}
 		else {
 			// serve the static global metadata from codeforamerica.org
@@ -117,7 +146,7 @@ if ( ! function_exists( 'post_metadata' ) ) :
 		}
 
 	}
-endif;
+}
 
 if ( ! function_exists( 'posted_in' ) ) :
 	/**
