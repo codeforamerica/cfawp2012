@@ -225,3 +225,35 @@ function recent_catigories_by_author($id) {
 
 	wp_reset_query();  // Restore global post data stomped by the_post().
 }
+/*
+* CFA NOTE: Based on Pippin's get_excerpt_by_id, from https://pippinsplugins.com/a-better-wordpress-excerpt-by-id-function/
+*           Using this to get the excerpt outside the loop. Calling get_the_excerpt() outside the loop isn't supported.
+*
+* Gets the excerpt of a specific post ID or object
+* @param - $post - object/int - the ID or object of the post to get the excerpt of
+* @param - $length - int - the length of the excerpt in characters, defaults to 137 (3 dots shy of 140)
+*/
+if ( ! function_exists( 'post_metadata' ) ) :
+	function get_the_excerpt_by_id($post, $length = 137) {
+
+		if(is_int($post)) {
+			// get the post object of the passed ID
+			$post = get_post($post);
+		} elseif(!is_object($post)) {
+			return false;
+		}
+
+		if(has_excerpt($post->ID)) {
+			$the_excerpt = $post->post_excerpt;
+			return apply_filters('the_content', $the_excerpt);
+		} else {
+			$the_excerpt = $post->post_content;
+		}
+
+		$the_excerpt = strip_tags($the_excerpt);
+		$the_excerpt = substr($the_excerpt, 0, $length);
+		$the_excerpt .= '...';
+
+		return $the_excerpt;
+	}
+endif;
