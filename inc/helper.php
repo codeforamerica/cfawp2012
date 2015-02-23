@@ -65,8 +65,8 @@ if ( ! function_exists( 'get_the_excerpt_by_id' ) ) {
 		$the_excerpt = strip_tags($the_excerpt);
 		// Many posts start with photos/captions. Remove everything inside the [caption] tags so we get the words
 		$the_excerpt = preg_replace("/\\[caption.*\\[\\/caption\\]/", '', $the_excerpt);
-		// Strip newlines out of the string
-		$the_excerpt = trim(preg_replace('/\s\s+/', '', $the_excerpt));
+		// Strip newlines out of the string, replace with a space
+		$the_excerpt = trim(preg_replace('/\s\s+/', ' ', $the_excerpt));
 		// Trim the string to the correct $length
 		$the_excerpt = substr($the_excerpt, 0, $length);
 		// Add some dots on the end
