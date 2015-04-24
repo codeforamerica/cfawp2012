@@ -12,6 +12,8 @@
 /* reverse layout floats */
 .layout-major {
 	float: left;
+	/* we need a max width to prevent inline-styled images and other weird WordPress things from blowing out the page */
+	max-width: 100%;
 }
 .layout-minor {
 	float: right;
