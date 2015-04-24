@@ -364,3 +364,9 @@ img.aligncenter {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* Override wp-caption to force it not to span wider than 100% */
+
+.wp-caption {
+	max-width: 100% !important;
+}

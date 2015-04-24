@@ -15,9 +15,6 @@ add_filter( 'image_send_to_editor', 'remove_thumbnail_dimensions', 10 );
 // Removes attached image sizes as well
 add_filter( 'the_content', 'remove_thumbnail_dimensions', 10 );
 
-// Remove caption sizes
-add_filter( 'img_caption_shorcode', 'remove_thumbnail_dimensions', 10 );
-
 function remove_thumbnail_dimensions( $html ) {
   $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
   return $html;
