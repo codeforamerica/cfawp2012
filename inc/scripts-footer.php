@@ -115,6 +115,9 @@
 <!-- facebook -->
 <script src='http://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'></script>
 
+<!-- Prism (code highlighting) -->
+<script src='http://style.codeforamerica.org/3/script/prism.js' type='text/javascript'></script>
+
 <!-- Google Analytics -->
 <script type="text/javascript">
 
