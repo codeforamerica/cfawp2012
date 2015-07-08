@@ -35,7 +35,7 @@ get_header(); ?>
 		<div class="layout-major">
 			<?php if ( $index_query->have_posts() ) : ?>
 
-				<?php while ( $index_query->have_posts() ) : the_post(); ?>
+				<?php while ( $index_query->have_posts() ) : $index_query->the_post(); ?>
 
 					<?php get_template_part( 'content', get_post_format() );?>
 
