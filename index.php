@@ -11,6 +11,15 @@
  * @package cfa-wp
  */
 
+/**
+ * Custom query that ignores password-protected posts.
+ */
+
+$index_query = null;
+$index_query = new WP_Query(array(
+							   'has_password' => false
+							 ));
+
 get_header(); ?>
 
 	<div class="layout-semibreve">
@@ -24,15 +33,15 @@ get_header(); ?>
 		<?php recent_bloggers() ?>
 		</div>
 		<div class="layout-major">
-			<?php if ( have_posts() ) : ?>
+			<?php if ( $index_query->have_posts() ) : ?>
 
-				<?php while ( have_posts() ) : the_post(); ?>
+				<?php while ( $index_query->have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'content', get_post_format() );?>
 
 				<?php endwhile; ?>
 
-				<?php if (  $wp_query->max_num_pages > 1 ) : ?>
+				<?php if (  $index_query->max_num_pages > 1 ) : ?>
 					<nav class="nav-articles">
 						<ul>
 							<li class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'twentyten' ) ); ?></li>
@@ -51,3 +60,8 @@ get_header(); ?>
 	</div>
 
 <?php get_footer(); ?>
+
+<?php
+	/* Reset our custom $index_query */
+	wp_reset_postdata();
+?>
