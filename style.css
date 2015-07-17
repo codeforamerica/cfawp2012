@@ -370,3 +370,9 @@ img.aligncenter {
 .wp-caption {
 	max-width: 100% !important;
 }
+
+/* .post-image holds the featured image in single.php. It's below the headline */
+.post-image {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
