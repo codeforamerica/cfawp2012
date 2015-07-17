@@ -31,7 +31,12 @@ get_header(); ?>
 				<div class="layout-major">
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class('post-single'); ?>>
-
+						<?php if (has_post_thumbnail( $post->ID )): ?>
+							<div class="post-image">
+								<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+								<img src="<?= $image[0] ?>" alt="" />
+							</div>
+						<?php endif; ?>
 						<header class="post-header isolate">
 							<?php the_title( sprintf( '<h2 class="entry-title">', esc_url( get_permalink() ) ), '</h2>' ); ?>
 						</header>
