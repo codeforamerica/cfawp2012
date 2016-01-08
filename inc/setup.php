@@ -16,7 +16,7 @@ if ( ! function_exists( 'cfa_setup' ) )
 }
 
 function custom_excerpt_length( $length ) {
-	return 20;
+	return 45;
 }
 
 function new_excerpt_more($more) {
