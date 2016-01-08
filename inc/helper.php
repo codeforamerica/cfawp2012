@@ -157,6 +157,7 @@ EOT;
 if ( ! function_exists( 'posted_in' ) ) :
 	/**
 	 * Prints HTML with meta information for the current post (category, tags and permalink).
+	 * DEPRACATED - CFA IS NO LONGER USING THIS FUNCTION TO RETRIEVE THE TAG LIST.
 	 *
 	 * @since Twenty Ten 1.0
 	 */

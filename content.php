@@ -4,7 +4,9 @@
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 	</header>
 	<?php post_time_author() ?>
-	<span class="filed">Filed Under: <?php posted_in() ?></span>
+	<div class="filed">
+		<p>Filed Under: <?php echo get_the_category_list( ', ' ); ?></p>
+	</div>
 	<div class="post-body">
 		<?php $thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'square', false); ?>
 		<?php if (isset($thumbnail[0]) && $thumbnail[0] != null) : ?>
