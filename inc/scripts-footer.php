@@ -5,7 +5,7 @@
 
 	// Adds class of svg to the html tag if svg is enabled.
 	(function flagSVG() {
-		var ns = {'svg': 'http://www.w3.org/2000/svg'};
+		var ns = {'svg': 'https://www.w3.org/2000/svg'};
 		if(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")) {
 			document.getElementsByTagName('html')[0].className += ' svg';
 		}
@@ -113,10 +113,10 @@
 </script>
 
 <!-- facebook -->
-<script src='http://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'></script>
+<script src='https://static.ak.fbcdn.net/connect.php/js/FB.Share' type='text/javascript'></script>
 
 <!-- Prism (code highlighting) -->
-<script src='http://style.codeforamerica.org/3/script/prism.js' type='text/javascript'></script>
+<script src='https://style.codeforamerica.org/3/script/prism.js' type='text/javascript'></script>
 
 <!-- Google Analytics -->
 <script type="text/javascript">

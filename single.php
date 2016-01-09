@@ -20,7 +20,7 @@ get_header(); ?>
 							<?php echo get_the_author_meta('first_name', $post->post_author) ?><br/>
 							<?php echo get_the_author_meta('last_name', $post->post_author) ?><br/>
 							<?php if (get_the_author_meta('twitter', $post->post_author)) : ?>
-								<span><a href="http://www.twitter.com/<?php echo str_replace('@', '', get_the_author_meta('twitter', $post->post_author)) ?>"><?php echo str_replace('@@', '@', '@' . get_the_author_meta('twitter', $post->post_author)) ?></a></span>
+								<span><a href="https://www.twitter.com/<?php echo str_replace('@', '', get_the_author_meta('twitter', $post->post_author)) ?>"><?php echo str_replace('@@', '@', '@' . get_the_author_meta('twitter', $post->post_author)) ?></a></span>
 							<?php endif; ?>
 						</div>
 						<p class="description"><?php echo get_the_author_meta('description', $post->post_author) ?></p>
@@ -49,7 +49,7 @@ get_header(); ?>
 						<div class="post-footer">
 							<div class="comments">
 								<div class="layout-centered">
-									<p><strong class="h5">Questions? Comments?</strong> <a class="button button-prominent insulate-sides" href="http://twitter.com/codeforamerica">Hit us up at <strong class="icon-twitter2">@codeforamerica</strong></a></p>
+									<p><strong class="h5">Questions? Comments?</strong> <a class="button button-prominent insulate-sides" href="https://twitter.com/codeforamerica">Hit us up at <strong class="icon-twitter2">@codeforamerica</strong></a></p>
 								</div>
 							</div>
 						</div>

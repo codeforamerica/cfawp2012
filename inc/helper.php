@@ -27,7 +27,7 @@ if ( ! function_exists( 'post_time_author' ) ) :
 		if (is_single()) {
 			echo '<div class="text-whisper">' . $posted_on . $byline . '<span class="post-share">Share';
 				echo '<div class="share-button"><a href="https://twitter.com/share" class="twitter-share-button" data-via="codeforamerica" rel="nofollow">Tweet</a></div>';
-				echo '<div class="share-button"><a name="fb_share" type="button_count" href="http://www.facebook.com/sharer.php?link=<?php the_permalink() ?>"" rel="nofollow">Share</a></div>';
+				echo '<div class="share-button"><a name="fb_share" type="button_count" href="https://www.facebook.com/sharer.php?link=<?php the_permalink() ?>"" rel="nofollow">Share</a></div>';
 			echo '</span></div>';
 		}
 		else {
